@@ -1,0 +1,590 @@
+,Issue_id_1,Issue_id_2,Resolution,Title_1,Title_2,same_comp,same_prio,same_tw
+0,Firefox-14871,Firefox-269442,DUPLICATE,[Find] Find whole word only,,0,0,1
+1,Firefox-134649,Firefox-409810,DUPLICATE,browser.urlbar.clickSelectsAll should default to false on Macintosh,,0,0,1
+2,Firefox-153509,Firefox-340604,DUPLICATE,Allow search engines to test if they are the default,,0,0,1
+3,Firefox-162344,Firefox-165956,DUPLICATE,attempting to open back button history menu in the second window generates another back button on the toolbar,Mousing over back/fwd menu in second window horks things,1,0,1
+4,Firefox-170216,Firefox-280190,DUPLICATE,Pretty up dns error page a bit,,0,0,1
+5,Firefox-170459,Firefox-170463,DUPLICATE,bookmarks should import Mozillas bookmarks,File | Import ... does not work  cannot import 4.x; Mozilla or Phoenix bookmarks,1,1,1
+6,Firefox-170526,Firefox-170623,DUPLICATE,Window wont show completely,make preferences resizable,1,1,1
+7,Firefox-171184,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+8,Firefox-171185,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+9,Firefox-171187,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+10,Firefox-171189,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+11,Firefox-171190,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+12,Firefox-171191,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+13,Firefox-171192,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+14,Firefox-171193,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+15,Firefox-171194,Firefox-171196,DUPLICATE,File -> Open Location does not open a dialog box.,,0,0,1
+16,Firefox-171689,Firefox-171807,DUPLICATE,Unable to create a new folder  when selecting first ADD BOOKMARK,cant create or manage folders,1,1,1
+17,Firefox-171803,Firefox-171807,DUPLICATE,New Folder... button in Add Bookmark dialog is broken,cant create or manage folders,1,1,1
+18,Firefox-172029,Firefox-190678,DUPLICATE,Choosing Expand on PT produces JavaScript error,Right Clicking on Personal Toolabr gives js error,1,1,1
+19,Firefox-172141,Firefox-174408,DUPLICATE,add toolbar list to context menu of toolbars,Show Toolbars menu when right-clicking toolbar,1,1,1
+20,Firefox-172273,Firefox-172276,DUPLICATE,Support context menus on menuitems,,0,0,1
+21,Firefox-172426,Firefox-191992,DUPLICATE,Remove modern listing now that we dont package modern theme.,modern.jar is packaged in zip builds,1,1,1
+22,Firefox-172976,Firefox-187573,DUPLICATE,Tab prefs should allow changing new tab contents,Pref(s) to set what new tabs and windows display,1,1,1
+23,Firefox-173251,Firefox-250231,DUPLICATE,Use typeahead find in search bar,,0,0,1
+24,Firefox-173493,Firefox-176268,DUPLICATE,Bookmark overflow horked when location bar is customized to its own toolbar.,,0,0,1
+25,Firefox-173539,Firefox-173784,DUPLICATE,Regression: middle-clicking on bookmarks isnt working,Middle click on bookmark is broken,1,1,1
+26,Firefox-173770,Firefox-216137,DUPLICATE,xpinstall/packager cannot package Mozilla Firebird,,0,0,1
+27,Firefox-174098,Firefox-175335,DUPLICATE,buggy Open in Tabs feature,With only one tab open; opening a bookmark folder as tabs always overwrites the one tab,0,1,1
+28,Firefox-174535,Firefox-175404,DUPLICATE,Uncontrollable behaviour of the separator line,Not possible to create a folder or separator between two other folders in Manage Bookmarks,1,1,1
+29,Firefox-175302,Firefox-184202,DUPLICATE,some sort of form thing in OOM situation crashed,,0,0,1
+30,Firefox-175529,Firefox-175530,DUPLICATE,Currently selected tab has bold text,,0,0,1
+31,Firefox-175581,Firefox-176549,DUPLICATE,General/Home Page pref isnt working,,0,0,1
+32,Firefox-177205,Firefox-177227,DUPLICATE,Toolbar buttons dont stay to left of menubar when placed there,Menubar position is not remembered,1,1,1
+33,Firefox-177227,Firefox-177343,DUPLICATE,Menubar position is not remembered,Menu cant be moved; but its still draggable,1,1,1
+34,Firefox-177500,Firefox-308396,DUPLICATE,Each tab should have its own close button,,0,0,1
+35,Firefox-177563,Firefox-203556,DUPLICATE,Bookmark-Toolbar Folder-Expansion in manner of Menu Expansion,Bookmarks toolbar folders should act like menus,0,1,1
+36,Firefox-178123,Firefox-184433,DUPLICATE,Internet Keywords: localhost goes to www.localhost.net.au,,0,0,1
+37,Firefox-178322,Firefox-184202,DUPLICATE,Browser crashes when pointer on mouse over of an autocomplete form,,0,0,1
+38,Firefox-178395,Firefox-184202,DUPLICATE,Intermittent Phoenix crash when typing into web form,,0,0,1
+39,Firefox-178621,Firefox-178622,DUPLICATE,Selecting one of the  quick searches from the menu should be more useful,Selecting one of the  quick searches from the menu should be more useful,1,1,1
+40,Firefox-179597,Firefox-180069,DUPLICATE,Enable printing pages in reverse order,,0,0,1
+41,Firefox-179689,Firefox-179724,DUPLICATE,ctrl+d is not possible on java websites,,0,0,1
+42,Firefox-179821,Firefox-184202,DUPLICATE,Autocomplete crash: one single option; hit tab (maybe); down arrow; enter; crashed,,0,0,1
+43,Firefox-180031,Firefox-205815,DUPLICATE,cant print page source,Find again; Print; Save Page As; is broken in Page Source,1,1,1
+44,Firefox-180992,Firefox-180993,DUPLICATE,it uses 130 Mb RAM: phoenix forx and produces 6 child processes,,0,0,1
+45,Firefox-181094,Firefox-184202,DUPLICATE,(sometime) crash if autocomplete in form fields is used,,0,0,1
+46,Firefox-181226,Firefox-193638,DUPLICATE,Phoenix locked on loading a pdf file now startup configuration file is corrupt with syntax error,,0,0,1
+47,Firefox-181893,Firefox-194865,DUPLICATE,mouse click fails to select/deselect option for originating Web site only in Preferences->Advanced->Images,Web Features: checkbox  for the originating Web site only can t be checked,1,1,1
+48,Firefox-182409,Firefox-225175,DUPLICATE,[INSTALLER] Mozilla Firebird needs an installer on non-windows operating systems,,0,0,1
+49,Firefox-183945,Firefox-199819,DUPLICATE,cannot disable autocomplete,setting browser.formfill.enable (Saved Form Information) to false doesnt disable form autocomplete,1,1,1
+50,Firefox-184151,Firefox-224279,DUPLICATE,Switching themes messes up some toolbar buttons,,0,0,1
+51,Firefox-184454,Firefox-219378,DUPLICATE,CTRL + middle-click paste (Linux) loads URL in active tab; too,,0,0,1
+52,Firefox-184852,Firefox-185571,DUPLICATE,Font resizing causes scroll bars to disapper,,0,0,1
+53,Firefox-185102,Firefox-214263,DUPLICATE,[INSTALLER] document what files are generated by Firebird installer,[INSTALLER] Windows Installer,1,0,1
+54,Firefox-186075,Firefox-212556,DUPLICATE,Keyboard shortcuts sometimes not working when window regains focus,,0,0,1
+55,Firefox-186288,Firefox-188090,DUPLICATE,build fails on libtoolkitcomps.so,Build failure in toolkit/components/build due missing gkgfx,1,1,1
+56,Firefox-186865,Firefox-455756,DUPLICATE,[RFE] New tab button on Tab Bar,,0,0,1
+57,Firefox-187544,Firefox-196252,DUPLICATE,Set as Bookmarks Toolbar Folder is in the view menu of the Bookmark Manager,,0,0,1
+58,Firefox-188155,Firefox-189307,DUPLICATE,phoenix starts esd; never plays anything,,0,0,1
+59,Firefox-189043,Firefox-243091,DUPLICATE,Debloat and purge classic.jar of cruft,Dont distribute communicator/navigator/mailnews/editor cruft in classic.jar/comm.jar,0,1,1
+60,Firefox-189615,Firefox-257405,DUPLICATE,Emacs/vi keybindings (shortcut keys) conflicting when URL/Search bar/text area has focus  (Ctrl+W does not close tab; Ctrl+U does not display page source),,0,0,1
+61,Firefox-189847,Firefox-204393,DUPLICATE,incorrect favicon displayed on non-root pages,favicon.ico given undue preference over link rel=icon,0,1,1
+62,Firefox-190661,Firefox-190755,DUPLICATE,Type ahead crashes Phoenix when hitting backspace,,0,0,1
+63,Firefox-191524,Firefox-274712,DUPLICATE,Options Dialog UI,,0,0,1
+64,Firefox-191768,Firefox-191818,DUPLICATE,Close Other Tabs gone,,0,0,1
+65,Firefox-194581,Firefox-201850,DUPLICATE,Crash by Ctrl+L; Ctrl+K or Alt+D at page with text field,Autocomplete Fun,1,1,1
+66,Firefox-196626,Firefox-224408,DUPLICATE,dont replace keyword %s with url immediately if url is javascript:*,,0,0,1
+67,Firefox-197227,Firefox-210910,DUPLICATE,issues with right-click context menu in bookmark toolbar folder in Firebird,Right-clicking a file within a bookmarks folder in the bookmarks menu or toolbar makes that folder inaccessible,1,0,1
+68,Firefox-197304,Firefox-232172,DUPLICATE,Home button should respect key modifiers and middle-clicks,Make link modifiers work on the home button,1,1,1
+69,Firefox-198929,Firefox-198941,DUPLICATE,Context menu broken,Popup blocker bustage,0,1,1
+70,Firefox-201494,Firefox-227713,DUPLICATE,Icons highlighting bug in the options menu,General ICON incorrectly highlighted in Tools->Options,1,1,1
+71,Firefox-202758,Firefox-212487,DUPLICATE,Form fields are not prompted until the second character is entered,Form autocomplete is one character behind typed text,1,1,1
+72,Firefox-203528,Firefox-265028,DUPLICATE,Cache will not empty by pressing Clear all or Clear,,0,0,1
+73,Firefox-203624,Firefox-203625,DUPLICATE,Image blocker by directory and part domain name,,0,0,1
+74,Firefox-203893,Firefox-203899,DUPLICATE,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,0,1,1
+75,Firefox-203896,Firefox-203899,DUPLICATE,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,0,1,1
+76,Firefox-203897,Firefox-203899,DUPLICATE,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,0,1,1
+77,Firefox-203898,Firefox-203899,DUPLICATE,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,0,1,1
+78,Firefox-204134,Firefox-205276,DUPLICATE,Remove XXXben... crud from download manager history description,Toggle and retention window needed for Download Manager History prefs,1,1,1
+79,Firefox-204489,Firefox-234598,DUPLICATE,Random crashes in nightlies and 0.6 release,,0,0,1
+80,Firefox-204525,Firefox-205176,DUPLICATE,Help button in Cookie Manager does not call up help popup,,0,0,1
+81,Firefox-204526,Firefox-205176,DUPLICATE,Help button in Password Manager does not call up help pop-up,,0,0,1
+82,Firefox-205011,Firefox-267831,DUPLICATE,Make search bar/box resizable,add a splitter to resize the search bar,0,0,1
+83,Firefox-205171,Firefox-206823,DUPLICATE,Menu Item - Tools > Cookie Manager,[UI] Add standard Mozilla Tools Menuitems to the Tools Menu of FireBird,0,1,1
+84,Firefox-205199,Firefox-206752,DUPLICATE,Toolbar bookmarks fail to work after activating opening a new window when no windows where open,Bookmarks on menu bar dont work after opening new window,1,1,1
+85,Firefox-205305,Firefox-205820,DUPLICATE,Uncaught exception in JS console after profile selection,Dont ask at startup fails on multiple profiles,1,1,1
+86,Firefox-205815,Firefox-222157,DUPLICATE,Find again; Print; Save Page As; is broken in Page Source,,0,0,1
+87,Firefox-206159,Firefox-235300,DUPLICATE,missing icon for the Bookmarks toolbar,bookmarks toolbar items need an icon for  the customize toolbar dialog,1,1,1
+88,Firefox-206456,Firefox-223331,DUPLICATE,Home button and menu item access wrong location under certain conditions,After closing all windows; first new window is broken,0,0,1
+89,Firefox-206933,Firefox-223331,DUPLICATE,first new window is inactive,After closing all windows; first new window is broken,1,0,1
+90,Firefox-207315,Firefox-224578,DUPLICATE,Chop up editor.js,,0,0,1
+91,Firefox-207317,Firefox-224578,DUPLICATE,Chop up mailnews.js,,0,0,1
+92,Firefox-208550,Firefox-211530,DUPLICATE,Percentage height tag fail for Applets,,0,0,1
+93,Firefox-208805,Firefox-209844,DUPLICATE,Must turn Java off and on every time,navigator.javaEnabled() always returns false at start,1,1,1
+94,Firefox-209562,Firefox-222472,DUPLICATE,Unable to use Firebird as TopStyle internal preview browser after registering mozctlx.dll,,0,0,1
+95,Firefox-210176,Firefox-234598,DUPLICATE,Random hangs leaving rogue process when killed,,0,0,1
+96,Firefox-210435,Firefox-290177,DUPLICATE,ctrl+pgup/down to switch tabs doesnt fire when textfield selected,,0,0,1
+97,Firefox-210617,Firefox-210618,DUPLICATE,It isnt able to display a page written in valide html and css,,0,0,1
+98,Firefox-211551,Firefox-307340,DUPLICATE,bottom of page not displayed in fullscreen,,0,0,1
+99,Firefox-211658,Firefox-216248,DUPLICATE,browser window loses focus while typing in location or search bar in focus-follows-mouse mode,,0,0,1
+100,Firefox-211879,Firefox-231393,DUPLICATE,Location bar empty until page rendering started,,0,0,1
+101,Firefox-211944,Firefox-211945,DUPLICATE,FedEx.com - Page layout rendered improperly,,0,0,1
+102,Firefox-212087,Firefox-270668,DUPLICATE,Tools->Options->General Home page Use current pages button uses address from first tab; not the currently selected tab,,0,0,1
+103,Firefox-212604,Firefox-226071,DUPLICATE,firebird fails to open when thunderbird is open (linux),,0,0,1
+104,Firefox-212949,Firefox-212950,DUPLICATE,Sometimes link are invisible,,0,0,1
+105,Firefox-213198,Firefox-217378,DUPLICATE,about: shows &brandShortName; &version; variables; not correct text,about: page broken when opened via address bar,1,1,1
+106,Firefox-213201,Firefox-215031,DUPLICATE,Mozilla Firebird starts; but then freezes.,Firebird freezes with resolving host texturizer.net in the status bar.,1,1,1
+107,Firefox-213249,Firefox-215031,DUPLICATE,firebird hangs on startup,Firebird freezes with resolving host texturizer.net in the status bar.,1,1,1
+108,Firefox-213375,Firefox-215031,DUPLICATE,Fresh install: crash if using proxy,Firebird freezes with resolving host texturizer.net in the status bar.,1,1,1
+109,Firefox-213409,Firefox-215031,DUPLICATE,Freezes on ipl,Firebird freezes with resolving host texturizer.net in the status bar.,1,1,1
+110,Firefox-213554,Firefox-215446,DUPLICATE,Flicker between the toolbars and the main document window; occasional jittering,,0,0,1
+111,Firefox-213643,Firefox-213644,DUPLICATE,GRE based quicklaunch,,0,0,1
+112,Firefox-213682,Firefox-213710,DUPLICATE,picture not shown,,0,0,1
+113,Firefox-213757,Firefox-213912,DUPLICATE,crash loading non-existent domain/file with XUL error pages enabled,,0,0,1
+114,Firefox-213858,Firefox-216118,DUPLICATE,this frame submenu stops functioning / opening,,0,0,1
+115,Firefox-213949,Firefox-213950,DUPLICATE,Remove js console,,0,0,1
+116,Firefox-213984,Firefox-215031,DUPLICATE,Browsers stops responding.,Firebird freezes with resolving host texturizer.net in the status bar.,1,1,1
+117,Firefox-214054,Firefox-226602,DUPLICATE,Firefox should provide icons for associated files and shortcuts,Need Document Icons for Firefox,1,0,1
+118,Firefox-214133,Firefox-215383,DUPLICATE,Unable to drag a URL from the address bar to the BTF,Empty space on personal toolbar does not act like bookmark folder and is not a drop target,1,0,1
+119,Firefox-214231,Firefox-240817,DUPLICATE,page setup dialog resizes on paper orientation change,,0,0,1
+120,Firefox-214338,Firefox-215031,DUPLICATE,Immidiately Freezes Upon Load,Firebird freezes with resolving host texturizer.net in the status bar.,1,1,1
+121,Firefox-214475,Firefox-214476,DUPLICATE,Mozilla interprets a -- (two dashes in a row) inside of a comment or an include improperly,,0,0,1
+122,Firefox-214652,Firefox-233462,DUPLICATE,Meta bug for issues relating to GTK2 toolkit builds,,0,0,1
+123,Firefox-215176,Firefox-223331,DUPLICATE,Search field icons not being refreshed when choosing New Navigator Window,After closing all windows; first new window is broken,0,0,1
+124,Firefox-215353,Firefox-215440,DUPLICATE,Blank window caption,,0,0,1
+125,Firefox-215489,Firefox-220701,DUPLICATE,User-created toolbars dont remember on/off settings,,0,0,1
+126,Firefox-215674,Firefox-227426,DUPLICATE,Escape key should close customize toolbar window,Toolbar Customize sheet needs to support Esc; Return; Enter to close,1,0,1
+127,Firefox-215734,Firefox-232617,DUPLICATE,browser.tabs.opentabfor.urlbar set to false sometimes opens urls in location bars history in tabs,Location Bar dropdown loads new tab,0,1,1
+128,Firefox-215852,Firefox-217796,DUPLICATE,After opening a PDF file in the browser with the Acrobat 6 plugin installed; there is a long delay of 10-20 seconds before returning to the link page after hitting the back button is pressed.,,0,0,1
+129,Firefox-215858,Firefox-215877,DUPLICATE,after opening new tab; URL bar starts out set to about:blank,,0,0,1
+130,Firefox-215994,Firefox-220214,DUPLICATE,Remember password? dialog appears twice,,0,0,1
+131,Firefox-216035,Firefox-296080,DUPLICATE,Wrong autoscroll icon appears when horizontal scroll is possible.,,0,0,1
+132,Firefox-216142,Firefox-216544,DUPLICATE,-remote fails with Failed to send command.,,0,0,1
+133,Firefox-216258,Firefox-227887,DUPLICATE,Tab switch blocked on untitled tab after page could not be found,Ctrl+Tab doesnt work in failed (gray; completely blank) tab,1,0,1
+134,Firefox-216416,Firefox-216501,DUPLICATE,prominent warning before making Moz/FB the default browser,Ability to pick and choose file associations when setting as default browser,1,0,1
+135,Firefox-216534,Firefox-220214,DUPLICATE,Master password question asked twice/another time if you clicked cancel the first time,,0,0,1
+136,Firefox-216667,Firefox-492544,DUPLICATE,URL bar should include a Paste and Go in the context menu,,0,0,1
+137,Firefox-216704,Firefox-220214,DUPLICATE,Master password question asked twice if you have two identities for a site,,0,0,1
+138,Firefox-216849,Firefox-218684,DUPLICATE,firebird 0.6.1 hangs at 100% cpu on loading this particular,,0,0,1
+139,Firefox-217055,Firefox-223287,DUPLICATE,OK button does not work in Options dialog after changing home page,Cannot manually edit home page in Preferences if toolbar icon is removed,1,1,1
+140,Firefox-217113,Firefox-243893,DUPLICATE,Web Search for <text> loads in a tab; even if the current window shows no tabs (like a pop-up window),Open in Tab is unusable when menus are not present (tab bar is hidden in popup windows; leads to invisible tabs; esp for external apps; search web for... broken in popup windows),0,0,1
+141,Firefox-217370,Firefox-221445,DUPLICATE,Using | as URI separator breaks some links; including yahoo mail,Using | (pipe) as URI separator breaks some links/home pages; causes multiple tabs to open,0,0,1
+142,Firefox-218146,Firefox-295721,DUPLICATE,switch tabs onmousedown instead of onclick,,0,0,1
+143,Firefox-218565,Firefox-242844,DUPLICATE,Close Other Tabs Needs a Confirmation Dialog,Close Other Tabs Needs a Confirmation Dialog,1,0,1
+144,Firefox-218701,Firefox-624225,DUPLICATE,empty space above each tab in tab bar,,0,0,1
+145,Firefox-218744,Firefox-218745,DUPLICATE,geocaching.com crashes browser when loading on all versions of Windows,,0,0,1
+146,Firefox-219168,Firefox-363725,DUPLICATE,about:logo produces error message,,0,0,1
+147,Firefox-219175,Firefox-220214,DUPLICATE,cancel master password; asked again after every character typed,,0,0,1
+148,Firefox-220454,Firefox-223331,DUPLICATE,after a period of time; Firebird stops responding to URLs entered in address bar or selecting bookmarks.,After closing all windows; first new window is broken,1,0,1
+149,Firefox-220465,Firefox-220466,DUPLICATE,Thunderbird 0. interfer with -remote command to firebird,Thunderbird 0.2 interfer with -remote command to firebird,1,1,1
+150,Firefox-220534,Firefox-223331,DUPLICATE,after closing all windows; status bar (and some other things) broken on windows created later,After closing all windows; first new window is broken,0,0,1
+151,Firefox-220680,Firefox-221899,DUPLICATE,Save as dialog doesnt append .htm extension to dynamic page names,when saving web page; not defaulting with any file extension,1,1,1
+152,Firefox-220838,Firefox-343616,DUPLICATE,Uncaught Exception in browser.xml,,0,0,1
+153,Firefox-220920,Firefox-221015,DUPLICATE,last letter of files seems to get cut off; both in dir listings (pick cert; file save; etc) and config changes,,0,0,1
+154,Firefox-220925,Firefox-222977,DUPLICATE,Crash on attempting to provide username and password for proxy server,,0,0,1
+155,Firefox-221247,Firefox-221248,DUPLICATE,webcam history loaded badly,webcam history loaded badly,1,1,1
+156,Firefox-222105,Firefox-224578,DUPLICATE,Strip out unused preferences and functions,,0,0,1
+157,Firefox-222470,Firefox-223023,DUPLICATE,Opened ICQ now window is constantly moving up and down,,0,0,1
+158,Firefox-222717,Firefox-385397,DUPLICATE,Opening Go (a.k.a History) menu hangs Firefox for many seconds when history is large,,0,0,1
+159,Firefox-222723,Firefox-232763,DUPLICATE,Build Failure,,0,0,1
+160,Firefox-222914,Firefox-239481,DUPLICATE,Clipboard feature will not work.,,0,0,1
+161,Firefox-223314,Firefox-240136,DUPLICATE,Browser should indicate its porting IE bookmarks on first startup of new profile,Firefox should not auto-import settings without user confirmation,0,1,1
+162,Firefox-223317,Firefox-239481,DUPLICATE,does not support javascript clipboard copy - window.clipboardData.setData(Text; cmd),,0,0,1
+163,Firefox-223399,Firefox-232707,DUPLICATE,Removing Bookmarks Toolbar Items disables bookmarks inline editing,Right-click context menu for toolbar bookmarks broken after customizing navigation toolbar icons,1,0,1
+164,Firefox-223401,Firefox-230717,DUPLICATE,Web/Home hotkey fails to start Mozilla,,0,0,1
+165,Firefox-224182,Firefox-247603,DUPLICATE,search bar doesnt work if location bar is not on a toolbar,Removing address bar breaks stuff,1,1,1
+166,Firefox-224297,Firefox-298697,DUPLICATE,dont add %s to url when keyword field left empty,,0,0,1
+167,Firefox-224314,Firefox-224696,DUPLICATE,Search engine field continues to display old search terms,I wish the search bar would clear,0,1,1
+168,Firefox-224350,Firefox-224526,DUPLICATE,Scroll Arrows Do Not Work,,0,0,1
+169,Firefox-224466,Firefox-225958,DUPLICATE,Available plug-ins dont show in Tools->Options->Downloads->Plug-ins,file types/helper apps and plugins lists are empty; helper apps fixed,0,1,1
+170,Firefox-224912,Firefox-248817,DUPLICATE,Scroll past end of bookmarks,pressing delete with nothing selected breaks delete in Bookmark Manager,1,0,1
+171,Firefox-225014,Firefox-305797,DUPLICATE,Installer looks broken with high resolution displays/large font sizes,,0,0,1
+172,Firefox-225476,Firefox-242121,DUPLICATE,port fix from bug 181973 (reversed attribute),,0,0,1
+173,Firefox-225516,Firefox-231494,DUPLICATE,Firebird assumes Desktop is C:\Windows\Desktop for default download location,,0,0,1
+174,Firefox-225715,Firefox-335827,DUPLICATE,search toolbar should auto-search when user selects a new search engine from the drop-down list,,0,0,1
+175,Firefox-225829,Firefox-250983,DUPLICATE,Warning dialog for File>Exit,Close Window (ctrl-shift-w) does not display confirm dialog when multiple tabs are open.,1,1,1
+176,Firefox-226282,Firefox-226401,DUPLICATE,xul error page does not generate a new back-button history entry,XUL (HTML) error pages should be stored in history or provide link to parent page,1,1,1
+177,Firefox-226636,Firefox-231936,DUPLICATE,Users profile is lost - have to create a replacement with problems,,0,0,1
+178,Firefox-226695,Firefox-241068,DUPLICATE,Crash when typing in text field and autocomplete tries to activate,Crash when trying to enter text in input field. [@ nsTreeBodyFrame::PrefillPropertyArray][@ _ZN15nsTreeBodyFrame20PrefillPropertyArrayEiP12nsTreeColumn],1,1,1
+179,Firefox-226747,Firefox-274773,DUPLICATE,middle mouse button causes mozilla to visit random website,,0,0,1
+180,Firefox-226951,Firefox-230525,DUPLICATE,Expose UI for session-only cookie permissions,add session cookie permissions to Exceptions window,1,0,1
+181,Firefox-227349,Firefox-242134,DUPLICATE,Printing randomly ignores header/footer settings,,0,0,1
+182,Firefox-227414,Firefox-243572,DUPLICATE,Connect with username and password in URL shows dialog box; doesnt carry over.,,0,0,1
+183,Firefox-227528,Firefox-232715,DUPLICATE,Every once in a while Firefox freezes on a pop-up dialog box,,0,0,1
+184,Firefox-227922,Firefox-454518,DUPLICATE,Add a new entry in the context menu of selected text: Open URL,,0,0,1
+185,Firefox-228019,Firefox-228020,DUPLICATE,CSS generated content breaks form submission,,0,0,1
+186,Firefox-228327,Firefox-241282,DUPLICATE,Install folder picker should default to the default installation directory,When choosing an alternative location via Browse...; the Installer defaults to ns_temp subfolder,1,1,1
+187,Firefox-228379,Firefox-237183,DUPLICATE,Fbird/2 v0.7 crashes with SYS3178 divide-by-zero exception when accessing URL.,,0,0,1
+188,Firefox-228726,Firefox-240696,DUPLICATE,need to create a new profile if you close all mozilla window but remain the download one,cannot open new browser window if the only window open is the download manager,0,1,1
+189,Firefox-228747,Firefox-233205,DUPLICATE,ctrl-enter on address toolbar should remove trailing blankspace,Pressing Ctrl+Enter does not remove trailing spaces,0,0,1
+190,Firefox-228766,Firefox-228768,DUPLICATE,not able to close top window after opening under <menu:help/about> the link:copyright and contributor information.,,0,0,1
+191,Firefox-228806,Firefox-228882,DUPLICATE,Firebird loses proxy settings on restart,The fix for the bad code checked in for bug 132517 is missing from the 0.8 branch,1,1,1
+192,Firefox-228843,Firefox-228844,DUPLICATE,[Bookmarks Sidebar] Quick search fails to find non-ASCII,[Bookmarks Sidebar] Quick search fails to find non-ASCII,1,1,1
+193,Firefox-229022,Firefox-230462,DUPLICATE,OK-Button doesnt work,Options dialog cant be closed with OK button after opening Cookies | Exceptions,1,0,1
+194,Firefox-229057,Firefox-231393,DUPLICATE,url isnt filled in in the adressbox when you are not connected,,0,0,1
+195,Firefox-229165,Firefox-229167,DUPLICATE,advanced tab: certificates and validation do not expand when clicked for first time,advanced tab: certificates and validation do not expand when clicked for first time,1,1,1
+196,Firefox-229166,Firefox-229167,DUPLICATE,advanced tab: certificates and validation do not expand when clicked for first time,advanced tab: certificates and validation do not expand when clicked for first time,1,1,1
+197,Firefox-229528,Firefox-256555,DUPLICATE,html URL (html:a)  in <description> tags do not work correctly,,0,0,1
+198,Firefox-229831,Firefox-259199,DUPLICATE,Acronym doesnt show tooltip in the sidebar,Tooltips dont work in the sidebar,1,1,1
+199,Firefox-229845,Firefox-231709,DUPLICATE,Crash whilst loading Remote Xul example on bugzilla [@ nsJAR::ParseManifest ],,0,0,1
+200,Firefox-229919,Firefox-242574,DUPLICATE,Open URL as default browser (e.g. links in Thunderbird email) loads top window/tab,Firefox URL request frequently open in existing window and not a new window,1,1,1
+201,Firefox-230677,Firefox-255116,DUPLICATE,Pressing Enter in autocomplete goes to selected URL instead of URL in address bar,Pressing Home or Shift+Home should close autocomplete,1,0,1
+202,Firefox-230921,Firefox-230922,DUPLICATE,Firebird should have sane defaults for set as default default browser,Firefox should have sane defaults for set as default browser,1,1,1
+203,Firefox-231028,Firefox-232617,DUPLICATE,click on address bar autocomplete drop-down opens URI in new tab if enter was previously pressed on address bar,Location Bar dropdown loads new tab,1,1,1
+204,Firefox-231115,Firefox-347307,DUPLICATE,myIpAddress() function in .pac files is unreliable,,0,0,1
+205,Firefox-231170,Firefox-231200,DUPLICATE,Prune firebird default preferences,remove identical prefs from all.js; rename it to firebird.js; fix installer,1,1,1
+206,Firefox-231305,Firefox-265720,DUPLICATE,Drag & drop of image in page to ext app result in truncated/empty file,Drag and dropping images directly from firefox to photoshop does not work,0,1,1
+207,Firefox-231695,Firefox-289797,DUPLICATE,Remove the single leftover tab from the Bookmark Properties dialog,,0,0,1
+208,Firefox-231720,Firefox-263213,DUPLICATE,Malformed URL with extra http; semi-colon; causes redirect to http://www.microsoft.com/  (http://http://; http:://; http;//) because of Google Im feeling lucky,,0,0,1
+209,Firefox-232721,Firefox-233399,DUPLICATE,firebird crashes at http://www.ez74.com,,0,0,1
+210,Firefox-233110,Firefox-261124,DUPLICATE,automatic capture mechanism for search toolbar?,,0,0,1
+211,Firefox-233380,Firefox-234116,DUPLICATE,Bookmark Properties Inaccessible,Context menu commands dont work in *subfolders* of bookmarks menu,1,1,1
+212,Firefox-233539,Firefox-248987,DUPLICATE,Window should close when closing last tab,When closing last tab the tab bar disappears indefinitely until new tab is opened,1,1,1
+213,Firefox-233683,Firefox-233733,DUPLICATE,document.location(mypage) tries to redirect to chrome://navigator/content/mypage,,0,0,1
+214,Firefox-233686,Firefox-238952,DUPLICATE,Credits outdated since namechange (Logo; Motto),Change Motto in Credits Dialog,1,0,1
+215,Firefox-233706,Firefox-239175,DUPLICATE,Keyboard navigation in document window does not work,Enable tabbing to links by default on OS X,1,1,1
+216,Firefox-233709,Firefox-233733,DUPLICATE,JavaScript error when trying to change document.location,,0,0,1
+217,Firefox-233773,Firefox-390614,DUPLICATE,RFE: History component from Mozilla; more finite history categories,,0,0,1
+218,Firefox-233958,Firefox-235037,DUPLICATE,cant submit forms,,0,0,1
+219,Firefox-234146,Firefox-237104,DUPLICATE,delete @ marks from mozilla/browser/app/macbuild/Contents/Info.plist.in,Firfox version string reads @0.8.0@,1,1,1
+220,Firefox-234501,Firefox-235534,DUPLICATE,Unable to view web based Lotus Domino email - Browser starts loading menubar; then crashes out.,,0,0,1
+221,Firefox-234680,Firefox-398434,DUPLICATE,Uninstall should give the option to remove profile data,,0,0,1
+222,Firefox-234805,Firefox-236582,DUPLICATE,jpeg images wont display relyably in floating divs,,0,0,1
+223,Firefox-234827,Firefox-320210,DUPLICATE,#NAME?,,0,0,1
+224,Firefox-234907,Firefox-234916,DUPLICATE,Dont start Mozilla Firefox (Static build),,0,0,1
+225,Firefox-234909,Firefox-235896,DUPLICATE,Yahoo mail intermittently rendering incorrectly,,0,0,1
+226,Firefox-234920,Firefox-238137,DUPLICATE,Help - about version information scrolling broken,User Agent string in the About Firefox dialog is cut off at the bottom,0,0,1
+227,Firefox-234941,Firefox-249781,DUPLICATE,Installer should set more registry values to play nicer with windows add/remove program,,0,0,1
+228,Firefox-234967,Firefox-234968,DUPLICATE,Memory leak over time on Windows. The amount of memory keep increasing.,,0,0,1
+229,Firefox-234969,Firefox-242275,DUPLICATE,cant accept ssl certificate when its authentication failed,[Really fixed now; read comments] browser window hangs on certificate dialogue [installer builds] [LINUX USERS USE POST 20040615 BUILDS],0,1,1
+230,Firefox-235074,Firefox-235871,DUPLICATE,Site keeps on reloading indefinitely,,0,0,1
+231,Firefox-235234,Firefox-235235,DUPLICATE,browsing multiple pages; new mozilla dialogs (search; remember password) hang firefox,,0,0,1
+232,Firefox-235296,Firefox-244510,DUPLICATE,HTML / XML Form / Control Bug,,0,0,1
+233,Firefox-235330,Firefox-238956,DUPLICATE,verizonwireless.com Macromedia Flash page component formats poorly; blocking access to page navigation menus,,0,0,1
+234,Firefox-235339,Firefox-235463,DUPLICATE,text wraps over table border,,0,0,1
+235,Firefox-235493,Firefox-242586,DUPLICATE,Add more than Google as search choice,Fix sherlock plug-ins,0,1,1
+236,Firefox-235525,Firefox-240095,DUPLICATE,Address bar dropdown button fails if any textbox has focus,,0,0,1
+237,Firefox-235771,Firefox-236979,DUPLICATE,flash on the page is reloaded non-stop,page reloads constantly; unable to read page.,1,1,1
+238,Firefox-235786,Firefox-263213,DUPLICATE,keyword feature shouldnt trigger if http:// was included,,0,0,1
+239,Firefox-235838,Firefox-269568,DUPLICATE,Installing extensions crashes the browser - PPC Linux,,0,0,1
+240,Firefox-235843,Firefox-236313,DUPLICATE,Runtime error: R6025  pure virtual function call when submitting to reservation form at koreanair.com,,0,0,1
+241,Firefox-236607,Firefox-236673,DUPLICATE,Crash when choosing File | Import,Firefox crashes if there is no profile (import wizard dialog appears),1,1,1
+242,Firefox-236781,Firefox-391981,DUPLICATE,location bar minimum size incorrect,,0,0,1
+243,Firefox-236792,Firefox-248442,DUPLICATE,If i try to search for somethin in google the browser crashes when entering the first letter into the search field [@ nsVoidArray::ElementAt ],Crash in form autocomplete (64-bit arch only),1,1,1
+244,Firefox-236909,Firefox-309395,DUPLICATE,[Mac] Mouse wheel doesnt work in vbox (firefox: add bookmark dialog; preferences: advanced; privacy),,0,0,1
+245,Firefox-237130,Firefox-256218,DUPLICATE,Show GO button by default,add go button to default toolbar,0,1,1
+246,Firefox-237160,Firefox-237224,DUPLICATE, Add to bookmark  name field filled with spaces for long string,Accepts continuous input of too many characters into Name field resulting in unreasonable behavior.,1,1,1
+247,Firefox-237230,Firefox-269664,DUPLICATE,hidden pref for new tab to load homepage,loadOnNewTab or similar should be reimplemented,0,1,1
+248,Firefox-237439,Firefox-237440,DUPLICATE,Toolbar state reverts to default after exit,,0,0,1
+249,Firefox-237733,Firefox-608049,DUPLICATE,Applescript dictionary nonexistent/unopenable,,0,0,1
+250,Firefox-237804,Firefox-315297,DUPLICATE,cosmetic problems with about dialog (new  artwork),,0,0,1
+251,Firefox-237922,Firefox-240272,DUPLICATE,non-ASCII text in pref caption that in the start menu should be saved with native coding in windows registry,prefLabel should be saved in the native code in registry (bug 232969) patch,1,0,1
+252,Firefox-237948,Firefox-279014,DUPLICATE,wrap should be off by default in the find toolbar,,0,0,1
+253,Firefox-238013,Firefox-259006,DUPLICATE,blockup popper exclude list doesnt accept wildcard,,0,0,1
+254,Firefox-238034,Firefox-265400,DUPLICATE,request for transparent handling of accepted languages,,0,0,1
+255,Firefox-238085,Firefox-238143,DUPLICATE,Images are not loading properly upon visiting the website,,0,0,1
+256,Firefox-238212,Firefox-322206,DUPLICATE,Firefox should have a net installer; like Seamonkey,,0,0,1
+257,Firefox-238235,Firefox-323256,DUPLICATE,Warning about unencrypted connection fails to come up with embedded searchbar,,0,0,1
+258,Firefox-238358,Firefox-399606,DUPLICATE,Auto-updating frame fills up session history,,0,0,1
+259,Firefox-238400,Firefox-244017,DUPLICATE,CSS Background color sometimes doesnt render,,0,0,1
+260,Firefox-238585,Firefox-238586,DUPLICATE,Misbehavior of Margin input fields (also replicable for History field),Misbehavior of Margin input fields (also replicable for History field),1,1,1
+261,Firefox-238586,Firefox-238725,DUPLICATE,Misbehavior of Margin input fields (also replicable for History field),,0,0,1
+262,Firefox-238640,Firefox-260876,DUPLICATE,firefox crashes when searching in search-bar [@  InternetSearchDataSource::GetInputs],,0,0,1
+263,Firefox-238808,Firefox-240175,DUPLICATE,phpBB scrolling panel incorrectly displays full width,,0,0,1
+264,Firefox-238941,Firefox-372733,DUPLICATE,Focus starts playing silly games when going back and forward through Import wizard,,0,0,1
+265,Firefox-239289,Firefox-239776,DUPLICATE,crash while loading lotus inotes webaccess database,,0,0,1
+266,Firefox-239385,Firefox-246078,DUPLICATE,ZIP versions of FF do not set Registry correctly,URLs from other apps result in two Firefox windows or a window and an error dialog (Set as Default Browser does a lousy job creating ddeexec keys),0,0,1
+267,Firefox-239415,Firefox-271825,DUPLICATE,Firefox crashes with segmentation fault when loading a webpage,,0,0,1
+268,Firefox-239559,Firefox-241079,DUPLICATE,DOM Inspector About should open Firefox about dialog instead of about: page,DOM Inspector: fix it; remove Tools; Window; Help menus; Preferences; and Quit keybinding,0,1,1
+269,Firefox-239561,Firefox-246078,DUPLICATE,Clicking URL link in email from Outlook 2003 opens Locate Link Browser pop-up window,URLs from other apps result in two Firefox windows or a window and an error dialog (Set as Default Browser does a lousy job creating ddeexec keys),0,0,1
+270,Firefox-239568,Firefox-283680,DUPLICATE,Installer loops / hangs if firefox is running in another session,,0,0,1
+271,Firefox-239586,Firefox-240136,DUPLICATE,Tell Firefox not to import bookmarks for first time running,Firefox should not auto-import settings without user confirmation,0,1,1
+272,Firefox-239752,Firefox-331105,DUPLICATE,Add support for a default search plugin,,0,0,1
+273,Firefox-239825,Firefox-239833,DUPLICATE,major leak/holding on to chrome forever (through script-implemented observer; probably),firefox leaks pretty much everything related to its chrome windows,1,1,1
+274,Firefox-240331,Firefox-256201,DUPLICATE,toolbar search history is not separately clearable,discoverability of Clear Search History is hard (add a context menu item),0,1,1
+275,Firefox-240484,Firefox-240490,DUPLICATE,firefox crashes when i try to print/print preview XUL page,,0,0,1
+276,Firefox-240658,Firefox-244692,DUPLICATE,double right or middle click in tab bar creates new tab,Tabs bar; status bar; Download Manager; Extensions Manager and Themes Manager respond to all kinds of double-click (left; middle; right mouse buttons),0,1,1
+277,Firefox-240930,Firefox-241079,DUPLICATE,Page doesnot change according to the subcategory selected in Preferences->Category,DOM Inspector: fix it; remove Tools; Window; Help menus; Preferences; and Quit keybinding,0,1,1
+278,Firefox-240944,Firefox-258438,DUPLICATE,clicking autocomplete result without moving mouse goes to typed address,Clicking autocomplete dropdown while typing searches for currently entered text,1,1,1
+279,Firefox-241808,Firefox-260337,DUPLICATE,Installer needs -lnsl on Solaris,Fail to build on solaris,0,1,1
+280,Firefox-241905,Firefox-242050,DUPLICATE,DOM Inspector Icon for Missing on Linux Builds,,0,0,1
+281,Firefox-242012,Firefox-243432,DUPLICATE,crash when selecting from popup menu left over from previous page,,0,0,1
+282,Firefox-242051,Firefox-412049,DUPLICATE,default.xpm should be 16x16 (a copy of mozicon16.xpm),,0,0,1
+283,Firefox-242141,Firefox-242142,DUPLICATE,Mozilla doesnt display table from main slashdot page intermittently,Mozilla doesnt display table from main slashdot page intermittently,1,1,1
+284,Firefox-242178,Firefox-292055,DUPLICATE,Firefox crashes and dies every time I try to print that page [@ nsViewManager::RenderViews() ],,0,0,1
+285,Firefox-242303,Firefox-245660,DUPLICATE,Context menus objectIsImage is totally bogus (and throws exceptions),use nsIImageLoadingContent for copying image location,0,0,1
+286,Firefox-242427,Firefox-244955,DUPLICATE,default firefox theme + some gtk2 themes = white on white selected menu text,[GNOME] incorrect system colors for the menu item text,1,1,1
+287,Firefox-242508,Firefox-258223,DUPLICATE,quicksearch bookmarks should have i18n option,Bookmark keyword quicksearch need a way to specify character encoding for query URLs,1,1,1
+288,Firefox-242835,Firefox-256835,DUPLICATE,crash with Option+leftarrow on submit button,,0,0,1
+289,Firefox-242836,Firefox-253935,DUPLICATE,shift+delete in the search-field works only temporary,,0,0,1
+290,Firefox-243148,Firefox-291052,DUPLICATE,unable to log into usaa.com with firefox; but mozilla/IE both work,,0,0,1
+291,Firefox-243153,Firefox-244987,DUPLICATE,Web pages with flash animation stops responding and when you click the flash...,,0,0,1
+292,Firefox-243217,Firefox-250231,DUPLICATE,add word highlighting and clickable find next buttons for each search word as done by google toolbar in IE,,0,0,1
+293,Firefox-243500,Firefox-269442,DUPLICATE,Firefox Edit->Find in this page  does not provide Match whole word only,,0,0,1
+294,Firefox-243663,Firefox-257826,DUPLICATE,Linux Installer Crash on Change Installation Directory,using back in installer during custom install = reproducable crash,1,0,1
+295,Firefox-243861,Firefox-244385,DUPLICATE,Disappearing browser tab context menu highlight,,0,0,1
+296,Firefox-244067,Firefox-244068,DUPLICATE,random crashes when hitting submit during chat,,0,0,1
+297,Firefox-244119,Firefox-286072,DUPLICATE,In Place Tablet Input Panel icon doesnt appear for text input,,0,0,1
+298,Firefox-244551,Firefox-272189,DUPLICATE,Adding or subtracting from firefoxs extension list is suboptimal,,0,0,1
+299,Firefox-244673,Firefox-258223,DUPLICATE,search bar does not take accent (  or   or   becomes ? when it gets to google),Bookmark keyword quicksearch need a way to specify character encoding for query URLs,0,1,1
+300,Firefox-244702,Firefox-246801,DUPLICATE,Dialog while dragging causes mouse clicks to be ignored,Cant interact with Firefox if warning dialog boxes pops up while dragging and dropping,1,1,1
+301,Firefox-244768,Firefox-244852,DUPLICATE,No Installer Progress Bar,Installer Progress Bar Doesnt Display,1,1,1
+302,Firefox-245210,Firefox-268985,DUPLICATE,Stop button doesnt stop images from loading,,0,0,1
+303,Firefox-245271,Firefox-245433,DUPLICATE,Throbber tooltip says; Go to the Firefox home page; but browser.throbber.url is not set to FF page.,right-click-Search Web for; default homepage and throbber urls missing,0,1,1
+304,Firefox-245330,Firefox-263213,DUPLICATE,Automatic Im feeling lucky search is too active,,0,0,1
+305,Firefox-245432,Firefox-245433,DUPLICATE,Initial homepage with fresh install (installer build; new profile) is empty; not blank; empty,right-click-Search Web for; default homepage and throbber urls missing,0,1,1
+306,Firefox-245459,Firefox-274808,DUPLICATE,Shift-Del in History causes Firefox to crash [@ nsXULTreeBuilder::GetTemplateActionCellFor ],,0,0,1
+307,Firefox-245685,Firefox-250231,DUPLICATE,find-in-page accel should use search box; find-as-you-type,,0,0,1
+308,Firefox-245746,Firefox-263930,DUPLICATE,Firefox is very memory-hungry under all circumstances,Huge memory leak while surfing,1,1,1
+309,Firefox-246006,Firefox-246035,DUPLICATE,Lack of icons in filepicker,Theme icons missing in Open/Save dialogs,0,0,1
+310,Firefox-246045,Firefox-246419,DUPLICATE,Special characters display in bookmarks as raw HTML,Bookmarks file converts  to &#39; in bookmark title (apostrophe; lsquo; entity),1,1,1
+311,Firefox-246127,Firefox-246789,DUPLICATE,browser bobbing instead of loading,,0,0,1
+312,Firefox-246251,Firefox-253459,DUPLICATE,The Linux installer defaults to install into firefox-installer folder,Installation folder defaults to firefox-installer (Linux),1,1,1
+313,Firefox-246284,Firefox-246624,DUPLICATE,Help/Keyboard shortcut for DL manager still shows Ctl-E,Download Manager Shortcut - Wrong value given in help and documentation,1,1,1
+314,Firefox-246290,Firefox-251363,DUPLICATE,Timeout if you open i.e. more than 20 links at once.,,0,0,1
+315,Firefox-246571,Firefox-247542,DUPLICATE,Click on How to hold the knife brings firefox to the grips.html which causes crash; accessing the url directly does not result in crash,,0,0,1
+316,Firefox-246658,Firefox-246687,DUPLICATE,finishing installatin of extenstion is showing the applet and wont go away; it comes up when you click on firefox to open it,,0,0,1
+317,Firefox-246726,Firefox-246986,DUPLICATE,Home page cannot be changed.,Home page cannot be changed.,1,1,1
+318,Firefox-246731,Firefox-250231,DUPLICATE,FastFind: A toolbar merging the find dialog and type-ahead-find,,0,0,1
+319,Firefox-246782,Firefox-249302,DUPLICATE,if no ~/.firefox or ~/.phoenix directory exists; then initial migration screen hangs,Firefox offers to migrate a non-existant Phoenix Firebird Firefox profile,1,1,1
+320,Firefox-246784,Firefox-246806,DUPLICATE,Firefox endlessly crashes and restarts when started from mounted disk image,,0,0,1
+321,Firefox-246833,Firefox-255085,DUPLICATE,favicon for arstechnica NOT auto added to Bookmarks,,0,0,1
+322,Firefox-246844,Firefox-246923,DUPLICATE,PHPMyAdmin: left frame menu for accesing tables doesnt work; neither the DB select menu,,0,0,1
+323,Firefox-246848,Firefox-258223,DUPLICATE,Bad encoding by searching using bookmark keywords,Bookmark keyword quicksearch need a way to specify character encoding for query URLs,1,1,1
+324,Firefox-246869,Firefox-259978,DUPLICATE,Cannot launch Firefox 0.9,,0,0,1
+325,Firefox-246924,Firefox-246929,DUPLICATE,DMG launch went into loop   quits/starts/quits/start/quits/starts etc,Firefox 0.9 loads over and over again,0,1,1
+326,Firefox-246946,Firefox-252540,DUPLICATE,Some Favicons are not shown in Personal Toolbar,,0,0,1
+327,Firefox-246947,Firefox-247047,DUPLICATE,Extraneous semicolon in nsSoftwareUpdate.cpp,[aviary branch] [patch] extra semicolon in nsSoftwareUpdate.cpp,1,1,1
+328,Firefox-247010,Firefox-260337,DUPLICATE,Build failure while linking mozilla-installer-bin,Fail to build on solaris,1,1,1
+329,Firefox-247032,Firefox-247116,DUPLICATE,Toolbars jump up and down if the Bookmarks Toolbar is placed to the right of the Help menu,Web pages bounce/shake/jump when Bookmarks Toolbar Items is empty and placed to right of menu bar,1,1,1
+330,Firefox-247070,Firefox-248753,DUPLICATE,FireFox 0.9 doesnt recognize the use of <base target> in frames,,0,0,1
+331,Firefox-247251,Firefox-247284,DUPLICATE,Crashes on startup with a memory violation,,0,0,1
+332,Firefox-247273,Firefox-247284,DUPLICATE,Firefox 0.9 crashes on startup,,0,0,1
+333,Firefox-247311,Firefox-253661,DUPLICATE,Top-level menu bar items dont behave right when pushed,nine steps to better menus in Firefox,1,1,1
+334,Firefox-247554,Firefox-294524,DUPLICATE,reload doesnt work when using a combination of clear history and back buttons,,0,0,1
+335,Firefox-247610,Firefox-265859,DUPLICATE,CLI options like -installExtension do not work without $DISPLAY,,0,0,1
+336,Firefox-247708,Firefox-247884,DUPLICATE,FireFox dosnt remove old version numbers from Add/Remove Programs,Upgrading doesnt remove / uninstall the old entry from Add Remove Programs - Windows,1,1,1
+337,Firefox-247805,Firefox-255411,DUPLICATE,Popup windows show transparent backgrounds when options>fonts are colors are set to always use my colors,,0,0,1
+338,Firefox-248106,Firefox-251335,DUPLICATE,in the bookmarks manager and in the bookmarks sidebar there are items missing in the right-click menu of the bookmarks-bar-folder,Bookmarks toolbar folder under bookmarks hasnt the same context menu as other bookmark folders,1,1,1
+339,Firefox-248323,Firefox-257522,DUPLICATE,Unable to specify a username for SOCKS proxy settings,,0,0,1
+340,Firefox-248443,Firefox-264889,DUPLICATE,Desktop Icon should be inserted into Namespace instead of creating a Shortcut,,0,0,1
+341,Firefox-248456,Firefox-249593,DUPLICATE,missing urlmon.dll and shlwapi.dll,[WinNT] Firefox wont start because of missing Function CopyStgMedium in urlmon.dll (or urlmon.dll doesnt exist at all),0,0,1
+342,Firefox-248671,Firefox-248672,DUPLICATE,Flash doesnt work,,0,0,1
+343,Firefox-248830,Firefox-253950,DUPLICATE,When reopening Firefox after closing it for a few minutes it claimed the default profile was still in use.,,0,0,1
+344,Firefox-248869,Firefox-253565,DUPLICATE,Clicking on PDF file freezes Firefox temporarily; fries Acrobat Reader 5.1,Crashes when opens PDF documents,0,1,1
+345,Firefox-249014,Firefox-258107,DUPLICATE,Adresses not bumped in the location bar drop-down list,Location bar should sort based on order visited,1,1,1
+346,Firefox-249153,Firefox-259206,DUPLICATE,XML documents presented as plain text after 0.9,,0,0,1
+347,Firefox-249165,Firefox-302288,DUPLICATE,unable to open sidebar when the third parameter is given to window.open,,0,0,1
+348,Firefox-249378,Firefox-262133,DUPLICATE,Print preview:  Paper orientation change doesnt update number of sheets required,Print preview total page count does not change,0,1,1
+349,Firefox-249477,Firefox-312731,DUPLICATE,Firefox crashes withour error info,,0,0,1
+350,Firefox-249554,Firefox-277547,DUPLICATE,Problems with computer running with two CPUs (processors),,0,0,1
+351,Firefox-249702,Firefox-266985,DUPLICATE,When preferences for opening links using middle click in new window AND tabs are set to FALSE; links that are middle-clicked are still opened in a new window,,0,0,1
+352,Firefox-249718,Firefox-262313,DUPLICATE,Browser Completely Closes on Game Load,,0,0,1
+353,Firefox-249763,Firefox-306538,DUPLICATE,clicking autocomplete result sometimes goes to typed address,,0,0,1
+354,Firefox-249819,Firefox-250209,DUPLICATE,login button doesnt work,,0,0,1
+355,Firefox-250065,Firefox-268010,DUPLICATE,Uninstaller forces all windows to close,,0,0,1
+356,Firefox-250323,Firefox-263853,DUPLICATE,Keyboard shortcut: Drop down location bar,Neither Alt+down nor  F4 key are listing the URLs from the address bar,0,0,1
+357,Firefox-250395,Firefox-250488,DUPLICATE,[Aviary] Cannot open anymore tab groups / use open in tabs,open in tabs/middleclicking a bookmarks folder/groupmark is broken,0,1,1
+358,Firefox-250419,Firefox-258818,DUPLICATE,Navigation Toolbar inside instead of above Tabs.,Tabs should be above navigation bar,1,1,1
+359,Firefox-250422,Firefox-251636,DUPLICATE,firefox 0.9.1 & yahoo mail rendering problems,,0,0,1
+360,Firefox-250441,Firefox-252309,DUPLICATE,Firefox rename files with underscore in their name truncating them.,,0,0,1
+361,Firefox-250535,Firefox-256949,DUPLICATE,proxy user/pass grief,,0,0,1
+362,Firefox-250664,Firefox-270117,DUPLICATE,Options to open bookmarks/history/etc. in new tabs/window with left click,An option to open urlbar; searchbar; bookmarks; history; javascript popup link and DDE call in new tabs through left clicking,1,1,1
+363,Firefox-250715,Firefox-271022,DUPLICATE,Opening a third-party sidebar throws a JS error,JavaScript Console Error: Opening Non-Sidebar Windows in the Sidebar (searchBox has no properties),1,0,1
+364,Firefox-250796,Firefox-250820,DUPLICATE,Exiting full screen mode (F11) resets toolbar options,After returning from full screen; rightclick on navigation toolbar does not work,1,1,1
+365,Firefox-250830,Firefox-278684,DUPLICATE,part of Macromedia Flash screen cut-off - does not happen in IE,,0,0,1
+366,Firefox-250861,Firefox-281192,DUPLICATE,switching tabs using the mouse wheel,,0,0,1
+367,Firefox-250997,Firefox-254380,DUPLICATE,Save link makes firefox stop responding to any input when network drive does not exist anymore (after change of network),,0,0,1
+368,Firefox-251051,Firefox-255160,DUPLICATE,Improve wording of Show:  selection in blocked popup menu.,Show blocked popup option shouldnt contain url,0,1,1
+369,Firefox-251075,Firefox-255162,DUPLICATE,Switching to tab doesnt show its blocked pop-up information bar.,Popup blocked message goes away upon switching tabs,1,0,1
+370,Firefox-251086,Firefox-253159,DUPLICATE,save as command freezes/crashes program,,0,0,1
+371,Firefox-251127,Firefox-251842,DUPLICATE,Schedule and Notify not displayed in livemark properties,Use caching info from feed (ttl; skiphours; skipdays; updateBase; updateFrequency) for live bookmark expiration,1,0,1
+372,Firefox-251207,Firefox-263942,DUPLICATE,Ability to Duplicate Tab,Reload button should have middle click support (open same URL in new tab; clone tab),0,1,1
+373,Firefox-251303,Firefox-377561,DUPLICATE,Rename Page Info to Properties,,0,0,1
+374,Firefox-251307,Firefox-432741,DUPLICATE,ssl-icon should open their windows with a single click; not a double click,,0,0,1
+375,Firefox-251324,Firefox-308982,DUPLICATE,Propose meaningful dialogue for connection errors to localhost,,0,0,1
+376,Firefox-251356,Firefox-330993,DUPLICATE,Turning mouse wheel up does history back instead of scroll up,,0,0,1
+377,Firefox-251394,Firefox-255637,DUPLICATE,Bookmark .RDF; .RSS and . XML targets as livemarks,Easier way needed to create Live Bookmarks from <a> links to feeds,1,1,1
+378,Firefox-251433,Firefox-257121,DUPLICATE,Bookmarks toolbar blank in second window if first window has Print dialog open,,0,0,1
+379,Firefox-251447,Firefox-348227,DUPLICATE,Automatic retrieval of Atom/RSS feeds title for Live bookmarks,,0,0,1
+380,Firefox-251729,Firefox-260524,DUPLICATE,[linux] Bookmarks Menu Folders select on/off/on as moused from one to the other,,0,0,1
+381,Firefox-251777,Firefox-276318,DUPLICATE,Search web for $ in context menu does not have a foreground/background pref.,,0,0,1
+382,Firefox-251919,Firefox-253251,DUPLICATE,Table rendering  error on www.nofrag.com  after reload  ; The left col  width must be 19% and takes 3/4 of the screen,,0,0,1
+383,Firefox-251927,Firefox-314279,DUPLICATE,pop-up menus always appear on main screen,,0,0,1
+384,Firefox-251976,Firefox-317420,DUPLICATE,Firefox crash by printing http://www.linux-praxis.de/lpic1/lpi101/1.102.2.html [@ lexpsnt3.dll - CompositeBitsInMemory ],,0,0,1
+385,Firefox-252034,Firefox-252622,DUPLICATE,Firefox 0.9.2 hangs on Acrobat 6.0 .pdf files,,0,0,1
+386,Firefox-252136,Firefox-398678,DUPLICATE,document autocomplete,,0,0,1
+387,Firefox-252246,Firefox-326543,DUPLICATE,Site defeats always show context menu preference,,0,0,1
+388,Firefox-252544,Firefox-252546,DUPLICATE,Dont Migrate Over IE Start Page,Dont import IE homepage,0,0,1
+389,Firefox-252685,Firefox-513147,DUPLICATE,change access key for Properties to r,,0,0,1
+390,Firefox-253056,Firefox-257411,DUPLICATE,bookmarks sidebar: folders should collapse/expand and bookmarks should open on double-click instead of single-click,bookmarks sidebar: folders should collapse/expand and bookmarks should open on double-click instead of single-click,1,1,1
+391,Firefox-253112,Firefox-253118,DUPLICATE,Options Privacy is not working,Cookies and Privacy Options broken in 7/26 build,0,1,1
+392,Firefox-253202,Firefox-253291,DUPLICATE,firefox fails to save preference changes after restart,Changes to preferences file not saved.,1,1,1
+393,Firefox-253237,Firefox-267525,DUPLICATE,Long wait (CPU 100%) on display ftp directory,,0,0,1
+394,Firefox-253385,Firefox-260980,DUPLICATE,a scrollbar appears in the middle of the website if a link is focused,,0,0,1
+395,Firefox-253692,Firefox-258438,DUPLICATE,Focus does not switch to the URL from the location bar autocomplete list on mouse click,Clicking autocomplete dropdown while typing searches for currently entered text,1,1,1
+396,Firefox-253702,Firefox-256732,DUPLICATE,Intermitantly when this page is displayed some of the boxes (Philips flat head) will display twice.,,0,0,1
+397,Firefox-253703,Firefox-324961,DUPLICATE,Non-ASCII characters replaced by ? in Livemarks,,0,0,1
+398,Firefox-253806,Firefox-333734,DUPLICATE,confirm dialog when there are many tabs to be opened,,0,0,1
+399,Firefox-253814,Firefox-302133,DUPLICATE,livemark parser should chomp strings,,0,0,1
+400,Firefox-253880,Firefox-269664,DUPLICATE,browser.tabs.loadOnNewTab in about:config ineffectual,loadOnNewTab or similar should be reimplemented,1,1,1
+401,Firefox-253893,Firefox-253912,DUPLICATE,Articles Name in Live Bookmarks does not appear entirely,Display tooltip when hovering Live bookmarks containers,1,1,1
+402,Firefox-253897,Firefox-259006,DUPLICATE,Make Exceptions in Popup blocking and Allow websites to install software under Web Features accept wildcards,,0,0,1
+403,Firefox-254029,Firefox-258625,DUPLICATE,QFA error during installation...uninstaller not added to add/remove list,Installer needs to gracefully handle missing talkback package.,0,1,1
+404,Firefox-254088,Firefox-419911,DUPLICATE,Bookmark dropdown wrongly closes when quickly going out of bounds and landing on a Folder,,0,0,1
+405,Firefox-254174,Firefox-264412,DUPLICATE,textarea innerText returns undefined in javascript,,0,0,1
+406,Firefox-254176,Firefox-257241,DUPLICATE,Window closed unintentionally due to keyboard shortcut,,0,0,1
+407,Firefox-254263,Firefox-297636,DUPLICATE,Firefox crashes and all its processes terminate after closing windows [@ libc.so.6 - nsWindow::OnDragEnter() ],,0,0,1
+408,Firefox-254270,Firefox-254272,DUPLICATE,winsock error no buffer space available not handled,,0,0,1
+409,Firefox-254760,Firefox-358632,DUPLICATE,Active tab widget has missing pixels at bottom,,0,0,1
+410,Firefox-254763,Firefox-265698,DUPLICATE,Odd white border above tab panel in Page Info dialog,,0,0,1
+411,Firefox-254871,Firefox-346686,DUPLICATE,Copy Feed Location of detected Live Bookmarks,,0,0,1
+412,Firefox-254881,Firefox-255006,DUPLICATE,The connection was refused when attempting to contact... error on launching Firefox via third-party hyperlink,PAC: home page not loaded initially; when using proxy server,1,1,1
+413,Firefox-254882,Firefox-314279,DUPLICATE,toolbars / URL completion field problem with dual monitor setup,,0,0,1
+414,Firefox-254883,Firefox-284099,DUPLICATE,Upgrade from 0.9.2 to 0.9.3 destroys bookmarks (windows 98),,0,0,1
+415,Firefox-254903,Firefox-257405,DUPLICATE,ctrl+b should trigger bookmarks even from text areas,,0,0,1
+416,Firefox-254906,Firefox-492544,DUPLICATE,keyboard shortcut to go to the URI from the clipboard (paste and go),,0,0,1
+417,Firefox-255058,Firefox-255270,DUPLICATE,deselect check on next start ruins the text in default browser dialog,,0,0,1
+418,Firefox-255128,Firefox-255129,DUPLICATE,Bookmarks doesnt pre-select the last folder used in the create in dropdown; only ever the top Bookmarks folder,,0,0,1
+419,Firefox-255260,Firefox-255932,DUPLICATE,Should have a GUI control to enable tab warn on close functionality,Add Warn when closing multiple tabs pref to Advanced under Browsing,1,1,1
+420,Firefox-255529,Firefox-255637,DUPLICATE,Every bookmarks context menu should have New Live bookmark...,Easier way needed to create Live Bookmarks from <a> links to feeds,1,1,1
+421,Firefox-255683,Firefox-256901,DUPLICATE,the links are radio that should open with Windows media player but it doesnt work,,0,0,1
+422,Firefox-255775,Firefox-263524,DUPLICATE,Cant make install aviary tree on linux,,0,0,1
+423,Firefox-255864,Firefox-268783,DUPLICATE,Firefox needs to support language detection for chrome,,0,0,1
+424,Firefox-256240,Firefox-262966,DUPLICATE,Mouseless navigation of Options dialog issues,,0,0,1
+425,Firefox-256246,Firefox-419231,DUPLICATE,Customize Toolbars palette items positioned sloppily,,0,0,1
+426,Firefox-256368,Firefox-280597,DUPLICATE,Add link(s) to reporting tool in Firefox,,0,0,1
+427,Firefox-256399,Firefox-256827,DUPLICATE,crash if i open gmail notifier and bloglines notifier in separate tabs [@ JS_HashTableRawAdd ],,0,0,1
+428,Firefox-256460,Firefox-350201,DUPLICATE,about:blank shown in Location Bar after Customize,,0,0,1
+429,Firefox-256579,Firefox-257779,DUPLICATE,The Pause button does not work in the BBC Radio Listen Again control panel,,0,0,1
+430,Firefox-256660,Firefox-263754,DUPLICATE,Location bar is a  different size on secure sites,location bar width different for normal and secure,0,1,1
+431,Firefox-256917,Firefox-259450,DUPLICATE,Logitech Mouse scrollwheel/center button does not respond to programmed internet back command.,,0,0,1
+432,Firefox-256935,Firefox-256959,DUPLICATE,push compressed .xpis to update.mozilla.org,,0,0,1
+433,Firefox-257016,Firefox-259672,DUPLICATE,Firefox leaks X Windows Resources,,0,0,1
+434,Firefox-257081,Firefox-259291,DUPLICATE,RSS icon in status bar isnt vertically centered,,0,0,1
+435,Firefox-257148,Firefox-258955,DUPLICATE,Plugin finder often (always?) fails to find Flash,,0,0,1
+436,Firefox-257320,Firefox-257321,DUPLICATE,firefox assumes file:/// link improperly in any dir or root dir.,,0,0,1
+437,Firefox-257337,Firefox-260876,DUPLICATE,Using the search toolbar crashes Firefox 9 [@ firefox.exe ],,0,0,1
+438,Firefox-257445,Firefox-707601,DUPLICATE,Mac Opera profile migrator,,0,0,1
+439,Firefox-257601,Firefox-295498,DUPLICATE,Middle click in location bar opens in current tab,,0,0,1
+440,Firefox-257769,Firefox-257770,DUPLICATE,Button Add / Hinzufuegen is NOT displayed under W2K; under XP it is displayed,,0,0,1
+441,Firefox-257831,Firefox-280740,DUPLICATE,pango UTF8 warnings during custom install on Linux; Red Hat 8.0,,0,0,1
+442,Firefox-258091,Firefox-283987,DUPLICATE,Entering Fullscreen (F11) and exiting browser with more than 1 tab open does not cause popup notification to show up,,0,0,1
+443,Firefox-258497,Firefox-304370,DUPLICATE,crash during page rendering a page that needs both Flash and Shockwave plugins,,0,0,1
+444,Firefox-258619,Firefox-258625,DUPLICATE,Installer fails to install talkback XPI,Installer needs to gracefully handle missing talkback package.,0,1,1
+445,Firefox-258655,Firefox-258656,DUPLICATE,ctrl+o should open an URL box to enter URL,,0,0,1
+446,Firefox-258678,Firefox-260141,DUPLICATE,some entries in update.dtd are only for Firefox,Some strings in locale files is using Firefox - should use &brandShortName; instead,1,1,1
+447,Firefox-258720,Firefox-258722,DUPLICATE,New windows opened with JS window.open() always show location bar,,0,0,1
+448,Firefox-258741,Firefox-260590,DUPLICATE,font used in about dialog is different to font Meta,Updated Images for Windows Installer and About/Credit windows,0,1,1
+449,Firefox-258742,Firefox-258955,DUPLICATE,Plugin Finder Services not found too final,,0,0,1
+450,Firefox-258746,Firefox-258748,DUPLICATE,bookmark polish,,0,0,1
+451,Firefox-258776,Firefox-259206,DUPLICATE,xml prettyprint does not work with 0.9.3 or mozilla1.7.2,,0,0,1
+452,Firefox-258800,Firefox-259005,DUPLICATE,[AltSS] Switching stylesheets in print preview crashes browser,Print preview should hide the browser statusbar,1,1,1
+453,Firefox-258816,Firefox-305040,DUPLICATE,Open with Firefox action name breaks shell & ShellNew handling,,0,0,1
+454,Firefox-258867,Firefox-389273,DUPLICATE,non-animated favicons that are over 16k in file size wont save to bookmark cache,,0,0,1
+455,Firefox-258913,Firefox-403365,DUPLICATE,Location bar is not shown in a popup if you previously removed all toolbars except menubar,,0,0,1
+456,Firefox-259315,Firefox-260849,DUPLICATE,Live Bookmarks should highlight new entries,identify unread live bookmark items,1,1,1
+457,Firefox-259344,Firefox-261044,DUPLICATE,Proxy Authorization,,0,0,1
+458,Firefox-259376,Firefox-305040,DUPLICATE,Set to default browser fails to assign text to the (Default) refistry key for the FirefoxHTML tag,,0,0,1
+459,Firefox-259444,Firefox-325085,DUPLICATE,The RSS icon should allow me to subscribe with the RSS via my preferred RSS reader,,0,0,1
+460,Firefox-259707,Firefox-279035,DUPLICATE,wrong auto complete if the url typed contains slash,,0,0,1
+461,Firefox-259716,Firefox-287279,DUPLICATE,Rollover Flash plugin doesnot let access to HTML elements under it altough it is transparent,,0,0,1
+462,Firefox-259799,Firefox-259800,DUPLICATE,[Mac] Application name changed to XULRunner in several places,[Mac] Application name changed to XULRunner in several places,1,1,1
+463,Firefox-259819,Firefox-273198,DUPLICATE,Showing menu item for bookmark of missing share causes hang,,0,0,1
+464,Firefox-259830,Firefox-264889,DUPLICATE,Desktop Shell Icon for Firefox,,0,0,1
+465,Firefox-259854,Firefox-261044,DUPLICATE,entering incorrect password on Win2003 IIS website with Integrated Windows Authentication causes infinite loop of auth attempts,,0,0,1
+466,Firefox-259863,Firefox-318560,DUPLICATE,move installable search plugins to UMO,,0,0,1
+467,Firefox-259906,Firefox-259907,DUPLICATE,JavaScript Events Do Not Take Place When Firefox Minimized,,0,0,1
+468,Firefox-260044,Firefox-262387,DUPLICATE,Firefox responds improperly to keyboard input in Flash movie,,0,0,1
+469,Firefox-260051,Firefox-398647,DUPLICATE,document bookmarks and live bookmarks,,0,0,1
+470,Firefox-260073,Firefox-380566,DUPLICATE,Allow sidebar to auto-hide,,0,0,1
+471,Firefox-260090,Firefox-296635,DUPLICATE,Send link... tried to start new thunderbird when already running,,0,0,1
+472,Firefox-260100,Firefox-273785,DUPLICATE,mozplugger only used after a visit to the about:plugins page; otherwise download manager pops up,,0,0,1
+473,Firefox-260127,Firefox-263182,DUPLICATE,Page Info > Security doesnt warn when page contains some insecure items,Page Info (Security tab) doesnt explain mixed secure/insecure,1,0,1
+474,Firefox-260163,Firefox-260553,DUPLICATE,When browser is closed and reopened all bookmarks are gone. bookmarks not saving.,Bookmarks disappear after power outage and/or crashes,1,1,1
+475,Firefox-260188,Firefox-260572,DUPLICATE,emacs/readline keybindings are off by default (ctrl+u in address bar views source),,0,0,1
+476,Firefox-260273,Firefox-263261,DUPLICATE,No contextual menu in the left pane of the bookmark manager,,0,0,1
+477,Firefox-260283,Firefox-282851,DUPLICATE,big table freezes Firefox,,0,0,1
+478,Firefox-260284,Firefox-260285,DUPLICATE,It can not convert the Operas bookmarks (if they have Chinese Charactor),It can not convert the Operas bookmarks (if they have Chinese Charactor),0,1,1
+479,Firefox-260336,Firefox-260337,DUPLICATE,Fail to build on solaris,Fail to build on solaris,1,1,1
+480,Firefox-260394,Firefox-262499,DUPLICATE,Firefox does not properly insert HTML code on message boards,,0,0,1
+481,Firefox-260476,Firefox-266348,DUPLICATE,Livemark failure with Proxies with authentication,live bookmark feed fails to load if no prior authentication (cant connect at startup),1,1,1
+482,Firefox-260772,Firefox-269973,DUPLICATE,After closing a JAVA applet; the text bar starts accepting text backwards and the browser stops functioning,,0,0,1
+483,Firefox-260807,Firefox-305040,DUPLICATE,FireFox forgets to write some registry values when setting as default browser,,0,0,1
+484,Firefox-260824,Firefox-293029,DUPLICATE,Allow tabs to be transferred to other FireFox windows (frames),,0,0,1
+485,Firefox-260889,Firefox-275783,DUPLICATE,100% of processor resources used; stays used,,0,0,1
+486,Firefox-260902,Firefox-378424,DUPLICATE,Right mouse click when using TightVNC causes duplicate menus to pop up,,0,0,1
+487,Firefox-260996,Firefox-261074,DUPLICATE,Firefox Forgets Element Class Name,,0,0,1
+488,Firefox-261016,Firefox-387137,DUPLICATE,IE migration deletes contents of Bookmarks Toolbar Folder,,0,0,1
+489,Firefox-261025,Firefox-261026,DUPLICATE,detects wrong domain in allow domain to install software,,0,0,1
+490,Firefox-261039,Firefox-288054,DUPLICATE,Upgrading from old version to 1.0PR with allow websites to install software turned off bug,,0,0,1
+491,Firefox-261046,Firefox-261613,DUPLICATE,Popup blocker fails if a modal dialog window (view certificate; about box; options; ..) is open,,0,0,1
+492,Firefox-261206,Firefox-262222,DUPLICATE,Live Bookmarks RSS feature doesnt recognize parent directory,Relative URLs in Live Bookmark link elements not resolved,1,1,1
+493,Firefox-261274,Firefox-261275,DUPLICATE,Foxfire does notinstall .exe. programs,Open is disabled for .exe programs from CD-ROMs,1,1,1
+494,Firefox-261403,Firefox-290187,DUPLICATE,SSL Certificate warning pop-up windows use inconsistent position of OK/Cancel buttons,,0,0,1
+495,Firefox-261645,Firefox-261648,DUPLICATE,Firefox doesnt display more than 2 simultaneous streams,,0,0,1
+496,Firefox-261656,Firefox-261674,DUPLICATE,Talkback is unable to connect to report crashes,,0,0,1
+497,Firefox-261659,Firefox-262295,DUPLICATE,browser inconsistently handles buttons in microsoft outlook web access interface,,0,0,1
+498,Firefox-261751,Firefox-533891,DUPLICATE,Null plugin could be removed from the default builds (nullplugin; npnul32.dll),,0,0,1
+499,Firefox-262030,Firefox-479439,DUPLICATE,unnamed bookmarks makes extra margins on the right,,0,0,1
+500,Firefox-262412,Firefox-262652,DUPLICATE,Will open directories with // as root; but triggerts auto-complete from form URL..,,0,0,1
+501,Firefox-262660,Firefox-579174,DUPLICATE,limit javascript window resizes and repositions,,0,0,1
+502,Firefox-262858,Firefox-287775,DUPLICATE,browser ceases to function; evidently;  when Java applet is begun by this webpage,,0,0,1
+503,Firefox-262977,Firefox-262978,DUPLICATE,Opening [non http] links from other applications doesnt restore minimized browser window,Opening links from other applications focuses wrong window,1,1,1
+504,Firefox-263106,Firefox-265069,DUPLICATE,bookmarks and live book marks disappear after closing fireox .10.1,My bookmarks are gone when I re-open Firefox,1,1,1
+505,Firefox-263379,Firefox-283719,DUPLICATE,Add A Keyword For This Search... doesnt work with valid sites which have <fieldset> inside <form>,,0,0,1
+506,Firefox-263754,Firefox-344635,DUPLICATE,location bar width different for normal and secure,,0,0,1
+507,Firefox-263880,Firefox-278544,DUPLICATE,When a new tab is created; the address bar isnt automatically focussed.,,0,0,1
+508,Firefox-264010,Firefox-273198,DUPLICATE,accessing bookaccessing imported IE favourites (network shared folder) in bookmarks menu is slow,,0,0,1
+509,Firefox-264091,Firefox-264100,DUPLICATE,Random Crashes [nsInputStreamPump::OnStateStop or,,0,0,1
+510,Firefox-264154,Firefox-273358,DUPLICATE,copy image to word contains a black square,,0,0,1
+511,Firefox-264204,Firefox-340902,DUPLICATE,[Linux] ALT-digit tab-selection shortcuts conflict with accesskey assignments,,0,0,1
+512,Firefox-264349,Firefox-280159,DUPLICATE,No keyboard shortcut for Highlight on Find toolbar,,0,0,1
+513,Firefox-264387,Firefox-274135,DUPLICATE,incomplete url when clicking on previous sites in the address bar,,0,0,1
+514,Firefox-264464,Firefox-286557,DUPLICATE,Import Wizard prompts for import of settings on first launch in no profiles already exist.,,0,0,1
+515,Firefox-264531,Firefox-265073,DUPLICATE,opening a filemaker web form (6 unlimited) will not show the form properly,,0,0,1
+516,Firefox-264635,Firefox-264683,DUPLICATE,Firefox crashes or freezes when left clicking a link on a page that has just blocked a popup,,0,0,1
+517,Firefox-264666,Firefox-264683,DUPLICATE,clicking certain links in collegeboard.com causes firefox to crash.,,0,0,1
+518,Firefox-264753,Firefox-264754,DUPLICATE,There should be a system tray icon for Firefox when it is minimized (or equivalent).,There should be a system tray icon for Firefox when it is minimized (or equivalent).,1,1,1
+519,Firefox-264762,Firefox-280536,DUPLICATE,when using a frameset with a third party domain poup blocker dont identify the correct domain,,0,0,1
+520,Firefox-264796,Firefox-270159,DUPLICATE,Firefox appends extension when extension already exists,,0,0,1
+521,Firefox-265063,Firefox-265200,DUPLICATE,The sound from the flash is blocked when other application is using audio device.,,0,0,1
+522,Firefox-265077,Firefox-300129,DUPLICATE,Firefox icon does not display when iconized.,,0,0,1
+523,Firefox-265426,Firefox-304370,DUPLICATE,Websites with pop-ups will crash the browser always with x.org 6.8.1 (Any Gecko-based webbrowser including Epiphany does the same thing),,0,0,1
+524,Firefox-265720,Firefox-267426,DUPLICATE,Drag and dropping images directly from firefox to photoshop does not work,,0,0,1
+525,Firefox-265794,Firefox-273198,DUPLICATE,Link in Bookmarks Toolbar to Automounted SMB File Causes Very Long Startup Delay If SMB Mount Not Available,,0,0,1
+526,Firefox-265906,Firefox-283116,DUPLICATE,nsIObserverService::removeObserver fails at browser.js::Shutdown,,0,0,1
+527,Firefox-266189,Firefox-266737,DUPLICATE,Restoring Firefox from minimized state collapses bookmark toolbar,Bookmarks Toolbar is blank/empty only showing chevron/>> after being resized while minimized,0,1,1
+528,Firefox-266223,Firefox-266530,DUPLICATE,Update throbber url for 1.0,Throbber should go to Firefox Central,0,1,1
+529,Firefox-266230,Firefox-526717,DUPLICATE,disable set wallpaper on non-GNOME environments,,0,0,1
+530,Firefox-266248,Firefox-270376,DUPLICATE,open pop-up as a new tab but in a correctly sized window,The ability to view to tabs at the same time would be a nice addition,1,1,1
+531,Firefox-266781,Firefox-273071,DUPLICATE,mailto links wont open a thunderbird windown in current session if thunderbird is already running,,0,0,1
+532,Firefox-266858,Firefox-285445,DUPLICATE,Scroll bar isnt resize on new tab (Ctrl+T),,0,0,1
+533,Firefox-266869,Firefox-266871,DUPLICATE,Huge empty space after many forum entrys; blogs; ect.,Huge empty space after many forum entrys; blogs; ect.,1,1,1
+534,Firefox-266921,Firefox-266932,DUPLICATE,Spoof Vuln in Gecko/20041001 Firefox/0.10.1,Invalid HTML (e.g. nested links) causes firefox to open different url than statusbar on new tab,1,1,1
+535,Firefox-267066,Firefox-267067,DUPLICATE,Importing AOL bookmarks,Importing AOL bookmarks,1,1,1
+536,Firefox-267084,Firefox-269207,DUPLICATE,input elements disabled; input field for URL disabled when firefox is opened while multiple desktops are being used.,,0,0,1
+537,Firefox-267096,Firefox-281825,DUPLICATE,cant send mail,,0,0,1
+538,Firefox-267146,Firefox-667586,DUPLICATE,URL bar should lose secure indication while new URL is typed,,0,0,1
+539,Firefox-267223,Firefox-268096,DUPLICATE,hang on journeyplanner.tfl.gov.uk,,0,0,1
+540,Firefox-267288,Firefox-267290,DUPLICATE,Image is split in print,,0,0,1
+541,Firefox-267397,Firefox-267398,DUPLICATE,crash when opening firefox browser by clicking a link in Outlook or opening html file from windows explorer,,0,0,1
+542,Firefox-267424,Firefox-279339,DUPLICATE,frequent profile corruption,,0,0,1
+543,Firefox-267456,Firefox-267457,DUPLICATE,Inconsistent rendering of tables on site.,,0,0,1
+544,Firefox-267561,Firefox-283050,DUPLICATE,hotkey and other keyboard input unacknowledged or improperly received,,0,0,1
+545,Firefox-267568,Firefox-267570,DUPLICATE,network.protocol-handler.external.shell,,0,0,1
+546,Firefox-267630,Firefox-295683,DUPLICATE,Import Wizard just doesnt do anything. Just nothing after Import ... from:,,0,0,1
+547,Firefox-267785,Firefox-300412,DUPLICATE,Bookmark this group of tabs is missing from the bookmarks menu,,0,0,1
+548,Firefox-267897,Firefox-267898,DUPLICATE,vertical scrollbar in the language add selection dropdown menu is scrolling multiple pages while using scrollwheel,,0,0,1
+549,Firefox-267957,Firefox-267960,DUPLICATE,autocomplete suggestion still there when the same text is filled by autofill and autofill suggestions still visible when scrolling down,autocomplete suggestion still there when the same text is filled by autofill and autofill suggestions still visible when scrolling down,1,1,1
+550,Firefox-268060,Firefox-304370,DUPLICATE,firefox crashes even before displaying http://www.db24.de,,0,0,1
+551,Firefox-268138,Firefox-320915,DUPLICATE,Extensive memory usage over time,,0,0,1
+552,Firefox-268407,Firefox-297713,DUPLICATE,Confirm Close dialog does not respond to keyboard input after closing minimized window with multiple tabs,,0,0,1
+553,Firefox-268627,Firefox-307462,DUPLICATE,Link in about: points to old version,,0,0,1
+554,Firefox-268700,Firefox-294041,DUPLICATE,The About Mozilla Firefox menuitem behaves unexpectantly when the main window is minimized to the dock,,0,0,1
+555,Firefox-268763,Firefox-277486,DUPLICATE,google search direct to google homepage,,0,0,1
+556,Firefox-268782,Firefox-271300,DUPLICATE,Firefox 1.0 locks up pretty randomly and causes OS/X 10.3.6 to be unusable!,,0,0,1
+557,Firefox-268799,Firefox-271470,DUPLICATE,The Print Frames options do not work. I want to print as laid out on the screen.,print dialog doesnt have print frames options in 11 localizations,0,0,1
+558,Firefox-268876,Firefox-275389,DUPLICATE,Error message comes up every time I close Firefox,,0,0,1
+559,Firefox-268892,Firefox-270614,DUPLICATE,Command-w (Ctrl+W) does not close Element Properties window,,0,0,1
+560,Firefox-268944,Firefox-280644,DUPLICATE,Set default pref in firefox.js for livemark refresh interval (livemark_refresh_seconds),,0,0,1
+561,Firefox-269001,Firefox-269033,DUPLICATE,minimized window will come back up; but not maximized,When using Open links from other applications set to a new tab in the most recent window; opening a new link resizes browser,0,1,1
+562,Firefox-269130,Firefox-272283,DUPLICATE,upgraded from windows 98 to xp home and now firefox browser window will not show,,0,0,1
+563,Firefox-269154,Firefox-277486,DUPLICATE,Google search from the Toolbar Search field does not work in Firefox 1.0,,0,0,1
+564,Firefox-269184,Firefox-269185,DUPLICATE,Content types text/xml; application/xml and application/xhtml+xml causes (minor) layout problems,,0,0,1
+565,Firefox-269339,Firefox-270117,DUPLICATE,bookmark or history not opening in new tab,An option to open urlbar; searchbar; bookmarks; history; javascript popup link and DDE call in new tabs through left clicking,1,1,1
+566,Firefox-269367,Firefox-269368,DUPLICATE,Clicking link in Outlook results runs another browser,,0,0,1
+567,Firefox-269509,Firefox-314279,DUPLICATE,All popup menus on a secondary display when using extended desktop mode  display on the primary display,,0,0,1
+568,Firefox-269597,Firefox-271647,DUPLICATE,Scrollbar goes off the bottom when using tabs,bottom of scroll bar is hidden when tab bar shifts page down,0,1,1
+569,Firefox-269616,Firefox-274903,DUPLICATE,file/print or CTRL+P shows no reaction,,0,0,1
+570,Firefox-269841,Firefox-566514,DUPLICATE,Also make previous history of originating tab available in tabs spawning from this tab,,0,0,1
+571,Firefox-269954,Firefox-271359,DUPLICATE,favicon and website dont match in bookmarks menu,Wrong favicons appear on bookmarks for sites with no icon of their own,1,1,1
+572,Firefox-270050,Firefox-356736,DUPLICATE,about:config bookmark drag/drop bug,,0,0,1
+573,Firefox-270151,Firefox-271786,DUPLICATE,searching for strings with german umlauts in wikipedia search does not work,,0,0,1
+574,Firefox-270300,Firefox-270316,DUPLICATE,Hyperlinks dont work with latest firefox,,0,0,1
+575,Firefox-270341,Firefox-273698,DUPLICATE,removing site from block popup windows allowed sites dialog causes blank item - trying to remove blank item causes ok button to not be able to close the dialog,,0,0,1
+576,Firefox-270522,Firefox-287775,DUPLICATE,Firefox 1.0 + Mac OS X 10.3.6 + java 1.4.2_05 = CRASH,,0,0,1
+577,Firefox-270605,Firefox-277083,DUPLICATE,I get error message fail save preference file any changes will be lost,,0,0,1
+578,Firefox-270610,Firefox-271470,DUPLICATE,Print active frame,print dialog doesnt have print frames options in 11 localizations,0,0,1
+579,Firefox-270749,Firefox-272867,DUPLICATE,Gmail steals focus; even across desktops; even if minimized,,0,0,1
+580,Firefox-270902,Firefox-283050,DUPLICATE,menu bar items not showing on some startups,,0,0,1
+581,Firefox-270974,Firefox-358084,DUPLICATE,Multi-user installation is not documented.,,0,0,1
+582,Firefox-271091,Firefox-299372,DUPLICATE,Incorrect filename when downloading via Save Link As... or left click while holding down ALT,,0,0,1
+583,Firefox-271147,Firefox-277083,DUPLICATE,options dontt change.,,0,0,1
+584,Firefox-271470,Firefox-271802,DUPLICATE,print dialog doesnt have print frames options in 11 localizations,,0,0,1
+585,Firefox-271583,Firefox-275430,DUPLICATE,change default for browser.link.open_external to something that doesnt replace existing content,,0,0,1
+586,Firefox-271647,Firefox-285445,DUPLICATE,bottom of scroll bar is hidden when tab bar shifts page down,,0,0,1
+587,Firefox-271654,Firefox-279037,DUPLICATE,Dragged text doesnt include the URL,,0,0,1
+588,Firefox-271671,Firefox-273698,DUPLICATE,Deleting entries in Options->Privacy->Cookies->Exceptions leaves display trashed,,0,0,1

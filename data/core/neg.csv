@@ -1,0 +1,1126 @@
+,Issue_id_1,Issue_id_2,Resolution,Title_1,Title_2,same_comp,same_prio,same_tw
+0,Core-91,Core-103,FIXED,document properties cannot be listed,layout bug: table cell overflows containing cell,0,0,1
+1,Core-103,Core-104,FIXED,layout bug: table cell overflows containing cell,table saved as text: missing inter-column space,0,0,1
+2,Core-104,Core-105,WONTFIX,table saved as text: missing inter-column space,nested <TABLE>s: bgcolor of inner table not recognized,0,0,1
+3,Core-105,Core-133,FIXED,nested <TABLE>s: bgcolor of inner table not recognized,Navigator draws entities like &lt;&amp;&gt; as ?s when KOI-8 encoding is set.,0,0,1
+4,Core-133,Core-159,FIXED,Navigator draws entities like &lt;&amp;&gt; as ?s when KOI-8 encoding is set.,warning fix : ns/js/jsj/jsStubs.c,0,0,1
+5,Core-159,Core-174,FIXED,warning fix : ns/js/jsj/jsStubs.c,URL: mailto:s -> Failed assert on exit at mkgeturl.c:5855 (net_CleanupMailtoStub),0,0,1
+6,Core-174,Core-220,FIXED,URL: mailto:s -> Failed assert on exit at mkgeturl.c:5855 (net_CleanupMailtoStub),Incorrect display of CP-1250 pages in Unix version,0,1,1
+7,Core-220,Core-228,FIXED,Incorrect display of CP-1250 pages in Unix version,Navigator spawn a lot of error messages in infinite loop.,0,1,1
+8,Core-228,Core-273,FIXED,Navigator spawn a lot of error messages in infinite loop.,Submenu open delay wrong on Windows,0,0,1
+9,Core-279,Core-324,FIXED,Garbage collector incorrectly called during script execution,explicit casts needed in EditorFrame.cpp,0,1,1
+10,Core-324,Core-334,FIXED,explicit casts needed in EditorFrame.cpp,ANSI disallows enum casts - make explicit in EditorView.cpp,1,1,1
+11,Core-334,Core-335,FIXED,ANSI disallows enum casts - make explicit in EditorView.cpp,ANSI disallows enum casts - make explicit in HistoryView.cpp,0,1,1
+12,Core-335,Core-346,FIXED,ANSI disallows enum casts - make explicit in HistoryView.cpp,Missing & in parameter; cmd/xfe/forms.c:2116,0,0,1
+13,Core-346,Core-387,FIXED,Missing & in parameter; cmd/xfe/forms.c:2116,warnings when compiling jsmath.c in javascript ref,0,0,1
+14,Core-387,Core-414,WONTFIX,warnings when compiling jsmath.c in javascript ref,on resizing browser A HREF= function() js function undefined,1,1,1
+15,Core-420,Core-432,WONTFIX,[NATIVE-WIDGET] a <select> doesnt show up as the document background color,PowerBuilder plugin causes random page fault error.,0,1,1
+16,Core-432,Core-433,FIXED,PowerBuilder plugin causes random page fault error.,Page fault error created when Netscape launched before Windows completes loading,1,1,1
+17,Core-433,Core-434,WONTFIX,Page fault error created when Netscape launched before Windows completes loading,Communicator does not work with PowerBuilder plugin.,1,1,1
+18,Core-436,Core-438,FIXED,Doesnt display some GIFs,Incorrect anonymous FTP login,0,0,1
+19,Core-438,Core-452,WONTFIX,Incorrect anonymous FTP login,user entries in LOCAL_MACHINE instead of CURRENT_USER,0,0,1
+20,Core-454,Core-465,FIXED,Unix: 0x80-0x9F in cp1252 do not display correctly,FTP PORT (active) command support,0,0,1
+21,Core-465,Core-466,WONTFIX,FTP PORT (active) command support,font stacks and a parsing algorithm bug,0,0,1
+22,Core-467,Core-476,FIXED,Undefined references in $CODEROOT/nsprpub/pr/src/linking/prlink.c,Core dump on startup of moz-export,0,1,1
+23,Core-476,Core-490,FIXED,Core dump on startup of moz-export,[Dogfood] Editor needs to insert formatting whitespace,0,1,1
+24,Core-490,Core-492,FIXED,[Dogfood] Editor needs to insert formatting whitespace,Multiple ALIGN=LEFT tables dont render,0,0,1
+25,Core-492,Core-534,FIXED,Multiple ALIGN=LEFT tables dont render,Saving bookmarks corrupts dir ownership,0,0,1
+26,Core-534,Core-560,FIXED,Saving bookmarks corrupts dir ownership,Ugly residue between page loads on Win95,0,0,1
+27,Core-560,Core-564,FIXED,Ugly residue between page loads on Win95,ISO-8859-1 should be converted as CP 1252,0,1,1
+28,Core-564,Core-566,FIXED,ISO-8859-1 should be converted as CP 1252,Puke appears on screen in between page loads on Win95,0,1,1
+29,Core-566,Core-568,FIXED,Puke appears on screen in between page loads on Win95,NGLayout Crashes on this URL trying parse cookie date,0,1,1
+30,Core-568,Core-569,FIXED,NGLayout Crashes on this URL trying parse cookie date,Make the Beep Stop!,0,1,1
+31,Core-569,Core-570,FIXED,Make the Beep Stop!,Courier; Times New Roman fonts dont display in Test 0,0,1,1
+32,Core-570,Core-572,FIXED,Courier; Times New Roman fonts dont display in Test 0,Release Build Crashes on Mouseovers,0,1,1
+33,Core-572,Core-573,FIXED,Release Build Crashes on Mouseovers,LINKd style sheets do not work,0,1,1
+34,Core-573,Core-574,FIXED,LINKd style sheets do not work,Whitespace is chopped after closing tags,0,1,1
+35,Core-574,Core-576,FIXED,Whitespace is chopped after closing tags,<STRONG> doesnt work,1,1,1
+36,Core-576,Core-577,FIXED,<STRONG> doesnt work,Clicking on a link doesnt make it ACTIVE,0,1,1
+37,Core-577,Core-578,FIXED,Clicking on a link doesnt make it ACTIVE,CSS First-line selector doesnt work,0,1,1
+38,Core-578,Core-579,FIXED,CSS First-line selector doesnt work,{feature} CSS First-letter selector isnt finished,1,0,1
+39,Core-579,Core-580,FIXED,{feature} CSS First-letter selector isnt finished,CSS !important doesnt work,1,0,1
+40,Core-580,Core-581,FIXED,CSS !important doesnt work,CSS must have fonts cursive and fantasy arent supported,1,0,1
+41,Core-582,Core-585,FIXED,{css1} Monospace font inside a serif div doesnt work,line-height property not supported,1,1,1
+42,Core-585,Core-588,FIXED,line-height property not supported,{feature} [TEXT] Full justification of text doesnt work,0,0,1
+43,Core-588,Core-589,FIXED,{feature} [TEXT] Full justification of text doesnt work,Mixed style lists arent counted properly,0,0,1
+44,Core-589,Core-590,FIXED,Mixed style lists arent counted properly,List items dont support images as bullets,0,0,1
+45,Core-590,Core-592,FIXED,List items dont support images as bullets,NGLayout crashes when loading this URL,0,0,1
+46,Core-592,Core-593,FIXED,NGLayout crashes when loading this URL,Forms with only one text field should submit on enter,0,1,1
+47,Core-593,Core-594,FIXED,Forms with only one text field should submit on enter,Raptor Crashes whenever a form is submitted,1,1,1
+48,Core-594,Core-596,FIXED,Raptor Crashes whenever a form is submitted,NGLayout crashes on this URL,0,1,1
+49,Core-596,Core-597,FIXED,NGLayout crashes on this URL,PageDown/PageUp key presses should scroll document,0,1,1
+50,Core-598,Core-599,FIXED,Raptor hangs at www.cbs.com,ss:FTP directories not displaying,0,1,1
+51,Core-602,Core-603,FIXED,Frames marginwidth and marginheight not implemented yet,script src= doesnt work,0,1,1
+52,Core-604,Core-605,FIXED,Viewer Crashes in form element,text appears in wrong place in doc,0,0,1
+53,Core-605,Core-607,FIXED,text appears in wrong place in doc,frameborder & border not yet implemented in <frameset>,0,1,1
+54,Core-607,Core-608,FIXED,frameborder & border not yet implemented in <frameset>,not implemented - frame borders responsive to mouse,1,1,1
+55,Core-608,Core-609,FIXED,not implemented - frame borders responsive to mouse,Links dont work due to new selection code,0,0,1
+56,Core-609,Core-610,FIXED,Links dont work due to new selection code,Editor mode and JS console need to move out of debug-only code,0,0,1
+57,Core-610,Core-611,FIXED,Editor mode and JS console need to move out of debug-only code,Clicking on links do not work.,0,1,1
+58,Core-611,Core-612,FIXED,Clicking on links do not work.,Selection cursor appears when clicking on a link,1,1,1
+59,Core-612,Core-613,FIXED,Selection cursor appears when clicking on a link,ss:hitting submit button causes re-entrancy crash,1,0,1
+60,Core-613,Core-617,FIXED,ss:hitting submit button causes re-entrancy crash,Crash in Dispatch event when switch documents,1,0,1
+61,Core-617,Core-618,FIXED,Crash in Dispatch event when switch documents,row background painting not backwards compatible,0,1,1
+62,Core-618,Core-619,FIXED,row background painting not backwards compatible,table layout broken with nscoord-width columns and colspans,0,0,1
+63,Core-619,Core-620,FIXED,table layout broken with nscoord-width columns and colspans,images with no width attribute in tables dont work well,1,1,1
+64,Core-620,Core-621,FIXED,images with no width attribute in tables dont work well,a document that ends in text doesnt layout properly,0,0,1
+65,Core-621,Core-622,FIXED,a document that ends in text doesnt layout properly,propagation error for tables,0,1,1
+66,Core-622,Core-623,FIXED,propagation error for tables,table assertion triggered when maxElementSize > desiredSize,1,1,1
+67,Core-623,Core-624,FIXED,table assertion triggered when maxElementSize > desiredSize,child frames border settings override parents,0,1,1
+68,Core-624,Core-625,WONTFIX,child frames border settings override parents,floating image inteferes with painting (layer involved),0,1,1
+69,Core-625,Core-627,FIXED,floating image inteferes with painting (layer involved),floating table problems,1,1,1
+70,Core-627,Core-628,FIXED,floating table problems,floating image problems,1,1,1
+71,Core-628,Core-629,FIXED,floating image problems,parser bug; illegal table not handled right,1,1,1
+72,Core-630,Core-632,FIXED,parser bug; <center> tags in table not handled correctly,Select All does turn on selection display selected,0,1,1
+73,Core-632,Core-633,FIXED,Select All does turn on selection display selected,The initial shift click in window crashes the viewer,0,1,1
+74,Core-633,Core-635,FIXED,The initial shift click in window crashes the viewer,BODY attributes marginwidth & marginheight not supported,0,1,1
+75,Core-635,Core-636,FIXED,BODY attributes marginwidth & marginheight not supported,too much vertical space in table cells,0,1,1
+76,Core-636,Core-637,FIXED,too much vertical space in table cells,tables do not yet support percent height attributes,0,0,1
+77,Core-637,Core-638,FIXED,tables do not yet support percent height attributes,floating image align=right messes up table layout,0,1,1
+78,Core-638,Core-639,FIXED,floating image align=right messes up table layout,we need minimization notifications,0,0,1
+79,Core-639,Core-640,WONTFIX,we need minimization notifications,floating table display error,0,1,1
+80,Core-640,Core-641,FIXED,floating table display error,table height attribute doesnt work,0,1,1
+81,Core-642,Core-644,FIXED,text field widget is wrong size; font,Checking on named anchors (#foo) in page forces reload,0,0,1
+82,Core-644,Core-645,FIXED,Checking on named anchors (#foo) in page forces reload,Crash in dom/js when clicking on links with js in framesets,0,1,1
+83,Core-645,Core-646,FIXED,Crash in dom/js when clicking on links with js in framesets,<noscript> tag not respected,0,0,1
+84,Core-646,Core-647,FIXED,<noscript> tag not respected,mismatched style tags in nested tables closes outer table prematurely,0,0,1
+85,Core-647,Core-648,FIXED,mismatched style tags in nested tables closes outer table prematurely,vertical space incorrect inside a <font> tag,0,1,1
+86,Core-648,Core-649,FIXED,vertical space incorrect inside a <font> tag,vertical centering,0,0,1
+87,Core-649,Core-650,FIXED,vertical centering,resizing window horiz. changes table layout incorrectly,1,1,1
+88,Core-650,Core-651,FIXED,resizing window horiz. changes table layout incorrectly,garbage form buttons,0,1,1
+89,Core-651,Core-652,FIXED,garbage form buttons,Server Side Image Maps Do Not Work,1,1,1
+90,Core-652,Core-655,FIXED,Server Side Image Maps Do Not Work,<DT> in <TD>,0,1,1
+91,Core-655,Core-656,FIXED,<DT> in <TD>,Selection draw incorrectly at beginning of line,0,1,1
+92,Core-656,Core-657,FIXED,Selection draw incorrectly at beginning of line,percent-width cells in auto-width tables dont work,0,1,1
+93,Core-657,Core-658,FIXED,percent-width cells in auto-width tables dont work,Copying HTML to AIM does not work under windows 95/NT,0,1,1
+94,Core-658,Core-660,FIXED,Copying HTML to AIM does not work under windows 95/NT,Javascript loaded images get drawn twice,0,1,1
+95,Core-660,Core-661,FIXED,Javascript loaded images get drawn twice,navigator.mimetypes array does not work (blocked on with(document)),0,0,1
+96,Core-661,Core-662,FIXED,navigator.mimetypes array does not work (blocked on with(document)),too much whitespace between some elements on aol.com,0,0,1
+97,Core-662,Core-663,FIXED,too much whitespace between some elements on aol.com,Resizing image in a floating table doesnt reflow text properly,1,1,1
+98,Core-663,Core-664,FIXED,Resizing image in a floating table doesnt reflow text properly,Paragraphs with CSS margin attributes are corrupted,1,1,1
+99,Core-664,Core-667,FIXED,Paragraphs with CSS margin attributes are corrupted,Missing <BODY> tag cause page not to load,1,1,1
+100,Core-667,Core-668,FIXED,Missing <BODY> tag cause page not to load,image submit controls not responsive,0,1,1
+101,Core-668,Core-670,FIXED,image submit controls not responsive,assert because we try to BalanceColumnWidths on a continuing frame,0,1,1
+102,Core-670,Core-671,FIXED,assert because we try to BalanceColumnWidths on a continuing frame,layout incorrect in tables with 1 row and cells with colspans,1,1,1
+103,Core-671,Core-674,FIXED,layout incorrect in tables with 1 row and cells with colspans,NGLayout crashes on link from this URL,0,1,1
+104,Core-674,Core-675,FIXED,NGLayout crashes on link from this URL,%-width cells not layout out correctly,0,1,1
+105,Core-675,Core-676,WONTFIX,%-width cells not layout out correctly,Purify Reports Leak of Form Object,0,0,1
+106,Core-676,Core-677,FIXED,Purify Reports Leak of Form Object,Headings are positioned off the right edge of the page,0,0,1
+107,Core-677,Core-678,FIXED,Headings are positioned off the right edge of the page,text/html and text/plain OBJECTs dont work,1,1,1
+108,Core-678,Core-681,FIXED,text/html and text/plain OBJECTs dont work,ugly link parses incorrectly; source gets put into content,0,0,1
+109,Core-681,Core-682,FIXED,ugly link parses incorrectly; source gets put into content,form elements with nbsp dont give back correct measurements,0,0,1
+110,Core-682,Core-683,FIXED,form elements with nbsp dont give back correct measurements,parser complains about null tag on www.stocksite.com,0,1,1
+111,Core-683,Core-684,FIXED,parser complains about null tag on www.stocksite.com,Image.setDOMAttribute(WIDTH;400); is broken,0,1,1
+112,Core-684,Core-686,FIXED,Image.setDOMAttribute(WIDTH;400); is broken,reflow of tables doesnt reposition caption,0,1,1
+113,Core-686,Core-687,FIXED,reflow of tables doesnt reposition caption,infinite loop,0,0,1
+114,Core-687,Core-688,FIXED,infinite loop,crash destroying content when there is a font tag inside a select form element,0,1,1
+115,Core-688,Core-689,FIXED,crash destroying content when there is a font tag inside a select form element,table alignment not quite right in constrained layout case,0,0,1
+116,Core-689,Core-690,FIXED,table alignment not quite right in constrained layout case,Link text gets smushed into other text (bad spacing),0,1,1
+117,Core-690,Core-691,FIXED,Link text gets smushed into other text (bad spacing),removeChild() causes crash,0,0,1
+118,Core-691,Core-693,FIXED,removeChild() causes crash,Were parsing comments strangely inside a script tag,0,0,1
+119,Core-693,Core-694,FIXED,Were parsing comments strangely inside a script tag,ALT text on images cant handle entities,0,0,1
+120,Core-694,Core-695,FIXED,ALT text on images cant handle entities,Bottom and right borders of HRs are not visible,1,0,1
+121,Core-695,Core-696,FIXED,Bottom and right borders of HRs are not visible,TR tags dont expose their ID attribute to DOM,1,1,1
+122,Core-696,Core-697,FIXED,TR tags dont expose their ID attribute to DOM,Raptor build status displays incorrectly,0,1,1
+123,Core-697,Core-699,FIXED,Raptor build status displays incorrectly,table layout not correct,0,1,1
+124,Core-699,Core-700,FIXED,table layout not correct,cant draw unicode characters,0,1,1
+125,Core-700,Core-701,FIXED,cant draw unicode characters,Multiple CSS classes arent implemented yet,0,0,1
+126,Core-701,Core-702,FIXED,Multiple CSS classes arent implemented yet,vertical centering wrong in <p align=center>,0,0,1
+127,Core-702,Core-703,FIXED,vertical centering wrong in <p align=center>,align=middle fails on <h1>,0,0,1
+128,Core-703,Core-707,FIXED,align=middle fails on <h1>,CSS clear attribute not working,0,0,1
+129,Core-707,Core-709,FIXED,CSS clear attribute not working,<TR ALIGN=center> Doesnt center cell data,0,1,1
+130,Core-711,Core-714,WONTFIX,CSS color: statement ignored.,CSS: using the float property makes the page look scrambled,1,0,1
+131,Core-714,Core-719,FIXED,CSS: using the float property makes the page look scrambled,TextTransform does not work on CSS for non-ASCII,1,1,1
+132,Core-719,Core-722,FIXED,TextTransform does not work on CSS for non-ASCII,Problem with priority langage,0,1,1
+133,Core-722,Core-727,WONTFIX,Problem with priority langage,[p4x] table layout problems,0,0,1
+134,Core-727,Core-728,WONTFIX,[p4x] table layout problems,Resizing the window also resizes an absolutely-sized frame,0,0,1
+135,Core-728,Core-737,FIXED,Resizing the window also resizes an absolutely-sized frame,file:/// url navigation and generated directory,0,0,1
+136,Core-746,Core-747,FIXED,missing CSS styles,Bulleted list items eat anchors,0,1,1
+137,Core-747,Core-751,FIXED,Bulleted list items eat anchors,GetPosition in nsTextFrame is slow,0,1,1
+138,Core-751,Core-752,FIXED,GetPosition in nsTextFrame is slow,nsISelection needs to be XPCOMd,1,1,1
+139,Core-752,Core-753,FIXED,nsISelection needs to be XPCOMd,Combined nsImage* & gfxImageFrame,0,0,1
+140,Core-753,Core-756,FIXED,Combined nsImage* & gfxImageFrame,ABBR not handled correctly,0,0,1
+141,Core-757,Core-758,FIXED,width property not properly enforced,Highlighting text in the viewer causes the app to crash,0,1,1
+142,Core-758,Core-770,FIXED,Highlighting text in the viewer causes the app to crash,HTML entities dont work in DOM,0,1,1
+143,Core-770,Core-773,WONTFIX,HTML entities dont work in DOM,Chunked decoding can get stuck in STRIP_CRLF state,0,1,1
+144,Core-773,Core-775,FIXED,Chunked decoding can get stuck in STRIP_CRLF state,max-element-size not impacted by margins,0,1,1
+145,Core-775,Core-779,FIXED,max-element-size not impacted by margins,Images not loading occasionally,0,0,1
+146,Core-779,Core-785,WONTFIX,Images not loading occasionally,{sink} Handling framesets with bodies,0,1,1
+147,Core-785,Core-786,FIXED,{sink} Handling framesets with bodies,Use of rowspan causes cursor to not change when over link; but link works,0,1,1
+148,Core-786,Core-790,FIXED,Use of rowspan causes cursor to not change when over link; but link works,Mozilla crashes when looking history,0,0,1
+149,Core-790,Core-794,WONTFIX,Mozilla crashes when looking history,Split alignment back into three buttons,0,0,1
+150,Core-794,Core-796,WONTFIX,Split alignment back into three buttons,Table totally hosed,0,0,1
+151,Core-796,Core-797,FIXED,Table totally hosed,OBJECT element alternate content is not displayed,1,1,1
+152,Core-797,Core-802,FIXED,OBJECT element alternate content is not displayed,{list} bullets positioned strangely around floats,1,0,1
+153,Core-802,Core-803,FIXED,{list} bullets positioned strangely around floats,Floaters Arent Resized Properly,1,0,1
+154,Core-803,Core-805,FIXED,Floaters Arent Resized Properly,the dom leaks memory. alot.,0,1,1
+155,Core-805,Core-807,FIXED,the dom leaks memory. alot.,em units dont work,0,0,1
+156,Core-807,Core-808,FIXED,em units dont work,padding and borders dont work on HTML and BODY elements,0,0,1
+157,Core-808,Core-809,FIXED,padding and borders dont work on HTML and BODY elements,block-level elements dont strech out to the right,0,0,1
+158,Core-809,Core-810,FIXED,block-level elements dont strech out to the right,borders around elements eat their way into text,1,0,1
+159,Core-811,Core-812,FIXED,default margin on DIV elements is non-zero,no left padding,1,1,1
+160,Core-812,Core-813,FIXED,no left padding,element widths,0,1,1
+161,Core-813,Core-814,FIXED,element widths,overlapping floating elements - no!,0,0,1
+162,Core-814,Core-815,FIXED,overlapping floating elements - no!,We shouldnt process content inside <NOSCRIPT> tags,0,1,1
+163,Core-815,Core-819,FIXED,We shouldnt process content inside <NOSCRIPT> tags,crashes on launch,0,0,1
+164,Core-819,Core-823,WONTFIX,crashes on launch,LISTING and PRE tags need to eat the first newline,0,1,1
+165,Core-823,Core-830,FIXED,LISTING and PRE tags need to eat the first newline,Crash in mozilla/layout/html/base/src/nsBlockFrame.cpp,0,0,1
+166,Core-830,Core-839,FIXED,Crash in mozilla/layout/html/base/src/nsBlockFrame.cpp,border widths can be negative,0,0,1
+167,Core-839,Core-841,FIXED,border widths can be negative,[PP]changing visited link color crashes Mozilla,0,1,1
+168,Core-841,Core-844,WONTFIX,[PP]changing visited link color crashes Mozilla,whitespace at the end of text shouldnt be underlined,0,1,1
+169,Core-844,Core-845,FIXED,whitespace at the end of text shouldnt be underlined,CSS Parser ignoring first declaration in STYLE element surrounded by comments,0,1,1
+170,Core-845,Core-847,FIXED,CSS Parser ignoring first declaration in STYLE element surrounded by comments,IID collision in nsIConnectionPoint,0,0,1
+171,Core-847,Core-850,FIXED,IID collision in nsIConnectionPoint,CSS Universal Selector should be supported,0,0,1
+172,Core-850,Core-853,FIXED,CSS Universal Selector should be supported,padding-left property doesnt work,0,1,1
+173,Core-853,Core-854,FIXED,padding-left property doesnt work,{sink} content sink needs to support nested incremental reflow,0,0,1
+174,Core-854,Core-857,FIXED,{sink} content sink needs to support nested incremental reflow,<ins> and <del> tag parsed incorrectly,0,0,1
+175,Core-857,Core-858,FIXED,<ins> and <del> tag parsed incorrectly,[Feature] JavaScript auto-disable per-domain RFE,0,1,1
+176,Core-858,Core-859,FIXED,[Feature] JavaScript auto-disable per-domain RFE,crash with LI in table,0,1,1
+177,Core-859,Core-861,FIXED,crash with LI in table,CSS parser eats style rule after malformed rule,0,1,1
+178,Core-861,Core-862,FIXED,CSS parser eats style rule after malformed rule,resetting a form destroys a textarea prematurely,0,1,1
+179,Core-862,Core-863,FIXED,resetting a form destroys a textarea prematurely,we dont support the hex notation for numeric character references,0,1,1
+180,Core-863,Core-865,FIXED,we dont support the hex notation for numeric character references,[PP][NATIVE] textfield widgets have extra leading whitespace,0,1,1
+181,Core-865,Core-866,WONTFIX,[PP][NATIVE] textfield widgets have extra leading whitespace,Cannot login to bugzilla using NGLayout,0,1,1
+182,Core-866,Core-868,FIXED,Cannot login to bugzilla using NGLayout,Following link to webmail goes nowhere,0,1,1
+183,Core-868,Core-875,FIXED,Following link to webmail goes nowhere,Bogus property is not defined errors,0,0,1
+184,Core-875,Core-879,FIXED,Bogus property is not defined errors,BUILD: modules/libimg/src/png_png.cpp and configed --with-png,0,0,1
+185,Core-879,Core-882,FIXED,BUILD: modules/libimg/src/png_png.cpp and configed --with-png,nsButton not initializing mRefCnt,0,0,1
+186,Core-882,Core-889,FIXED,nsButton not initializing mRefCnt,parser not handling illegal content within table,0,0,1
+187,Core-889,Core-904,FIXED,parser not handling illegal content within table,Implement repeating; prioritised timers on Mac,0,1,1
+188,Core-904,Core-905,FIXED,Implement repeating; prioritised timers on Mac,nsFont embedded nsString object,0,1,1
+189,Core-905,Core-907,FIXED,nsFont embedded nsString object,Too many Selector and SelectorList,0,1,1
+190,Core-907,Core-908,FIXED,Too many Selector and SelectorList,Lots of temporary SupportsArrayImpl objects,1,1,1
+191,Core-908,Core-910,FIXED,Lots of temporary SupportsArrayImpl objects,Leaking Bullet Frame,0,1,1
+192,Core-910,Core-912,FIXED,Leaking Bullet Frame,we dont support background-position % values yet,0,1,1
+193,Core-912,Core-916,FIXED,we dont support background-position % values yet,Incorrect handling of 8-bit characters,0,1,1
+194,Core-916,Core-917,FIXED,Incorrect handling of 8-bit characters,A bug in the PNG parsing,0,1,1
+195,Core-917,Core-920,FIXED,A bug in the PNG parsing,Problems with Plugins inside Layers in Navigator?,0,1,1
+196,Core-920,Core-921,WONTFIX,Problems with Plugins inside Layers in Navigator?,BR tags must have zero height,0,1,1
+197,Core-921,Core-922,FIXED,BR tags must have zero height,whitespace should not render,1,1,1
+198,Core-922,Core-923,FIXED,whitespace should not render,<font> reporting wrong metrics to table - 0 maxElementSize,1,0,1
+199,Core-923,Core-924,FIXED,<font> reporting wrong metrics to table - 0 maxElementSize,Crash after loading PNG test icon suite,0,1,1
+200,Core-924,Core-925,FIXED,Crash after loading PNG test icon suite,floating tables dont float,0,0,1
+201,Core-925,Core-926,FIXED,floating tables dont float,The style attribute with a CSS text-decoration value is numeric,0,1,1
+202,Core-926,Core-927,FIXED,The style attribute with a CSS text-decoration value is numeric,crash in image group code,0,0,1
+203,Core-927,Core-932,FIXED,crash in image group code,Ordered List marker - lower alpha is not displayed correctly,1,0,1
+204,Core-932,Core-933,FIXED,Ordered List marker - lower alpha is not displayed correctly,Ordered List marker - lower roman is not displayed correctly,1,1,1
+205,Core-933,Core-935,FIXED,Ordered List marker - lower roman is not displayed correctly,auto-closing DT/DD doesnt work,0,1,1
+206,Core-937,Core-940,WONTFIX,Support MacBin encoding for FILE uploads in FORMs,window.location.href: URL doesnt load second file,0,0,1
+207,Core-940,Core-942,FIXED,window.location.href: URL doesnt load second file,layout is incorrect on this page,0,0,1
+208,Core-942,Core-944,FIXED,layout is incorrect on this page,FIELDSET and LEGEND dont work,0,0,1
+209,Core-944,Core-945,FIXED,FIELDSET and LEGEND dont work,LABEL doesnt work,1,1,1
+210,Core-945,Core-947,FIXED,LABEL doesnt work,Table cell content overrides cell borders,0,0,1
+211,Core-947,Core-948,FIXED,Table cell content overrides cell borders,vertical margins should be collapse across generations,0,1,1
+212,Core-948,Core-949,FIXED,vertical margins should be collapse across generations,margins should be transparent,1,1,1
+213,Core-949,Core-954,FIXED,margins should be transparent,Percentage widths on text fields is not inherited properly,1,0,1
+214,Core-954,Core-957,FIXED,Percentage widths on text fields is not inherited properly,BUTTON element not implemented,0,0,1
+215,Core-957,Core-958,FIXED,BUTTON element not implemented,form element disabled attribute DOM wiring not implemented,1,1,1
+216,Core-958,Core-959,FIXED,form element disabled attribute DOM wiring not implemented,[FEATURE] Accesskey attribute not implemented yet for XUL,0,0,1
+217,Core-959,Core-960,FIXED,[FEATURE] Accesskey attribute not implemented yet for XUL,[FEATURE] window.onResize not implemented,1,0,1
+218,Core-960,Core-961,FIXED,[FEATURE] window.onResize not implemented,[BLOCKER] Document dimensions not exposed to JS yet,0,0,1
+219,Core-961,Core-963,FIXED,[BLOCKER] Document dimensions not exposed to JS yet,Table cells can overlap when shrinking window,0,0,1
+220,Core-964,Core-965,WONTFIX,mozilla.exe - Application Error,Tables with border styles dont display properly,0,1,1
+221,Core-965,Core-966,FIXED,Tables with border styles dont display properly,border: none creates a 5 pixel border,0,1,1
+222,Core-966,Core-967,FIXED,border: none creates a 5 pixel border,crash opening page,0,1,1
+223,Core-967,Core-968,FIXED,crash opening page,Viewer crashes when rendering the above url,0,1,1
+224,Core-968,Core-969,FIXED,Viewer crashes when rendering the above url,[BLOCK] min-width; max-width and min/max-height properties buggy,0,1,1
+225,Core-969,Core-971,FIXED,[BLOCK] min-width; max-width and min/max-height properties buggy,floating button not placed correctly,1,1,1
+226,Core-972,Core-973,FIXED,[FONT MAC] CSS font-weight: all font weights show as either normal or bold,CSS font-size: small looks like normal font size,1,1,1
+227,Core-973,Core-974,FIXED,CSS font-size: small looks like normal font size,CSS font-size: ex is showing as xxsmall ; any ex units are too small,1,1,1
+228,Core-974,Core-975,FIXED,CSS font-size: ex is showing as xxsmall ; any ex units are too small,{css1} font-size: test for .5in is nearly an inch high,1,1,1
+229,Core-975,Core-976,FIXED,{css1} font-size: test for .5in is nearly an inch high,{css1} font-size: test for 1cm font size is 1.5 cm high,1,1,1
+230,Core-976,Core-985,FIXED,{css1} font-size: test for 1cm font size is 1.5 cm high,{perf} Performance problem with long directory listings,0,0,1
+231,Core-985,Core-986,FIXED,{perf} Performance problem with long directory listings,Unable to go to last half of links on page,1,0,1
+232,Core-987,Core-988,FIXED,background color for form elements is wrong,the bullets in front of some of the items are positioned oddly,0,1,1
+233,Core-988,Core-989,FIXED,the bullets in front of some of the items are positioned oddly,crash in js form handling stuff...,0,1,1
+234,Core-989,Core-990,FIXED,crash in js form handling stuff...,floaters in the box above the weather area are wrong,0,1,1
+235,Core-990,Core-991,FIXED,floaters in the box above the weather area are wrong,[DOGFOOD][4.xP] font tags containing blocks are badly parsed,0,0,1
+236,Core-991,Core-992,FIXED,[DOGFOOD][4.xP] font tags containing blocks are badly parsed,Contact (SM) is laying out wrong,0,0,1
+237,Core-992,Core-993,FIXED,Contact (SM) is laying out wrong,Unhandled exception in jsapi,0,1,1
+238,Core-993,Core-994,WONTFIX,Unhandled exception in jsapi,OPTGROUP not implemented yet,0,1,1
+239,Core-994,Core-998,FIXED,OPTGROUP not implemented yet,table with iframe not rendering properly,0,1,1
+240,Core-998,Core-999,FIXED,table with iframe not rendering properly,float does not work properly,0,1,1
+241,Core-1004,Core-1005,FIXED,should support CSS2 system colors,Mozilla Crashes when there are pop up windows.,0,0,1
+242,Core-1005,Core-1006,WONTFIX,Mozilla Crashes when there are pop up windows.,we dont support text-indent,0,1,1
+243,Core-1006,Core-1010,FIXED,we dont support text-indent,Links in dont work inside rowspand cells,0,0,1
+244,Core-1011,Core-1015,FIXED,news.com columns are getting mushed to the left,navigator.mimeTypes not implemented,0,1,1
+245,Core-1021,Core-1024,FIXED,[html.css] Widgets should use CSS2 system colors (and fonts),Modifying style.top actually modifies style.left,0,0,1
+246,Core-1024,Core-1026,FIXED,Modifying style.top actually modifies style.left,NGLayout does not incrementally display fixed width tables,0,1,1
+247,Core-1039,Core-1040,FIXED,Negative CSS font-size should not be allowed,CSS vertical-align problems; reflow strange,1,1,1
+248,Core-1040,Core-1041,FIXED,CSS vertical-align problems; reflow strange,Percentage margins dont shrink when the browser window gets narrow,0,1,1
+249,Core-1041,Core-1042,FIXED,Percentage margins dont shrink when the browser window gets narrow,CSS auto margins dont justify blocks,1,1,1
+250,Core-1042,Core-1043,FIXED,CSS auto margins dont justify blocks,DIV should be considered to terminate a P,0,0,1
+251,Core-1043,Core-1046,FIXED,DIV should be considered to terminate a P,letter-spacing should apply on space characters too [INLINE],0,0,1
+252,Core-1046,Core-1047,FIXED,letter-spacing should apply on space characters too [INLINE],CSS text-align: justify doesnt work,1,1,1
+253,Core-1048,Core-1049,FIXED,CSS property text-indent not supported,{css1} CSS list-style-position not supported,1,1,1
+254,Core-1049,Core-1050,FIXED,{css1} CSS list-style-position not supported,Phantom border with CSS border-style set to none,1,1,1
+255,Core-1050,Core-1051,FIXED,Phantom border with CSS border-style set to none,Default CSS border-width=medium border-style=none,0,1,1
+256,Core-1051,Core-1052,FIXED,Default CSS border-width=medium border-style=none,Top borders are a pixel too thin,0,1,1
+257,Core-1052,Core-1053,FIXED,Top borders are a pixel too thin,groove and ridge borders are reversed,1,1,1
+258,Core-1053,Core-1054,FIXED,groove and ridge borders are reversed,{css1} Dashed and dotted borders have ugly corners,0,0,1
+259,Core-1054,Core-1055,FIXED,{css1} Dashed and dotted borders have ugly corners,{css1} BORDER attribute incorrectly overriding CSS rules,0,0,1
+260,Core-1055,Core-1056,FIXED,{css1} BORDER attribute incorrectly overriding CSS rules,maxAscent/maxDescent not backed up,0,1,1
+261,Core-1056,Core-1057,FIXED,maxAscent/maxDescent not backed up,Percentage margins load incorrectly if window was resized - better on reflow,1,1,1
+262,Core-1057,Core-1058,FIXED,Percentage margins load incorrectly if window was resized - better on reflow,Margins not applied,1,1,1
+263,Core-1058,Core-1059,FIXED,Margins not applied,Floats within Tables,0,1,1
+264,Core-1059,Core-1060,FIXED,Floats within Tables,Percentage width floats not resized,0,1,1
+265,Core-1064,Core-1065,FIXED,missing vertical space,image alignment,1,1,1
+266,Core-1065,Core-1066,FIXED,image alignment,form element incorrect width,1,1,1
+267,Core-1066,Core-1070,WONTFIX,form element incorrect width,Crashes when viewing pages with too many nested tags.,0,1,1
+268,Core-1072,Core-1073,FIXED,Negative characters,navigator.preference() not wired up yet,0,1,1
+269,Core-1075,Core-1076,FIXED,Resizing frameset window - frames shift,[NATIVE]CSS borders dont work on input elements,0,0,1
+270,Core-1076,Core-1077,FIXED,[NATIVE]CSS borders dont work on input elements,{inc} incremental reflow bug,0,0,1
+271,Core-1077,Core-1080,FIXED,{inc} incremental reflow bug,{vmargin} top/bottom block margins and floaters dont mix well,1,0,1
+272,Core-1080,Core-1081,FIXED,{vmargin} top/bottom block margins and floaters dont mix well,css9.4.2 bug,1,1,1
+273,Core-1081,Core-1087,FIXED,css9.4.2 bug,Displays funny,1,1,1
+274,Core-1087,Core-1088,FIXED,Displays funny,Necko: Netlib performance ->URLImpl Locking Overhead,0,1,1
+275,Core-1088,Core-1089,FIXED,Necko: Netlib performance ->URLImpl Locking Overhead,Performance of style= attribute,0,1,1
+276,Core-1089,Core-1094,FIXED,Performance of style= attribute,FORM behaves like inline element,0,1,1
+277,Core-1097,Core-1099,WONTFIX,crypto.signText() and Win16 problem.,negative left margins are broken,0,1,1
+278,Core-1099,Core-1102,FIXED,negative left margins are broken,bad box layout,1,1,1
+279,Core-1102,Core-1107,FIXED,bad box layout,Once text-decoration is set to blink in CSSOM; its impossible to turn off,0,1,1
+280,Core-1107,Core-1109,FIXED,Once text-decoration is set to blink in CSSOM; its impossible to turn off,Cursor doesnt change to hand when over a link,0,0,1
+281,Core-1109,Core-1110,FIXED,Cursor doesnt change to hand when over a link,Table layout looks funky,0,0,1
+282,Core-1112,Core-1114,FIXED,Cant submit a form,ss:we need to stop eating the stuff inside of IFRAMEs,0,1,1
+283,Core-1114,Core-1115,FIXED,ss:we need to stop eating the stuff inside of IFRAMEs,JavaScript build error,0,1,1
+284,Core-1115,Core-1118,FIXED,JavaScript build error,Using content-type JS versioning is sticky,0,1,1
+285,Core-1118,Core-1119,FIXED,Using content-type JS versioning is sticky,List items not indented,0,1,1
+286,Core-1119,Core-1120,FIXED,List items not indented,top-margin of first element within a float is ignored,1,1,1
+287,Core-1122,Core-1124,FIXED,body margins increased maximize and restore,letters a-f after decimal character entity e.g. &#039 are eaten,0,1,1
+288,Core-1124,Core-1125,FIXED,letters a-f after decimal character entity e.g. &#039 are eaten,</FONT size> problem,1,1,1
+289,Core-1125,Core-1126,FIXED,</FONT size> problem,Setting column width on COLGROUP not implemented yet,0,1,1
+290,Core-1126,Core-1127,FIXED,Setting column width on COLGROUP not implemented yet,SPAN attribute on COL element not implemented yet,1,1,1
+291,Core-1127,Core-1128,FIXED,SPAN attribute on COL element not implemented yet,Proportional Width Table Columns not implemented yet,1,1,1
+292,Core-1128,Core-1129,FIXED,Proportional Width Table Columns not implemented yet,Cant apply style properties to table columns (not implemented yet),1,1,1
+293,Core-1130,Core-1131,FIXED,Password INPUTs dont handle VALUE attribute correctly,Text input fields have extra whitespace,1,1,1
+294,Core-1132,Core-1133,FIXED,We dont emulate this TEXTAREA quirk,READONLY attribute not supported,1,1,1
+295,Core-1133,Core-1134,FIXED,READONLY attribute not supported,DISABLED attribute not supported on OPTION element,1,1,1
+296,Core-1134,Core-1135,FIXED,DISABLED attribute not supported on OPTION element,DEL and INS need some default style,0,1,1
+297,Core-1135,Core-1136,FIXED,DEL and INS need some default style,Title of viewer window changes as frames are loaded,0,1,1
+298,Core-1136,Core-1137,FIXED,Title of viewer window changes as frames are loaded,Selection is wrong color,0,0,1
+299,Core-1137,Core-1138,FIXED,Selection is wrong color,HTML 4.0 Q (Quotation) tag not implemented yet,0,0,1
+300,Core-1139,Core-1140,FIXED,DFN tag needs default style,XMP tag not implemented yet,0,1,1
+301,Core-1140,Core-1141,FIXED,XMP tag not implemented yet,CSS inherit Value should be supported,0,1,1
+302,Core-1142,Core-1143,FIXED,Strange Border Bugs,Changing style on anchor in list causes layout glitch,0,1,1
+303,Core-1143,Core-1151,FIXED,Changing style on anchor in list causes layout glitch,We dont honor the border attribute on input type=image,0,1,1
+304,Core-1151,Core-1153,FIXED,We dont honor the border attribute on input type=image,nsHTMLReflowState has incorrect percentage min values,0,1,1
+305,Core-1153,Core-1154,FIXED,nsHTMLReflowState has incorrect percentage min values,body frame not handling constrained widths,1,1,1
+306,Core-1154,Core-1155,FIXED,body frame not handling constrained widths,OBJECTs do not degrade correctly,0,1,1
+307,Core-1156,Core-1157,FIXED,OBJECTs without type attribute arent rendered,AVI and WAV OBJECTs crash again,1,0,1
+308,Core-1157,Core-1158,FIXED,AVI and WAV OBJECTs crash again,OBJECTs in natively supported formats arent rendered at all,1,0,1
+309,Core-1163,Core-1164,FIXED,The bordercolor attribute is not being honored,ALIGN=MIDDLE and ALIGN=ABSMIDDLE values are not being supported,1,0,1
+310,Core-1164,Core-1165,FIXED,ALIGN=MIDDLE and ALIGN=ABSMIDDLE values are not being supported,margins on floating elements misbehave,0,1,1
+311,Core-1165,Core-1166,FIXED,margins on floating elements misbehave,<BUTTON> is confined to <FORM>,0,1,1
+312,Core-1166,Core-1167,FIXED,<BUTTON> is confined to <FORM>,edit mode is broken,0,1,1
+313,Core-1167,Core-1168,FIXED,edit mode is broken,cant log in to bugzilla using raptor,0,1,1
+314,Core-1169,Core-1172,FIXED,wrong font in illegal HTML,frames dont work with javascript,0,0,1
+315,Core-1172,Core-1173,FIXED,frames dont work with javascript,margin-top incorrect for inlines,0,0,1
+316,Core-1173,Core-1174,FIXED,margin-top incorrect for inlines,floaters handled poorly,1,1,1
+317,Core-1174,Core-1175,FIXED,floaters handled poorly,compress out trailing whitespace too,1,1,1
+318,Core-1175,Core-1178,FIXED,compress out trailing whitespace too,CSS 2 attribute selectors are not implemented yet,0,1,1
+319,Core-1178,Core-1179,FIXED,CSS 2 attribute selectors are not implemented yet,Padding not working on Checkboxes; Radio Buttons.,0,1,1
+320,Core-1179,Core-1180,FIXED,Padding not working on Checkboxes; Radio Buttons.,mozilla.org looks really nasty; multiple colspan bug?,0,1,1
+321,Core-1180,Core-1181,FIXED,mozilla.org looks really nasty; multiple colspan bug?,z-index doesnt work,0,1,1
+322,Core-1181,Core-1188,FIXED,z-index doesnt work,layout of top portion of page incorrect,0,1,1
+323,Core-1188,Core-1189,FIXED,layout of top portion of page incorrect,Assert in table code,1,0,1
+324,Core-1189,Core-1190,FIXED,Assert in table code,selected and defaultSelected DOM attributes meaning reversed,0,1,1
+325,Core-1190,Core-1191,FIXED,selected and defaultSelected DOM attributes meaning reversed,frame control,0,0,1
+326,Core-1191,Core-1196,FIXED,frame control,document does not appear correctly until a re-layout is forced,0,1,1
+327,Core-1198,Core-1200,FIXED,Page is formatted too wide,Tables using cellspacing do not have correct cell widths,0,1,1
+328,Core-1200,Core-1201,FIXED,Tables using cellspacing do not have correct cell widths,Plugins ignore size parameters and display in 50 x 50 box,0,0,1
+329,Core-1201,Core-1202,FIXED,Plugins ignore size parameters and display in 50 x 50 box,nowrap causes body to measure self wrong,0,1,1
+330,Core-1202,Core-1203,FIXED,nowrap causes body to measure self wrong,missing  breaks page,0,0,1
+331,Core-1203,Core-1204,FIXED,missing  breaks page,scrollbars shouldnt be shown,0,1,1
+332,Core-1204,Core-1206,FIXED,scrollbars shouldnt be shown,character entities fail erratically,0,1,1
+333,Core-1206,Core-1207,FIXED,character entities fail erratically,Initial reflow is wrong,1,1,1
+334,Core-1208,Core-1210,FIXED,No horizontal scrollbar,Fix to avoid multiple declaration of PrefChangedFunc,0,1,1
+335,Core-1210,Core-1211,FIXED,Fix to avoid multiple declaration of PrefChangedFunc,Change to libimg/src/if.h to prevent multiple declaration of TimeoutCallbackFunction,0,1,1
+336,Core-1211,Core-1212,FIXED,Change to libimg/src/if.h to prevent multiple declaration of TimeoutCallbackFunction,Miscellaneous changes to include/glhist.h,0,1,1
+337,Core-1212,Core-1213,FIXED,Miscellaneous changes to include/glhist.h,Small fix for network/module/nsHttpUrl.cpp,0,1,1
+338,Core-1213,Core-1214,FIXED,Small fix for network/module/nsHttpUrl.cpp,Small fix to include/libi18n.h,0,1,1
+339,Core-1214,Core-1216,WONTFIX,Small fix to include/libi18n.h,Fix for layout/events/src/nsDOMEvent.h,0,1,1
+340,Core-1216,Core-1218,FIXED,Fix for layout/events/src/nsDOMEvent.h,Text transform errors,1,1,1
+341,Core-1220,Core-1221,FIXED,Page Lays Out Wrong,Crash in JS_GetPrivate(),0,0,1
+342,Core-1223,Core-1224,FIXED,Crash when handling js with statement in NGLayout,This tables page is on crack,0,0,1
+343,Core-1224,Core-1225,FIXED,This tables page is on crack,incremental change to visibility causes padding to appear,0,1,1
+344,Core-1225,Core-1227,FIXED,incremental change to visibility causes padding to appear,scrolling attribute on <FRAME> tag being ignored,0,1,1
+345,Core-1227,Core-1229,FIXED,scrolling attribute on <FRAME> tag being ignored,Small fix for widget/src/motif/nsTextWidget.cpp,0,1,1
+346,Core-1229,Core-1231,FIXED,Small fix for widget/src/motif/nsTextWidget.cpp,we need to get the MAP and AREA objects into the content model,0,1,1
+347,Core-1231,Core-1232,FIXED,we need to get the MAP and AREA objects into the content model,the following simple document parses wrong,0,1,1
+348,Core-1232,Core-1234,FIXED,the following simple document parses wrong,we need default style for the html 4 style tags,0,1,1
+349,Core-1234,Core-1235,FIXED,we need default style for the html 4 style tags,{feature} we dont handle relatively positioned objects quite right,0,0,1
+350,Core-1237,Core-1239,FIXED,Bullets dont show up,font wrong in several places,0,1,1
+351,Core-1242,Core-1243,FIXED,<BUTTON> elements do not respond to certain events,Mouse pointer often doesnt change shape,0,0,1
+352,Core-1243,Core-1244,WONTFIX,Mouse pointer often doesnt change shape,add banner has horizontal scrollbar,0,1,1
+353,Core-1244,Core-1245,FIXED,add banner has horizontal scrollbar,content has horizontal scroll bar that it shouldnt have,1,1,1
+354,Core-1245,Core-1246,FIXED,content has horizontal scroll bar that it shouldnt have,intermittent crash in GetParentWithView,1,0,1
+355,Core-1246,Core-1249,FIXED,intermittent crash in GetParentWithView,NGLayout uses the wrong initial value for border-color,0,0,1
+356,Core-1249,Core-1250,FIXED,NGLayout uses the wrong initial value for border-color,crash in parser,0,0,1
+357,Core-1251,Core-1252,FIXED,form submission on this page does not work,[CRASH]Crash in initial layout of empty framesets,0,0,1
+358,Core-1252,Core-1253,FIXED,[CRASH]Crash in initial layout of empty framesets,Crashes when you try to read this html file,0,1,1
+359,Core-1253,Core-1254,FIXED,Crashes when you try to read this html file,search button not inserted into content correctly,0,0,1
+360,Core-1254,Core-1255,FIXED,search button not inserted into content correctly,v-scroll bar doesnt appear until I manually resize the window,0,1,1
+361,Core-1255,Core-1256,FIXED,v-scroll bar doesnt appear until I manually resize the window,tags arent flushed before processing scripts,0,0,1
+362,Core-1256,Core-1257,FIXED,tags arent flushed before processing scripts,crash,0,1,1
+363,Core-1257,Core-1258,FIXED,crash,script flushing of tags breaks layout,1,0,1
+364,Core-1258,Core-1259,FIXED,script flushing of tags breaks layout,incorrect text color,0,0,1
+365,Core-1260,Core-1261,FIXED,NGLayout does not layout Slashdot [comments] properly,wrong layout for nested tables,0,0,1
+366,Core-1261,Core-1262,FIXED,wrong layout for nested tables,wrong layout for empty tables,0,0,1
+367,Core-1262,Core-1264,FIXED,wrong layout for empty tables,Text spills out of a floated DIV in this test case,0,1,1
+368,Core-1264,Core-1265,FIXED,Text spills out of a floated DIV in this test case,Reflow of this document leaves artifacts,1,1,1
+369,Core-1265,Core-1266,FIXED,Reflow of this document leaves artifacts,[PP]hang in network or parser code with IFRAME,0,0,1
+370,Core-1266,Core-1267,FIXED,[PP]hang in network or parser code with IFRAME,body does not handle style changed reflow targeted at it,0,1,1
+371,Core-1269,Core-1270,FIXED,Pages with tables are appearing partially or not at all,smaller problem on sans-serif font,0,0,1
+372,Core-1270,Core-1271,FIXED,smaller problem on sans-serif font,TD tags HEIGHT attribute ignores percentages,0,0,1
+373,Core-1271,Core-1273,FIXED,TD tags HEIGHT attribute ignores percentages,floating image not laying out correctly,0,1,1
+374,Core-1273,Core-1274,FIXED,floating image not laying out correctly,right border too big,1,1,1
+375,Core-1274,Core-1275,FIXED,right border too big,form elements go into margin,1,1,1
+376,Core-1275,Core-1277,FIXED,form elements go into margin,static background/border bleed over top of float background and border,1,1,1
+377,Core-1277,Core-1278,FIXED,static background/border bleed over top of float background and border,box properties on inline elements should not increase line height,1,1,1
+378,Core-1278,Core-1279,FIXED,box properties on inline elements should not increase line height,margin collapsing around floats,1,1,1
+379,Core-1279,Core-1281,FIXED,margin collapsing around floats,Lists have non-CSS-contained margins,0,1,1
+380,Core-1281,Core-1282,FIXED,Lists have non-CSS-contained margins,Text isnt flowing around a floating DIV,0,1,1
+381,Core-1283,Core-1284,FIXED,{inc} When style is changed on this particular element; other elements act strangely,Form input element default value not being set,0,0,1
+382,Core-1284,Core-1285,FIXED,Form input element default value not being set,No CSS2 position:fixed support,0,1,1
+383,Core-1285,Core-1286,FIXED,No CSS2 position:fixed support,JS modifying non-existent widgets.,0,1,1
+384,Core-1286,Core-1287,FIXED,JS modifying non-existent widgets.,picture frame missing,0,1,1
+385,Core-1287,Core-1288,FIXED,picture frame missing,Unicode Conversion- NGLayout doesnt support windows-1252 charset,1,1,1
+386,Core-1288,Core-1290,FIXED,Unicode Conversion- NGLayout doesnt support windows-1252 charset,document.write() is unacceptably slow,0,1,1
+387,Core-1290,Core-1291,FIXED,document.write() is unacceptably slow,Selection then Minizing/Maximizing causes crash,0,0,1
+388,Core-1291,Core-1292,FIXED,Selection then Minizing/Maximizing causes crash,ss:onkeypress event doesnt work,0,0,1
+389,Core-1292,Core-1293,FIXED,ss:onkeypress event doesnt work,e.which doesnt return a value for keydown events,1,1,1
+390,Core-1293,Core-1294,FIXED,e.which doesnt return a value for keydown events,ss:onclick event handler doesnt work,1,1,1
+391,Core-1294,Core-1295,FIXED,ss:onclick event handler doesnt work,Changing styles on table cells via DOM seems to remove table borders,0,1,1
+392,Core-1295,Core-1296,FIXED,Changing styles on table cells via DOM seems to remove table borders,Changing styles on table cells via DOM seems to remove table borders,1,1,1
+393,Core-1297,Core-1300,FIXED,TableCell.cellIndex always returning 0,overrestricted CSS box property handling,0,1,1
+394,Core-1300,Core-1301,FIXED,overrestricted CSS box property handling,non-replaced floats without width should have 0 width,1,0,1
+395,Core-1301,Core-1302,FIXED,non-replaced floats without width should have 0 width,Over-specified/competing colspan counts break tables,1,0,1
+396,Core-1302,Core-1303,FIXED,Over-specified/competing colspan counts break tables,[BLOCK] Cant move positioned elements with mousemove/clientX detection,0,1,1
+397,Core-1303,Core-1305,FIXED,[BLOCK] Cant move positioned elements with mousemove/clientX detection,W3C DOM syntax: setDOMAttribute vs. setAttribute problem,0,1,1
+398,Core-1305,Core-1308,FIXED,W3C DOM syntax: setDOMAttribute vs. setAttribute problem,ss:NGLayout pukes on this table intensive page; overlapping content,0,0,1
+399,Core-1308,Core-1309,FIXED,ss:NGLayout pukes on this table intensive page; overlapping content,Mouse events fire twice on absolutely positioned elements,0,0,1
+400,Core-1309,Core-1310,FIXED,Mouse events fire twice on absolutely positioned elements,Mouse events dont fire when over floatd image,1,1,1
+401,Core-1310,Core-1311,FIXED,Mouse events dont fire when over floatd image,Minor memory leak in CNavDTD.cpp,0,1,1
+402,Core-1311,Core-1312,FIXED,Minor memory leak in CNavDTD.cpp,Standard compatibility mode needs to be hooked to DOCTYPE,1,1,1
+403,Core-1312,Core-1313,FIXED,Standard compatibility mode needs to be hooked to DOCTYPE,@import media; cross-folder imports; <link media> all buggy,0,1,1
+404,Core-1313,Core-1315,FIXED,@import media; cross-folder imports; <link media> all buggy,document.body doesnt work,0,1,1
+405,Core-1315,Core-1317,FIXED,document.body doesnt work,Percentage Width Calculation is using wrong values,0,1,1
+406,Core-1317,Core-1318,FIXED,Percentage Width Calculation is using wrong values,This form (inside a table) will not submit,0,1,1
+407,Core-1318,Core-1320,FIXED,This form (inside a table) will not submit,URL: mailto: link crashes NGL,0,0,1
+408,Core-1320,Core-1321,FIXED,URL: mailto: link crashes NGL,Background Image on This Page Doesnt Load,0,0,1
+409,Core-1321,Core-1322,FIXED,Background Image on This Page Doesnt Load,We arent honoring MARGINWIDTH attribute on this frameset document,0,1,1
+410,Core-1322,Core-1323,FIXED,We arent honoring MARGINWIDTH attribute on this frameset document,We arent compounding frameset scrollbars,1,0,1
+411,Core-1323,Core-1324,FIXED,We arent compounding frameset scrollbars,Assertion in nsBodyFrame,0,0,1
+412,Core-1324,Core-1325,FIXED,Assertion in nsBodyFrame,cell borders dont draw correctly,0,1,1
+413,Core-1326,Core-1342,WONTFIX,Javascript: window.open crashes second time window opens.,white space at the bottom of a <frame>,0,0,1
+414,Core-1342,Core-1345,FIXED,white space at the bottom of a <frame>,{vmargin} margins and floaters interaction,0,1,1
+415,Core-1345,Core-1346,FIXED,{vmargin} margins and floaters interaction,simple parsing bug,0,1,1
+416,Core-1346,Core-1347,FIXED,simple parsing bug,Cannot build modules/plugin/test plugin; missing file(s),0,0,1
+417,Core-1347,Core-1348,FIXED,Cannot build modules/plugin/test plugin; missing file(s),Vertical alignment problems with floating images,0,0,1
+418,Core-1351,Core-1352,FIXED,font-variant small-caps and accented letters,nsString::ToNewCString(),0,0,1
+419,Core-1352,Core-1353,FIXED,nsString::ToNewCString(),Crash in JS_GetPrivate(),0,1,1
+420,Core-1355,Core-1356,FIXED,Background images in tables dont tile correctly,URL: (relative) Bogus Image crashes NGLayout,0,0,1
+421,Core-1357,Core-1358,FIXED,Submitting this form causes NGLayout to hang,[4.xP]Tooltips do not work,0,1,1
+422,Core-1362,Core-1363,FIXED,Leaking WebShell/DocLoaderImpl/DocumentBindInfo,how should we do lists in the ua.css,0,0,1
+423,Core-1364,Core-1365,FIXED,networking slowed down dramatically between 11/7 and 11/9 nightly builds,ss:Freeing mismatched memory  error reported from purify,1,0,1
+424,Core-1365,Core-1366,FIXED,ss:Freeing mismatched memory  error reported from purify,valid removeChild crashes,0,0,1
+425,Core-1366,Core-1371,FIXED,valid removeChild crashes,[GFX TextField]onBlur/focus(),0,1,1
+426,Core-1371,Core-1374,FIXED,[GFX TextField]onBlur/focus(),the page crashes today,0,0,1
+427,Core-1374,Core-1375,FIXED,the page crashes today,ss:Crash in Parser after visiting page with plugin,0,0,1
+428,Core-1375,Core-1377,FIXED,ss:Crash in Parser after visiting page with plugin,style incorrect in left column,1,0,1
+429,Core-1377,Core-1378,FIXED,style incorrect in left column,{vmargin} collapsing margin problems,0,1,1
+430,Core-1378,Core-1379,FIXED,{vmargin} collapsing margin problems,ss: crash because table frame has a displayType of inline,0,0,1
+431,Core-1379,Core-1380,FIXED,ss: crash because table frame has a displayType of inline,overflow: scroll generates scrollbars that arent always needed,0,0,1
+432,Core-1380,Core-1391,WONTFIX,overflow: scroll generates scrollbars that arent always needed,onchange event doesnt fire on SELECTs,0,0,1
+433,Core-1392,Core-1393,FIXED,SELECT elements options array not reflected into JavaScript,SELECT elements options array not reflected into JavaScript,0,1,1
+434,Core-1395,Core-1399,FIXED,table lays out at contents maxElementSize,Form elements in tables but outside <TD></TD> are ignored,0,0,1
+435,Core-1399,Core-1400,FIXED,Form elements in tables but outside <TD></TD> are ignored,script can cause an infinite loop,0,0,1
+436,Core-1400,Core-1401,FIXED,script can cause an infinite loop,table borders almost invisible,0,1,1
+437,Core-1401,Core-1405,FIXED,table borders almost invisible,transparent radio buttons,0,1,1
+438,Core-1406,Core-1410,FIXED,Frame of a tnt.turner.com URL does not render right,Frame problem: this URL not rendering the left+top frame,0,1,1
+439,Core-1410,Core-1413,FIXED,Frame problem: this URL not rendering the left+top frame,[EVENTTARG] [DOGFOOD] event handling on right-floating images causes links not to work,0,0,1
+440,Core-1413,Core-1414,FIXED,[EVENTTARG] [DOGFOOD] event handling on right-floating images causes links not to work,View Source takes line breaks out of comments,1,0,1
+441,Core-1414,Core-1416,FIXED,View Source takes line breaks out of comments,Crash with Adobe Acrobat Plugin,0,1,1
+442,Core-1416,Core-1417,FIXED,Crash with Adobe Acrobat Plugin,Plugin handling code creates temporary files but they are never deleted,1,0,1
+443,Core-1417,Core-1418,FIXED,Plugin handling code creates temporary files but they are never deleted,Auxiliary plugin DLLs not loaded from plugin directory,1,1,1
+444,Core-1418,Core-1419,FIXED,Auxiliary plugin DLLs not loaded from plugin directory,text overlaps image when left and right aligned images are present,0,0,1
+445,Core-1419,Core-1420,FIXED,text overlaps image when left and right aligned images are present,URL: partial URL in IMG SRC crashes,0,0,1
+446,Core-1420,Core-1422,FIXED,URL: partial URL in IMG SRC crashes,bug in DOM spec,0,0,1
+447,Core-1422,Core-1425,FIXED,bug in DOM spec,Attribute problem on hrefs,0,1,1
+448,Core-1425,Core-1427,FIXED,Attribute problem on hrefs,Image maps areas not accessible as content through DOM,0,1,1
+449,Core-1430,Core-1431,FIXED,Client side imagemaps dont work in some nested tables,This tables page leaks content,1,1,1
+450,Core-1433,Core-1434,FIXED,Page loading is synchronous for embedded stuff like stylesheets,Table Column Memory Leak,0,0,1
+451,Core-1434,Core-1461,FIXED,Table Column Memory Leak,URL: need to use correct base w/ relative URLS,0,1,1
+452,Core-1461,Core-1463,FIXED,URL: need to use correct base w/ relative URLS,ss: XPViewer sucks resources resizing/maximizing on win95,0,1,1
+453,Core-1463,Core-1466,FIXED,ss: XPViewer sucks resources resizing/maximizing on win95,URL crash in a url ending in a \,0,0,1
+454,Core-1466,Core-1471,FIXED,URL crash in a url ending in a \,Crash starting up XML demo,1,0,1
+455,Core-1471,Core-1474,FIXED,Crash starting up XML demo,<table width=n%> lays out incorrectly.,0,0,1
+456,Core-1474,Core-1482,FIXED,<table width=n%> lays out incorrectly.,damage repair during reflow,0,1,1
+457,Core-1482,Core-1485,FIXED,damage repair during reflow,document with many linked stylesheets wont load,0,0,1
+458,Core-1485,Core-1487,FIXED,document with many linked stylesheets wont load,ss: Directory listing URLs crash NGLayout,0,1,1
+459,Core-1487,Core-1488,FIXED,ss: Directory listing URLs crash NGLayout,ss: Yahoo doesnt layout properly - 70% of content doesnt appear at all,0,1,1
+460,Core-1488,Core-1489,FIXED,ss: Yahoo doesnt layout properly - 70% of content doesnt appear at all,freshmeat  tables intensive page takes a very long time to layout,1,0,1
+461,Core-1491,Core-1492,FIXED,Poorly formed entity doesnt resolve correctly,Pages without <BODY> crash NGLayout,0,0,1
+462,Core-1494,Core-1495,FIXED,jumpy layout in frameset,search for: edit field too large,0,1,1
+463,Core-1496,Core-1500,FIXED,Links on this page are not working,The HTML 4 <BUTTON> entity displays improper behavior.,1,1,1
+464,Core-1500,Core-1501,FIXED,The HTML 4 <BUTTON> entity displays improper behavior.,Resizing the window (shrinking only); produces layout errors...,0,1,1
+465,Core-1501,Core-1502,FIXED,Resizing the window (shrinking only); produces layout errors...,ss:assertion in line layout,1,0,1
+466,Core-1502,Core-1504,FIXED,ss:assertion in line layout,ss:Memory leak of select element,1,1,1
+467,Core-1504,Core-1506,FIXED,ss:Memory leak of select element,www.smh.com.au crash,0,1,1
+468,Core-1508,Core-1509,FIXED,borders on inline element,inline elements get in the way of :first-letter,0,1,1
+469,Core-1511,Core-1513,FIXED,border placement and text-align,ss:parser creating bad document,0,1,1
+470,Core-1513,Core-1515,FIXED,ss:parser creating bad document,for dotted borders; want round dots instead of square dots,0,1,1
+471,Core-1515,Core-1516,FIXED,for dotted borders; want round dots instead of square dots,small-caps need boldening to match the big caps,1,1,1
+472,Core-1517,Core-1518,FIXED,{compat} minimum width of floating elements,float & :first-letter,0,0,1
+473,Core-1520,Core-1521,FIXED,ss:Main table does not render,Background does not render.,1,1,1
+474,Core-1521,Core-1523,FIXED,Background does not render.,Bottom table (About our WebSite/Feedback) is duplicated,1,1,1
+475,Core-1523,Core-1524,FIXED,Bottom table (About our WebSite/Feedback) is duplicated,Pasting copied text adds tags to text,0,1,1
+476,Core-1524,Core-1525,FIXED,Pasting copied text adds tags to text,Cant copy first letter of text on page,1,1,1
+477,Core-1525,Core-1527,FIXED,Cant copy first letter of text on page,ss:Crash occurs in loading up the file with background info.,0,0,1
+478,Core-1528,Core-1529,FIXED,small values on line-height,ss:plain text file regression...,0,1,1
+479,Core-1529,Core-1532,FIXED,ss:plain text file regression...,intermittant hang --  looks like an infinite loop,1,1,1
+480,Core-1532,Core-1533,FIXED,intermittant hang --  looks like an infinite loop,FTP URLs crash 11.23.98 XPViewer App,0,0,1
+481,Core-1533,Core-1534,WONTFIX,FTP URLs crash 11.23.98 XPViewer App,Height in the CSS box-model seems to be collapsing,0,0,1
+482,Core-1534,Core-1535,FIXED,Height in the CSS box-model seems to be collapsing,Top ad banner and animated gif do not lay out,1,1,1
+483,Core-1535,Core-1538,FIXED,Top ad banner and animated gif do not lay out,Search or keyword text not visibly contained within the input box.,1,0,1
+484,Core-1540,Core-1548,FIXED,Special character symbol not being displayed correctly.,resizing inwards causes white space in content area.,1,1,1
+485,Core-1548,Core-1549,FIXED,resizing inwards causes white space in content area.,ss: crash on bogus urls (xpviewer and viewer),0,0,1
+486,Core-1549,Core-1550,FIXED,ss: crash on bogus urls (xpviewer and viewer),onChange() event handler not being processed,0,1,1
+487,Core-1553,Core-1557,FIXED,gif does not lay out across table,Windows GFX Unicode Text Drawing- Em and en dashes not working,1,0,1
+488,Core-1557,Core-1558,FIXED,Windows GFX Unicode Text Drawing- Em and en dashes not working,View Source omits # character,1,1,1
+489,Core-1558,Core-1561,FIXED,View Source omits # character,NECKO: Location bar not updated on 301 redirect,0,1,1
+490,Core-1562,Core-1564,FIXED,<FONT SIZE=> yields extra large font,Left & Right-most table column appears at top of page,0,1,1
+491,Core-1564,Core-1566,FIXED,Left & Right-most table column appears at top of page,Incorrect layout of page,1,1,1
+492,Core-1566,Core-1571,FIXED,Incorrect layout of page,Firing of links and buttons should trigger off of onclick,0,1,1
+493,Core-1571,Core-1572,FIXED,Firing of links and buttons should trigger off of onclick,Key events are not cancellable,1,1,1
+494,Core-1572,Core-1576,WONTFIX,Key events are not cancellable,Default Home Page not loading on xpviewer/win95 11/23a,0,0,1
+495,Core-1578,Core-1580,FIXED,{perf} DeleteFrame too slow,scrollbars and margins on BODY,1,0,1
+496,Core-1580,Core-1583,FIXED,scrollbars and margins on BODY,{inc} missing margin-top on DIV,1,0,1
+497,Core-1583,Core-1585,FIXED,{inc} missing margin-top on DIV,Images and links not centered properly within table,1,0,1
+498,Core-1585,Core-1588,FIXED,Images and links not centered properly within table,http://www.rsac.org has scrolling problems (possible parser error),1,1,1
+499,Core-1588,Core-1590,FIXED,http://www.rsac.org has scrolling problems (possible parser error),<p> tags inside links result in an extra line break,1,1,1
+500,Core-1590,Core-1592,FIXED,<p> tags inside links result in an extra line break,xpviewer is unresponsive while loading the lower banner,0,1,1
+501,Core-1595,Core-1596,FIXED,height being ignored on floats,crash caused by linked stylesheet on page with frameset,0,0,1
+502,Core-1596,Core-1601,FIXED,crash caused by linked stylesheet on page with frameset,Background and main table do not load,0,0,1
+503,Core-1601,Core-1604,FIXED,Background and main table do not load,Link does not lay out,1,1,1
+504,Core-1604,Core-1605,FIXED,Link does not lay out,strange behavior of negative margins,1,1,1
+505,Core-1605,Core-1606,FIXED,strange behavior of negative margins,margins and padding on inline elements,1,1,1
+506,Core-1607,Core-1608,FIXED,www.hotfiles.com is missing the left blue bar.,page looks like it went through a paper shredder,1,1,1
+507,Core-1608,Core-1609,FIXED,page looks like it went through a paper shredder,main topic area table not floating,0,1,1
+508,Core-1609,Core-1610,FIXED,main topic area table not floating,[OPTIMIZED] Table column does not paint.,0,0,1
+509,Core-1610,Core-1611,FIXED,[OPTIMIZED] Table column does not paint.,Pages laying out _wide_,1,0,1
+510,Core-1611,Core-1613,FIXED,Pages laying out _wide_,frameset doesnt display content that is too tall,0,1,1
+511,Core-1613,Core-1615,FIXED,frameset doesnt display content that is too tall,Image does not lay out,0,1,1
+512,Core-1615,Core-1616,FIXED,Image does not lay out,Links are not underlined.,1,0,1
+513,Core-1616,Core-1620,FIXED,Links are not underlined.,ss:each table is layed out top to bottom instead of next to and around,1,0,1
+514,Core-1621,Core-1622,FIXED,[PP]fails to display default selection on in-page drop box,Tables move when I click on a link,0,0,1
+515,Core-1623,Core-1627,FIXED,Table outline cut off on amazon.com; but not on NT debug build,Still leaks in xpviewer and viewer on win95,1,0,1
+516,Core-1627,Core-1631,FIXED,Still leaks in xpviewer and viewer on win95,Conn: Freeze during page loading,0,1,1
+517,Core-1631,Core-1634,FIXED,Conn: Freeze during page loading,layout problem with www.playstation.com,0,1,1
+518,Core-1638,Core-1640,FIXED,Layout of ftp page is extremely slow; slower than NOVA,URL: Relative addressing yields http://promo1.html; munged page layout,0,0,1
+519,Core-1646,Core-1647,FIXED,javascript: [DOGFOOD] URLs arent working,netcenter promo page layout is incorrect,0,1,1
+520,Core-1647,Core-1656,FIXED,netcenter promo page layout is incorrect,IDL->XPCOM generator has a bug with a enum with value 0,0,1,1
+521,Core-1656,Core-1658,FIXED,IDL->XPCOM generator has a bug with a enum with value 0,body tag incorrectly added to frameset doc & Thin black rect on right edge,0,0,1
+522,Core-1658,Core-1661,FIXED,body tag incorrectly added to frameset doc & Thin black rect on right edge,xpviewer crashes on startup,0,1,1
+523,Core-1661,Core-1662,FIXED,xpviewer crashes on startup,Background does not lay out,0,0,1
+524,Core-1663,Core-1665,FIXED,string usage inconsistent between DOM and XPIDL,NECKO: quote.com doesnt load because of faulty redirect,0,0,1
+525,Core-1665,Core-1668,FIXED,NECKO: quote.com doesnt load because of faulty redirect,document.writeln() calls should append newline before calling parser,0,0,1
+526,Core-1668,Core-1669,FIXED,document.writeln() calls should append newline before calling parser,Resizing window after document.writeln causes crash,0,1,1
+527,Core-1669,Core-1670,FIXED,Resizing window after document.writeln causes crash,bullets do special disappearing trick...,1,1,1
+528,Core-1670,Core-1671,FIXED,bullets do special disappearing trick...,Table layout incorrect,0,1,1
+529,Core-1671,Core-1672,FIXED,Table layout incorrect,Cell width problem,0,1,1
+530,Core-1672,Core-1674,FIXED,Cell width problem,Strange word-wrapping bug,0,1,1
+531,Core-1675,Core-1676,FIXED,Scrollbars have cosmetic problem,Form in table doesnt submit,0,0,1
+532,Core-1676,Core-1677,FIXED,Form in table doesnt submit,Selecting justified text does strange things.,0,0,1
+533,Core-1677,Core-1678,FIXED,Selecting justified text does strange things.,enabling the timebomb not working. need necko,0,1,1
+534,Core-1681,Core-1682,FIXED,{perf} cleanup text-run memory usage,duplicate onLoad invocations,0,0,1
+535,Core-1682,Core-1683,FIXED,duplicate onLoad invocations,P handling is broken (a recent regression),0,1,1
+536,Core-1683,Core-1684,FIXED,P handling is broken (a recent regression),regression font request,0,1,1
+537,Core-1684,Core-1685,FIXED,regression font request,background image/color is not displayed,0,1,1
+538,Core-1685,Core-1686,FIXED,background image/color is not displayed,horizontal bloat-the page is much wider than it should be,0,0,1
+539,Core-1686,Core-1690,FIXED,horizontal bloat-the page is much wider than it should be,List of links dont word wrap like they should,0,0,1
+540,Core-1691,Core-1695,FIXED,Not reading ALT content in Applet tag when Java is off,text has wrong font,0,1,1
+541,Core-1695,Core-1696,FIXED,text has wrong font,assert in frame code,0,1,1
+542,Core-1696,Core-1699,FIXED,assert in frame code,<P> tag after </TR> closes table before </TABLE>,0,0,1
+543,Core-1699,Core-1705,FIXED,<P> tag after </TR> closes table before </TABLE>,CSS BODY { margin_right:5% } incorrectly places scrollbar,0,0,1
+544,Core-1706,Core-1708,FIXED,purify reports array out of bounds read,ss:A crash occurs when attempting to open a link inside a frame,0,0,1
+545,Core-1713,Core-1718,FIXED,hrs dont float correctly.,[webshell]Unable to reproduce page containing search info,0,0,1
+546,Core-1718,Core-1722,FIXED,[webshell]Unable to reproduce page containing search info,Table empty cells not implemented,0,0,1
+547,Core-1722,Core-1723,FIXED,Table empty cells not implemented,collapsing borders not implemented,1,1,1
+548,Core-1723,Core-1725,FIXED,collapsing borders not implemented,content missing; parsing error for <form> in <table>?,1,1,1
+549,Core-1725,Core-1726,FIXED,content missing; parsing error for <form> in <table>?,Submit form keyboard shortcut doesnt work,0,1,1
+550,Core-1726,Core-1729,FIXED,Submit form keyboard shortcut doesnt work,Crash when logging in to Netcenter,1,0,1
+551,Core-1729,Core-1731,FIXED,Crash when logging in to Netcenter,listing of directories is not formatted correctly,0,0,1
+552,Core-1731,Core-1741,FIXED,listing of directories is not formatted correctly,NGLayout unable to open read-only local files,0,1,1
+553,Core-1741,Core-1742,FIXED,NGLayout unable to open read-only local files,NGLayout hangs forever on nsIURL::Read() if file doesnt exist,1,1,1
+554,Core-1742,Core-1743,FIXED,NGLayout hangs forever on nsIURL::Read() if file doesnt exist,Invalid attribute causes skiped text,0,1,1
+555,Core-1743,Core-1744,FIXED,Invalid attribute causes skiped text,NGLayout hangs forever on nsIURL::Read() if file is empty,0,1,1
+556,Core-1745,Core-1747,FIXED,nsString::Compare(...) broken.,Purify Reported ABR,1,0,1
+557,Core-1747,Core-1750,FIXED,Purify Reported ABR,crash on form submission,0,1,1
+558,Core-1750,Core-1751,FIXED,crash on form submission,Background gifs dont paint around radio buttons properly,0,0,1
+559,Core-1755,Core-1756,FIXED,Background image disappears,Error in reflow when document is scrolled,0,1,1
+560,Core-1756,Core-1757,FIXED,Error in reflow when document is scrolled,win32 debug build dies with an assertion failure,0,1,1
+561,Core-1757,Core-1758,FIXED,win32 debug build dies with an assertion failure,CSS height not working on floats,0,1,1
+562,Core-1758,Core-1761,FIXED,CSS height not working on floats,DOM methods not yet implemented,0,1,1
+563,Core-1761,Core-1762,FIXED,DOM methods not yet implemented,border-top-width: 0px not honored,0,1,1
+564,Core-1762,Core-1764,FIXED,border-top-width: 0px not honored,{inc} Text flow around images not working,1,0,1
+565,Core-1764,Core-1769,FIXED,{inc} Text flow around images not working,xpviewer hangs trying to access this page,0,0,1
+566,Core-1769,Core-1770,FIXED,xpviewer hangs trying to access this page,CSS @import doesnt pick up BASE HREF,0,1,1
+567,Core-1770,Core-1771,FIXED,CSS @import doesnt pick up BASE HREF,This site causes crash in ns4xPlugin.cpp::Initialize(),0,0,1
+568,Core-1771,Core-1774,FIXED,This site causes crash in ns4xPlugin.cpp::Initialize(),Default table cell width not backwards-compatible,0,0,1
+569,Core-1774,Core-1776,FIXED,Default table cell width not backwards-compatible,Object Tag needs version control,0,0,1
+570,Core-1777,Core-1778,FIXED,[TEXT] text-decoration should not be drawn by children (underline) [INLINE],Text displayed in microscopic size on this page,0,0,1
+571,Core-1778,Core-1779,FIXED,Text displayed in microscopic size on this page,Thin borderline case fails; top border is 2x-3x,1,1,1
+572,Core-1781,Core-1783,FIXED,1px double border invisible (was: division of space within double borders),bad justification for last line in paragraph,0,1,1
+573,Core-1784,Core-1786,FIXED,Page lays out completely incorrectly,<EMBED> crashes.,0,1,1
+574,Core-1790,Core-1791,FIXED,Z-index layering incorrect,www.indirect.com completely hosed today,0,1,1
+575,Core-1791,Core-1792,FIXED,www.indirect.com completely hosed today,parser bug,1,1,1
+576,Core-1792,Core-1793,FIXED,parser bug,userAgent bug: quicken.com nested table row closed too early,1,1,1
+577,Core-1793,Core-1794,FIXED,userAgent bug: quicken.com nested table row closed too early,disney doesnt load anymore,0,1,1
+578,Core-1798,Core-1800,FIXED,border sizes: thin/medium/thick cause rounding problems,Error in rendering nesting tables,0,1,1
+579,Core-1800,Core-1801,FIXED,Error in rendering nesting tables,incorect display of page,0,1,1
+580,Core-1801,Core-1802,FIXED,incorect display of page,<tr align=left/right/center> not working,0,1,1
+581,Core-1802,Core-1803,FIXED,<tr align=left/right/center> not working,Nested tables hosed,0,1,1
+582,Core-1803,Core-1804,FIXED,Nested tables hosed,Error rendering HTML table before first window resize,0,1,1
+583,Core-1804,Core-1805,FIXED,Error rendering HTML table before first window resize,HR doesnt respect floaters,0,0,1
+584,Core-1806,Core-1807,FIXED,TextArea HTML Forms Crash if invalid attrib - code fix included,PRE loses blank lines,1,1,1
+585,Core-1807,Core-1808,FIXED,PRE loses blank lines,CSS clear doesnt quite clear (regression),1,1,1
+586,Core-1808,Core-1809,FIXED,CSS clear doesnt quite clear (regression),<table width=0> should be handled slightly differently,0,0,1
+587,Core-1809,Core-1810,FIXED,<table width=0> should be handled slightly differently,nucache is hosed,0,0,1
+588,Core-1810,Core-1811,WONTFIX,nucache is hosed,HTML Form Exception when DOM Object doesnt exist AND FIX,0,1,1
+589,Core-1811,Core-1812,FIXED,HTML Form Exception when DOM Object doesnt exist AND FIX,CSS // should *not* be treated as comments,0,1,1
+590,Core-1812,Core-1813,FIXED,CSS // should *not* be treated as comments,Javascript has Pentium-style precision errors,0,1,1
+591,Core-1823,Core-1825,FIXED,location object needs toString() method,Right-aligned table cell on this page doesnt layout properly on initial load,0,1,1
+592,Core-1827,Core-1828,FIXED,Frame size not found,Table Layout Problem with Messenger generated HTML (Nested Tables),0,1,1
+593,Core-1828,Core-1829,FIXED,Table Layout Problem with Messenger generated HTML (Nested Tables),[PP][NATIVE-WIDGET] JAVASCRIPT FORMS \n written to form elements wrong on Windows,0,0,1
+594,Core-1829,Core-1830,WONTFIX,[PP][NATIVE-WIDGET] JAVASCRIPT FORMS \n written to form elements wrong on Windows,Form on Altavista does not submit,0,0,1
+595,Core-1831,Core-1832,FIXED,horizontal scroller triggers vertical scroller,purify reports ABR in parser,0,0,1
+596,Core-1832,Core-1833,FIXED,purify reports ABR in parser,purify reports UMC: Uninitialized memory copy,0,0,1
+597,Core-1833,Core-1834,FIXED,purify reports UMC: Uninitialized memory copy,problem parsing nested DLs without closing tags on DD or DT,0,1,1
+598,Core-1834,Core-1835,FIXED,problem parsing nested DLs without closing tags on DD or DT,inheritance not implemented for some table styles,0,0,1
+599,Core-1835,Core-1836,FIXED,inheritance not implemented for some table styles,2 Layout Problems - Tables & Image,0,0,1
+600,Core-1836,Core-1837,FIXED,2 Layout Problems - Tables & Image,Viewer.exe freezes,1,1,1
+601,Core-1837,Core-1838,FIXED,Viewer.exe freezes,Main frame drawn incorrectly,0,1,1
+602,Core-1838,Core-1839,FIXED,Main frame drawn incorrectly,frame reference,0,1,1
+603,Core-1839,Core-1841,FIXED,frame reference,Selecting text across lines with varying character spacing styles doesnt track cursor,0,1,1
+604,Core-1841,Core-1842,FIXED,Selecting text across lines with varying character spacing styles doesnt track cursor,parser compatability bug,0,1,1
+605,Core-1842,Core-1848,FIXED,parser compatability bug,dynamic pseudo-classes: :hover; :active; and :focus not yet supported,0,0,1
+606,Core-1848,Core-1850,FIXED,dynamic pseudo-classes: :hover; :active; and :focus not yet supported,TextNodes .splitText(num) method not working,0,0,1
+607,Core-1850,Core-1851,FIXED,TextNodes .splitText(num) method not working,P ends up above the H1 above it,0,1,1
+608,Core-1851,Core-1852,FIXED,P ends up above the H1 above it,style.top and family not being redrawn after changes,0,1,1
+609,Core-1852,Core-1853,FIXED,style.top and family not being redrawn after changes,if xpviewer.exe Sample->Examle 3 the simple table not layed out correctly,0,0,1
+610,Core-1853,Core-1855,FIXED,if xpviewer.exe Sample->Examle 3 the simple table not layed out correctly,CSS2s bottom: and right: positioning properties dont work,0,0,1
+611,Core-1855,Core-1856,FIXED,CSS2s bottom: and right: positioning properties dont work,2nd copy of file is truncated.,0,1,1
+612,Core-1856,Core-1857,FIXED,2nd copy of file is truncated.,Clicking on blank areas of page crashes,0,0,1
+613,Core-1857,Core-1858,FIXED,Clicking on blank areas of page crashes,Changing display and through Javascript,0,0,1
+614,Core-1858,Core-1859,FIXED,Changing display and through Javascript,No visual indication of focus on forms or links,0,0,1
+615,Core-1859,Core-1860,FIXED,No visual indication of focus on forms or links,HTML4: <FIELDSET><LEGEND>Title</LEGEND></FIELDSET>,0,0,1
+616,Core-1860,Core-1861,FIXED,HTML4: <FIELDSET><LEGEND>Title</LEGEND></FIELDSET>,resource: crashes viewer && xpviewer,0,1,1
+617,Core-1861,Core-1863,FIXED,resource: crashes viewer && xpviewer,P should be terminated by another P,0,1,1
+618,Core-1863,Core-1864,FIXED,P should be terminated by another P,Most lines with character entities turn black,0,1,1
+619,Core-1864,Core-1865,FIXED,Most lines with character entities turn black,[PP] Animated Backgrounds are 2X slower on Mac OS then other platforms,0,1,1
+620,Core-1867,Core-1868,FIXED,Omission of library link in ~/xpfe/bootstrap/Makefile,Window GFX Unicode Text Drawing- No support for chinese text rendering,0,1,1
+621,Core-1868,Core-1870,FIXED,Window GFX Unicode Text Drawing- No support for chinese text rendering,Negative margins messed up,1,1,1
+622,Core-1870,Core-1872,FIXED,Negative margins messed up,case insensitivity in xml parsing,0,1,1
+623,Core-1872,Core-1873,FIXED,case insensitivity in xml parsing,when parsing xml parser accepts non-quoted attributes,1,1,1
+624,Core-1873,Core-1875,WONTFIX,when parsing xml parser accepts non-quoted attributes,NECKO: Counter not counting.,1,1,1
+625,Core-1875,Core-1876,FIXED,NECKO: Counter not counting.,part of table is not displayed,0,1,1
+626,Core-1876,Core-1878,FIXED,part of table is not displayed,parser issue with P; TABLE and DIV,0,1,1
+627,Core-1878,Core-1880,FIXED,parser issue with P; TABLE and DIV,onBlur called multiple times when form element clicked to focus,0,1,1
+628,Core-1880,Core-1882,FIXED,onBlur called multiple times when form element clicked to focus,Treat USEMAP attribute values as URI data rather than CDATA or IDREF,0,0,1
+629,Core-1882,Core-1883,FIXED,Treat USEMAP attribute values as URI data rather than CDATA or IDREF,changing visibility property,0,0,1
+630,Core-1887,Core-1888,FIXED,Unix compilers dont like taking address of automatics (patch),display: none is not assignable from JavaScript,0,1,1
+631,Core-1888,Core-1890,FIXED,display: none is not assignable from JavaScript,Changing the cell alignment from JavaScript makes the cell border to disappear,0,1,1
+632,Core-1891,Core-1893,FIXED,Only a small part of a table cell responds to user events,{perf} image loader performance bugs,0,0,1
+633,Core-1893,Core-1895,FIXED,{perf} image loader performance bugs,verify-reflow and async image loading dont mix well,1,0,1
+634,Core-1895,Core-1899,WONTFIX,verify-reflow and async image loading dont mix well,Attribute Selector interpreted as... BODY (?),0,1,1
+635,Core-1899,Core-1900,FIXED,Attribute Selector interpreted as... BODY (?),Transparent background on HTML element causes undefined background,1,1,1
+636,Core-1900,Core-1902,FIXED,Transparent background on HTML element causes undefined background,button background wrong colour in 8-bit mode in W95 (devprev),0,1,1
+637,Core-1902,Core-1905,WONTFIX,button background wrong colour in 8-bit mode in W95 (devprev),header <h1> <h2> .. etc. Displaying improperly.,1,1,1
+638,Core-1905,Core-1906,FIXED,header <h1> <h2> .. etc. Displaying improperly.,<caption> tag not working When placed inside a <tr>,0,1,1
+639,Core-1906,Core-1908,FIXED,<caption> tag not working When placed inside a <tr>,Style sheet rendering foobared,0,1,1
+640,Core-1908,Core-1910,FIXED,Style sheet rendering foobared,{inc} Box model vertical formatting problems,1,0,1
+641,Core-1910,Core-1911,FIXED,{inc} Box model vertical formatting problems,body width not honored,0,0,1
+642,Core-1911,Core-1913,FIXED,body width not honored,Scrolling down test0 page crashes viewer app,0,1,1
+643,Core-1913,Core-1915,FIXED,Scrolling down test0 page crashes viewer app,Browsing a directory doesnt work.,0,1,1
+644,Core-1917,Core-1918,FIXED,Header displays; but nothing else,{compat} auto width floating tables,0,0,1
+645,Core-1918,Core-1919,FIXED,{compat} auto width floating tables,disney popup causes lockup and crash,0,0,1
+646,Core-1921,Core-1922,FIXED,In the boxacidtest; right margin problems - (scroolbar; I believe),assertion,0,1,1
+647,Core-1922,Core-1924,FIXED,assertion,An unnecessary scrollbar appears when an element is absolutely positioned,0,0,1
+648,Core-1924,Core-1925,FIXED,An unnecessary scrollbar appears when an element is absolutely positioned,An absolutely positioned element doesnt respond to onClick,0,0,1
+649,Core-1925,Core-1926,FIXED,An absolutely positioned element doesnt respond to onClick,Ambiguous handling of onMouseOver depending on the position: absolute setting,1,0,1
+650,Core-1926,Core-1928,FIXED,Ambiguous handling of onMouseOver depending on the position: absolute setting,Submitting multiple check boxes sends the string on instead of the box IDs,0,0,1
+651,Core-1929,Core-1930,FIXED,text-transform: words should not start/end with inline elements,<BUTTON> in table cell closes <TABLE> prematurely,0,1,1
+652,Core-1930,Core-1931,FIXED,<BUTTON> in table cell closes <TABLE> prematurely,Drop-caps broken on this page,0,1,1
+653,Core-1933,Core-1934,FIXED,table displays incorrectly - <table> closed prematurely,first-letter and line-height,0,1,1
+654,Core-1934,Core-1939,FIXED,first-letter and line-height,{css1} form elements not supporting borders and padding,0,1,1
+655,Core-1939,Core-1941,FIXED,{css1} form elements not supporting borders and padding,removeChild causes a crash,0,1,1
+656,Core-1941,Core-1942,FIXED,removeChild causes a crash,Resize crashes viewer when body has overflow set to hidden,0,1,1
+657,Core-1942,Core-1945,FIXED,Resize crashes viewer when body has overflow set to hidden,gecko handles OBJECT incorrectly for native image types,0,1,1
+658,Core-1945,Core-1946,FIXED,gecko handles OBJECT incorrectly for native image types,fe_GetConfigDir needs implementation,0,1,1
+659,Core-1946,Core-1950,FIXED,fe_GetConfigDir needs implementation,[PP] Linux viewer doesnt display test0.html,0,0,1
+660,Core-1950,Core-1954,FIXED,[PP] Linux viewer doesnt display test0.html,JC Clone doesnt clone text data,0,0,1
+661,Core-1954,Core-1955,FIXED,JC Clone doesnt clone text data,getElementsByTagName fails with wild card,1,1,1
+662,Core-1955,Core-1956,FIXED,getElementsByTagName fails with wild card,xpviewer crashes with invalid appendChild,1,1,1
+663,Core-1956,Core-1957,FIXED,xpviewer crashes with invalid appendChild,List box selection does not behave as it should,0,1,1
+664,Core-1957,Core-1958,FIXED,List box selection does not behave as it should,Image inputs do not submit x and y coordinates to server,1,1,1
+665,Core-1958,Core-1959,FIXED,Image inputs do not submit x and y coordinates to server,HTTP Link header prevents page from rendering!!!,0,0,1
+666,Core-1959,Core-1960,FIXED,HTTP Link header prevents page from rendering!!!,Selection of alternate stylesheets is not possible,1,0,1
+667,Core-1960,Core-1961,FIXED,Selection of alternate stylesheets is not possible,Selection of preferred stylesheets via HTTP header is not possible,1,1,1
+668,Core-1961,Core-1962,FIXED,Selection of preferred stylesheets via HTTP header is not possible,HTTP header Content-Style-Type is ignored,1,1,1
+669,Core-1962,Core-1963,FIXED,HTTP header Content-Style-Type is ignored,Style element type attribute is ignored,1,1,1
+670,Core-1963,Core-1965,FIXED,Style element type attribute is ignored,[PP] Mouse events dont get through to text frames in linux,0,0,1
+671,Core-1968,Core-1970,FIXED,Table background & Progressive Rendering problems,[PP] layout/tools doesnt build on linux,0,0,1
+672,Core-1970,Core-1971,FIXED,[PP] layout/tools doesnt build on linux,large jpeg image (>8000) not handled properly.,1,0,1
+673,Core-1971,Core-1972,FIXED,large jpeg image (>8000) not handled properly.,Link underlining has wrong colour,1,0,1
+674,Core-1972,Core-1974,FIXED,Link underlining has wrong colour,Crash loading the test Rotate.html,1,0,1
+675,Core-1978,Core-1979,FIXED,border-top-color: black doesnt work,Corner of scrolling view not drawn with system colour,0,1,1
+676,Core-1979,Core-1980,FIXED,Corner of scrolling view not drawn with system colour,Linux Tinderbox isnt building editor,0,0,1
+677,Core-1980,Core-1985,FIXED,Linux Tinderbox isnt building editor,float on :first-letter doesnt work,0,0,1
+678,Core-1990,Core-1993,FIXED,line-height does not work as specified,Multiple keywords are not accepted for the class attribute.,1,0,1
+679,Core-1994,Core-1998,FIXED,IMG alt text should go inline when image cannot be displayed,background draws under border; should only draw to padding edge,1,1,1
+680,Core-1998,Core-1999,FIXED,background draws under border; should only draw to padding edge,table frame=void renders incorrectly,0,1,1
+681,Core-1999,Core-2000,FIXED,table frame=void renders incorrectly,pseudo-elements allowed at places other than the end of a selector,0,1,1
+682,Core-2000,Core-2005,FIXED,pseudo-elements allowed at places other than the end of a selector,[History] Back/forward navigation within frames not working properly,0,0,1
+683,Core-2005,Core-2007,FIXED,[History] Back/forward navigation within frames not working properly,floats being overwritten,0,0,1
+684,Core-2007,Core-2010,FIXED,floats being overwritten,{css1} ugly border edges at line breaks,1,1,1
+685,Core-2010,Core-2011,FIXED,{css1} ugly border edges at line breaks,pseudo-element parsing too loose,0,1,1
+686,Core-2012,Core-2013,FIXED,negative padding should not be allowed,Vertical Alignment of Floats,0,1,1
+687,Core-2013,Core-2014,FIXED,Vertical Alignment of Floats,layout a huge mess,1,1,1
+688,Core-2014,Core-2015,FIXED,layout a huge mess,text-transform problems,1,1,1
+689,Core-2015,Core-2016,FIXED,text-transform problems,Not painting all of BODYs margin with HTMLs background color,1,1,1
+690,Core-2016,Core-2017,FIXED,Not painting all of BODYs margin with HTMLs background color,Crash when displaying,0,1,1
+691,Core-2017,Core-2018,FIXED,Crash when displaying,auto vertical margins on block level elements should become zero,1,1,1
+692,Core-2018,Core-2020,FIXED,auto vertical margins on block level elements should become zero,<(BODY|TABLE|TR|TD) BACKGROUND> ignores <BASE HREF> in resolving URL,0,1,1
+693,Core-2020,Core-2021,FIXED,<(BODY|TABLE|TR|TD) BACKGROUND> ignores <BASE HREF> in resolving URL,Error reporting/exception handling bugs,0,1,1
+694,Core-2021,Core-2023,FIXED,Error reporting/exception handling bugs,viewer crashes if I start enter a URL while a page is loading,0,0,1
+695,Core-2025,Core-2026,FIXED,displacement after floats with width 100%,DOM JS generated code doesnt do type checking,0,1,1
+696,Core-2030,Core-2031,FIXED,Gecko developer release doesnt seem to comprehend the pre HTML element; which as an web designer; I find Very important that gets fixed.,compatibility mode:  HR should not end PRE,1,0,1
+697,Core-2031,Core-2032,FIXED,compatibility mode:  HR should not end PRE,cache doesnt do anything,0,1,1
+698,Core-2032,Core-2035,WONTFIX,cache doesnt do anything,problems with ua.css,0,1,1
+699,Core-2035,Core-2036,FIXED,problems with ua.css,Horizontal Scrollbars Appear When They Arent Needed,0,1,1
+700,Core-2036,Core-2037,FIXED,Horizontal Scrollbars Appear When They Arent Needed,{list} list markers should be outside LI border,1,1,1
+701,Core-2037,Core-2038,FIXED,{list} list markers should be outside LI border,UL; etc. left margin vs. padding,0,1,1
+702,Core-2038,Core-2039,FIXED,UL; etc. left margin vs. padding,Conversion of CSS Selectors to String is not implemented,1,1,1
+703,Core-2039,Core-2040,WONTFIX,Conversion of CSS Selectors to String is not implemented,Setting margins on BODY to 0px via CSS,0,1,1
+704,Core-2040,Core-2046,FIXED,Setting margins on BODY to 0px via CSS,Crash running dom/tests/js/docfrag.html,1,0,1
+705,Core-2046,Core-2048,FIXED,Crash running dom/tests/js/docfrag.html,[PP][NATIVE] click-dragging or shift-clicking ranges on list boxes busted,0,0,1
+706,Core-2048,Core-2050,WONTFIX,[PP][NATIVE] click-dragging or shift-clicking ranges on list boxes busted,the url above doesnt render properly in nglayout,0,1,1
+707,Core-2050,Core-2052,FIXED,the url above doesnt render properly in nglayout,a height is a height; not a min-height,0,1,1
+708,Core-2052,Core-2053,FIXED,a height is a height; not a min-height,margin-top on BODY doesnt work,0,1,1
+709,Core-2054,Core-2055,FIXED,Canvas background is not set correctly,[BLOCK] compact DL should be supported,0,0,1
+710,Core-2055,Core-2057,WONTFIX,[BLOCK] compact DL should be supported,COLGROUP + COL not supported?,0,0,1
+711,Core-2058,Core-2062,FIXED,auto margins on relatively positioned elements,relatively positioned boxes are clipped when overflow is visible,1,1,1
+712,Core-2062,Core-2064,FIXED,relatively positioned boxes are clipped when overflow is visible,Default font is somewhat ugly,0,1,1
+713,Core-2064,Core-2065,WONTFIX,Default font is somewhat ugly,Nested tables rendering bug,0,1,1
+714,Core-2074,Core-2075,FIXED,Navbar messed up,Vertical layout problems,1,1,1
+715,Core-2075,Core-2076,FIXED,Vertical layout problems,Memory leak of nsScritNameSpaceManager object,0,0,1
+716,Core-2076,Core-2077,FIXED,Memory leak of nsScritNameSpaceManager object,HTML4.0 SELECT w/sub-select (OPTGROUP) not implemented/not working,0,0,1
+717,Core-2080,Core-2081,FIXED,Stop button should work,P tags not handled properly,0,1,1
+718,Core-2081,Core-2082,FIXED,P tags not handled properly,form elements not treated as forms children,0,1,1
+719,Core-2082,Core-2083,FIXED,form elements not treated as forms children,Multiline text field captures tabs (does not move focus),0,1,1
+720,Core-2083,Core-2087,FIXED,Multiline text field captures tabs (does not move focus),[PP] Forms buttons black until mouse-over,0,1,1
+721,Core-2087,Core-2088,FIXED,[PP] Forms buttons black until mouse-over,[PP] Password revealed in form password field,1,1,1
+722,Core-2088,Core-2090,FIXED,[PP] Password revealed in form password field,[PP] Insensitive form elements are not.,1,1,1
+723,Core-2090,Core-2091,FIXED,[PP] Insensitive form elements are not.,[PP] Unable to click on links,0,1,1
+724,Core-2091,Core-2092,FIXED,[PP] Unable to click on links,[PP] Selected text does not invert properly,0,1,1
+725,Core-2092,Core-2093,FIXED,[PP] Selected text does not invert properly,[PP] Double click in text field does not select all,1,1,1
+726,Core-2093,Core-2094,FIXED,[PP] Double click in text field does not select all,Cached images dont fully load (stops at 8;192 bytes),0,1,1
+727,Core-2094,Core-2099,FIXED,Cached images dont fully load (stops at 8;192 bytes),Image file within minimal table doesnt display,0,1,1
+728,Core-2099,Core-2100,FIXED,Image file within minimal table doesnt display,library dependencies needed for build dirs,0,1,1
+729,Core-2100,Core-2101,WONTFIX,library dependencies needed for build dirs,<li> breaks <center> in table cells,1,1,1
+730,Core-2101,Core-2105,FIXED,<li> breaks <center> in table cells,Text invisible in form textbox,0,0,1
+731,Core-2105,Core-2109,FIXED,Text invisible in form textbox,vertical alignment of floats messed up,0,0,1
+732,Core-2109,Core-2110,FIXED,vertical alignment of floats messed up,NECKO: URI scheme parsing; extensibility broken/missing,0,0,1
+733,Core-2110,Core-2112,FIXED,NECKO: URI scheme parsing; extensibility broken/missing,Two text areas getting selected at once,0,0,1
+734,Core-2115,Core-2116,FIXED,Bug (and comments) for widget/public/StringUtil.h,The Test Sites dialog box doesnt come back,0,0,1
+735,Core-2116,Core-2118,WONTFIX,The Test Sites dialog box doesnt come back,OBJECTs degrade incorrectly,0,0,1
+736,Core-2118,Core-2119,FIXED,OBJECTs degrade incorrectly,{compat} minor overlap of floated table and text,0,0,1
+737,Core-2119,Core-2120,FIXED,{compat} minor overlap of floated table and text,[PP] Form controls dont scroll when page scrolls,0,0,1
+738,Core-2120,Core-2122,FIXED,[PP] Form controls dont scroll when page scrolls,Feature Request: Multiple nested OPTGROUPS,0,0,1
+739,Core-2123,Core-2124,FIXED,table-layout:fixed not distributing extra space,content overlaps for nested <Hn> + style sheets,0,1,1
+740,Core-2124,Core-2125,FIXED,content overlaps for nested <Hn> + style sheets,table layout incorrect on Win95 www.amazon.com,1,1,1
+741,Core-2125,Core-2126,FIXED,table layout incorrect on Win95 www.amazon.com,bad layout,1,0,1
+742,Core-2126,Core-2130,FIXED,bad layout,Collapsing border model and cell padding (ugly rendering),0,0,1
+743,Core-2130,Core-2132,FIXED,Collapsing border model and cell padding (ugly rendering),[PP]Jan25/Need:Mac DNS Lookup is Synchronous,0,0,1
+744,Core-2136,Core-2137,WONTFIX,[PP] BitTest test app doesnt exist on mac,[PP]The BitTest test app doesnt exist on linux,1,0,1
+745,Core-2137,Core-2138,WONTFIX,[PP]The BitTest test app doesnt exist on linux,[PP] The CvtURL test app doesnt exist on linux,1,1,1
+746,Core-2138,Core-2139,FIXED,[PP] The CvtURL test app doesnt exist on linux,[PP] The CvtURL test app doesnt exist on mac,1,1,1
+747,Core-2139,Core-2140,WONTFIX,[PP] The CvtURL test app doesnt exist on mac,[PP] The DumpColors test app doesnt exist on mac,1,1,1
+748,Core-2140,Core-2142,WONTFIX,[PP] The DumpColors test app doesnt exist on mac,[PP] The htmlrobot test app doesnt exist on linux,1,1,1
+749,Core-2142,Core-2143,FIXED,[PP] The htmlrobot test app doesnt exist on linux,[PP] The imgTest test app doesnt exist on linux,1,1,1
+750,Core-2143,Core-2144,WONTFIX,[PP] The imgTest test app doesnt exist on linux,[PP] The netTest test app doesnt exist on linux,1,1,1
+751,Core-2144,Core-2145,FIXED,[PP] The netTest test app doesnt exist on linux,[PP] The netTest test app doesnt exist on mac,1,1,1
+752,Core-2145,Core-2146,WONTFIX,[PP] The netTest test app doesnt exist on mac,[PP] The htmlrobot test app doesnt exist on mac,1,1,1
+753,Core-2146,Core-2147,WONTFIX,[PP] The htmlrobot test app doesnt exist on mac,[PP] The imageTest test app doesnt exist on mac,1,0,1
+754,Core-2147,Core-2148,WONTFIX,[PP] The imageTest test app doesnt exist on mac,Animated GIFs stop working after several iterations,0,0,1
+755,Core-2148,Core-2149,FIXED,Animated GIFs stop working after several iterations,[PP] Tree View crashes in Mac viewer,0,0,1
+756,Core-2157,Core-2169,FIXED,JS regexp anchoring on empty match bug,[PP] The regFactory test app doesnt exist on linux,0,1,1
+757,Core-2169,Core-2170,FIXED,[PP] The regFactory test app doesnt exist on linux,[PP] The regFactory test app doesnt exist on mac,1,1,1
+758,Core-2170,Core-2171,WONTFIX,[PP] The regFactory test app doesnt exist on mac,[PP] The talkback test app doesnt exist on mac,1,1,1
+759,Core-2171,Core-2173,WONTFIX,[PP] The talkback test app doesnt exist on mac,[PP] The timerTest test app doesnt exist on linux,1,1,1
+760,Core-2173,Core-2174,WONTFIX,[PP] The timerTest test app doesnt exist on linux,[PP] The timerTest test app doesnt exist on mac,1,1,1
+761,Core-2174,Core-2175,WONTFIX,[PP] The timerTest test app doesnt exist on mac,[PP] The rebasedlls test app doesnt exist on mac,1,1,1
+762,Core-2175,Core-2176,WONTFIX,[PP] The rebasedlls test app doesnt exist on mac,[PP] The rebasedlls test app doesnt exist on linux,1,1,1
+763,Core-2176,Core-2179,WONTFIX,[PP] The rebasedlls test app doesnt exist on linux,table lays out wrong until reflow,0,1,1
+764,Core-2183,Core-2184,WONTFIX,windows localtime() bug exposed in javascript Date object,Print Preview; Two Column crashes with Demo 8,0,0,1
+765,Core-2184,Core-2195,FIXED,Print Preview; Two Column crashes with Demo 8,Compatibility: select[n].value = select.options[n].value,0,0,1
+766,Core-2195,Core-2206,FIXED,Compatibility: select[n].value = select.options[n].value,Simple Mouse down on page causes page redraw,0,0,1
+767,Core-2206,Core-2213,FIXED,Simple Mouse down on page causes page redraw,Key handling needs fixing,0,0,1
+768,Core-2216,Core-2218,FIXED,Second frame color only covers text,Editor should be in nightly builds,0,0,1
+769,Core-2218,Core-2219,FIXED,Editor should be in nightly builds,returning false on click event does not interrupt link,0,0,1
+770,Core-2219,Core-2220,FIXED,returning false on click event does not interrupt link,deleting last character in a line causes an assert,0,0,1
+771,Core-2220,Core-2221,FIXED,deleting last character in a line causes an assert,Crash in JS GC when closing View Source window,0,0,1
+772,Core-2222,Core-2223,FIXED,{inc} Second paragraph doesnt reflow around floater properly,[PP] Editor mode doesnt work,0,0,1
+773,Core-2223,Core-2225,FIXED,[PP] Editor mode doesnt work,IFRAME and remaining document not painted completely.,0,0,1
+774,Core-2225,Core-2228,FIXED,IFRAME and remaining document not painted completely.,[PP]Nu Cache not working on Mac,0,0,1
+775,Core-2228,Core-2230,WONTFIX,[PP]Nu Cache not working on Mac,[PP] Threading issues with netlib needs to be worked out on unix,0,0,1
+776,Core-2230,Core-2232,WONTFIX,[PP] Threading issues with netlib needs to be worked out on unix,deleting text leaves garbage on screen,0,1,1
+777,Core-2232,Core-2233,FIXED,deleting text leaves garbage on screen,[PP]Jan22:Linux: Clicking on text field loads new url,0,1,1
+778,Core-2233,Core-2234,FIXED,[PP]Jan22:Linux: Clicking on text field loads new url,Calling a form submission through JS crashes the viewer,0,0,1
+779,Core-2234,Core-2235,FIXED,Calling a form submission through JS crashes the viewer,String catenation in JavaScript has non-linear memory/time usage,0,1,1
+780,Core-2236,Core-2242,FIXED,[PP] Frame scrolling is broken,minimize window hits assert,0,0,1
+781,Core-2242,Core-2243,FIXED,minimize window hits assert,{sink} appending text nodes to body does so twice,0,1,1
+782,Core-2243,Core-2244,FIXED,{sink} appending text nodes to body does so twice,Script src= loading blocks firing of onload event,1,1,1
+783,Core-2244,Core-2253,FIXED,Script src= loading blocks firing of onload event,Need a way to talk to GFX widgets from JavaScript; for menu updating etc.,0,0,1
+784,Core-2253,Core-2254,FIXED,Need a way to talk to GFX widgets from JavaScript; for menu updating etc.,Large text page takes 10x longer to lay out on Mac,0,1,1
+785,Core-2254,Core-2258,FIXED,Large text page takes 10x longer to lay out on Mac,[PP] Messed up drawing after scrolling,1,0,1
+786,Core-2258,Core-2260,FIXED,[PP] Messed up drawing after scrolling,Content not displayed properly - scrolling on this large page,1,1,1
+787,Core-2261,Core-2262,FIXED,absolute positioning not being done relative to containing block,All links are being underlined with main page text color,0,1,1
+788,Core-2264,Core-2266,FIXED,Assert in content sink,table layout is very confused,0,0,1
+789,Core-2266,Core-2267,FIXED,table layout is very confused,table layout problems,1,0,1
+790,Core-2267,Core-2269,FIXED,table layout problems,Style background-image: url(...); crashes the browser,0,0,1
+791,Core-2270,Core-2271,FIXED,Script tag causes parsing problems,Various parsing problems,1,0,1
+792,Core-2271,Core-2272,FIXED,Various parsing problems,Nested list prematurely terminated,1,0,1
+793,Core-2272,Core-2273,FIXED,Nested list prematurely terminated,Background image does not display,1,1,1
+794,Core-2273,Core-2274,FIXED,Background image does not display,Crash while parsing,1,0,1
+795,Core-2274,Core-2275,FIXED,Crash while parsing,Body colour not inherited in table,0,0,1
+796,Core-2275,Core-2277,FIXED,Body colour not inherited in table,hang assert when interrupting doc load,0,1,1
+797,Core-2277,Core-2279,FIXED,hang assert when interrupting doc load,[PP] Linux and hidden form fields,0,1,1
+798,Core-2279,Core-2280,FIXED,[PP] Linux and hidden form fields,URL wont load if NU_CACHE is enabled,0,1,1
+799,Core-2280,Core-2281,FIXED,URL wont load if NU_CACHE is enabled,url wont load,0,1,1
+800,Core-2281,Core-2282,FIXED,url wont load,form element in tbody is positioned wrong,0,1,1
+801,Core-2283,Core-2284,FIXED,assertion parsing this test case,Nested list prematurely terminated - part II,1,0,1
+802,Core-2284,Core-2285,FIXED,Nested list prematurely terminated - part II,Backgrounds on BODY and HTML,0,1,1
+803,Core-2285,Core-2288,FIXED,Backgrounds on BODY and HTML,OnClick event does not cause the color to change as indicated.,0,1,1
+804,Core-2291,Core-2294,FIXED,{vmargin} MacWeek doesnt render correctly,[PP] Crash loading any URL,0,0,1
+805,Core-2294,Core-2295,FIXED,[PP] Crash loading any URL,Viewer crash in nsTimerMac,0,1,1
+806,Core-2295,Core-2296,FIXED,Viewer crash in nsTimerMac,Table layout wrong when a nested cell contains empty <script></script> pair.,0,0,1
+807,Core-2296,Core-2299,FIXED,Table layout wrong when a nested cell contains empty <script></script> pair.,focus problem: keyboard events dont get to main window unless cursor is over the window,0,1,1
+808,Core-2299,Core-2302,FIXED,focus problem: keyboard events dont get to main window unless cursor is over the window,[PP] live scrolling freaks out on larger pages,0,1,1
+809,Core-2302,Core-2309,FIXED,[PP] live scrolling freaks out on larger pages,Rendering Ordered List bullets in correct position,0,0,1
+810,Core-2309,Core-2314,FIXED,Rendering Ordered List bullets in correct position,Javascript parseInt(),0,0,1
+811,Core-2314,Core-2316,FIXED,Javascript parseInt(),Text colour is wrong,0,1,1
+812,Core-2316,Core-2317,FIXED,Text colour is wrong,Layout error -- <P> inside of <UL> breaks <TABLE>,0,1,1
+813,Core-2317,Core-2318,FIXED,Layout error -- <P> inside of <UL> breaks <TABLE>,Table button crash fixed; but needs cleanup,0,1,1
+814,Core-2318,Core-2319,FIXED,Table button crash fixed; but needs cleanup,Unnecessary redraws,0,1,1
+815,Core-2319,Core-2322,FIXED,Unnecessary redraws,Images not precached,0,1,1
+816,Core-2322,Core-2324,FIXED,Images not precached,CSS visited pseudo-class does not appear to be working,1,1,1
+817,Core-2325,Core-2326,FIXED,Page reports Javascript not enabled,Javascript console under Tools freezes machine.,0,1,1
+818,Core-2326,Core-2327,WONTFIX,Javascript console under Tools freezes machine.,form lays out twice,0,0,1
+819,Core-2327,Core-2328,FIXED,form lays out twice,media attribute values are parsed incorrectly,0,1,1
+820,Core-2328,Core-2329,FIXED,media attribute values are parsed incorrectly,media attribute values are parsed incorrectly,1,1,1
+821,Core-2330,Core-2331,FIXED,[BLOCK] Bookmarks file crashes viewer,Sample 0 doesnt display Italic Verdana properly,0,0,1
+822,Core-2331,Core-2341,FIXED,Sample 0 doesnt display Italic Verdana properly,Charset Handling- Parser does not use default charset value set by Default Charset Menu,1,0,1
+823,Core-2341,Core-2342,FIXED,Charset Handling- Parser does not use default charset value set by Default Charset Menu,What will be layers migration path strategy?,0,1,1
+824,Core-2342,Core-2343,WONTFIX,What will be layers migration path strategy?,Font prefs broken because prefs not initialized,0,1,1
+825,Core-2343,Core-2344,FIXED,Font prefs broken because prefs not initialized,Body background does not lay out.,0,0,1
+826,Core-2349,Core-2353,FIXED,NECKO: Hang in lookup after bad hostname entered.,layout of form elements messed up,0,1,1
+827,Core-2353,Core-2354,FIXED,layout of form elements messed up,NECKO: some pages only load partially,0,1,1
+828,Core-2354,Core-2355,FIXED,NECKO: some pages only load partially,page doesnt complete loading,0,0,1
+829,Core-2355,Core-2357,FIXED,page doesnt complete loading,<INPUT TYPE=TEXT> does not use specified font [M12],0,0,1
+830,Core-2358,Core-2359,FIXED,parser:  frameset terminates early,[PP]http://members.aol.com: Frame problem in layout. Also; minimize; then maximize and page does not reload (hangs),1,0,1
+831,Core-2360,Core-2363,FIXED,Page doesnt finish loading,[PP]:All Javascript code is removed from html!,0,0,1
+832,Core-2363,Core-2364,FIXED,[PP]:All Javascript code is removed from html!,Resizing browser window enlarges image,0,0,1
+833,Core-2368,Core-2374,FIXED,[patch] C++ comments in modules/libpref/src/prefapi.c,this page renders as totally white with a few form widgets...,0,1,1
+834,Core-2376,Core-2378,FIXED,[PP] Text widgets draw in random fonts,Linux crash in size_allocate,0,1,1
+835,Core-2378,Core-2379,FIXED,Linux crash in size_allocate,[PP]Only top portion (header) of Microsoft page is rendered; the rest is not displayed.,0,1,1
+836,Core-2379,Core-2380,FIXED,[PP]Only top portion (header) of Microsoft page is rendered; the rest is not displayed.,http://www.macaddict.com/: Image in bottom frame does not render,0,1,1
+837,Core-2380,Core-2381,FIXED,http://www.macaddict.com/: Image in bottom frame does not render,http://www.rsac.org/homepage.asp: App hangs - does not load,0,0,1
+838,Core-2381,Core-2384,FIXED,http://www.rsac.org/homepage.asp: App hangs - does not load,[PP]www.download.com - page does not layout correctly; table issue,0,0,1
+839,Core-2384,Core-2386,FIXED,[PP]www.download.com - page does not layout correctly; table issue,Tinderbox lays out...poorly,1,1,1
+840,Core-2388,Core-2390,FIXED,[PP]http://www.whowhere.com: Page does not load,[PP] http://www.sportsline.com/: Only object that loads on page is the top table,0,1,1
+841,Core-2390,Core-2392,FIXED,[PP] http://www.sportsline.com/: Only object that loads on page is the top table,[PP]CSS support not working at HotBot site,1,0,1
+842,Core-2392,Core-2393,FIXED,[PP]CSS support not working at HotBot site,[PP] http://www.go2net.com/index.html - Page does not load (CSS?),0,0,1
+843,Core-2393,Core-2394,FIXED,[PP] http://www.go2net.com/index.html - Page does not load (CSS?),www.bloomberg.com {floater},0,0,1
+844,Core-2394,Core-2397,FIXED,www.bloomberg.com {floater},[PP] http://www.sony.com/: background does not render,0,0,1
+845,Core-2397,Core-2398,FIXED,[PP] http://www.sony.com/: background does not render,[PP]Jan25:http://www.music.sony.com/: image at bottom does not render,0,0,1
+846,Core-2398,Core-2399,FIXED,[PP]Jan25:http://www.music.sony.com/: image at bottom does not render,[PP] http://www.dogpile.com/: Background does not render,0,1,1
+847,Core-2404,Core-2406,FIXED,List parsing,Unclosed <A> tags,1,1,1
+848,Core-2406,Core-2407,FIXED,Unclosed <A> tags,Events dont fire on table borders,0,1,1
+849,Core-2407,Core-2408,FIXED,Events dont fire on table borders,Parsing html with missing,0,1,1
+850,Core-2408,Core-2410,FIXED,Parsing html with missing,Parser crash,1,0,1
+851,Core-2410,Core-2412,FIXED,Parser crash,Attribute value not correctly parsed,1,0,1
+852,Core-2412,Core-2414,FIXED,Attribute value not correctly parsed,[PP] Cookies file not being created initially (on Macintosh),0,1,1
+853,Core-2414,Core-2416,WONTFIX,[PP] Cookies file not being created initially (on Macintosh),Jump! Travel doesnt layout correctly,0,1,1
+854,Core-2416,Core-2419,FIXED,Jump! Travel doesnt layout correctly,Rendering a strong tag adds vertical space to that line of text.,0,0,1
+855,Core-2421,Core-2424,WONTFIX,Content of frames in framesets not redrawn on minimize/restore,Full-screen plug-in: throbber never stops,0,0,1
+856,Core-2424,Core-2426,FIXED,Full-screen plug-in: throbber never stops,Title shows garbage text for non-Western pages,0,0,1
+857,Core-2429,Core-2433,FIXED,Crash with <XMP> tag,Parsing invalid html,1,0,1
+858,Core-2435,Core-2436,FIXED,Parser regression,Table border problems,0,1,1
+859,Core-2436,Core-2437,FIXED,Table border problems,view source broken,0,1,1
+860,Core-2437,Core-2439,FIXED,view source broken,[PP] Links are not underlined correctly,0,1,1
+861,Core-2439,Core-2442,FIXED,[PP] Links are not underlined correctly,TEXTAREAs need linebreaking enabled; and proper default set,1,1,1
+862,Core-2448,Core-2449,FIXED,Parser crash,Page doesnt display,1,0,1
+863,Core-2449,Core-2450,WONTFIX,Page doesnt display,right and bottom margins on HTML is incorrectly sized,0,1,1
+864,Core-2450,Core-2451,FIXED,right and bottom margins on HTML is incorrectly sized,Conn: Failure to handle PowerBook sleep (NSPR OT notification),0,1,1
+865,Core-2451,Core-2452,FIXED,Conn: Failure to handle PowerBook sleep (NSPR OT notification),One word is way too low,0,1,1
+866,Core-2452,Core-2454,FIXED,One word is way too low,Lists contents placed too high when containing other elements,0,1,1
+867,Core-2454,Core-2455,FIXED,Lists contents placed too high when containing other elements,Optional end tags not optional,0,1,1
+868,Core-2455,Core-2456,FIXED,Optional end tags not optional,Purify Memory Leak Warnings,1,1,1
+869,Core-2456,Core-2457,FIXED,Purify Memory Leak Warnings,Invalid html in table,1,1,1
+870,Core-2457,Core-2458,FIXED,Invalid html in table,Parsing embed tag,1,1,1
+871,Core-2458,Core-2459,FIXED,Parsing embed tag,Parsing table,1,1,1
+872,Core-2459,Core-2460,FIXED,Parsing table,Many problems (messed-up table and background color/foreground text color most prominent),1,1,1
+873,Core-2460,Core-2462,FIXED,Many problems (messed-up table and background color/foreground text color most prominent),Selecting text,0,1,1
+874,Core-2462,Core-2466,FIXED,Selecting text,viewer Crashes when loading the JavaScript Console,0,0,1
+875,Core-2469,Core-2472,WONTFIX,<table> turns off <font>,Parsing comments,0,1,1
+876,Core-2472,Core-2473,FIXED,Parsing comments,Parsing table,1,1,1
+877,Core-2473,Core-2474,FIXED,Parsing table,Parser crash,1,0,1
+878,Core-2474,Core-2475,FIXED,Parser crash,missing external style sheet cascading; bgcolor,0,0,1
+879,Core-2476,Core-2477,FIXED,SetInitialChildList methods need rework,problems with form having tables inside tables which contain form elements,1,0,1
+880,Core-2477,Core-2478,FIXED,problems with form having tables inside tables which contain form elements,{css1} CSS doesnt work on FORM element,0,0,1
+881,Core-2479,Core-2480,FIXED,implied/anonymous table elements problems,Default namespaces not implemented,0,1,1
+882,Core-2480,Core-2481,FIXED,Default namespaces not implemented,[PP] Numeric entities arent rendering right under Windows 95/98,0,1,1
+883,Core-2481,Core-2483,FIXED,[PP] Numeric entities arent rendering right under Windows 95/98,Missing background image; incorrectly placed text.,0,1,1
+884,Core-2483,Core-2485,FIXED,Missing background image; incorrectly placed text.,Missing & extra scroll bars,0,1,1
+885,Core-2485,Core-2486,FIXED,Missing & extra scroll bars,Text inputs are one (or two) character(s) too wide,0,1,1
+886,Core-2486,Core-2487,FIXED,Text inputs are one (or two) character(s) too wide,Add support for pipelining (network.http.pipelining),0,1,1
+887,Core-2487,Core-2489,FIXED,Add support for pipelining (network.http.pipelining),<div> tags are eaten,0,1,1
+888,Core-2489,Core-2490,WONTFIX,<div> tags are eaten,Background should be white.,0,1,1
+889,Core-2500,Core-2501,FIXED,BGCOLOR attribute not being used by raptor,media on stylesheets no longer working,1,1,1
+890,Core-2501,Core-2502,FIXED,media on stylesheets no longer working,Positioned elements too low,0,1,1
+891,Core-2502,Core-2504,FIXED,Positioned elements too low,Image elements arent tab-stopped and dont show focus.,0,1,1
+892,Core-2504,Core-2505,FIXED,Image elements arent tab-stopped and dont show focus.,build 011999 renders table cell improperly,0,1,1
+893,Core-2505,Core-2507,FIXED,build 011999 renders table cell improperly,[CRASH] loading page - page fails to render at all,0,1,1
+894,Core-2507,Core-2508,FIXED,[CRASH] loading page - page fails to render at all,Backward Adaptor Needs to provide a Service Manager,0,1,1
+895,Core-2508,Core-2509,FIXED,Backward Adaptor Needs to provide a Service Manager,table cell renders too large in fixed width table,0,1,1
+896,Core-2509,Core-2511,FIXED,table cell renders too large in fixed width table,List Item frames dont work in XML.,0,0,1
+897,Core-2511,Core-2512,FIXED,List Item frames dont work in XML.,Default Namespaces dont work in XML,0,1,1
+898,Core-2512,Core-2514,FIXED,Default Namespaces dont work in XML,Unix: FONT FACE is not working for non-Latin-1 pages,0,1,1
+899,Core-2514,Core-2515,FIXED,Unix: FONT FACE is not working for non-Latin-1 pages,Table does not appear,0,0,1
+900,Core-2516,Core-2518,FIXED,form in table results in max width table,Websites background picture is not being layed out.,0,0,1
+901,Core-2518,Core-2521,FIXED,Websites background picture is not being layed out.,Need to add AOL to the dictionary in Ender,0,0,1
+902,Core-2521,Core-2522,FIXED,Need to add AOL to the dictionary in Ender,[PP]windows 9x only: euro character does not display,0,0,1
+903,Core-2522,Core-2523,FIXED,[PP]windows 9x only: euro character does not display,not caching cgi server search results page,0,0,1
+904,Core-2523,Core-2524,FIXED,not caching cgi server search results page,ENDER: Need to add ENCTYPE attribute to <TEXTAREA> tag.,0,0,1
+905,Core-2524,Core-2525,WONTFIX,ENDER: Need to add ENCTYPE attribute to <TEXTAREA> tag.,Background images and scrollbars,0,0,1
+906,Core-2525,Core-2526,FIXED,Background images and scrollbars,[PP] ComputeAvailSpaceRect crash,1,0,1
+907,Core-2526,Core-2527,FIXED,[PP] ComputeAvailSpaceRect crash,[PP] Linux: Text fields dont get focus or key events,0,0,1
+908,Core-2527,Core-2531,FIXED,[PP] Linux: Text fields dont get focus or key events,clicking on html4-style buttons causes a crash,0,1,1
+909,Core-2531,Core-2534,FIXED,clicking on html4-style buttons causes a crash,require broken image icon replacement for img src,0,0,1
+910,Core-2534,Core-2535,WONTFIX,require broken image icon replacement for img src,Widgets dont stop repeating when disposed->crash,0,0,1
+911,Core-2535,Core-2537,FIXED,Widgets dont stop repeating when disposed->crash,NECKO: [PP]included css file missing causes crash parsing xml,0,1,1
+912,Core-2537,Core-2538,FIXED,NECKO: [PP]included css file missing causes crash parsing xml,[PP}Jan25.Checkbox frames dont draw correctly on mac,0,1,1
+913,Core-2539,Core-2540,FIXED,Renders rather differently than Netscape 4.5,Cant build current CVS Tree (21.1.99) Getting internal compiler error,0,0,1
+914,Core-2540,Core-2541,FIXED,Cant build current CVS Tree (21.1.99) Getting internal compiler error,Print Preview: Mixes multiple views into one preview,0,1,1
+915,Core-2541,Core-2542,FIXED,Print Preview: Mixes multiple views into one preview,Resize expands JS/JPEG  pix endlessly,0,1,1
+916,Core-2542,Core-2544,FIXED,Resize expands JS/JPEG  pix endlessly,[IME]Chinese character composition not work with Korean input,0,0,1
+917,Core-2544,Core-2545,FIXED,[IME]Chinese character composition not work with Korean input,A attribute tabindex not implemented,0,0,1
+918,Core-2545,Core-2547,FIXED,A attribute tabindex not implemented,[PP] Mac only - Crash at this site as it loads,1,0,1
+919,Core-2547,Core-2551,FIXED,[PP] Mac only - Crash at this site as it loads,Parsing list in table,0,0,1
+920,Core-2551,Core-2552,FIXED,Parsing list in table,Improved event handling needed for views,0,1,1
+921,Core-2552,Core-2553,FIXED,Improved event handling needed for views,Style does not Show and Hide views,0,0,1
+922,Core-2553,Core-2557,FIXED,Style does not Show and Hide views,Images in table in frame display incorrectly at freethemes.com,0,0,1
+923,Core-2557,Core-2560,FIXED,Images in table in frame display incorrectly at freethemes.com,Bad rendering of table/text,0,0,1
+924,Core-2560,Core-2561,FIXED,Bad rendering of table/text,Rendering breaks during an article on this page,1,1,1
+925,Core-2563,Core-2564,FIXED,Override of operator new calls operator new[]!,[DOGFOOD] [PP] Scrolling a long document yields text overwriting itself,0,0,1
+926,Core-2564,Core-2565,FIXED,[DOGFOOD] [PP] Scrolling a long document yields text overwriting itself,TempReflow() Needs To Get Fixed,0,0,1
+927,Core-2565,Core-2566,FIXED,TempReflow() Needs To Get Fixed,nsHTMLButtonControlFrame and incremental reflow,1,1,1
+928,Core-2566,Core-2567,FIXED,nsHTMLButtonControlFrame and incremental reflow,[PP] Linux uses ascii instead of unicode,1,1,1
+929,Core-2567,Core-2568,FIXED,[PP] Linux uses ascii instead of unicode,Crash when switching between test app 9 and 2,0,0,1
+930,Core-2568,Core-2569,FIXED,Crash when switching between test app 9 and 2,Cant type in find dialog text field,0,1,1
+931,Core-2569,Core-2570,FIXED,Cant type in find dialog text field,[PP]Jan22:Toggle buttons lack labels,1,0,1
+932,Core-2570,Core-2572,FIXED,[PP]Jan22:Toggle buttons lack labels,http://www.nasa.gov: Portion of main table should be restricted to 600 pixel width,0,1,1
+933,Core-2572,Core-2573,FIXED,http://www.nasa.gov: Portion of main table should be restricted to 600 pixel width,INPUT attribute TABINDEX not implemented,0,1,1
+934,Core-2589,Core-2590,FIXED,Empty <P> elements not ignored as required by HTML4 spec,<HR> and <BR> are unstylable!!!,0,0,1
+935,Core-2592,Core-2593,FIXED,inherit keyword doesnt work for auto margins,Still some things broken (in 1-22-99 build of viewer downloaded from nightly builds),0,1,1
+936,Core-2593,Core-2595,FIXED,Still some things broken (in 1-22-99 build of viewer downloaded from nightly builds),[PP]Widgets positioning gets messsed up: resizing; scrolling,0,1,1
+937,Core-2595,Core-2596,FIXED,[PP]Widgets positioning gets messsed up: resizing; scrolling,RFE: dont delete cookies file when disabling,0,0,1
+938,Core-2596,Core-2599,FIXED,RFE: dont delete cookies file when disabling,Whe i try to select a text from the view source windows,0,0,1
+939,Core-2600,Core-2601,FIXED,Live window resizing can be too slow,http://disney.go.com/: chrome box at top does not lay out properly,0,1,1
+940,Core-2601,Core-2602,FIXED,http://disney.go.com/: chrome box at top does not lay out properly,[PP] http://www.disney.com: maximizing after minimizing causes a layout problem,0,1,1
+941,Core-2604,Core-2609,FIXED,[PP]External CSS styles cause page to be rendered twice,[PP]Jan25:form buttons drawn in wrong place,1,1,1
+942,Core-2610,Core-2611,FIXED,Jan26:http://www.hotbot.com: Form does not render background-color,loading complex (cnn.com) pages much slower on Mac,0,0,1
+943,Core-2611,Core-2612,FIXED,loading complex (cnn.com) pages much slower on Mac,HTML 4 buttons have not implemented enabled/disabled,0,0,1
+944,Core-2612,Core-2613,FIXED,HTML 4 buttons have not implemented enabled/disabled,Top Frame doesnt show,0,0,1
+945,Core-2613,Core-2617,FIXED,Top Frame doesnt show,[pp]A crash occurs after clicking the search button.,0,0,1
+946,Core-2618,Core-2619,FIXED,[PP]Jan25: Problems submitting forms.,[PP]Jan 22:Crash when trying to search - form submission,1,0,1
+947,Core-2620,Core-2621,FIXED,The apprunner chrome is scrollable when it shouldnt be,[PP]Local URLs for STYLESHEET LINKs crashes viewer,0,0,1
+948,Core-2623,Core-2624,FIXED,[PP]Jan22:www.sony.com crashes after ~30 seconds idle time,[PP] RDF localfile test segfaults on Linux,0,1,1
+949,Core-2624,Core-2625,WONTFIX,[PP] RDF localfile test segfaults on Linux,Comments are displayed on page,0,1,1
+950,Core-2625,Core-2628,FIXED,Comments are displayed on page,No support for ACRONYM element and attributes,0,1,1
+951,Core-2630,Core-2631,FIXED,Crash in EventStateManager during mouseOver/mouseOut,TITLE attribute missing,0,1,1
+952,Core-2632,Core-2634,FIXED,INPUT attribute TABINDEX not implemented,AREA attribute TABINDEX not implemented,1,1,1
+953,Core-2634,Core-2635,FIXED,AREA attribute TABINDEX not implemented,BUTTON attribute TABINDEX not implemented,1,1,1
+954,Core-2635,Core-2637,FIXED,BUTTON attribute TABINDEX not implemented,BUTTON element style is different from INPUT element buttons,1,1,1
+955,Core-2637,Core-2638,FIXED,BUTTON element style is different from INPUT element buttons,SELECT attribute TABINDEX not implemented,1,1,1
+956,Core-2638,Core-2641,FIXED,SELECT attribute TABINDEX not implemented,TEXTAREA attribute TABINDEX not implemented,1,1,1
+957,Core-2641,Core-2642,FIXED,TEXTAREA attribute TABINDEX not implemented,Cycling through TEXTAREAs in tabindex order messes up,1,0,1
+958,Core-2643,Core-2644,FIXED,[4.xP] 99012512 table render problem on yahoo,[4.xP] 99012512 tables render text more densely than 4.51/IE4.01,0,1,1
+959,Core-2649,Core-2650,FIXED,&#149 laying out incorrectly,www.hotwired.com pop-down menus not rendering,1,1,1
+960,Core-2650,Core-2651,FIXED,www.hotwired.com pop-down menus not rendering,http://www.warnerbros.com: two tables not centered correctly,1,1,1
+961,Core-2661,Core-2663,FIXED,Background does not cover entire page,Form buttons shape & text style inconsistent cross app & platform,0,1,1
+962,Core-2663,Core-2668,WONTFIX,Form buttons shape & text style inconsistent cross app & platform,forms dont submit,1,1,1
+963,Core-2675,Core-2676,FIXED,Unclosed -p- tag handled incorrectly,{inc} http://slip/projects/marvin/bugs/br_bug.html,0,0,1
+964,Core-2676,Core-2677,FIXED,{inc} http://slip/projects/marvin/bugs/br_bug.html,PP: Listboxes dont show/work on Mac/Linux,0,0,1
+965,Core-2677,Core-2680,FIXED,PP: Listboxes dont show/work on Mac/Linux,PP: linux99025 Radio Buttons dont show/work.,1,1,1
+966,Core-2680,Core-2681,FIXED,PP: linux99025 Radio Buttons dont show/work.,[Frame layout] Plugin in frame doesnt get redrawn on resize,0,1,1
+967,Core-2681,Core-2684,FIXED,[Frame layout] Plugin in frame doesnt get redrawn on resize,{colspan-width} Text in table displayed in two lines,1,0,1
+968,Core-2684,Core-2687,FIXED,{colspan-width} Text in table displayed in two lines,Crash: Column frames not placed in cell map on incremental reflow,0,0,1
+969,Core-2687,Core-2692,FIXED,Crash: Column frames not placed in cell map on incremental reflow,Window focus problems,0,0,1
+970,Core-2692,Core-2697,FIXED,Window focus problems,Parser freeze,0,0,1
+971,Core-2697,Core-2698,FIXED,Parser freeze,Parser freeze,1,1,1
+972,Core-2698,Core-2699,FIXED,Parser freeze,Parsing list in table,1,0,1
+973,Core-2699,Core-2700,FIXED,Parsing list in table,Nested lists,1,1,1
+974,Core-2700,Core-2701,FIXED,Nested lists,{sink} Style tag adding table row,0,1,1
+975,Core-2701,Core-2702,FIXED,{sink} Style tag adding table row,Parsing invalid html,0,1,1
+976,Core-2702,Core-2703,FIXED,Parsing invalid html,[PATCH] Dialog boxes,0,1,1
+977,Core-2703,Core-2704,WONTFIX,[PATCH] Dialog boxes,[PP]Jan27: Pages not displaying,0,1,1
+978,Core-2704,Core-2715,FIXED,[PP]Jan27: Pages not displaying,warnings: hiding inherited virtual functions,0,0,1
+979,Core-2715,Core-2725,FIXED,warnings: hiding inherited virtual functions,Crash in radiobutton frame code on www.netscape.com,0,1,1
+980,Core-2725,Core-2733,FIXED,Crash in radiobutton frame code on www.netscape.com,Page does not lay out well.,0,0,1
+981,Core-2735,Core-2736,FIXED,[PP]: linux 98027 Button disappears on mouseover,Table must be re-sized to render correctly,0,1,1
+982,Core-2736,Core-2738,FIXED,Table must be re-sized to render correctly,ABBR should show TITLE attribute as tooltip,1,1,1
+983,Core-2742,Core-2743,FIXED,<STYLE> and <SCRIPT> elements do not render even with display:block,Canvas is three pixels too wide for viewport; causing scroll bar problems,1,0,1
+984,Core-2743,Core-2744,FIXED,Canvas is three pixels too wide for viewport; causing scroll bar problems,Transparent borders are not implemented/do not work,0,1,1
+985,Core-2744,Core-2746,FIXED,Transparent borders are not implemented/do not work,CSS behaves wrongly in table,1,0,1
+986,Core-2747,Core-2748,FIXED,width:auto should not result in growing to fit contents!,Switching alternate stylesheets causes viewport shift,1,1,1
+987,Core-2748,Core-2749,FIXED,Switching alternate stylesheets causes viewport shift,Comments are incorrectly parsed: <!-- -- --> inside comment! <!-- -- -->,0,1,1
+988,Core-2749,Core-2751,FIXED,Comments are incorrectly parsed: <!-- -- --> inside comment! <!-- -- -->,{css1} margin-bottom on overflowing floated content may be lost,0,1,1
+989,Core-2751,Core-2752,FIXED,{css1} margin-bottom on overflowing floated content may be lost,CHAR attribute not working properly,1,1,1
+990,Core-2753,Core-2754,FIXED,lists (UL;LI) do not end correctly.,Need gestalt tests for system version etc.,0,1,1
+991,Core-2754,Core-2759,WONTFIX,Need gestalt tests for system version etc.,</ul> tags dont seem to be recognized.,0,1,1
+992,Core-2759,Core-2763,FIXED,</ul> tags dont seem to be recognized.,text wraps on table column - should display on one line,0,1,1
+993,Core-2763,Core-2765,FIXED,text wraps on table column - should display on one line,shouldnt load all alternate stylesheets before displaying,0,1,1
+994,Core-2765,Core-2770,FIXED,shouldnt load all alternate stylesheets before displaying,Page does not load,0,1,1
+995,Core-2770,Core-2771,FIXED,Page does not load,nested list parsing problem,0,1,1
+996,Core-2771,Core-2773,FIXED,nested list parsing problem,Inconsistent Table layout,0,1,1
+997,Core-2773,Core-2775,FIXED,Inconsistent Table layout,The CSS @import construct really is incorrectly parsed.,0,0,1
+998,Core-2775,Core-2777,FIXED,The CSS @import construct really is incorrectly parsed.,TEXTAREA elements do not render before forms,0,0,1
+999,Core-2777,Core-2778,FIXED,TEXTAREA elements do not render before forms,TEXTAREA elements do not render contents,0,1,1
+1000,Core-2778,Core-2779,FIXED,TEXTAREA elements do not render contents,{compat} cellpadding and cellspacing not working,0,0,1
+1001,Core-2780,Core-2781,FIXED,Scroll bars ignore overflowed contents of explicitly sized box,CSS parser is incorrectly treating <!-- and --> (CDO/CDC),0,0,1
+1002,Core-2781,Core-2782,WONTFIX,CSS parser is incorrectly treating <!-- and --> (CDO/CDC),no way to tell editable content from non-editable content,0,0,1
+1003,Core-2782,Core-2787,FIXED,no way to tell editable content from non-editable content,Crash on js accessing option index out of range,0,0,1
+1004,Core-2787,Core-2788,FIXED,Crash on js accessing option index out of range,Crash on leaving page where js references named options.,1,1,1
+1005,Core-2788,Core-2789,FIXED,Crash on leaving page where js references named options.,viewer core dumps immediately,0,0,1
+1006,Core-2789,Core-2790,FIXED,viewer core dumps immediately,Malformed HTML hangs parser,0,1,1
+1007,Core-2790,Core-2792,FIXED,Malformed HTML hangs parser,selectedIndex doesnt work,0,1,1
+1008,Core-2792,Core-2793,FIXED,selectedIndex doesnt work,Tables shrink on an incremental reflow,0,1,1
+1009,Core-2795,Core-2797,WONTFIX,Cant insert floppies while app is running (Mac only),warnings: hiding inherited virtual functions,0,0,1
+1010,Core-2797,Core-2798,FIXED,warnings: hiding inherited virtual functions,warnings: hiding inherited virtual functions,1,1,1
+1011,Core-2798,Core-2801,FIXED,warnings: hiding inherited virtual functions,HTML2 LINK element not supported,1,0,1
+1012,Core-2804,Core-2807,FIXED,[PP]: Mac Freeze on load about 80% of www.city.net,BLOCKQUOTE indent disappears part way through document,0,0,1
+1013,Core-2807,Core-2808,FIXED,BLOCKQUOTE indent disappears part way through document,Mozilla 5 supports XML; but it does not announce it in its HTTP request headers...,0,0,1
+1014,Core-2808,Core-2809,FIXED,Mozilla 5 supports XML; but it does not announce it in its HTTP request headers...,Tables containing comments lay out wrong,0,0,1
+1015,Core-2809,Core-2815,FIXED,Tables containing comments lay out wrong,Password text field shows contents in clear-text,0,1,1
+1016,Core-2815,Core-2816,FIXED,Password text field shows contents in clear-text,[PP] Mac doesnt handle NS_MOUSE_LEFT_DOUBLECLICK event,0,0,1
+1017,Core-2816,Core-2817,FIXED,[PP] Mac doesnt handle NS_MOUSE_LEFT_DOUBLECLICK event,Rendering of my single row table,0,0,1
+1018,Core-2817,Core-2819,FIXED,Rendering of my single row table,Various formatting CSS objects not displaying at all,0,0,1
+1019,Core-2819,Core-2820,FIXED,Various formatting CSS objects not displaying at all,Set Default Encoding choice very confusing,0,0,1
+1020,Core-2820,Core-2821,FIXED,Set Default Encoding choice very confusing,Mouse wheel does not work in Seamonkey,0,1,1
+1021,Core-2821,Core-2822,FIXED,Mouse wheel does not work in Seamonkey,<p> break not shown between </span> & <address>,0,0,1
+1022,Core-2822,Core-2825,FIXED,<p> break not shown between </span> & <address>,Phrasal Elements in H[1-6]s cause H[1-6] element to break,0,0,1
+1023,Core-2825,Core-2826,FIXED,Phrasal Elements in H[1-6]s cause H[1-6] element to break,Parsing font tag in heading,1,1,1
+1024,Core-2829,Core-2833,FIXED,Cant read plain text files,single signon hang,0,1,1
+1025,Core-2834,Core-2839,FIXED,A crash occurs when attempting to copy selected text.,firstChild of HTMLHeadElement refers back to HTMLHeadElement,0,1,1
+1026,Core-2839,Core-2840,FIXED,firstChild of HTMLHeadElement refers back to HTMLHeadElement,Composer adds and deletes tags,0,1,1
+1027,Core-2840,Core-2841,WONTFIX,Composer adds and deletes tags,Enumerated types are generated each time a .idl file is included,0,0,1
+1028,Core-2841,Core-2842,FIXED,Enumerated types are generated each time a .idl file is included,H1 containing A is too small,0,1,1
+1029,Core-2843,Core-2848,FIXED,Interfaces passed as in parameters in .idl files are generated as const,CRASH!!!....,0,1,1
+1030,Core-2848,Core-2850,FIXED,CRASH!!!....,reszing can cause form controls to appear offset from correct position,0,1,1
+1031,Core-2858,Core-2861,WONTFIX,[PP]crash when GC called from branch callback (SM140_BRANCH),[PP] Crash: assert in  mkgeturl.c:3246,0,0,1
+1032,Core-2861,Core-2865,FIXED,[PP] Crash: assert in  mkgeturl.c:3246,[PP]With editor mode on and switching to another page; attempting to select text causes a crash,0,1,1
+1033,Core-2865,Core-2867,FIXED,[PP]With editor mode on and switching to another page; attempting to select text causes a crash,percentage widths done wrong (regression),0,0,1
+1034,Core-2867,Core-2868,FIXED,percentage widths done wrong (regression),page doesnt display at all (regression),1,1,1
+1035,Core-2870,Core-2871,FIXED,@charset is not supported,SPAN moved outside of H1,0,1,1
+1036,Core-2872,Core-2874,FIXED,Test dom/tests/js/docfrag.html doesnt work,onLoad racy with applet tag,0,0,1
+1037,Core-2877,Core-2881,FIXED,Crashed When I tried to maxmamise the window created with app runner,All images mangled on 24 bit display,0,1,1
+1038,Core-2882,Core-2883,FIXED,DOM related crash,[PP] Crash exiting apprunner,0,1,1
+1039,Core-2883,Core-2885,FIXED,[PP] Crash exiting apprunner,Improper line breaks before and after href tags,0,0,1
+1040,Core-2885,Core-2886,FIXED,Improper line breaks before and after href tags,{css1} uneven top/bottom padding/border mis-places cell contents,0,1,1
+1041,Core-2886,Core-2888,FIXED,{css1} uneven top/bottom padding/border mis-places cell contents,Work on Linux-specific editor performance improvements,0,0,1
+1042,Core-2888,Core-2896,FIXED,Work on Linux-specific editor performance improvements,Drop-down lists crash the browser (Mac),0,0,1
+1043,Core-2896,Core-2899,FIXED,Drop-down lists crash the browser (Mac),Typo in the default page displayed (demo #0),0,0,1
+1044,Core-2899,Core-2904,FIXED,Typo in the default page displayed (demo #0),Widths of cells containing images not calculated correctly,0,0,1
+1045,Core-2904,Core-2906,FIXED,Widths of cells containing images not calculated correctly,font face tags not properly interpreted,0,1,1
+1046,Core-2907,Core-2909,FIXED,[PP] Some images not loading at www.imaginegames.com,URL: NECKO: Dr. Watson .. application error with gecko.exe -- \ in URL,0,1,1
+1047,Core-2921,Core-2923,FIXED,[PP]mac only: selected value in form not displayed,[PP] Checkboxes dont display,0,1,1
+1048,Core-2923,Core-2925,FIXED,[PP] Checkboxes dont display,text-indent should be within line-box [floater],1,1,1
+1049,Core-2925,Core-2926,FIXED,text-indent should be within line-box [floater],BODY background cascading problems,0,1,1
+1050,Core-2926,Core-2928,FIXED,BODY background cascading problems,Status info lost after mousing over link,0,0,1
+1051,Core-2932,Core-2934,FIXED,[4.xP].left aligned; anchored image causes strange layout,[4.xP]99020412 <form> is treated as inline instead of block,1,1,1
+1052,Core-2942,Core-2946,FIXED,non-CSS presentational hints and user stylesheets [CASCADE],Page [with odd <!--/--> in STYLE] does not display at all!,0,1,1
+1053,Core-2946,Core-2947,FIXED,Page [with odd <!--/--> in STYLE] does not display at all!,Table width wrong caused by colspan/img/overflow,0,1,1
+1054,Core-2948,Core-2949,FIXED,clear not clearing bumped floats,float moved down to meet text after it,1,1,1
+1055,Core-2949,Core-2950,FIXED,float moved down to meet text after it,vertical-align working only on first line of text,1,1,1
+1056,Core-2950,Core-2951,FIXED,vertical-align working only on first line of text,the meaning of line-height: 1,1,1,1
+1057,Core-2951,Core-2952,FIXED,the meaning of line-height: 1,weird UL behaviour around floats,1,1,1
+1058,Core-2952,Core-2953,FIXED,weird UL behaviour around floats,Phrasal Elements in H[1-6]s cause H[1-6] element to break,0,1,1
+1059,Core-2967,Core-2969,FIXED,[PP] The Back and Forward buttons are not working on Linux,[PP]Quick Start button on Big Chart table not displaying,0,1,1
+1060,Core-2969,Core-2970,FIXED,[PP]Quick Start button on Big Chart table not displaying,Text inside <MAP> not displayed,0,0,1
+1061,Core-2972,Core-2973,FIXED,[PP]Clicking on a select menu element will cause a crash,[4.xP]Extra Whitespace between table top of table and cell,0,1,1
+1062,Core-2973,Core-2975,FIXED,[4.xP]Extra Whitespace between table top of table and cell,Font color blue it too light for links on Big Reports table,0,1,1
+1063,Core-2975,Core-2977,FIXED,Font color blue it too light for links on Big Reports table,Background color not displayed on for index watch table,0,1,1
+1064,Core-2981,Core-2985,FIXED,[4.xP] Image alignment problem,Text renders larger than 4.51,0,1,1
+1065,Core-2985,Core-2987,WONTFIX,Text renders larger than 4.51,SELECT elements not supported outside of FORM,0,1,1
+1066,Core-2987,Core-2989,FIXED,SELECT elements not supported outside of FORM,[EVENTTARG] Blank areas of elements doesnt fire events,0,0,1
+1067,Core-2989,Core-2993,FIXED,[EVENTTARG] Blank areas of elements doesnt fire events,gaps with absolute positioning of auto,0,0,1
+1068,Core-2993,Core-2995,FIXED,gaps with absolute positioning of auto,Cable News Network,0,1,1
+1069,Core-2995,Core-2996,FIXED,Cable News Network,[PP]Radio buttons arent drawn properly,0,1,1
+1070,Core-2996,Core-2998,FIXED,[PP]Radio buttons arent drawn properly,[PP]: get rid of libimg/xpcompat.cpp as much as possible,0,1,1
+1071,Core-2998,Core-2999,FIXED,[PP]: get rid of libimg/xpcompat.cpp as much as possible,OPTION elements with value= are treated as if the value was not set at all,0,1,1
+1072,Core-2999,Core-3000,FIXED,OPTION elements with value= are treated as if the value was not set at all,collapsing border model table margins,0,1,1
+1073,Core-3000,Core-3002,FIXED,collapsing border model table margins,Errors prevent NGL from logging into myNetscape.,0,1,1
+1074,Core-3003,Core-3004,FIXED,Parser crash,Remove debug robot from build,1,0,1
+1075,Core-3004,Core-3005,FIXED,Remove debug robot from build,[PP]rdfsink test not building on Linux RH5.2,0,1,1
+1076,Core-3005,Core-3008,WONTFIX,[PP]rdfsink test not building on Linux RH5.2,[PP] Displaying alt text for broken images crashes and causes page blending,0,0,1
+1077,Core-3014,Core-3015,FIXED,List in Table not displayed as list.,Font should(?) be arial but looks like Times Roman,1,1,1
+1078,Core-3020,Core-3021,FIXED,[PP] Find It .gif not displaying,Extra onChange fired for combo box.  (IE 5 HTML 4 bug),0,0,1
+1079,Core-3022,Core-3023,FIXED,990204: Text centering inconsistent between browsers,[PP]Crash: No error checking on ContentSinkStream or parser,1,0,1
+1080,Core-3023,Core-3025,WONTFIX,[PP]Crash: No error checking on ContentSinkStream or parser,file selection dialog forgets filenames on chdir,0,0,1
+1081,Core-3025,Core-3026,FIXED,file selection dialog forgets filenames on chdir,990204[4.xP]: Text appears too large for column,0,1,1
+1082,Core-3026,Core-3027,FIXED,990204[4.xP]: Text appears too large for column,right not inheriting for absolutely positioned elements,1,1,1
+1083,Core-3027,Core-3031,FIXED,right not inheriting for absolutely positioned elements,[PP]Crashes when loading (takes about -3 minutes),0,1,1
+1084,Core-3037,Core-3040,FIXED,Setting a display: table-cell style rule on a SPAN crashes viewer,[4.xP] Table content is too high,1,1,1
+1085,Core-3040,Core-3041,FIXED,[4.xP] Table content is too high,Animated GIFs not loading,0,1,1
+1086,Core-3045,Core-3069,FIXED,[4.xP]bluemountain.com: Arrows for pull down menu differ from IE,Top middle has a yellow area with no text; newsletter.html,0,0,1
+1087,Core-3069,Core-3070,FIXED,Top middle has a yellow area with no text; newsletter.html,The Book Your Roundtrip Flight Now! box is gone,1,1,1
+1088,Core-3070,Core-3073,FIXED,The Book Your Roundtrip Flight Now! box is gone,{compat} font parsing incorrect,1,0,1
+1089,Core-3075,Core-3077,FIXED,Crash with clsid specified for ActiveX control,nasty kludge: static link dependency from rdf.dll to layout.dll,0,0,1
+1090,Core-3077,Core-3079,FIXED,nasty kludge: static link dependency from rdf.dll to layout.dll,[PP] File selection box does nothing,0,0,1
+1091,Core-3079,Core-3080,FIXED,[PP] File selection box does nothing,ServiceManager needs to get passed to NS*() dll functions,0,0,1
+1092,Core-3080,Core-3081,FIXED,ServiceManager needs to get passed to NS*() dll functions,Use nsFileSpec for file/directory manipulation,1,1,1
+1093,Core-3081,Core-3082,FIXED,Use nsFileSpec for file/directory manipulation,Switch to the new registry API nsIRegistry,1,1,1
+1094,Core-3082,Core-3083,FIXED,Switch to the new registry API nsIRegistry,Selection is much slower in apprunner than in viewer,0,1,1
+1095,Core-3083,Core-3085,FIXED,Selection is much slower in apprunner than in viewer,Pop-up ads get drawn where you cant close them,0,0,1
+1096,Core-3085,Core-3086,FIXED,Pop-up ads get drawn where you cant close them,URL: meta tag redirect w/ abs path breaks on Windows; crashes on Mac,0,0,1
+1097,Core-3086,Core-3088,FIXED,URL: meta tag redirect w/ abs path breaks on Windows; crashes on Mac,top and bottom margins on nested DLs,0,1,1
+1098,Core-3088,Core-3089,FIXED,top and bottom margins on nested DLs,page bizarrely long,0,1,1
+1099,Core-3089,Core-3090,FIXED,page bizarrely long,Viewer crashes on loading new page from www.netscape.com,1,0,1
+1100,Core-3090,Core-3092,FIXED,Viewer crashes on loading new page from www.netscape.com,www.projo.com: ((SCRIPT && STYLE) in TABLE) => duplicate rows,0,0,1
+1101,Core-3093,Core-3094,FIXED,NECKO: Stream blocking indefinitely,Layout problem with filled table cells,0,0,1
+1102,Core-3094,Core-3095,FIXED,Layout problem with filled table cells,No background color,0,0,1
+1103,Core-3097,Core-3098,FIXED,nsHTMLButtonControlFrame arent getting NS_MOUSE_EXIT events,Sample 9 scrolls very poorly,0,0,1
+1104,Core-3102,Core-3103,FIXED,Stray semicolon not parsed as part of selector,rowspanning cell height not being calculated correctly in table with height attribute,0,1,1
+1105,Core-3103,Core-3105,FIXED,rowspanning cell height not being calculated correctly in table with height attribute,Table nested in table with pre-set WIDTH yields truncated table content (I think),1,1,1
+1106,Core-3105,Core-3106,FIXED,Table nested in table with pre-set WIDTH yields truncated table content (I think),[PP]Mac doesnt auto-register XPCOM factories,0,0,1
+1107,Core-3106,Core-3108,FIXED,[PP]Mac doesnt auto-register XPCOM factories,URL: crashing on backslash \,0,0,1
+1108,Core-3108,Core-3109,FIXED,URL: crashing on backslash \,XML documents are broken when veiwed with file:// protocol,0,1,1
+1109,Core-3109,Core-3113,FIXED,XML documents are broken when veiwed with file:// protocol,Does not display <hr width=100%> correctly,0,1,1
+1110,Core-3116,Core-3117,FIXED,ex and em units are way off,[PP] apprunner urlbar not writable on Linux,0,0,1
+1111,Core-3117,Core-3118,FIXED,[PP] apprunner urlbar not writable on Linux,[DOGFOOD][top100] disney.com draws a blank page.,0,0,1
+1112,Core-3118,Core-3119,FIXED,[DOGFOOD][top100] disney.com draws a blank page.,crash - signing in crashes apprunner,0,0,1
+1113,Core-3119,Core-3123,FIXED,crash - signing in crashes apprunner,<html:form> elements dont create container content in XML,0,0,1
+1114,Core-3126,Core-3128,FIXED,DNS: incredibly long fqdns fail,Global mailcap; mime-type files should use $MOZILLA_FIVE_HOME,0,0,1
+1115,Core-3134,Core-3135,FIXED,URL: nsHttpUrlImpl::Equals() doesnt handle trailing /,LABEL element causing skewed rendering,0,1,1
+1116,Core-3135,Core-3142,FIXED,LABEL element causing skewed rendering,Registry: Duplicate dll loading,0,0,1
+1117,Core-3142,Core-3143,FIXED,Registry: Duplicate dll loading,URL: Problems resolving relative URLs in LINK after redirects,0,0,1
+1118,Core-3145,Core-3146,FIXED,Leaking of nsBorderEdge struct,[CODE] Anonymous table frames cause leaking of content objects,1,1,1
+1119,Core-3146,Core-3147,FIXED,[CODE] Anonymous table frames cause leaking of content objects,crash when switching tests,0,0,1
+1120,Core-3147,Core-3148,FIXED,crash when switching tests,Crash when mouse moves after switching tests,1,1,1
+1121,Core-3148,Core-3149,FIXED,Crash when mouse moves after switching tests,Change BASEFONT content object to return a RECONSTRUCT_EVERYTHING hint for attribute changes.,0,1,1
+1122,Core-3149,Core-3152,FIXED,Change BASEFONT content object to return a RECONSTRUCT_EVERYTHING hint for attribute changes.,[Webshell] Reload on going back to new location on same document.,0,1,1
+1123,Core-3152,Core-3153,FIXED,[Webshell] Reload on going back to new location on same document.,[History] Preserve scroll offset information across reconstructs.,0,1,1
+1124,Core-3154,Core-3158,FIXED,Events dont work with fixed positioning,content not displayed when image align tag used,1,0,1

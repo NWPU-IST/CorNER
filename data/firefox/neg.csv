@@ -1,0 +1,591 @@
+,Issue_id_1,Issue_id_2,Resolution,Title_1,Title_2,same_comp,same_prio,same_tw
+0,Firefox-10954,Firefox-14871,WONTFIX,Dialup properties needs to be exposed in prefs,[Find] Find whole word only,0,0,1
+1,Firefox-19118,Firefox-70171,WONTFIX,Plug-In Manager (ui for choosing mimetype-plugin associations),opening history window should select current site,0,1,1
+2,Firefox-70171,Firefox-75119,WONTFIX,opening history window should select current site,Cookie Manager: Dont allow sites that set removed cookies to set future cookies  should stay checked/unchecked,0,0,1
+3,Firefox-75119,Firefox-82301,FIXED,Cookie Manager: Dont allow sites that set removed cookies to set future cookies  should stay checked/unchecked,Today History folder should be expanded by default,0,0,1
+4,Firefox-82301,Firefox-82938,FIXED,Today History folder should be expanded by default,Search Bookmarks accessible through manage bookmarks only,1,0,1
+5,Firefox-82938,Firefox-83003,FIXED,Search Bookmarks accessible through manage bookmarks only,-bookmarks option,1,1,1
+6,Firefox-83003,Firefox-84106,WONTFIX,-bookmarks option,[FIX]Not correctly retrieving post data when saving a page or frame generated from a form POST,0,0,1
+7,Firefox-84106,Firefox-88541,FIXED,[FIX]Not correctly retrieving post data when saving a page or frame generated from a form POST,Show URI in status bar onmouseover of Back/Forward menu items,0,0,1
+8,Firefox-88541,Firefox-91774,FIXED,Show URI in status bar onmouseover of Back/Forward menu items,Localization problems with Bookmarks Sorted By menu & History Sorted By menu,1,1,1
+9,Firefox-91774,Firefox-92073,FIXED,Localization problems with Bookmarks Sorted By menu & History Sorted By menu,UI to allow external handlers for internal types,0,0,1
+10,Firefox-92073,Firefox-93789,WONTFIX,UI to allow external handlers for internal types,Mozilla should support X11 session management,0,1,1
+11,Firefox-93789,Firefox-94514,FIXED,Mozilla should support X11 session management,POST result page should not appear in global history or history autocomplete results,0,0,1
+12,Firefox-94514,Firefox-104142,FIXED,POST result page should not appear in global history or history autocomplete results,want infinite Back,0,0,1
+13,Firefox-104142,Firefox-110894,WONTFIX,want infinite Back,Use favicons on webpage shortcuts in Windows,0,1,1
+14,Firefox-110894,Firefox-120494,FIXED,Use favicons on webpage shortcuts in Windows,Better documentation for font features,0,1,1
+15,Firefox-120494,Firefox-134649,WONTFIX,Better documentation for font features,browser.urlbar.clickSelectsAll should default to false on Macintosh,0,1,1
+16,Firefox-135567,Firefox-140108,FIXED,menu accesskeys needed for closing tabs and window in multitab cases,The Page Info Dialog should have a Server Tab,0,1,1
+17,Firefox-140108,Firefox-145524,WONTFIX,The Page Info Dialog should have a Server Tab,add icons to context menu,0,1,1
+18,Firefox-145524,Firefox-150379,WONTFIX,add icons to context menu,So called tab bar should be made a proper toolbar or given the ability collapse / expand.,0,1,1
+19,Firefox-150379,Firefox-151437,WONTFIX,So called tab bar should be made a proper toolbar or given the ability collapse / expand.,View Image context menu item omits referrer,0,1,1
+20,Firefox-151437,Firefox-153509,FIXED,View Image context menu item omits referrer,Allow search engines to test if they are the default,0,1,1
+21,Firefox-155482,Firefox-161032,WONTFIX,Need icon for Quirks vs. Standards Mode,[XUL] Implement Cocoa-style toolbar customization.,1,1,1
+22,Firefox-161032,Firefox-161448,FIXED,[XUL] Implement Cocoa-style toolbar customization.,#ifdefs for MOZ_PHOENIX,0,1,1
+23,Firefox-161448,Firefox-161730,FIXED,#ifdefs for MOZ_PHOENIX,customize dialogs toolbar has small icons when small icons is not checked,0,1,1
+24,Firefox-161730,Firefox-161735,FIXED,customize dialogs toolbar has small icons when small icons is not checked,nightly builds and tinderboxen for Phoenix,0,1,1
+25,Firefox-161735,Firefox-161749,FIXED,nightly builds and tinderboxen for Phoenix,finish tearing prefs UI to pieces and then make it not suck,0,1,1
+26,Firefox-161749,Firefox-161803,FIXED,finish tearing prefs UI to pieces and then make it not suck,mozbrowser script doesnt start correct binary,0,1,1
+27,Firefox-161803,Firefox-161822,FIXED,mozbrowser script doesnt start correct binary,Need bookmark groups icon,0,1,1
+28,Firefox-161822,Firefox-161866,FIXED,Need bookmark groups icon,Dropping at top of palette box horks things,0,1,1
+29,Firefox-161866,Firefox-161867,FIXED,Dropping at top of palette box horks things,keyboard shortcut for Increase Text Size is broken,0,1,1
+30,Firefox-161867,Firefox-161871,FIXED,keyboard shortcut for Increase Text Size is broken,default phoenix bookmarks,0,0,1
+31,Firefox-161871,Firefox-162036,FIXED,default phoenix bookmarks,[cust] need a toolbar spacer and spring spacer for customize,0,0,1
+32,Firefox-162036,Firefox-162150,FIXED,[cust] need a toolbar spacer and spring spacer for customize,Cant launch phoenix while Mozilla is running (or vice versa),0,1,1
+33,Firefox-162150,Firefox-162286,FIXED,Cant launch phoenix while Mozilla is running (or vice versa),separator not available when all toolbar items are in toolbar layout,0,1,1
+34,Firefox-162286,Firefox-162341,FIXED,separator not available when all toolbar items are in toolbar layout,history menu for the back/forward buttons doesnt work,1,1,1
+35,Firefox-162341,Firefox-162344,FIXED,history menu for the back/forward buttons doesnt work,attempting to open back button history menu in the second window generates another back button on the toolbar,1,1,1
+36,Firefox-165823,Firefox-165955,FIXED,Starting Customizing Toolbar makes the current page go blank,Check in Satchel (the successor to wallet),0,0,1
+37,Firefox-165955,Firefox-165956,FIXED,Check in Satchel (the successor to wallet),Mousing over back/fwd menu in second window horks things,0,0,1
+38,Firefox-165956,Firefox-165958,FIXED,Mousing over back/fwd menu in second window horks things,Personal toolbar needs a min-height to avoid popping in,1,0,1
+39,Firefox-165958,Firefox-165959,FIXED,Personal toolbar needs a min-height to avoid popping in,New Folder...in ptoolbar context menu is broken,0,1,1
+40,Firefox-165959,Firefox-165960,FIXED,New Folder...in ptoolbar context menu is broken,Implement Mozilla Firebird Help,0,1,1
+41,Firefox-165960,Firefox-167100,FIXED,Implement Mozilla Firebird Help,tabs close in the wrong order (right to left),0,1,1
+42,Firefox-167100,Firefox-167134,FIXED,tabs close in the wrong order (right to left),Customising toolbar breaks the throbber!,1,1,1
+43,Firefox-167167,Firefox-167180,FIXED,manage bookmarks causes hang,land pchs bookmarks patch from bug  160019,1,1,1
+44,Firefox-167180,Firefox-167183,FIXED,land pchs bookmarks patch from bug  160019,Preferences > Privacy > Images == Wonky,0,1,1
+45,Firefox-167391,Firefox-167422,FIXED,Go menu needs to have an id=,view source tries to download type application x-view-source from view-source:<url>,0,1,1
+46,Firefox-167430,Firefox-167449,FIXED,second window opens mozilla,fix branding,1,1,1
+47,Firefox-167449,Firefox-167969,FIXED,fix branding,Theme changes will take effect when you restart _Mozilla_.,0,1,1
+48,Firefox-167986,Firefox-168274,FIXED,Need large icons for the Options menu,Show form action URL in status bar (like for link URLs) (e.g. when hovering a submit button),0,0,1
+49,Firefox-168274,Firefox-168410,WONTFIX,Show form action URL in status bar (like for link URLs) (e.g. when hovering a submit button),The bookmark tree jumps unexpectedly to the bottom of its view when the the first visible row is not the first one,0,0,1
+50,Firefox-168410,Firefox-168411,FIXED,The bookmark tree jumps unexpectedly to the bottom of its view when the the first visible row is not the first one,Move bookmarks transactions into a JS service (adding a bookmark leaks the Add Bookmark dialog),1,0,1
+51,Firefox-168411,Firefox-168412,FIXED,Move bookmarks transactions into a JS service (adding a bookmark leaks the Add Bookmark dialog),Shortcut Ctrl-Y (redo) does not work in Bookmarks Manager,1,0,1
+52,Firefox-168412,Firefox-168413,FIXED,Shortcut Ctrl-Y (redo) does not work in Bookmarks Manager,Eradicate AddBookmarkImmediately,1,1,1
+53,Firefox-168413,Firefox-168415,FIXED,Eradicate AddBookmarkImmediately,Deleting a selection should select the next item,1,1,1
+54,Firefox-168415,Firefox-168416,FIXED,Deleting a selection should select the next item,transaction manager does not handle import,1,0,1
+55,Firefox-168416,Firefox-168442,FIXED,transaction manager does not handle import,customize toolbar clears URL,0,0,1
+56,Firefox-168442,Firefox-168504,FIXED,customize toolbar clears URL,3.2% increase in Phoenix Ts after bookmark landing,0,1,1
+57,Firefox-168504,Firefox-168727,FIXED,3.2% increase in Phoenix Ts after bookmark landing,cannot close folder with single click on twistie,1,1,1
+58,Firefox-168727,Firefox-169300,FIXED,cannot close folder with single click on twistie,Pref UI to specify a proxy server for web navigation,0,1,1
+59,Firefox-169346,Firefox-169347,FIXED,Implement global Go menu,Readd Open Location,0,1,1
+60,Firefox-169347,Firefox-169348,FIXED,Readd Open Location,Need tab loading icon,1,1,1
+61,Firefox-169348,Firefox-169378,FIXED,Need tab loading icon,first Mozilla Firefox window ignored by nsIWindowMediator,1,0,1
+62,Firefox-169378,Firefox-169379,FIXED,first Mozilla Firefox window ignored by nsIWindowMediator,first Phoenix window ignored by nsIWindowMediator,1,0,1
+63,Firefox-169698,Firefox-169709,FIXED,Open Personal Toolbar folder in toolbar; continue to hold mouse button; select bookmark -> nothing happens.,web search for  in context menu dont work,0,1,1
+64,Firefox-169709,Firefox-169727,FIXED,web search for  in context menu dont work,Restored window position and size lost after a full screen (linux),0,1,1
+65,Firefox-169823,Firefox-169826,FIXED,Fix full screen to have smaller icons,Port patch to bug 164006 (wyciwyg: in tab titles),0,0,1
+66,Firefox-169826,Firefox-169833,FIXED,Port patch to bug 164006 (wyciwyg: in tab titles),[cust] Add more off-by-default toolbar buttons,0,0,1
+67,Firefox-169833,Firefox-169834,FIXED,[cust] Add more off-by-default toolbar buttons,textmode buttons need hover/active state,1,1,1
+68,Firefox-169834,Firefox-169836,FIXED,textmode buttons need hover/active state,enable nsITheme form control goodness for Phoenix,0,1,1
+69,Firefox-169836,Firefox-169837,FIXED,enable nsITheme form control goodness for Phoenix,scroll bookmarks but not other menu items in bookmarks menu,0,0,1
+70,Firefox-169837,Firefox-169839,WONTFIX,scroll bookmarks but not other menu items in bookmarks menu,rename executable and profile dir,0,0,1
+71,Firefox-169839,Firefox-169971,FIXED,rename executable and profile dir,Need to enable wallet (password manager/image manager/cookie manager),1,1,1
+72,Firefox-169971,Firefox-170029,FIXED,Need to enable wallet (password manager/image manager/cookie manager),Respect Windows Access Keys display pref (default: only show the access keys when you hit alt),0,1,1
+73,Firefox-170078,Firefox-170152,FIXED,Missing proxy image,Cannot File > New Bookmark while managing a new/empty folder,0,1,1
+74,Firefox-170152,Firefox-170157,FIXED,Cannot File > New Bookmark while managing a new/empty folder,Bookmarks are not loaded if the Personal Toolbar is switched off,1,1,1
+75,Firefox-170157,Firefox-170216,FIXED,Bookmarks are not loaded if the Personal Toolbar is switched off,Pretty up dns error page a bit,0,1,1
+76,Firefox-170222,Firefox-170243,FIXED,middle click (pt+bookmark menu) loads in the current tab + new tab,Add ids to facilitate add-ons,0,1,1
+77,Firefox-170243,Firefox-170362,FIXED,Add ids to facilitate add-ons,Ctrl-W does not close the current tab,1,1,1
+78,Firefox-170427,Firefox-170448,FIXED,listboxes and tree views dont support themes on winxp,Ctrl+Mousewheel should resize text,1,1,1
+79,Firefox-170448,Firefox-170459,FIXED,Ctrl+Mousewheel should resize text,bookmarks should import Mozillas bookmarks,0,1,1
+80,Firefox-170462,Firefox-170463,WONTFIX,combine links + toolbar,File | Import ... does not work  cannot import 4.x; Mozilla or Phoenix bookmarks,0,1,1
+81,Firefox-170499,Firefox-170501,FIXED,About dialog weirdness,Context menu doesnt appear when right clicking on disabled forward or back,0,0,1
+82,Firefox-170501,Firefox-170511,WONTFIX,Context menu doesnt appear when right clicking on disabled forward or back,cant specify cookie/image details,0,1,1
+83,Firefox-170517,Firefox-170521,FIXED,Proxy settings in prefs.js seem to be ignored...,Incorrectly renders various web pages,0,1,1
+84,Firefox-170537,Firefox-170543,FIXED,[Moz] Cannot set Imported IE Favorites to default personal toolbar folder,pheonix,0,1,1
+85,Firefox-170543,Firefox-170566,WONTFIX,pheonix,Need smaller throbber to use with small icons,0,1,1
+86,Firefox-170566,Firefox-170568,FIXED,Need smaller throbber to use with small icons,Blank URL bar after using Customize Toolbar,1,1,1
+87,Firefox-170574,Firefox-170582,FIXED,Ctrl+Tab/Ctrl+Shift+Tab should switch tabs in browser,favicon.ico colors render improperly in tabs and URL bar,1,1,1
+88,Firefox-170609,Firefox-170623,FIXED,-remote openurl() opens Mozilla window if Mozilla is running,make preferences resizable,0,1,1
+89,Firefox-170623,Firefox-170630,FIXED,make preferences resizable,Scroll bar becomes blank,0,1,1
+90,Firefox-170633,Firefox-170641,FIXED,fix addressbar dropdown icon for linux.,Find Next button doesnt always respond to Enter,0,1,1
+91,Firefox-170641,Firefox-170653,FIXED,Find Next button doesnt always respond to Enter,Ctrl+Mousewheel should cycle tabs,0,1,1
+92,Firefox-170653,Firefox-170677,WONTFIX,Ctrl+Mousewheel should cycle tabs,A new icon for Firebird,0,1,1
+93,Firefox-170677,Firefox-170705,FIXED,A new icon for Firebird,accessing navigator.cookieEnabled produces uncaught exception,1,1,1
+94,Firefox-170705,Firefox-170734,FIXED,accessing navigator.cookieEnabled produces uncaught exception,Need Mozilla Firebird newsgroup,1,1,1
+95,Firefox-170734,Firefox-170737,FIXED,Need Mozilla Firebird newsgroup,Revive XUL preprocessor,1,1,1
+96,Firefox-170737,Firefox-170763,FIXED,Revive XUL preprocessor,Phoenix needs talkback,1,1,1
+97,Firefox-170763,Firefox-170765,FIXED,Phoenix needs talkback,Navigation toolbar is completely blank,0,1,1
+98,Firefox-170765,Firefox-170784,FIXED,Navigation toolbar is completely blank,restore image blocking in Phoenix,0,1,1
+99,Firefox-170784,Firefox-170793,FIXED,restore image blocking in Phoenix,error when dragging from empty area on personal toolbar to window,0,1,1
+100,Firefox-170793,Firefox-170834,FIXED,error when dragging from empty area on personal toolbar to window,no url bar back or forward buttons,0,1,1
+101,Firefox-170861,Firefox-170869,FIXED,implement middle click paste to load URL for Windows,auto-imported ie favorites (on every restart) do not resolve.,0,1,1
+102,Firefox-170869,Firefox-170899,WONTFIX,auto-imported ie favorites (on every restart) do not resolve.,URL toolbar missing off Phoenix nightly for 25 September,0,1,1
+103,Firefox-170946,Firefox-170958,FIXED,Ability to set tabgroups as homepages,No wordwrap on news article pages,1,0,1
+104,Firefox-171037,Firefox-171042,FIXED,Changes to get OS/2 building,Missing Address/Location Bar,0,1,1
+105,Firefox-171072,Firefox-171101,WONTFIX,left tab toolbar resizable,[cust] new toolbar customization features,1,1,1
+106,Firefox-171101,Firefox-171104,FIXED,[cust] new toolbar customization features,fixup after dropping communicator.css,1,1,1
+107,Firefox-171104,Firefox-171122,FIXED,fixup after dropping communicator.css,[cust] No URL bar on tool bar stops bookmarks from loading,1,1,1
+108,Firefox-171122,Firefox-171132,FIXED,[cust] No URL bar on tool bar stops bookmarks from loading,middle click on a tab should close it,0,1,1
+109,Firefox-171132,Firefox-171134,WONTFIX,middle click on a tab should close it,closing a tab focuses the left tab,0,1,1
+110,Firefox-171174,Firefox-171184,FIXED,sorting bookmarks from the view menu has been broken for too long.,File -> Open Location does not open a dialog box.,0,1,1
+111,Firefox-171218,Firefox-171239,WONTFIX,256 color mode does strange things,[cust] customize should be a dialog,0,1,1
+112,Firefox-171239,Firefox-171242,FIXED,[cust] customize should be a dialog,[cust] represent all personal toolbar bookmarks with one item,1,1,1
+113,Firefox-171242,Firefox-171245,FIXED,[cust] represent all personal toolbar bookmarks with one item,[cust] text labels for address field and search fields.,1,1,1
+114,Firefox-171245,Firefox-171271,WONTFIX,[cust] text labels for address field and search fields.,Save Bookmark Group over an existing Bookmark Group,0,1,1
+115,Firefox-171271,Firefox-171292,WONTFIX,Save Bookmark Group over an existing Bookmark Group,Back button skips page if error,1,1,1
+116,Firefox-171303,Firefox-171327,FIXED,[cust] Creating a new toolbar with same name as standard toolbar should give an error,Implement Use Bookmark menubutton in General prefs,0,0,1
+117,Firefox-171327,Firefox-171330,FIXED,Implement Use Bookmark menubutton in General prefs,redesign of how we expose bookmark groups / launching multiple tabs from bookmarks,1,1,1
+118,Firefox-171330,Firefox-171346,FIXED,redesign of how we expose bookmark groups / launching multiple tabs from bookmarks,showing icons&text shows reload and stop labels right to the buttons,0,1,1
+119,Firefox-171349,Firefox-171350,FIXED,Mozilla Firefox Icon is Windowing Systems Standard Icon (Taskbar & Upper Lefthand Corner of App),[cust] allow customization or better control of full screen toolbars,0,0,1
+120,Firefox-171350,Firefox-171397,WONTFIX,[cust] allow customization or better control of full screen toolbars,[cust] When the URL text box is hidden; the Open Location menu item does not open a dialogue box,1,1,1
+121,Firefox-171397,Firefox-171402,FIXED,[cust] When the URL text box is hidden; the Open Location menu item does not open a dialogue box,[cust] You can make a toolbar button part of the URL bar inplace of the favicon.,1,1,1
+122,Firefox-171402,Firefox-171427,FIXED,[cust] You can make a toolbar button part of the URL bar inplace of the favicon.,Phoenix wont start on Windows 9x,0,1,1
+123,Firefox-171427,Firefox-171430,FIXED,Phoenix wont start on Windows 9x,Add popup whitelisting,0,1,1
+124,Firefox-171430,Firefox-171447,FIXED,Add popup whitelisting,Cant tab into urlbar autocomplete,0,1,1
+125,Firefox-171447,Firefox-171451,FIXED,Cant tab into urlbar autocomplete,Move; Properties; Rename; etc should be disabled when no bookmark selected,0,1,1
+126,Firefox-171451,Firefox-171459,FIXED,Move; Properties; Rename; etc should be disabled when no bookmark selected,[cust] linux customize sheet comes up in the wrong place(s),0,1,1
+127,Firefox-171459,Firefox-171467,FIXED,[cust] linux customize sheet comes up in the wrong place(s),Run check on bookmark validity,0,1,1
+128,Firefox-171487,Firefox-171495,FIXED,when dns error page is presented and you click back button you go back 2 pages,implement search in urlbar autocomplete,0,1,1
+129,Firefox-171495,Firefox-171496,WONTFIX,implement search in urlbar autocomplete,middle-paste of url in content area should load that page,0,1,1
+130,Firefox-171498,Firefox-171502,FIXED,image files checked in without binary flag,scripts opens windows instead of tabs,1,1,1
+131,Firefox-171545,Firefox-171561,FIXED,ALT+F is mapped to Find instead of File menu,Mozilla Firefox creates a profile directory called Mozilla,0,1,1
+132,Firefox-171561,Firefox-171565,FIXED,Mozilla Firefox creates a profile directory called Mozilla,Background of Go button should be transparent; like the rest of the toolbar buttons.,0,1,1
+133,Firefox-171565,Firefox-171566,FIXED,Background of Go button should be transparent; like the rest of the toolbar buttons.,Phoenix fails to import Mozilla bookmarks,0,1,1
+134,Firefox-171572,Firefox-171574,FIXED,Dropmarker doesnt depress in non-luna,Autocomplete is broken in Homepage pref,1,1,1
+135,Firefox-171574,Firefox-171575,FIXED,Autocomplete is broken in Homepage pref,Implement find bookmark in the same manner as Netscape 4.x,0,1,1
+136,Firefox-171575,Firefox-171581,WONTFIX,Implement find bookmark in the same manner as Netscape 4.x,implement toolbar search/find in page,0,1,1
+137,Firefox-171581,Firefox-171584,FIXED,implement toolbar search/find in page,Focus is not on page after going to page via bookmark,0,1,1
+138,Firefox-171584,Firefox-171600,FIXED,Focus is not on page after going to page via bookmark,Implement work offline,0,1,1
+139,Firefox-171600,Firefox-171602,FIXED,Implement work offline,Add close button to sidebar,1,1,1
+140,Firefox-171602,Firefox-171604,FIXED,Add close button to sidebar,Implement toolbar overflow,0,1,1
+141,Firefox-171604,Firefox-171605,FIXED,Implement toolbar overflow,Implement deletion of individual autocomplete results,0,1,1
+142,Firefox-171605,Firefox-171606,FIXED,Implement deletion of individual autocomplete results,Add dropmarker to icon in search bar,1,1,1
+143,Firefox-171606,Firefox-171610,FIXED,Add dropmarker to icon in search bar,enter key in the bookmark manager does not load the selected bookmark,0,1,1
+144,Firefox-171610,Firefox-171616,FIXED,enter key in the bookmark manager does not load the selected bookmark,Add View -> Sidebars,0,1,1
+145,Firefox-171616,Firefox-171647,FIXED,Add View -> Sidebars,icons for customize toolbar additions.,0,1,1
+146,Firefox-171647,Firefox-171689,FIXED,icons for customize toolbar additions.,Unable to create a new folder  when selecting first ADD BOOKMARK,0,1,1
+147,Firefox-171702,Firefox-171722,FIXED,Add support for a <toolbar> to the right of the menu bar,tweaking of the View menu,0,1,1
+148,Firefox-171722,Firefox-171728,FIXED,tweaking of the View menu,mix of large and small icons on toolbars,0,1,1
+149,Firefox-171741,Firefox-171747,FIXED,[Cust] Closing the toolbars customisation window without clicking on Done,Typeahead find + F3 doesnt find next,0,1,1
+150,Firefox-171747,Firefox-171777,FIXED,Typeahead find + F3 doesnt find next,Bookmark Separators Misplaced in Sidebar,0,1,1
+151,Firefox-171777,Firefox-171794,FIXED,Bookmark Separators Misplaced in Sidebar,Get rid of Tools>History,0,1,1
+152,Firefox-171794,Firefox-171803,WONTFIX,Get rid of Tools>History,New Folder... button in Add Bookmark dialog is broken,0,1,1
+153,Firefox-171807,Firefox-171848,FIXED,cant create or manage folders,icons,0,1,1
+154,Firefox-171855,Firefox-171869,FIXED,phoenix.exe version info lists application as Mozilla,tag MAILTO not supported,1,1,1
+155,Firefox-171870,Firefox-171874,WONTFIX,bookmarks manager doesnt show groupmark icons,[cust] customize dialog doesnt appear menubar inactive,0,1,1
+156,Firefox-171874,Firefox-171876,FIXED,[cust] customize dialog doesnt appear menubar inactive,Cant create a separate toolbar configuration for full screen mode,1,1,1
+157,Firefox-171884,Firefox-171892,WONTFIX,Put back/forward in all context menus (including images),remove Exit from File menu and replace with Close,1,1,1
+158,Firefox-171892,Firefox-171929,WONTFIX,remove Exit from File menu and replace with Close,POSTDATA confirm,0,1,1
+159,Firefox-171929,Firefox-171935,WONTFIX,POSTDATA confirm,I cannot export individual bookmark folders in Bookmark manager.,0,1,1
+160,Firefox-172021,Firefox-172025,FIXED,resizer visible when maximized,Cancelling a creation of new bookmark folder still leaves a folder called New Folder,0,1,1
+161,Firefox-172025,Firefox-172026,FIXED,Cancelling a creation of new bookmark folder still leaves a folder called New Folder,[Moz] JavaScript error when hitting Cancel in Add Bookmark dialog,1,1,1
+162,Firefox-172026,Firefox-172029,FIXED,[Moz] JavaScript error when hitting Cancel in Add Bookmark dialog,Choosing Expand on PT produces JavaScript error,1,1,1
+163,Firefox-172068,Firefox-172091,FIXED,Opens a new window toolbar button has incorrect tooltip,Encryption security warnings: alert me whenever should stay checked,0,1,1
+164,Firefox-172091,Firefox-172096,FIXED,Encryption security warnings: alert me whenever should stay checked,bookmark schedule opens some sort off cros betwean mozilla and phoenix(0.2),0,1,1
+165,Firefox-172096,Firefox-172107,FIXED,bookmark schedule opens some sort off cros betwean mozilla and phoenix(0.2),Toolbar customization doesnt work properly,0,1,1
+166,Firefox-172113,Firefox-172127,FIXED,[Moz] Make the set as bookmark toolbar folder not suck,minor error with Go buttons tooltip,0,1,1
+167,Firefox-172127,Firefox-172132,FIXED,minor error with Go buttons tooltip,right click on URL field down arrow bug,0,1,1
+168,Firefox-172132,Firefox-172141,FIXED,right click on URL field down arrow bug,add toolbar list to context menu of toolbars,0,1,1
+169,Firefox-172142,Firefox-172148,WONTFIX,[cust] Set flex on textbox in toolbar,Custom toolbars are always visible when opening a window.,1,1,1
+170,Firefox-172179,Firefox-172185,WONTFIX,Maybe you implement some mouse-gestures,Focus Search bar shortcut not compatable with foreign keyboard layout,1,1,1
+171,Firefox-172185,Firefox-172222,FIXED,Focus Search bar shortcut not compatable with foreign keyboard layout,Paste does not work in HTTP-proxy field,0,1,1
+172,Firefox-172239,Firefox-172246,FIXED,Sidebar does not persist state across sessions,Window locked after using About Phoenix dialog,0,1,1
+173,Firefox-172262,Firefox-172264,FIXED,when placing bookmarks and nav toolbar on the same row; unneccesary space is used,Print Preview toolbar is busted,1,1,1
+174,Firefox-172264,Firefox-172272,FIXED,Print Preview toolbar is busted,History Quick Search should be case insensitive,0,1,1
+175,Firefox-172272,Firefox-172273,FIXED,History Quick Search should be case insensitive,Support context menus on menuitems,0,1,1
+176,Firefox-172275,Firefox-172281,FIXED,new add bookmark dialog,Sidebars need tooltips for croppeed text,0,1,1
+177,Firefox-172291,Firefox-172300,FIXED,Cant DnD reorder bookmarks in the same folder on Personal Toolbar,Phoenix doesnt build with jprof enabled,0,1,1
+178,Firefox-172300,Firefox-172307,FIXED,Phoenix doesnt build with jprof enabled,256 colors theme; 8-bit icons messed up on toolbar,0,1,1
+179,Firefox-172307,Firefox-172313,WONTFIX,256 colors theme; 8-bit icons messed up on toolbar,Can not use Javascript to add new side bar,0,1,1
+180,Firefox-172313,Firefox-172317,WONTFIX,Can not use Javascript to add new side bar,Save Page As shuld offer Page Caption as file name,1,1,1
+181,Firefox-172328,Firefox-172389,FIXED,Drag URL from Navigation toolbar to Bookmarks Menu dont work,keyword: URL displayed after using Internet Keywords,0,1,1
+182,Firefox-172389,Firefox-172426,FIXED,keyword: URL displayed after using Internet Keywords,Remove modern listing now that we dont package modern theme.,0,1,1
+183,Firefox-172451,Firefox-172493,WONTFIX,accel-shift-l keystroke does nothing; unlike Mozilla,Customizing toolbar only updates current window,0,1,1
+184,Firefox-172497,Firefox-172502,FIXED,add vbox appcontent hook,Do not allow ctrl+dragging (or remove the + pointer) in Toolbar Customization,0,1,1
+185,Firefox-172502,Firefox-172504,FIXED,Do not allow ctrl+dragging (or remove the + pointer) in Toolbar Customization,Context menu items in Bookmarks sidebar dont always work,0,1,1
+186,Firefox-172504,Firefox-172516,FIXED,Context menu items in Bookmarks sidebar dont always work,[cust] File; Edit; View etc... could be treated as an item,0,1,1
+187,Firefox-172530,Firefox-172553,FIXED,url drop-down box appears to the left of the url bar,Under >Edit>Preferences pulldown; in Privacy submenu; checkboxes cannot be checked by mouse,0,1,1
+188,Firefox-172580,Firefox-172589,FIXED,Changes to get OS/2 building/working,problem with bookmark checker launching windows,0,1,1
+189,Firefox-172616,Firefox-172617,FIXED,pop-up windows have old mozilla throbber instead of new phoenix one,cannot apply themes in prefernces,0,1,1
+190,Firefox-172647,Firefox-172658,FIXED,Location bar disappears after drag and release in customize toolbar mode,Character Coding menu does not reflect current character coding,0,1,1
+191,Firefox-172658,Firefox-172666,FIXED,Character Coding menu does not reflect current character coding,theme/extensions icon trouble,0,1,1
+192,Firefox-172666,Firefox-172706,WONTFIX,theme/extensions icon trouble,Mozilla Firebird should not try to use $MOZILLA_FIVE_HOME,0,1,1
+193,Firefox-172706,Firefox-172724,FIXED,Mozilla Firebird should not try to use $MOZILLA_FIVE_HOME,Java error when starting Phoenix,0,1,1
+194,Firefox-172780,Firefox-172810,WONTFIX,Reduce startup time by showing window before loading customized toolbars,autocomplete popup doesnt appear when manually prepending http://,0,1,1
+195,Firefox-172810,Firefox-172817,FIXED,autocomplete popup doesnt appear when manually prepending http://,Allow external source viewer/editor,0,1,1
+196,Firefox-172817,Firefox-172832,FIXED,Allow external source viewer/editor,Home button should be visible by default,0,1,1
+197,Firefox-172832,Firefox-172854,FIXED,Home button should be visible by default,about:mozilla is useless,0,1,1
+198,Firefox-172854,Firefox-172891,WONTFIX,about:mozilla is useless,Mozilla Firefox should look for plugins in users application home directory,1,1,1
+199,Firefox-172891,Firefox-172894,FIXED,Mozilla Firefox should look for plugins in users application home directory,Rename Preferences to Options,0,1,1
+200,Firefox-172894,Firefox-172903,FIXED,Rename Preferences to Options,OS/2 only - customizing toolbar doesnt work,0,1,1
+201,Firefox-172903,Firefox-172962,FIXED,OS/2 only - customizing toolbar doesnt work,Options for where to open URLs from other applications (reuse tab; new tab; new window),0,0,1
+202,Firefox-172962,Firefox-172974,FIXED,Options for where to open URLs from other applications (reuse tab; new tab; new window),malfunctions in autodetect character coding,1,0,1
+203,Firefox-173036,Firefox-173086,FIXED,Pageload and startup spiked when Go menu landed,Deleting bookmarks doesnt give a visual indication that they are deleted,0,1,1
+204,Firefox-173086,Firefox-173087,FIXED,Deleting bookmarks doesnt give a visual indication that they are deleted,External Mail Program Support,0,1,1
+205,Firefox-173145,Firefox-173149,FIXED,Exception occurs when adding a bookmark without specifying folder,Cannot add bookmark; OK button doesnt do anything,1,1,1
+206,Firefox-173187,Firefox-173194,FIXED,Popup whitelisting infrastructure (in Mozilla trunk),Add mailto handler to allow the use of third party email clients,1,1,1
+207,Firefox-173247,Firefox-173251,FIXED,Bookmarks are not loaded,Use typeahead find in search bar,0,1,1
+208,Firefox-173295,Firefox-173314,FIXED,Open in tabs is displayed multiple times in Bookmarks menu,Cant open mozilla and phoenix simultaneously,0,1,1
+209,Firefox-173318,Firefox-173321,WONTFIX,Display Favicons in location bar when using autocomplete/location bar dropdown,print preview doesnt have toolbars,0,1,1
+210,Firefox-173333,Firefox-173346,FIXED,Focus not on page when going to page from bookmark menu (not panel),Autocomplete dropdown doesnt close on tabbing,0,1,1
+211,Firefox-173346,Firefox-173380,FIXED,Autocomplete dropdown doesnt close on tabbing,Bookmarks gone in 0.3 of 10/8 - user chrome is back,0,1,1
+212,Firefox-173406,Firefox-173407,FIXED,Open in tabs should have a prefable option: replace vs. append,Wrong bookmark icon used in tabs,1,1,1
+213,Firefox-173407,Firefox-173410,FIXED,Wrong bookmark icon used in tabs,Mozilla and Phoenix information Bookmarks folder has infinitely increasing Open-in-tabs link,1,1,1
+214,Firefox-173425,Firefox-173444,FIXED,Javascript should be JavaScript,additional toolbars show up on popup windows,0,1,1
+215,Firefox-173444,Firefox-173448,FIXED,additional toolbars show up on popup windows,Pref network.cookie.cookieBehavior not set automatically in Phoenix,0,1,1
+216,Firefox-173476,Firefox-173493,FIXED,The checkmark next to Block images from this server is present at wrong times,Bookmark overflow horked when location bar is customized to its own toolbar.,0,1,1
+217,Firefox-173569,Firefox-173667,FIXED,Mousing down (clicking)(double-clicking) in focused textbox should open autocomplete results (as in IE),Need more contrast to distinguish between active and inactive tabs,0,0,1
+218,Firefox-173667,Firefox-173670,FIXED,Need more contrast to distinguish between active and inactive tabs,Cookies Preference originating only not settable,0,1,1
+219,Firefox-173679,Firefox-173738,FIXED,First time <dialog>s get cut off. XBL loading issue.,imported favorites bug,0,1,1
+220,Firefox-173741,Firefox-173762,FIXED,Personal toolbar does not allow objects next to the bookmarks,Favicons are forgotten after shutdown,0,0,1
+221,Firefox-173762,Firefox-173770,FIXED,Favicons are forgotten after shutdown,xpinstall/packager cannot package Mozilla Firebird,0,0,1
+222,Firefox-173784,Firefox-173789,FIXED,Middle click on bookmark is broken,preprocessor doesnt work,0,1,1
+223,Firefox-173789,Firefox-173816,FIXED,preprocessor doesnt work,Bookmark should keep web page icon,0,1,1
+224,Firefox-173823,Firefox-173828,FIXED,Fix autocomplete painting problem,Full screen is broken,0,1,1
+225,Firefox-173828,Firefox-173830,FIXED,Full screen is broken,Editing bookmarks inline under the bookmarks menu,0,1,1
+226,Firefox-173856,Firefox-173878,WONTFIX,increase text size keyboard shortcut inaccurate,[cust] Use Small Icons loses its value when selecting Text,0,1,1
+227,Firefox-173878,Firefox-173879,FIXED,[cust] Use Small Icons loses its value when selecting Text,Javascript error: uncaught exception while opening View Page/Selection Source,0,1,1
+228,Firefox-173879,Firefox-173883,FIXED,Javascript error: uncaught exception while opening View Page/Selection Source,browser opened from About Phoenix is modal,1,1,1
+229,Firefox-173954,Firefox-173978,FIXED,Add Send Page (as Link) to File menu,UI pref for changing behavior of browser windows reusage,0,0,1
+230,Firefox-173988,Firefox-174012,WONTFIX,allow user to choose an icon for each bookmark folder,Close some other tab while last tab is selected = screwed,0,1,1
+231,Firefox-174012,Firefox-174067,FIXED,Close some other tab while last tab is selected = screwed,Speed up shutdown,1,1,1
+232,Firefox-174067,Firefox-174095,FIXED,Speed up shutdown,Error when opening Tools>Preferences,0,1,1
+233,Firefox-174095,Firefox-174098,FIXED,Error when opening Tools>Preferences,buggy Open in Tabs feature,0,1,1
+234,Firefox-174126,Firefox-174154,FIXED,Cant drop on right side of personal toolbar,cannot add bookmark without a folder without editing bookmarks,1,1,1
+235,Firefox-174154,Firefox-174162,WONTFIX,cannot add bookmark without a folder without editing bookmarks,Add Open in Tabs menuitem / middle click to History,1,1,1
+236,Firefox-174162,Firefox-174174,FIXED,Add Open in Tabs menuitem / middle click to History,fullscreen:  defaults to icon,0,1,1
+237,Firefox-174174,Firefox-174175,FIXED,fullscreen:  defaults to icon,fullscreen:  min; max; and close disappear when in text only mode,1,1,1
+238,Firefox-174175,Firefox-174176,FIXED,fullscreen:  min; max; and close disappear when in text only mode,url drop down box appears to left of url bar,0,1,1
+239,Firefox-174184,Firefox-174185,WONTFIX,separate homepage location and action on new window,No visual appearing or cannot change the character encoding in WinXP,0,1,1
+240,Firefox-174186,Firefox-174187,FIXED,Stop getting all the bookmark services on startup,Cannot select for the originating Web site only in Privacy,0,1,1
+241,Firefox-174207,Firefox-174212,FIXED,History button should be disabled after clearing history,Notify - options to open web page in a new tab,0,1,1
+242,Firefox-174265,Firefox-174281,FIXED,Wrong favicons in bookmarks,allow sidebar to be a bottom bar (or topbar),0,0,1
+243,Firefox-174281,Firefox-174332,WONTFIX,allow sidebar to be a bottom bar (or topbar),Open a bookmark folder in Tabs replaces all existing tabs,0,1,1
+244,Firefox-174406,Firefox-174407,FIXED,Bookmark properties ceased to work between 0.2 and 20021014,cant create or manage folders,1,1,1
+245,Firefox-174407,Firefox-174408,FIXED,cant create or manage folders,Show Toolbars menu when right-clicking toolbar,0,1,1
+246,Firefox-174408,Firefox-174480,FIXED,Show Toolbars menu when right-clicking toolbar,Rename Tools > Preferences menu item to Options,0,1,1
+247,Firefox-174482,Firefox-174503,FIXED,Use Bookmark (set Home Page) dialog should not have a question mark,Page Info needs Done/Close button next to Help,0,1,1
+248,Firefox-174534,Firefox-174535,WONTFIX,phoenix linux-ppc milestones,Uncontrollable behaviour of the separator line,0,1,1
+249,Firefox-174576,Firefox-174586,FIXED,imported bookmark tab-group doesnt work like new phoenix bookmarks folder,Bookmark groups imported from Mozilla dont have Open in New Tab,1,1,1
+250,Firefox-174587,Firefox-174592,WONTFIX,Preference for line numbers before bookmarks,cant delete bookmarks; edit wont work; delete wont work,1,1,1
+251,Firefox-174594,Firefox-174616,FIXED,Popup whitelist - Remove site and Remove All Sites button arent grayed out when the list is empty,Images from a blocked site can still be saved to disk,0,1,1
+252,Firefox-174636,Firefox-174687,FIXED,Is it Bookmarks Toolbar or Personal Toolbar?,Show domain in the context menu for image blocking,0,1,1
+253,Firefox-174687,Firefox-174698,FIXED,Show domain in the context menu for image blocking,No hot key for autocomplete in navigation toolbar,0,1,1
+254,Firefox-174734,Firefox-174737,FIXED,IE bookmarks with names made of characters not covered by the system default codepage  do not show up in bookmarks (e.g. Russian/Japanese/Chinese on English/French Windows),A page opened by Bookmark Manager doesnt accept key input,1,1,1
+255,Firefox-174755,Firefox-174761,FIXED,Bookmark icons and folder icons are hard to distinguish,Change the keyboard shortcut for the Search Field,0,1,1
+256,Firefox-174764,Firefox-174771,WONTFIX,Add Set as Bookmark Toolbar folder to the bookmarks folder context menu,home button links to mozilla.org,0,1,1
+257,Firefox-174854,Firefox-174864,FIXED,enhance view -> text size menu (was: no clear way to get text size immediately back to 100%),doesnt support intellimouse(optical) side buttons,0,1,1
+258,Firefox-174895,Firefox-174928,FIXED,history button next to back button is too large (and/or much larger than it looks),Contiaing URLS from external sources in open browser,0,1,1
+259,Firefox-174957,Firefox-174964,WONTFIX,Toolbars customize dialog needs a Cancel button,favicons assigned to wrong bookmarks,0,1,1
+260,Firefox-175081,Firefox-175124,WONTFIX,Password Manager Confirmation Box Has Two Messages,improve open in tabs behaviour,0,0,1
+261,Firefox-175124,Firefox-175164,FIXED,improve open in tabs behaviour,Some sidebar bookmarks have the wrong icon (Oct 17 nightly build),1,0,1
+262,Firefox-175232,Firefox-175255,FIXED,Implement bookmark folder as start-up page,wrong icon to bookmarks toolbar,0,1,1
+263,Firefox-175294,Firefox-175302,FIXED,Nameless Bookmarks Toolbar Subfolder breaks Add Bookmark... Create In dropdown list,some sort of form thing in OOM situation crashed,0,1,1
+264,Firefox-175373,Firefox-175397,FIXED,new modifiers,Linux Java 2 plugin causes crash,0,1,1
+265,Firefox-175404,Firefox-175432,FIXED,Not possible to create a folder or separator between two other folders in Manage Bookmarks,Allow fine grained control of where site-icons (favicons) appear in Mozilla Firebird,0,1,1
+266,Firefox-175432,Firefox-175466,WONTFIX,Allow fine grained control of where site-icons (favicons) appear in Mozilla Firebird,a default option to open all new windows in tabs,1,1,1
+267,Firefox-175515,Firefox-175527,FIXED,Bookmarks Toolbar Icons are corrupt,Text Increase/decrease,0,1,1
+268,Firefox-175575,Firefox-175581,FIXED,Double clicking on tab bar should open a new tab (Opera feature),General/Home Page pref isnt working,0,1,1
+269,Firefox-175595,Firefox-175609,FIXED,Middle click to open bookmarks in new tab is broken as of bookmarks.js 1.27,Cant set cookie checkboxes,0,1,1
+270,Firefox-175615,Firefox-175629,FIXED,Customization disabled when menubar removed,Loading links in background tabs should work for bookmarks,0,1,1
+271,Firefox-175629,Firefox-175650,FIXED,Loading links in background tabs should work for bookmarks,Disappearing Menus,0,1,1
+272,Firefox-175655,Firefox-175662,FIXED,Dragging url into bookmark subfolder and dropping it just above the separator over open in tabs causes the new bookmark to display as a separator.,Error in resizing the preference box,0,1,1
+273,Firefox-175662,Firefox-175679,FIXED,Error in resizing the preference box,Location bar dropdown menu is misplaced when phoenix is maximized.,0,1,1
+274,Firefox-175719,Firefox-175759,WONTFIX,Tab Groups wording could be slightly better,Segfault on startup in latest nightly builds not present in 0.3,0,1,1
+275,Firefox-175802,Firefox-175803,WONTFIX,Default icon and toolbar hight,Mouse cant check For the originating web site only,0,1,1
+276,Firefox-175831,Firefox-175893,FIXED,multiple Open in Tabs menu items when dragging bookmark,Make XUL <tab>s focusable,0,0,1
+277,Firefox-175893,Firefox-175922,FIXED,Make XUL <tab>s focusable,wrong favicons updated on pageload,0,0,1
+278,Firefox-176041,Firefox-176081,FIXED,#ifdeffing DTD files created translation nightmare,Load links in the background doesnt work with bookmarks,0,1,1
+279,Firefox-176130,Firefox-176155,FIXED,Context menu for toolbar customization missing in menubar and bookmarks toolbar,No way to remove a stored password,0,1,1
+280,Firefox-176181,Firefox-176183,FIXED,network.cookie.enableForCurrentSessionOnly doesnt work,Phoenix hangs when a error message occurs over the customize toolbars screen,0,1,1
+281,Firefox-176235,Firefox-176314,WONTFIX,RFE Speed test,Password Manager cannot be disabled,0,1,1
+282,Firefox-176395,Firefox-176396,WONTFIX,I expect control-b to pull up the bookmark manager; not the bookmark tab,expand the size of the search tool,0,1,1
+283,Firefox-176396,Firefox-176397,WONTFIX,expand the size of the search tool,double-clicking a bookmark doesnt transfer focus.,0,1,1
+284,Firefox-176397,Firefox-176401,WONTFIX,double-clicking a bookmark doesnt transfer focus.,Dragging a bookmark away; then back to its hold home has a display bug,1,1,1
+285,Firefox-176402,Firefox-176404,WONTFIX,bookmark manager functionality - find function; dual window.,ctrl-backspace; ctrl-alt-left to load previous window in a new tab,0,1,1
+286,Firefox-176404,Firefox-176408,WONTFIX,ctrl-backspace; ctrl-alt-left to load previous window in a new tab,F11 - actual fullscreen (without a toolbar),1,1,1
+287,Firefox-176408,Firefox-176418,WONTFIX,F11 - actual fullscreen (without a toolbar),Popup-window blocking doesnt work; when a popup window is invoked by an onmouseover statement,1,1,1
+288,Firefox-176547,Firefox-176557,FIXED,implement support for mozilla-style sidebar panels,Negative percentage on download sidebar,1,0,1
+289,Firefox-176564,Firefox-176607,FIXED,Should be able to manually open a blocked pop-up,ctrl-d (add bookmark) does not prompt for a description,0,0,1
+290,Firefox-176607,Firefox-176633,WONTFIX,ctrl-d (add bookmark) does not prompt for a description,Dialog box size for Customize Toolbars,0,1,1
+291,Firefox-176655,Firefox-176665,WONTFIX,cannot compile phoenix with --enable-static,Bookmark-Toolbar Expand-Onmouseover,0,1,1
+292,Firefox-176665,Firefox-176675,WONTFIX,Bookmark-Toolbar Expand-Onmouseover,Dragging links to the URL bar doesnt work as expected,0,1,1
+293,Firefox-176675,Firefox-176677,FIXED,Dragging links to the URL bar doesnt work as expected,Mouse-Wheel,0,1,1
+294,Firefox-177343,Firefox-177360,WONTFIX,Menu cant be moved; but its still draggable,URL Bar history drop down displays entries in reverse chronological order,0,1,1
+295,Firefox-177360,Firefox-177376,FIXED,URL Bar history drop down displays entries in reverse chronological order,Drag and drop auto scrolling of bookmark manager causes permanent scroll,1,1,1
+296,Firefox-177447,Firefox-177460,WONTFIX,Cant do Popup whitelisting from windows opened without status bars,Can not paste in connection settings using context menu,0,1,1
+297,Firefox-177498,Firefox-177499,WONTFIX,ctrl-enter functionality conflicts with mozillas,ctrl-enter functionality conflicts with mozillas,1,1,1
+298,Firefox-177506,Firefox-177507,FIXED,turning off hide tab bar ... has no effect until new tab/window is opened.,When Toolbar is in text mode the bookmarks toolbar loses the spill over chevron icon.,0,0,1
+299,Firefox-177507,Firefox-177535,FIXED,When Toolbar is in text mode the bookmarks toolbar loses the spill over chevron icon.,Message dialog pops up that is too small to see the contents of,0,1,1
+300,Firefox-177538,Firefox-177551,WONTFIX,Remove internal source viewer completely,no password manager,0,1,1
+301,Firefox-177572,Firefox-177590,FIXED,unchecking enable images in prefs does not disable images,Auto-evolve to next release,0,1,1
+302,Firefox-177590,Firefox-177595,WONTFIX,Auto-evolve to next release,Bookmarks can no longer be rearranged on Bookmark Toolbar,0,1,1
+303,Firefox-177595,Firefox-177601,FIXED,Bookmarks can no longer be rearranged on Bookmark Toolbar,Phoenix crashes on startup,0,1,1
+304,Firefox-177610,Firefox-177618,FIXED,Phoenix does not build under BeOS,Should not add www. and .com when www. already present,0,1,1
+305,Firefox-177618,Firefox-177669,FIXED,Should not add www. and .com when www. already present,printing marked text in a frame causes messed up printout,1,1,1
+306,Firefox-177677,Firefox-177678,WONTFIX,Custom keybinding for open URL in new tab,Toolbar editor and large fonts,0,1,1
+307,Firefox-177719,Firefox-177722,FIXED,No defaults for #ifdefs in DTD files cause platforms not to come up,Need OS/2 RC file,0,1,1
+308,Firefox-177722,Firefox-177724,FIXED,Need OS/2 RC file,Wrong display of personal bookmarks (stacked),0,1,1
+309,Firefox-177724,Firefox-177776,FIXED,Wrong display of personal bookmarks (stacked),Text isnt formatted correctly,0,1,1
+310,Firefox-177797,Firefox-177823,FIXED,Satchel autocomplete only works on first tab,Ctrl+Enter goes to www.foo.com; but History stores only foo,1,1,1
+311,Firefox-177823,Firefox-177832,FIXED,Ctrl+Enter goes to www.foo.com; but History stores only foo,Pushing enter key on a Bookmark Manager folder opens all items under it in tabs,0,1,1
+312,Firefox-177832,Firefox-177837,FIXED,Pushing enter key on a Bookmark Manager folder opens all items under it in tabs,remove Help menu from bookmarks and other subwindows,1,1,1
+313,Firefox-177837,Firefox-177857,FIXED,remove Help menu from bookmarks and other subwindows,Opening URL by Home button on toolbar or by Bookmark Manager item doesnt make an entry in history,1,1,1
+314,Firefox-177857,Firefox-177876,FIXED,Opening URL by Home button on toolbar or by Bookmark Manager item doesnt make an entry in history,google search toolbar doesnt work well when input Chinese,0,1,1
+315,Firefox-177973,Firefox-177977,FIXED,right-click on URL Bar re-selects whole URL,Long DLL name keeps various things from working on OS/2,0,1,1
+316,Firefox-177977,Firefox-178016,FIXED,Long DLL name keeps various things from working on OS/2,Decrease Text Size wraps around.,0,1,1
+317,Firefox-178051,Firefox-178075,WONTFIX,adding htt:// and .com and the end of an address when wanting a new tab,Encryption warning not persistent,0,1,1
+318,Firefox-178120,Firefox-178123,FIXED,Chevron box not updated when renamed bookmarks exceed/under-run the Bookmark Toolbar,Internet Keywords: localhost goes to www.localhost.net.au,0,1,1
+319,Firefox-178131,Firefox-178156,FIXED,Save image as... and  Save page as... right-click context menu dont work,Phoenix does not run under Windows 95,0,1,1
+320,Firefox-178161,Firefox-178184,FIXED,[AltSS] Cant use alternate stylesheets in Mozilla Firebird,Menu not accessible after Customize... toolbar dialog,1,1,1
+321,Firefox-178184,Firefox-178199,FIXED,Menu not accessible after Customize... toolbar dialog,Ctrl+B should open Bookmark Manager,1,1,1
+322,Firefox-178199,Firefox-178207,WONTFIX,Ctrl+B should open Bookmark Manager,address bar dropdown oddity after ctl-enter,0,1,1
+323,Firefox-178215,Firefox-178218,WONTFIX,add a dropdown menu to the print toolbarbutton,Save Image As... doesnt work correctly,0,1,1
+324,Firefox-178224,Firefox-178227,FIXED,[cust] When dragging a text-entry item no text editing should be allowed,Can not manually edit Download directory path,0,0,1
+325,Firefox-178227,Firefox-178240,WONTFIX,Can not manually edit Download directory path,Use of toolbar customization leaves menu bar grayed-out,0,0,1
+326,Firefox-178262,Firefox-178284,FIXED,Text selected w/mouse from Address bar pulldown gets appended with http.+.com,Hide the tab when only one tab is open dont work,0,1,1
+327,Firefox-178485,Firefox-178489,FIXED,Print Preview has counter-intuitive response to Ctl-W and Alt-F4,Print Preview screen does not have a close button in 800 x 600 screen resolution,1,1,1
+328,Firefox-178514,Firefox-178538,FIXED,Add Bookmark - Create in list should be expandable/tree,100% cpu utilization when displaying certain graphics,0,1,1
+329,Firefox-178556,Firefox-178568,WONTFIX,Ctrl+Tab and Ctrl+Shift+Tab should use stack ordering,list items <li> overlap each other with certain styles,1,1,1
+330,Firefox-178585,Firefox-178592,FIXED,Cant open Preference and Bookmark Manager,Crash the browser on loading if  reject popup windows is active,0,1,1
+331,Firefox-178592,Firefox-178597,WONTFIX,Crash the browser on loading if  reject popup windows is active,autocomplete=off support,0,1,1
+332,Firefox-178597,Firefox-178600,FIXED,autocomplete=off support,The webpage loads up refreshing the page in a continuous loop.,0,1,1
+333,Firefox-178622,Firefox-178631,WONTFIX,Selecting one of the  quick searches from the menu should be more useful,Add Ctrl+Space as alternate Home shortcut,0,1,1
+334,Firefox-178631,Firefox-178651,WONTFIX,Add Ctrl+Space as alternate Home shortcut,Allow for Colored Scrollbars,0,1,1
+335,Firefox-178803,Firefox-178868,FIXED,Mozillazine Forums link need to be updated in default bookmark,Bookmarks toolbar on menubar is centered instead of right aligned,0,1,1
+336,Firefox-178990,Firefox-178994,WONTFIX,Show cute Milestone name on about dialog,Smooth scrolling,1,1,1
+337,Firefox-179144,Firefox-179179,WONTFIX,Ghostzilla type browser hiding,Preferences for extensions are broken,0,1,1
+338,Firefox-179213,Firefox-179240,WONTFIX,autocomplete popup too small (need resizable dropdown),Accept this cookie dialog doesnt have keyboard accelerator or shortcut,0,1,1
+339,Firefox-179336,Firefox-179371,FIXED,onunload popups misattributed in blocked popups dialog,Cant drag and drop bookmarks in bookmarks menu if no bookmarks on toolbar,0,1,1
+340,Firefox-179388,Firefox-179415,WONTFIX,Useless menu items in the source viewer,security error dialog box is not large enough to view buttons/text.,0,1,1
+341,Firefox-179560,Firefox-179569,FIXED,Per-extension preferences,view source window reorders spaces and quotes in attributes,0,1,1
+342,Firefox-179586,Firefox-179597,WONTFIX,.wav files not played natively by Firebird,Enable printing pages in reverse order,0,1,1
+343,Firefox-179656,Firefox-179666,FIXED,Allow drag-and-drop reordering of tabs,RFE - double the depth of the drop down location bar,0,0,1
+344,Firefox-179666,Firefox-179689,FIXED,RFE - double the depth of the drop down location bar,ctrl+d is not possible on java websites,1,1,1
+345,Firefox-179845,Firefox-179954,FIXED,Support dragging a link onto the New Tab / New Window toolbar button.,Phoenix crashing on lots of sites,0,1,1
+346,Firefox-180026,Firefox-180031,WONTFIX,Add Manage Bookmarks in toolbar item inventory,cant print page source,0,1,1
+347,Firefox-180121,Firefox-180156,WONTFIX,delete current page from Bookmarks,bookmark overflow chevron can overlap bookmark name text,0,1,1
+348,Firefox-180156,Firefox-180208,FIXED,bookmark overflow chevron can overlap bookmark name text,Shortcut for type ahead find,0,1,1
+349,Firefox-180208,Firefox-180260,WONTFIX,Shortcut for type ahead find,Phoenix loses all cached material when it crashes,1,1,1
+350,Firefox-180292,Firefox-180295,WONTFIX,Add Clear History On Each Session in the preference,Error Message when I first open Phoenix,0,1,1
+351,Firefox-180674,Firefox-180702,FIXED,Missing  queryCharset in google.src,The preferences has a theme that does not work in phoenix.,0,1,1
+352,Firefox-180734,Firefox-180759,FIXED,Clear History should delete Search history,wrong Version reported in Windows Properties dialog box,0,1,1
+353,Firefox-180759,Firefox-180760,FIXED,wrong Version reported in Windows Properties dialog box,wrong Version reported in Windows Properties dialog box,1,1,1
+354,Firefox-180844,Firefox-180962,FIXED,Get extension and get theme functions are broken,insecure form submission warning pops up twice (in the first tab),0,1,1
+355,Firefox-180962,Firefox-180992,FIXED,insecure form submission warning pops up twice (in the first tab),it uses 130 Mb RAM: phoenix forx and produces 6 child processes,1,1,1
+356,Firefox-181018,Firefox-181033,FIXED,Running a filename with spaces opens several tabs,implement a new folder button and functionality on the add bookmark dialog,0,1,1
+357,Firefox-181033,Firefox-181086,FIXED,implement a new folder button and functionality on the add bookmark dialog,Prefs cannot be stored in UNC paths,0,1,1
+358,Firefox-181120,Firefox-181124,WONTFIX,backspace should undo selecting an autocomplete entry,Choice of   as the separator for multiple tabs homepage may not be the best,0,1,1
+359,Firefox-181154,Firefox-181185,WONTFIX,loading tha site crashes this nightly (when using Flash plugin v5),Open all new Windows open in a tab,1,1,1
+360,Firefox-181215,Firefox-181226,WONTFIX,Auto-collapsible statusbar (collapsed when it otherwise only shows Done),Phoenix locked on loading a pdf file now startup configuration file is corrupt with syntax error,1,1,1
+361,Firefox-181541,Firefox-181578,FIXED,Add UI to set default languages for web pages,Black text on black background on http://hazmat27.tripod.com,0,0,1
+362,Firefox-181586,Firefox-181613,FIXED,Ctrl+0 selects tenth tab instead of returning to 100% zoom,Dynamics IPs of dyndns.org (and probably other dyndns providers) are not refreshed,1,1,1
+363,Firefox-182108,Firefox-182110,FIXED,Get New Themes/Extensions Links in Preferences point to outdated URLs,Get new extensions link in preferences should be localizable,1,1,1
+364,Firefox-182110,Firefox-182138,FIXED,Get new extensions link in preferences should be localizable,Give a way to browse back to the previous site (like Operas rewind); not only to the previous page,0,1,1
+365,Firefox-182138,Firefox-182409,WONTFIX,Give a way to browse back to the previous site (like Operas rewind); not only to the previous page,[INSTALLER] Mozilla Firebird needs an installer on non-windows operating systems,0,1,1
+366,Firefox-182695,Firefox-182707,FIXED,No hand cursor over links on Windows 95 and NT4,Cant use binary releases on glibc 2.1 systems,0,1,1
+367,Firefox-182707,Firefox-182798,WONTFIX,Cant use binary releases on glibc 2.1 systems,No hand cursor when hovering over links,0,1,1
+368,Firefox-182888,Firefox-182928,WONTFIX,Dropdown Theme menu,Add Set Wallpaper dialog to customize settings and confirm,0,1,1
+369,Firefox-182928,Firefox-182968,FIXED,Add Set Wallpaper dialog to customize settings and confirm,crash; when i list the history of entered URLs,0,1,1
+370,Firefox-182968,Firefox-183098,FIXED,crash; when i list the history of entered URLs,phoenix wont start in old and crappy version of windows 95,0,1,1
+371,Firefox-183224,Firefox-183232,WONTFIX,new window instead of new tab,If 2 sites have the same title; the bookmark-manager do not save the new site as bookmark,0,1,1
+372,Firefox-183809,Firefox-183945,WONTFIX,Double click on the tab should close the tab.,cannot disable autocomplete,0,1,1
+373,Firefox-184085,Firefox-184147,FIXED,Update start page to a Firebird specific page,can interact with page while customize toolbar dialog open,0,1,1
+374,Firefox-184147,Firefox-184151,FIXED,can interact with page while customize toolbar dialog open,Switching themes messes up some toolbar buttons,1,1,1
+375,Firefox-184178,Firefox-184179,WONTFIX,pls add about:plugins to the Help menu in the next build,Implement the option to disable Flash at all.,0,1,1
+376,Firefox-184182,Firefox-184193,FIXED,configure test needed for File::Spec v 0.8,edit entries for context menus of HTML files modified,0,1,1
+377,Firefox-184227,Firefox-184264,WONTFIX,option to display main menu in a compact manner (titles with one letter or main menu button),Keep the favourite icons in the bookmarks,0,1,1
+378,Firefox-184269,Firefox-184280,WONTFIX,Open in Tabs folder action should skip JS bookmarks,ctrl-click to open entire bookmarks folder in new tabs overrides standard ctrl-click semantics,1,1,1
+379,Firefox-184280,Firefox-184285,WONTFIX,ctrl-click to open entire bookmarks folder in new tabs overrides standard ctrl-click semantics,Clicking on Page Info lock doesnt bring the security tab whereas Ctrl-I does,0,1,1
+380,Firefox-184285,Firefox-184286,FIXED,Clicking on Page Info lock doesnt bring the security tab whereas Ctrl-I does,prevent pages from opening new browser-instances / open link in new tab by default,0,1,1
+381,Firefox-184315,Firefox-184316,FIXED,Double-clicking scrollbar in set homepage -> use bookmark list causes dialog to close,The release tag for the 0.5 release was forgotten.,0,1,1
+382,Firefox-184316,Firefox-184318,FIXED,The release tag for the 0.5 release was forgotten.,password manager dialog should not have yes as default option,0,1,1
+383,Firefox-184350,Firefox-184353,FIXED,About Popup Blocking dialog has a _working_ resizer in the status bar example,About Popup Blocking dialog has incorrect text,1,0,1
+384,Firefox-184353,Firefox-184386,FIXED,About Popup Blocking dialog has incorrect text,Accept-Language can not be configured via the Preferences menu,0,1,1
+385,Firefox-184413,Firefox-184454,WONTFIX,popup blocking not working (new window blocking),CTRL + middle-click paste (Linux) loads URL in active tab; too,1,1,1
+386,Firefox-184472,Firefox-184493,FIXED,allow F5 to refresh page in Linux,TaskList entry,1,1,1
+387,Firefox-184493,Firefox-184504,WONTFIX,TaskList entry,request for multiple bookmarks toolbar folders,0,1,1
+388,Firefox-184504,Firefox-184521,WONTFIX,request for multiple bookmarks toolbar folders,Shacknews ja.zz dthread user interface keys dont work,0,1,1
+389,Firefox-184541,Firefox-184565,WONTFIX,blacklist for sites not allowed to open *requested* pop-ups,Make the f9 key open the sidebar.,1,1,1
+390,Firefox-184565,Firefox-184581,WONTFIX,Make the f9 key open the sidebar.,new separator on closed bookmark folder should make sep at current level,0,1,1
+391,Firefox-184644,Firefox-184658,FIXED,Go -> History doesnt become checked when History sidebar is open,www.*.com (ctrl+enter) doesnt combine with open in new tab (alt+enter),0,1,1
+392,Firefox-184741,Firefox-184763,FIXED,F3 doesnt work in View Page Source,about:blank replace URL while switching tabs,1,1,1
+393,Firefox-184801,Firefox-184802,FIXED,home button tooltip not updated when changing home page in preferences,Sidebar close button has no tooltip,0,1,1
+394,Firefox-184802,Firefox-184807,FIXED,Sidebar close button has no tooltip,Incorrect title in program window due to buffer overflow,0,1,1
+395,Firefox-185015,Firefox-185028,WONTFIX,Empty cache should be moved from Privacy,Internet Keywords: When my local server is not running; I am redirected to strange page instead of a error,0,1,1
+396,Firefox-185030,Firefox-185042,WONTFIX,Add a block image from this server checkbox in the image properties dialog,As soon as phoenix goes to load the site the entire application crashes.,1,1,1
+397,Firefox-185099,Firefox-185100,WONTFIX,Quicksearch bookmarks should prompt a dialog input box when clicked on,Phoenix icon lost,0,1,1
+398,Firefox-185106,Firefox-185116,WONTFIX,Remove Ctrl+- and Ctrl++ from the menu items,ctrl-middleclick in document loads selection in new tab AND current,0,1,1
+399,Firefox-185123,Firefox-185141,FIXED,View > Character Encoding > Auto-Detect options are confusing,python.org icon no show,0,0,1
+400,Firefox-185239,Firefox-185250,FIXED,print frame in context menu (under this frame),Clicking page info padlock no longer shows SSL information,1,0,1
+401,Firefox-185278,Firefox-185283,FIXED,open bookmark in new tab removes selection,users lock file not being deleted on close,0,1,1
+402,Firefox-185283,Firefox-185329,WONTFIX,users lock file not being deleted on close,Attempting to open .jpg attachments on vBulletin-based forum prompts user to download image instead of opening it in Phoenix,1,1,1
+403,Firefox-185552,Firefox-185592,WONTFIX,Add Right-click for more to forward/back button tooltip,Security certificate warning dialog too small,0,1,1
+404,Firefox-185841,Firefox-185896,FIXED,Cookies not saved on browser exit,Changing keyword.URL causes incorrect behavior of google bookmark,0,1,1
+405,Firefox-185920,Firefox-186040,FIXED,Print Page size default is not the same as the actual printer page size default (Letter/A4),Links to jpegs prompt to download,1,1,1
+406,Firefox-186136,Firefox-186150,WONTFIX,UI for browser.urlbar.autoFill / Pref for best match as you type / inline autocomplete is missing in Firefox,Autocomplete should show listing for blank form items on focus; not on typing,0,0,1
+407,Firefox-186171,Firefox-186187,FIXED,Entire history lost after Phoenix crashes,cookies cannot be saved,0,1,1
+408,Firefox-186413,Firefox-186503,FIXED,History sort order incorrect when left on last visited,Make View Page Source a user-defined helper app.,0,1,1
+409,Firefox-186663,Firefox-186680,FIXED,Support Midas in Mozilla Firebird,[patch] all.js - version not bumped to reflect gecko revision,1,1,1
+410,Firefox-186680,Firefox-186688,FIXED,[patch] all.js - version not bumped to reflect gecko revision,www-Link interpreted as Download of html file,1,1,1
+411,Firefox-186694,Firefox-186707,WONTFIX,would like a stop all added under View menu for stopping all loading tabs at once,RFE: Dict.org in Search Toolbar,0,1,1
+412,Firefox-186707,Firefox-186716,WONTFIX,RFE: Dict.org in Search Toolbar,Horizontal Rows show up as placeholders and not in color.,0,1,1
+413,Firefox-186751,Firefox-186786,FIXED,About Mozilla Firebird dialog to small for large fonts,customize menu; if font size non standard; the tool pallet is unusable; cant click done or scroll to get out,0,1,1
+414,Firefox-186963,Firefox-186982,FIXED,Browser crash when doing a Right Click>View Page Info>Forms,No way to clear search bar history,0,1,1
+415,Firefox-187059,Firefox-187096,FIXED,Shift+Ctrl+G (Find Previous) doesnt work,Go button should not be container,0,0,1
+416,Firefox-187096,Firefox-187178,WONTFIX,Go button should not be container,Unable to install (the Orbit 3+1t) theme,0,1,1
+417,Firefox-187195,Firefox-187213,FIXED,when unvisited link becomes visited; href attribute becomes absolute,NBA.com showing eBay favicon,0,1,1
+418,Firefox-187485,Firefox-187488,FIXED,Phoenix build broken on OS/2,No site navigation bar (link navbar),0,1,1
+419,Firefox-187488,Firefox-187543,WONTFIX,No site navigation bar (link navbar),Toolbar Folder Items Push Other Items On the Bar Off the Screen;  If Space Is Needed,1,1,1
+420,Firefox-187577,Firefox-187674,FIXED,View Source tries to download xul file,right click on url bar should provide a clear option to erase the entire contents of it,0,1,1
+421,Firefox-187674,Firefox-187742,WONTFIX,right click on url bar should provide a clear option to erase the entire contents of it,Right Click Web Page Menu To Show Text Zoom Option,0,1,1
+422,Firefox-187742,Firefox-187745,WONTFIX,Right Click Web Page Menu To Show Text Zoom Option,Select Text in Web Page Text and then Zoom just the selected text,1,1,1
+423,Firefox-187745,Firefox-187747,WONTFIX,Select Text in Web Page Text and then Zoom just the selected text,Zoom Only Particular Font Types and Sizes on a Web Page,1,1,1
+424,Firefox-187747,Firefox-187755,WONTFIX,Zoom Only Particular Font Types and Sizes on a Web Page,StaticBuild build failure due missing symbol in nsNodeInfo.o,0,1,1
+425,Firefox-187755,Firefox-187850,FIXED,StaticBuild build failure due missing symbol in nsNodeInfo.o,ctrl+enter in address bar tries to go to http://www.http://mozilla.org/.com/,0,1,1
+426,Firefox-187950,Firefox-187952,WONTFIX,RFE: Replace preprocessor.pl with standard ANSI-C preprocessor,Focus on new browser window not consistently on address bar,0,1,1
+427,Firefox-187995,Firefox-188005,FIXED,Dialog buttons too close to content above them,Investigate why the phoenix static build is that big (12MB),0,1,1
+428,Firefox-188005,Firefox-188020,WONTFIX,Investigate why the phoenix static build is that big (12MB),fork the bookmark service,1,1,1
+429,Firefox-188020,Firefox-188031,FIXED,fork the bookmark service,Need about:plugins menu item,0,1,1
+430,Firefox-188086,Firefox-188090,WONTFIX,BSD Build Not Available,Build failure in toolkit/components/build due missing gkgfx,0,1,1
+431,Firefox-188090,Firefox-188123,FIXED,Build failure in toolkit/components/build due missing gkgfx,Installing Extensions/Skins with javascript link returnes error,0,1,1
+432,Firefox-188228,Firefox-188231,WONTFIX,Preferences panel for homepage should list delimiter character for multiple homepages,Homepage setup should allow selection of only current tab.,1,1,1
+433,Firefox-188231,Firefox-188282,WONTFIX,Homepage setup should allow selection of only current tab.,Ability to determine what info form autocomplete collects,0,1,1
+434,Firefox-188282,Firefox-188283,WONTFIX,Ability to determine what info form autocomplete collects,there is no preference to turn form autocomplete off,1,1,1
+435,Firefox-188283,Firefox-188382,FIXED,there is no preference to turn form autocomplete off,When using MS Outlook Web; cannot reply to message or download attachment,0,1,1
+436,Firefox-188720,Firefox-188765,WONTFIX,more facilities for cache management needed,Garbled text in title bar.,0,1,1
+437,Firefox-188832,Firefox-188835,FIXED,Print preview in phoenix does not seem to call |InitPrintSettingsFromPrinter| / |InitPrintSettingsFromPrefs| when switching to print preview mode,address bar drop down list displays incorrectly if the address bar is located at the far right,0,1,1
+438,Firefox-188910,Firefox-189043,FIXED,focus is in the searchbox of the bookmarks/history sidebar when opening a new window; should only be there when opening the sidebar,Debloat and purge classic.jar of cruft,0,0,1
+439,Firefox-189290,Firefox-189357,FIXED,no quit keyboard shortcut such as Ctrl+Q,Error establishing an encrypted connection,0,1,1
+440,Firefox-189498,Firefox-189502,FIXED,XML error trying to manage bookmarks,Cant open bookmark manager,1,1,1
+441,Firefox-189536,Firefox-189558,FIXED,Page Info doesnt list any content (media; link; forms),Phoenix build failure on linux,0,1,1
+442,Firefox-189558,Firefox-189615,FIXED,Phoenix build failure on linux,Emacs/vi keybindings (shortcut keys) conflicting when URL/Search bar/text area has focus  (Ctrl+W does not close tab; Ctrl+U does not display page source),0,0,1
+443,Firefox-190259,Firefox-190270,WONTFIX,Address bar font,Crash if selecting autocomplete value for login and then tab to password field,0,1,1
+444,Firefox-190411,Firefox-190454,WONTFIX,Bookmark Manager toolbar should have small icons,warning when installing extention: c is not a registered protocol,0,1,1
+445,Firefox-190468,Firefox-190567,FIXED,Regression: Type Ahead Find Autostart pref has become unset,Support setting size of memory cache in Preferences,1,1,1
+446,Firefox-190654,Firefox-190661,WONTFIX,Fullscreen Kiosk mode,Type ahead crashes Phoenix when hitting backspace,0,1,1
+447,Firefox-190678,Firefox-190712,FIXED,Right Clicking on Personal Toolabr gives js error,I had multiple tabs open; then went to www.amphony.com and it crashed.,0,1,1
+448,Firefox-191299,Firefox-191349,WONTFIX,Java console inaccessible,XML Parsing Error in pageInfo.xul,0,1,1
+449,Firefox-191349,Firefox-191399,FIXED,XML Parsing Error in pageInfo.xul,enable save window setup on closing,0,1,1
+450,Firefox-191568,Firefox-191618,FIXED,Advanced JavaScript Options shows wrong status,java_vm never releases /dev/dsp,0,1,1
+451,Firefox-191637,Firefox-191642,FIXED,Customize Toolbar Bustage,Lots of missing keyboard accelerators (accesskeys) in Options window,0,0,1
+452,Firefox-191642,Firefox-191645,FIXED,Lots of missing keyboard accelerators (accesskeys) in Options window,Rename Options to Options...,0,0,1
+453,Firefox-191645,Firefox-191649,FIXED,Rename Options to Options...,toolbar icons missing,0,1,1
+454,Firefox-191746,Firefox-191768,FIXED,Bring back some tab preferences,Close Other Tabs gone,0,1,1
+455,Firefox-191992,Firefox-191999,FIXED,modern.jar is packaged in zip builds,Allow to periodically reload a page,0,1,1
+456,Firefox-192028,Firefox-192099,FIXED,Add context menus to the bookmarks menus.,customizing toolbar makes some icons to disappear after restart,0,1,1
+457,Firefox-192169,Firefox-192183,WONTFIX,give Mozilla Firefox its own build config file,Phoenix should have its own icon,0,1,1
+458,Firefox-192255,Firefox-192327,FIXED,user accessible pref for image resizing/scaling,Need Helper Applications Window BADLY,1,0,1
+459,Firefox-192327,Firefox-192416,FIXED,Need Helper Applications Window BADLY,Phoenix crash,0,0,1
+460,Firefox-192447,Firefox-192473,FIXED,Cannot disable JavaScript with new UI,status bar on top,0,1,1
+461,Firefox-192473,Firefox-192483,WONTFIX,status bar on top,Move up Save Image As... above the separator,0,1,1
+462,Firefox-192483,Firefox-192485,WONTFIX,Move up Save Image As... above the separator,Simple pop up blocker,0,1,1
+463,Firefox-192577,Firefox-192623,FIXED,URL bar drop-down does not collapse on second click on down-arrow,home; reload and back button dont work,0,0,1
+464,Firefox-192624,Firefox-192799,FIXED,Empty bookmark folders should show (Empty),Last 2 or 3 nightly builds suffer from random lockups. With clean install also.,0,0,1
+465,Firefox-192801,Firefox-192986,FIXED,A new tab opens if I select a web page from the url bar history.,Javascript can force display of secret password,0,1,1
+466,Firefox-193152,Firefox-193248,WONTFIX,[RFE] Port/Fork Phoenix to QT/E for Zaurus/iPAQ,Address bar auto-complete problem with backspace and enter,0,1,1
+467,Firefox-193544,Firefox-193729,FIXED,Textbox crash - FF10PR1 [@ nsAutoCompleteController::HandleText] esp.JA-IME,Add a Y/N dialog to clearing history,0,0,1
+468,Firefox-193729,Firefox-193834,WONTFIX,Add a Y/N dialog to clearing history,expose prefs for HTTP 1.0/1.1 and keep-alives,1,0,1
+469,Firefox-193834,Firefox-193971,WONTFIX,expose prefs for HTTP 1.0/1.1 and keep-alives,toolbar customization causes irreparable button breakage,0,0,1
+470,Firefox-194041,Firefox-194081,WONTFIX,merge stop and refresh buttons,Main window resize control widget missing in lower-right corner,0,1,1
+471,Firefox-194081,Firefox-194096,FIXED,Main window resize control widget missing in lower-right corner,Phoenix search doesnt work with accented characters,1,1,1
+472,Firefox-194099,Firefox-194136,FIXED,Tabbed Browsing Bustage,Missing/malfunctioning buttons in navigation toolbar,0,1,1
+473,Firefox-194249,Firefox-194271,WONTFIX,Go -> Next Tab/Previous Tab,Bookmarks are forgotten when Phoenix is shut down,0,1,1
+474,Firefox-194340,Firefox-194341,FIXED,wizard.properties needs to added to the toolkit,UI for Close other tabs,0,1,1
+475,Firefox-194341,Firefox-194458,FIXED,UI for Close other tabs,Implement context menu for bookmarks in expanded personal toolbar folders and in bookmarks menu,0,1,1
+476,Firefox-194473,Firefox-194521,FIXED,MOZ_PHOENIX=1 should imply do not build chatzilla,Web page cannot play .wav sound files,0,1,1
+477,Firefox-194537,Firefox-194581,WONTFIX,Make Phoenix as Mozilla-like as possible; but still clean,Crash by Ctrl+L; Ctrl+K or Alt+D at page with text field,0,1,1
+478,Firefox-194756,Firefox-194766,FIXED,Bookmarks toolbar in new window has double items,drag and drop to end of personal toolbar fails,0,1,1
+479,Firefox-194766,Firefox-194865,FIXED,drag and drop to end of personal toolbar fails,Web Features: checkbox  for the originating Web site only can t be checked,0,1,1
+480,Firefox-194865,Firefox-194923,FIXED,Web Features: checkbox  for the originating Web site only can t be checked,Add Rename to bookmarks context menu,0,1,1
+481,Firefox-194923,Firefox-195031,WONTFIX,Add Rename to bookmarks context menu,Bookmarks menus should be sticky (should remain open in some cases),1,1,1
+482,Firefox-195031,Firefox-195212,FIXED,Bookmarks menus should be sticky (should remain open in some cases),Reopening multiple Tabs when clicking Home and multiple homepages selected,0,0,1
+483,Firefox-195212,Firefox-195228,FIXED,Reopening multiple Tabs when clicking Home and multiple homepages selected,phoenix doesnt disable javascript,0,0,1
+484,Firefox-195233,Firefox-195387,FIXED,Broken Calibrate Display Resolution dialog,autocomplete crashes when trying to select from list,0,1,1
+485,Firefox-195636,Firefox-195657,FIXED,bookmarks dont work with first window opened with bookmark manager,phoenix crashes from autocomplete in forms/logins,0,1,1
+486,Firefox-195856,Firefox-195895,FIXED,Page Info dialog box warns XML Parsing Error (tab; id; securityTab; label; &pageInfo.securityTab),crash when opening a specific page (dont know which part of the page crash phoenix),0,1,1
+487,Firefox-196021,Firefox-196058,FIXED,View Selection Source pops up skeleton window,Security tab in the Page Info is not showing,1,1,1
+488,Firefox-196080,Firefox-196172,FIXED,gtk_init undefined when building Phoenix with gtk2,undefined element in chrome://pippki/content/domainMismatch.xul,0,1,1
+489,Firefox-196287,Firefox-196289,FIXED,Current Phoenix trunk should identify itself as 0.5+; not as 0.5,browser will not minimize. pretends to; then is re-maximized,0,1,1
+490,Firefox-196405,Firefox-196414,WONTFIX,Cant set fonts for Cursive & Fantasy in Preference,error parsing XML when viewing HTTPS sites,0,1,1
+491,Firefox-196474,Firefox-196494,FIXED,pop-up icon should appear in status bar before about popup blocking appears,Error in domainMismatch.xul,1,0,1
+492,Firefox-196511,Firefox-196512,WONTFIX,Build ID in TitleBar,Phoenix crashes on startup,0,1,1
+493,Firefox-196538,Firefox-196540,WONTFIX,make hyperlink buttons configurable in Customization window (outside of the bookmark bar) 1/3,Group Toolbar Buttons  button container  feature requst.      part 2/3 of componentize,1,1,1
+494,Firefox-196541,Firefox-196542,WONTFIX,generalized toolbar folders Configurable drop down menus; like bookmark bar,delete or hide tool-line (toolbars) should be in Customization Menu; toollines should hide when there is no object on it.,1,1,1
+495,Firefox-196600,Firefox-196623,FIXED,./phoenix -register broken,Lake applet causes Phoenix to hang; Does not render correctly.,1,1,1
+496,Firefox-196791,Firefox-196815,FIXED,gtk2 build fails when linking phoenix-bin (NS_CreateNativeAppSupport undefined),phoenix should set phoenix WM_CLASS class/instance hints (instead of Mozilla.navigator:browser),0,1,1
+497,Firefox-197112,Firefox-197143,FIXED,Context Menus dont close after choosing other menu,crash when using Ctrl+L after loading certain URL,0,1,1
+498,Firefox-197232,Firefox-197260,FIXED,browser.enable_automatic_image_resizing is set twice in all.js,Wrong image for the Phoenix theme in the Options,1,1,1
+499,Firefox-197260,Firefox-197304,FIXED,Wrong image for the Phoenix theme in the Options,Home button should respect key modifiers and middle-clicks,0,1,1
+500,Firefox-197546,Firefox-197548,WONTFIX,Rename increase/decrease text size,About: Phoenix strangeness,0,1,1
+501,Firefox-197685,Firefox-197694,WONTFIX,Implement about:phoenix (or about:new-name),Add to Bookmarks or Bookmark this Page?,0,1,1
+502,Firefox-197694,Firefox-197701,FIXED,Add to Bookmarks or Bookmark this Page?,XML parsing error!!!,1,1,1
+503,Firefox-197702,Firefox-197704,FIXED,Switch alt+scroll down/up with shift+scroll down up,Switch shift+scroll with alt+scroll,1,1,1
+504,Firefox-197704,Firefox-197726,FIXED,Switch shift+scroll with alt+scroll,Autofill in address bar needed,0,1,1
+505,Firefox-198518,Firefox-198525,FIXED,Rename Phoenix to Mozilla Firebird in Options>Themes,Program Crash,0,1,1
+506,Firefox-198605,Firefox-198611,WONTFIX,-splash parameter is no longer honored (splash screen does not appear),Phoenix crashes while viewing apparently valid JPEG,1,1,1
+507,Firefox-198616,Firefox-198617,FIXED,Unable to copy link location from history sidebar,Unable to add bookmark from history sidebar,1,1,1
+508,Firefox-198617,Firefox-198680,FIXED,Unable to add bookmark from history sidebar,Dead-Link is not stored in a tabs locationbar,0,1,1
+509,Firefox-198907,Firefox-198910,WONTFIX,transparent looking New Folder icon in Bookmark Manager,Tree style folders for add to bookmarks,0,1,1
+510,Firefox-198910,Firefox-198911,WONTFIX,Tree style folders for add to bookmarks,Switch Preferences Panel locations,0,1,1
+511,Firefox-198941,Firefox-198944,FIXED,Popup blocker bustage,Cant add anything to the Always allow the sites below to open popup windows  list,1,1,1
+512,Firefox-198992,Firefox-199248,FIXED,Set general.smoothScroll to true by default in all.js,Title tips (tooltips) flash on Bookmark & History Sidebar,0,1,1
+513,Firefox-199248,Firefox-199328,FIXED,Title tips (tooltips) flash on Bookmark & History Sidebar,Bookmarks broken in Phoenix since landing of bug 196756,1,0,1
+514,Firefox-199328,Firefox-199347,FIXED,Bookmarks broken in Phoenix since landing of bug 196756,Bookmarks wont import into this build.,1,0,1
+515,Firefox-199386,Firefox-199398,FIXED,Set Default Browser registers pref.xul as Preferences entry in WinXP Start Menu (Internet Shortcuts opens Seamonkey preferences/wrong preferences),crash when typing in text boxes,0,1,1
+516,Firefox-199819,Firefox-199826,FIXED,setting browser.formfill.enable (Saved Form Information) to false doesnt disable form autocomplete,Enter to security page; or get out of.,0,1,1
+517,Firefox-199877,Firefox-199945,WONTFIX,ability to set icon for a specific bookmark in properties,Extensions Settings window should be resizable,0,1,1
+518,Firefox-200142,Firefox-200159,FIXED,perl tool to investigate package dependencies,Options (and cookie) dialogs are modal,0,1,1
+519,Firefox-200159,Firefox-200172,WONTFIX,Options (and cookie) dialogs are modal,Wrong favicon in bookmarks,0,1,1
+520,Firefox-200480,Firefox-200518,FIXED,Cutting a bookmark folder deletes its contents,Bookmarks in Toolbar not saved,1,1,1
+521,Firefox-200552,Firefox-200613,WONTFIX,Use big icons by default,option to get phoenix to stop nagging about missing plugin; or option to TURN IT OFF.,0,1,1
+522,Firefox-200718,Firefox-200721,FIXED,Label throbber in Customize Toolbar,crashes while selecting an autocomplete entry,0,1,1
+523,Firefox-200737,Firefox-200770,FIXED,Add Bookmark Dialogue Box doesnt clear,[history tab] Quick search fails to find pags in history with Hebrew titles,1,1,1
+524,Firefox-200770,Firefox-200835,FIXED,[history tab] Quick search fails to find pags in history with Hebrew titles,Bookmarks will not import from an HTML file.,1,1,1
+525,Firefox-200884,Firefox-200908,FIXED,Keyboard shortcut for changing search bar item,cannot add URL to bookmarks. OK button not responsive,0,1,1
+526,Firefox-201104,Firefox-201105,WONTFIX,View-Source should be implemented as a tab in the Page Info dialog,Cmd-H short cut key is the Apple standard for Hide Mozilla Firebird,0,1,1
+527,Firefox-201105,Firefox-201135,FIXED,Cmd-H short cut key is the Apple standard for Hide Mozilla Firebird,Going back or forward doesnt update the location bar,0,1,1
+528,Firefox-201476,Firefox-201494,FIXED,change all.js to not advertise unsupported compress,Icons highlighting bug in the options menu,1,1,1
+529,Firefox-201826,Firefox-201850,FIXED,all in js console toolbar has no icon; much smaller click target,Autocomplete Fun,0,1,1
+530,Firefox-201850,Firefox-201884,FIXED,Autocomplete Fun,Crash when typing something into text field and then accessing URLbar,1,1,1
+531,Firefox-202070,Firefox-202106,WONTFIX,Pheonix overwrites bookmarks file on quit - possibly overwriting external changes,Hardcoded reference Mozilla Firebird in pageReportFirstTime.dtd,0,1,1
+532,Firefox-202106,Firefox-202147,FIXED,Hardcoded reference Mozilla Firebird in pageReportFirstTime.dtd,Security Error: Domain Name Mismatch dialog box too small,1,1,1
+533,Firefox-202185,Firefox-202229,FIXED,Link to Phoenix Help is obsolete,Cut and paste within bookmark manager can lose entries,0,1,1
+534,Firefox-202233,Firefox-202259,FIXED,[META] Phoenix to Mozilla Firefox renaming issues,Currupted display because of DIV errors,1,1,1
+535,Firefox-202394,Firefox-202434,WONTFIX,add popup manager blacklist to Firefox,Profile Manager 1 key behind in displaying new directory name,0,1,1
+536,Firefox-202662,Firefox-202663,FIXED,Phoenix project page difficult to read,cannot drag link to bookmarks toolbar,0,1,1
+537,Firefox-202711,Firefox-202713,FIXED,Right-handed Rename icon,Move View>Page Source to Tools>Page Source,0,1,1
+538,Firefox-202713,Firefox-202757,WONTFIX,Move View>Page Source to Tools>Page Source,issues with the Help > About Phonenix menu item,1,1,1
+539,Firefox-202779,Firefox-202792,FIXED,disable context menu on Add to bookmark and manage bookmarks entry.,strict-js warnings at Firebird startup,0,1,1
+540,Firefox-202792,Firefox-202819,FIXED,strict-js warnings at Firebird startup,Middle mouse click on the back button opens previous page in new tab (enhancement),0,1,1
+541,Firefox-202819,Firefox-202855,FIXED,Middle mouse click on the back button opens previous page in new tab (enhancement),last visited sorts incorrectly in history,0,1,1
+542,Firefox-202855,Firefox-202868,WONTFIX,last visited sorts incorrectly in history,Make Firebird build with MingW GCC on win32,0,1,1
+543,Firefox-202868,Firefox-202879,FIXED,Make Firebird build with MingW GCC on win32,Import is broken,0,1,1
+544,Firefox-202879,Firefox-202915,FIXED,Import is broken,Middle-click on Bookmark Toolbar Folder is ignored,1,1,1
+545,Firefox-202915,Firefox-202918,FIXED,Middle-click on Bookmark Toolbar Folder is ignored,TM in new Firebird UA string causes 400 bad request server error,0,1,1
+546,Firefox-202918,Firefox-202919,FIXED,TM in new Firebird UA string causes 400 bad request server error,New User String sending bad GET request?,1,1,1
+547,Firefox-202953,Firefox-202959,FIXED,Missing titlebar text in Bookmark Manager,implement p3p in Firefox,0,1,1
+548,Firefox-202959,Firefox-202970,WONTFIX,implement p3p in Firefox,o2.co.uk secure website error - error code 8101,1,1,1
+549,Firefox-202978,Firefox-203031,FIXED,Customizing icons in Full Screen mode breaks menues in Firefox,TM should not be used in title bar,1,0,1
+550,Firefox-203031,Firefox-203055,FIXED,TM should not be used in title bar,Netscape-Enterprise/4.1 cant handle \x99 character in User-Agent header,1,1,1
+551,Firefox-203069,Firefox-203070,FIXED,Unable to search in page-source,general.smoothScroll should be set to false by default in Linux,0,1,1
+552,Firefox-203070,Firefox-203077,FIXED,general.smoothScroll should be set to false by default in Linux,Rename Phoenix profile folder to Firefox,0,1,1
+553,Firefox-203077,Firefox-203085,FIXED,Rename Phoenix profile folder to Firefox,Bookmarks Manager -> Edit -> Cut is always grayed out and Paste is always enabled,0,1,1
+554,Firefox-203096,Firefox-203098,FIXED,back out initial web panels work for 0.6,need pref UI for show/hide tab bar and enable/disable smooth scrolling,0,1,1
+555,Firefox-203098,Firefox-203102,WONTFIX,need pref UI for show/hide tab bar and enable/disable smooth scrolling,Investigate/port patches for url field (location/address bar) tab problems,0,0,1
+556,Firefox-203102,Firefox-203109,FIXED,Investigate/port patches for url field (location/address bar) tab problems,Create firebird FTP directory and place new builds/releases there,1,0,1
+557,Firefox-203109,Firefox-203113,FIXED,Create firebird FTP directory and place new builds/releases there,the (tm) symbol   now found in the new firebird user agent seems to baffle many webservers,1,1,1
+558,Firefox-203183,Firefox-203216,FIXED,Bookmarks context menu stays when clicking other menus,When choosing the view page source option in Phoenix; the Find in Page tool does not work,0,0,1
+559,Firefox-203222,Firefox-203223,FIXED,XML-parsing error in about:,Performinstall() failed: While trying to install calendar,1,1,1
+560,Firefox-203249,Firefox-203276,WONTFIX,Rename Open File... to just Open...,Browser reports a Bad request,0,1,1
+561,Firefox-203363,Firefox-203412,WONTFIX,Unnecessary page shift when you close/hide any toolbar,Firebird misspelled in the properties window of a bookmark,0,1,1
+562,Firefox-203412,Firefox-203470,FIXED,Firebird misspelled in the properties window of a bookmark,About Popup Blocking should use be smaller as an alert,0,1,1
+563,Firefox-203470,Firefox-203486,WONTFIX,About Popup Blocking should use be smaller as an alert,Switching tabs with Ctrl-Tab is not done in the same order as windows,1,1,1
+564,Firefox-203507,Firefox-203526,WONTFIX,make tab loading icon look related to reload and stop,Implement smoothing in image scaling,0,1,1
+565,Firefox-203556,Firefox-203569,FIXED,Bookmarks toolbar folders should act like menus,Change name in WinXP Internet start menu AND group name appearing in task bar to Mozilla Firebird,0,1,1
+566,Firefox-203569,Firefox-203624,FIXED,Change name in WinXP Internet start menu AND group name appearing in task bar to Mozilla Firebird,Image blocker by directory and part domain name,1,1,1
+567,Firefox-203659,Firefox-203664,WONTFIX,window.sidebar.addPanel shouldnt be true since its not possible to add custom sidebars,Ctrl+click or Shift+Click on tab should close it,0,1,1
+568,Firefox-203664,Firefox-203695,WONTFIX,Ctrl+click or Shift+Click on tab should close it,locate the plugin directory,0,1,1
+569,Firefox-203720,Firefox-203743,FIXED,Rename addressbar to Location Bar in description  of Bookmarks>Quick Searches,Cancel button in Download Font dialog does not close window,0,0,1
+570,Firefox-203754,Firefox-203756,FIXED,Bug in select code in Auto-Complete component,Enable URLBar autofill with browser.urlbar.autoFill property,1,1,1
+571,Firefox-203756,Firefox-203788,FIXED,Enable URLBar autofill with browser.urlbar.autoFill property,Bad request message at http://www.ksu.edu/,0,1,1
+572,Firefox-203819,Firefox-203878,FIXED,Firebird nightly build is HUGE,Autoscroll sticks if a dialog appears while autoscrolling,1,1,1
+573,Firefox-203878,Firefox-203893,FIXED,Autoscroll sticks if a dialog appears while autoscrolling,Folders in Bookmarks Toolbar stay Expanded if menu was closed with right-click operation on content,0,1,1
+574,Firefox-203959,Firefox-203962,FIXED,search web for <selected text> should use the same search engine as the search bar (searchplugin box),Your browser sent a query this server could not understand.,0,0,1
+575,Firefox-204031,Firefox-204077,WONTFIX,Add toolbar buttons assignable to external programs,Form auto-complete cannot completely be turned off,0,1,1
+576,Firefox-204174,Firefox-204199,FIXED,Printing all pages gives different result than printing only one (tables moved),back/forward menu items get activated when hovering This frame in frames context menu,0,1,1
+577,Firefox-204199,Firefox-204240,FIXED,back/forward menu items get activated when hovering This frame in frames context menu,Remove some items from Bookmarks Column,0,1,1
+578,Firefox-204240,Firefox-204249,WONTFIX,Remove some items from Bookmarks Column,make customize menu accessible from menu bar with right-click,0,1,1
+579,Firefox-204261,Firefox-204268,WONTFIX,Privacy Options; only expand one at a time (UI Enhancement),Phoenixs new smooth scrolling feature scrolls too slowly on old hardware,0,1,1
+580,Firefox-204289,Firefox-204290,FIXED,Fix the scrollbar to properly cause repaints on Windows,Patch: pref to prevent accidental following of links of blocked images,0,1,1
+581,Firefox-204290,Firefox-204346,WONTFIX,Patch: pref to prevent accidental following of links of blocked images,would like ability to drag tabs into bookmarks toolbar,0,1,1
+582,Firefox-204357,Firefox-204359,FIXED,clearing form field (e.g. with backspace) should cancel autocomplete,clear saved form information doesnt empty formhistory.dat,1,1,1
+583,Firefox-204359,Firefox-204382,FIXED,clear saved form information doesnt empty formhistory.dat,No cursor change over resizable image,0,1,1
+584,Firefox-204382,Firefox-204393,FIXED,No cursor change over resizable image,favicon.ico given undue preference over link rel=icon,1,1,1
+585,Firefox-204393,Firefox-204396,FIXED,favicon.ico given undue preference over link rel=icon,Need some indication that Search Bar icon/engine can be changed,0,1,1
+586,Firefox-204406,Firefox-204416,FIXED,Duplicate accesskeys in Bookmarks Manager toolbar/menu,Link Phoenix->Preferences to the Options dialog,0,0,1
+587,Firefox-204416,Firefox-204418,FIXED,Link Phoenix->Preferences to the Options dialog,Firebird menu issues when no open windows exist on OS X,0,1,1
+588,Firefox-204418,Firefox-204420,FIXED,Firebird menu issues when no open windows exist on OS X,No Windows Menu in Firebird,1,1,1
+589,Firefox-204420,Firefox-204477,FIXED,No Windows Menu in Firebird,Keyboard input stops working properly after using bookmark context-menu,0,1,1

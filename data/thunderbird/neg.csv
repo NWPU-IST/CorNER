@@ -1,0 +1,786 @@
+,Issue_id_1,Issue_id_2,Resolution,Title_1,Title_2,same_comp,same_prio,same_tw
+0,Thunderbird-35689,Thunderbird-36836,FIXED,Newsgroup postings dont linkify newsgroup header (like 4.x).,mail conduit for the palm devices,0,0,1
+1,Thunderbird-36836,Thunderbird-58140,WONTFIX,mail conduit for the palm devices,save multiple messages as individual files in directory,1,1,1
+2,Thunderbird-58140,Thunderbird-67219,FIXED,save multiple messages as individual files in directory,Disable filters menu item when no accounts are set up,0,1,1
+3,Thunderbird-67219,Thunderbird-68784,FIXED,Disable filters menu item when no accounts are set up,when sending mail; should first check no recipient; then no subject (its currently the other way round),0,1,1
+4,Thunderbird-68784,Thunderbird-74959,FIXED,when sending mail; should first check no recipient; then no subject (its currently the other way round),implement mail back and forward,0,1,1
+5,Thunderbird-74959,Thunderbird-75927,FIXED,implement mail back and forward,Compact or Purge button,1,1,1
+6,Thunderbird-75927,Thunderbird-81091,FIXED,Compact or Purge button,Go|Next|Starred  Go|Previous|Starred (was Flagged) message shouldnt be grayed out (standalone message window),1,1,1
+7,Thunderbird-81091,Thunderbird-108702,FIXED,Go|Next|Starred  Go|Previous|Starred (was Flagged) message shouldnt be grayed out (standalone message window),Opening Folder ... should show folder name,1,1,1
+8,Thunderbird-108702,Thunderbird-123440,FIXED,Opening Folder ... should show folder name,Stop that annoying modal dialog when mail cant connect to the mail server from connection time out error,1,0,1
+9,Thunderbird-123440,Thunderbird-128129,FIXED,Stop that annoying modal dialog when mail cant connect to the mail server from connection time out error,enter/return for selected card/list in directory pane wont open properties dlg,0,0,1
+10,Thunderbird-128129,Thunderbird-129183,FIXED,enter/return for selected card/list in directory pane wont open properties dlg,Crash opening the address book after editing the history.mab file -TBTrunk [@ nsAddrDatabase::UpdateLowercaseEmailListName ],1,1,1
+11,Thunderbird-129183,Thunderbird-148195,FIXED,Crash opening the address book after editing the history.mab file -TBTrunk [@ nsAddrDatabase::UpdateLowercaseEmailListName ],remove session-logout code from mailnews,0,1,1
+12,Thunderbird-148195,Thunderbird-151244,FIXED,remove session-logout code from mailnews,return receipt should be processed after the message has loaded,0,1,1
+13,Thunderbird-151244,Thunderbird-170520,FIXED,return receipt should be processed after the message has loaded,Allow SMTP server to be specified when creating new account,0,1,1
+14,Thunderbird-170520,Thunderbird-171907,FIXED,Allow SMTP server to be specified when creating new account,drag & drop an .eml file into a mailbox folder,0,1,1
+15,Thunderbird-171907,Thunderbird-174630,FIXED,drag & drop an .eml file into a mailbox folder,Easier way to file sent mail,0,1,1
+16,Thunderbird-183394,Thunderbird-193281,FIXED,sometimes when you delete a message; the focus gets lost instead of going to the next message,Ability to import/save e-mail messages from .eml text files to folders (Message|Copy),0,1,1
+17,Thunderbird-193281,Thunderbird-199019,FIXED,Ability to import/save e-mail messages from .eml text files to folders (Message|Copy),Typing some letters in quick-search box triggers menu selection,0,1,1
+18,Thunderbird-199019,Thunderbird-199540,FIXED,Typing some letters in quick-search box triggers menu selection,Filter on multiple instances of Received header,0,1,1
+19,Thunderbird-202497,Thunderbird-202603,FIXED,Need to set default mailto protocol handler when default mail app,Thunderbird/About Thunderbird menu item doesnt function,0,1,1
+20,Thunderbird-202603,Thunderbird-203728,FIXED,Thunderbird/About Thunderbird menu item doesnt function,Remote images ALWAYS loads regardless of privacy/security settings,1,1,1
+21,Thunderbird-203728,Thunderbird-203799,FIXED,Remote images ALWAYS loads regardless of privacy/security settings,Cant add or save attachments - thunderbird on Solaris,1,1,1
+22,Thunderbird-203799,Thunderbird-204045,FIXED,Cant add or save attachments - thunderbird on Solaris,thunderbird should have next/previous buttons,1,1,1
+23,Thunderbird-204045,Thunderbird-204055,FIXED,thunderbird should have next/previous buttons,middle-click returns browser error,1,1,1
+24,Thunderbird-204055,Thunderbird-204707,FIXED,middle-click returns browser error,Problem with View Image,1,1,1
+25,Thunderbird-204707,Thunderbird-204737,FIXED,Problem with View Image,Unable to do a GTK2 build on Linux GCC-3.2,1,1,1
+26,Thunderbird-204737,Thunderbird-207354,FIXED,Unable to do a GTK2 build on Linux GCC-3.2,change Macs triangle twisties to Windows square twisties,1,1,1
+27,Thunderbird-207354,Thunderbird-207508,FIXED,change Macs triangle twisties to Windows square twisties,sent mail box screen shakes up and down.  Even when changing messages,1,1,1
+28,Thunderbird-207645,Thunderbird-208002,FIXED,Option in mail view window missing: Message Body As,Cant access imap mail over an SSL connection where MozillaMail can,1,1,1
+29,Thunderbird-208002,Thunderbird-208083,FIXED,Cant access imap mail over an SSL connection where MozillaMail can,Almost any e-mail encoded in Russian/Hebrew is shown with question marks instead of letters,1,1,1
+30,Thunderbird-208083,Thunderbird-208428,FIXED,Almost any e-mail encoded in Russian/Hebrew is shown with question marks instead of letters,Leave messages on server for X days,0,1,1
+31,Thunderbird-208566,Thunderbird-208945,FIXED,Save as doesnt work,HTML-MAIL; viewer does not jump to local fragment ids,1,1,1
+32,Thunderbird-208945,Thunderbird-209792,FIXED,HTML-MAIL; viewer does not jump to local fragment ids,crashes when manual moving messages to junk folder,1,1,1
+33,Thunderbird-209792,Thunderbird-209996,FIXED,crashes when manual moving messages to junk folder,Mail window shakes when one email is in a map; and the window is smaller then one line,1,1,1
+34,Thunderbird-213136,Thunderbird-213182,FIXED,cannot change mail password,Proxies on Mac OS X appear to not work,1,1,1
+35,Thunderbird-213182,Thunderbird-213212,FIXED,Proxies on Mac OS X appear to not work,double clicking scrollbar up/down arrows in Contacts sidebar adds selected address(es) to recipient list,0,1,1
+36,Thunderbird-213212,Thunderbird-213318,FIXED,double clicking scrollbar up/down arrows in Contacts sidebar adds selected address(es) to recipient list,Quick search messages drop down To or Cc filter should include Bcc (Recipient filter),0,1,1
+37,Thunderbird-213852,Thunderbird-214035,FIXED,Address book crashes when validating a card modification,The message for Default SMTP will be used needs change,0,1,1
+38,Thunderbird-214035,Thunderbird-214111,FIXED,The message for Default SMTP will be used needs change,Drag and drop only drags the top message from a collapsed thread,0,0,1
+39,Thunderbird-214114,Thunderbird-214117,FIXED,Double-click on folder opens new window AND goes to new messages.,Moving Message Compose Window disables writing,0,1,1
+40,Thunderbird-214117,Thunderbird-214126,FIXED,Moving Message Compose Window disables writing,Cannot launch Firebird from Thunderbird,0,1,1
+41,Thunderbird-214136,Thunderbird-214205,FIXED,Close all windows ; then cannot reopen window,About Mozilla Thunderbird dialog to small for large fonts,1,1,1
+42,Thunderbird-214205,Thunderbird-214228,FIXED,About Mozilla Thunderbird dialog to small for large fonts,Mozilla menubar reappears when no open windows (Thunderbird; similar to bug 204418),1,1,1
+43,Thunderbird-214228,Thunderbird-214230,FIXED,Mozilla menubar reappears when no open windows (Thunderbird; similar to bug 204418),All edit actions (Cut/Copy/Paste etc.) dont work in View Message Source window,1,1,1
+44,Thunderbird-214230,Thunderbird-214234,FIXED,All edit actions (Cut/Copy/Paste etc.) dont work in View Message Source window,Cant Print Selection in Message Window,1,1,1
+45,Thunderbird-214238,Thunderbird-214240,FIXED,Crashes after I select OK after making changes to properties of an address,New Enhancement for Thunderbird,0,1,1
+46,Thunderbird-214285,Thunderbird-214301,WONTFIX,main window can be closed when editing preferences,thunderbird duplicates mails when compressing POP mail box,1,1,1
+47,Thunderbird-214336,Thunderbird-214354,FIXED,crashes in mime_find_class() when editing (ctrl-e) a signed email,crash starting thunderbird 0.1 on linux,1,1,1
+48,Thunderbird-214361,Thunderbird-214399,WONTFIX,Re-add splitter collapse capability,BMS Tracking Bug,1,1,1
+49,Thunderbird-214399,Thunderbird-214400,FIXED,BMS Tracking Bug,4.x Profile Migration,1,1,1
+50,Thunderbird-214400,Thunderbird-214402,FIXED,4.x Profile Migration,Keep thread pane blank until we are logged in,1,1,1
+51,Thunderbird-214402,Thunderbird-214408,FIXED,Keep thread pane blank until we are logged in,Focus freezes in addressing envelope,0,1,1
+52,Thunderbird-214446,Thunderbird-214450,FIXED,Duplicate Mnemonic for Rewrap Menu Item in Compose Window,Notification only on good mails,0,1,1
+53,Thunderbird-214482,Thunderbird-214505,FIXED,keyboard shortcuts in Address Book dont work,Spell Check should not check quoted text header in forwards and replies,0,1,1
+54,Thunderbird-214508,Thunderbird-214514,FIXED,window size unappropriate for big fonts,Signature appears at the end of inline quoted text; even when compose is before it,0,1,1
+55,Thunderbird-214539,Thunderbird-214544,FIXED,Cant specify to save addresses that I have replied too,Tools - Options - Fonts: both prop. and monospace font size combo box are blank,1,1,1
+56,Thunderbird-214544,Thunderbird-214587,FIXED,Tools - Options - Fonts: both prop. and monospace font size combo box are blank,Incorrect display of Tree pane,0,1,1
+57,Thunderbird-214639,Thunderbird-214648,FIXED,when trying to edit an address card; the window that pops up is awkwardly resized.,Minimize to tray,0,1,1
+58,Thunderbird-214663,Thunderbird-214676,FIXED,Thunderbird localization problems; package structure incompatibility with Mozilla and Firefox,Need to make icons work for many platforms,0,1,1
+59,Thunderbird-214676,Thunderbird-214687,FIXED,Need to make icons work for many platforms,Show account name in identity field,0,1,1
+60,Thunderbird-214687,Thunderbird-214713,FIXED,Show account name in identity field,Addressbar divider shakes horribly when # of card equals # of lines of display,0,1,1
+61,Thunderbird-214764,Thunderbird-214766,FIXED,Click here to download rest of message feature does not work,Mechanism for entering email addresses (to; cc; bcc) is awkward,0,1,1
+62,Thunderbird-214833,Thunderbird-214838,FIXED,Fails to automatically advance to next newsgroup,Status bar disappears after changing window configuration,1,1,1
+63,Thunderbird-214864,Thunderbird-214896,FIXED,Checkmark on View|Toolbars|Mail Toolbar is set when the Mail Toolbar is hidden,Main window title should not show message subject,1,1,1
+64,Thunderbird-214896,Thunderbird-214932,FIXED,Main window title should not show message subject,Messages dont stay threaded when view|messages|unread is selected,1,1,1
+65,Thunderbird-214981,Thunderbird-214996,FIXED,Localstore.rdf not always created if missing ==>  UI Customizations dont get saved.,Thunderbird LDAP Address Book  - clicking Advanced results in 100% CPU Load,0,1,1
+66,Thunderbird-215136,Thunderbird-215184,FIXED,listing of  messages wont sort by order received,no way to open a new mail frontent window after closing it,1,1,1
+67,Thunderbird-215260,Thunderbird-215265,FIXED,View > Sort by; Messages and Threads sub menus are enabled when account in folder pane is selected,Cant forward some messages with inline format,0,1,1
+68,Thunderbird-215329,Thunderbird-215349,FIXED,flip localeVersion to 1.5b,Mail filters dont work if Thunderbird is checking mail on another account,0,1,1
+69,Thunderbird-215546,Thunderbird-215576,FIXED,Email Messages Not Displaying in 8-07,Cant specify columns in Folder Pane,1,1,1
+70,Thunderbird-215600,Thunderbird-215610,FIXED,options composition window data does not fit,text in Label frame of Options...|Display dialog is wrong,1,1,1
+71,Thunderbird-215610,Thunderbird-215621,FIXED,text in Label frame of Options...|Display dialog is wrong,No Windows Menu in Thunderbird,0,1,1
+72,Thunderbird-215621,Thunderbird-215649,FIXED,No Windows Menu in Thunderbird,Saving mail edited as new doesnt work,0,1,1
+73,Thunderbird-215664,Thunderbird-215710,FIXED,Request for Mark As Read Options and Buttons,Mail import from Outlook (NOT express) uses wrong list separator for email address fields; To; Cc; Bcc,0,1,1
+74,Thunderbird-215853,Thunderbird-215883,FIXED,Cant sort by Order Received,option to condense folders (inbox; sent; etc.) from multiple accounts,0,1,1
+75,Thunderbird-215901,Thunderbird-215959,FIXED,formatting toolbar gets disabled when selecting any drop-down list,mechanism to load supressed images per message,0,1,1
+76,Thunderbird-216012,Thunderbird-216047,FIXED,reply doesnt include quoted message even though it is set to in Options,Forward message such that original sender appears in the from field,0,1,1
+77,Thunderbird-216057,Thunderbird-216090,FIXED,IMAP account; Inbox.Sent mail folder not displayed in Sent folder format,F7 does not start spell check,0,1,1
+78,Thunderbird-216090,Thunderbird-216098,FIXED,F7 does not start spell check,ability to set default FROM address for composing new messages,1,1,1
+79,Thunderbird-216133,Thunderbird-216153,FIXED,Message pane indicator for blocked image,Collected address book has no addresses; but Personal address book is collecting addreses,0,1,1
+80,Thunderbird-216153,Thunderbird-216208,WONTFIX,Collected address book has no addresses; but Personal address book is collecting addreses,request: localised folder names,0,1,1
+81,Thunderbird-216209,Thunderbird-216214,FIXED,request: renaming folders by pressing F2,IM only supports AIM - request: support other IM tools,0,1,1
+82,Thunderbird-216214,Thunderbird-216223,FIXED,IM only supports AIM - request: support other IM tools,OS X Aqua Buttons Improvement,0,1,1
+83,Thunderbird-216223,Thunderbird-216225,FIXED,OS X Aqua Buttons Improvement,OS X Drop-down menu oddities,0,1,1
+84,Thunderbird-216225,Thunderbird-216264,FIXED,OS X Drop-down menu oddities,address book freezes after typing in a name or email in search field and then clicking advanced,0,1,1
+85,Thunderbird-216315,Thunderbird-216359,WONTFIX,Implement the preference window as a tabbed dialog,Search Bar menu item does not stay unchecked in Address Book,0,1,1
+86,Thunderbird-216359,Thunderbird-216407,FIXED,Search Bar menu item does not stay unchecked in Address Book,automatic proxy configuration  (PAC) does not work,0,1,1
+87,Thunderbird-216407,Thunderbird-216410,FIXED,automatic proxy configuration  (PAC) does not work,Cant import Outlook mail if any folder name contains a slash,1,1,1
+88,Thunderbird-216454,Thunderbird-216455,WONTFIX,about:config type GUI for all thunderbird prefs,spellcheck should ignore URLs and signatures,0,1,1
+89,Thunderbird-216463,Thunderbird-216486,FIXED,UI Enhancements:  Unity with Firebird,I cant see the end of the scollbar at 800x600 resolution in the message pane.,1,1,1
+90,Thunderbird-216509,Thunderbird-216529,FIXED,Download more in spellcheckers language pull down does not work,email address autocomplete: currently selected entry should be highlighted in list box,1,1,1
+91,Thunderbird-216529,Thunderbird-216535,FIXED,email address autocomplete: currently selected entry should be highlighted in list box,large mailboxes seem to cause pathological memory usage,0,1,1
+92,Thunderbird-216661,Thunderbird-216664,FIXED,Address book stops working after deletion of an entry,Old junk icon still being used in menus,0,1,1
+93,Thunderbird-216664,Thunderbird-216677,FIXED,Old junk icon still being used in menus,The Keyboard shortcut Ctrl - Shift C (All read) doesnt work,1,1,1
+94,Thunderbird-216725,Thunderbird-216744,FIXED,Alt-MKJ no longer works as keyboard shortcut to Mark as Junk,Add support for rewrap paragraph in mail compose/reply,0,1,1
+95,Thunderbird-216755,Thunderbird-216756,FIXED,Thunderbirds do not save Draft  with IMAP Client,Subject pane contents corrupted when emptying trash,1,1,1
+96,Thunderbird-217093,Thunderbird-217101,FIXED,Find in this message... does nothing (broken; doesnt work),double clicking on scrollbar arrows in Contacts sidebar adds addresses to To: field,0,1,1
+97,Thunderbird-217149,Thunderbird-217186,FIXED,Thunderbird cant open .eml files or handle message/rfc822 MIME-type,Thunderbird 0.1: Using the bottom arrow in the scroll bar when adding addresses to a new mail dupplicate the last address added.,0,1,1
+98,Thunderbird-217215,Thunderbird-217252,FIXED,delete key doesnt work,Contacts panel is double click trigger happy,0,1,1
+99,Thunderbird-217252,Thunderbird-217255,FIXED,Contacts panel is double click trigger happy,crash with message: Gdk-WARNING **: gdkdrawable-x11.c:787 drawable is not a pixmap or window,0,1,1
+100,Thunderbird-217255,Thunderbird-217273,FIXED,crash with message: Gdk-WARNING **: gdkdrawable-x11.c:787 drawable is not a pixmap or window,Do not download messages... doesnt work correctly,0,1,1
+101,Thunderbird-217348,Thunderbird-217391,FIXED,Inconsistent accesskeys for Add/Remove buttons on Send Options dialog,unable to authenticate to mail server due to @ symbol being placed into account name automatically.,0,0,1
+102,Thunderbird-217391,Thunderbird-217448,FIXED,unable to authenticate to mail server due to @ symbol being placed into account name automatically.,Biff in dock on Mac OS X needs to bounce when new mail arrives,0,1,1
+103,Thunderbird-217448,Thunderbird-217455,FIXED,Biff in dock on Mac OS X needs to bounce when new mail arrives,Thunderbird crashes when spellchecking e-mails,0,1,1
+104,Thunderbird-217455,Thunderbird-217460,FIXED,Thunderbird crashes when spellchecking e-mails,Thunderbird hangs downloading messages and processing junk mail,0,1,1
+105,Thunderbird-217460,Thunderbird-217465,FIXED,Thunderbird hangs downloading messages and processing junk mail,Cant display Newsgroupss .JPG attachments Inline,0,1,1
+106,Thunderbird-217465,Thunderbird-217475,FIXED,Cant display Newsgroupss .JPG attachments Inline,UI alignment issues in default theme,0,1,1
+107,Thunderbird-217475,Thunderbird-217477,FIXED,UI alignment issues in default theme,Message pane and its scrollbars do not resize properly when main window is resized.,1,1,1
+108,Thunderbird-217477,Thunderbird-217503,FIXED,Message pane and its scrollbars do not resize properly when main window is resized.,View Source Blank for Newsgroup Messages (works for emails),1,1,1
+109,Thunderbird-217503,Thunderbird-217512,FIXED,View Source Blank for Newsgroup Messages (works for emails),TB Crashes on Spell Check,0,1,1
+110,Thunderbird-217669,Thunderbird-217672,FIXED,scroll bar does not extend to edge of screen in preview pane,toolbar icons should be more like Firefoxs,1,1,1
+111,Thunderbird-217941,Thunderbird-217942,FIXED,Get mail button label should be Get messages (to be more appropriate for News and Feed accounts),No visible hotkeys for get all mail and no menu items for Get mail [get new messages],1,1,1
+112,Thunderbird-217942,Thunderbird-217975,FIXED,No visible hotkeys for get all mail and no menu items for Get mail [get new messages],Collected addresses are being entered into the Personal Address Book,0,1,1
+113,Thunderbird-217975,Thunderbird-217989,FIXED,Collected addresses are being entered into the Personal Address Book,implement AMTP support,0,1,1
+114,Thunderbird-217989,Thunderbird-218051,WONTFIX,implement AMTP support,Always use this Profile doesnt work,1,1,1
+115,Thunderbird-218051,Thunderbird-218061,FIXED,Always use this Profile doesnt work,Not possible to rename imap folder from properties window,0,1,1
+116,Thunderbird-218235,Thunderbird-218261,FIXED,Extensions Managers too small,complete separate handling of attachments,0,1,1
+117,Thunderbird-218275,Thunderbird-218276,FIXED,Select Sender/Receipient column in folders,Select Sender/Receipient column in folders,1,1,1
+118,Thunderbird-218296,Thunderbird-218328,WONTFIX,Get Mail button only checks currently selected account,Change New Message keyboard shortcut to CTRL-N instead of CTRL-M,1,1,1
+119,Thunderbird-218328,Thunderbird-218359,FIXED,Change New Message keyboard shortcut to CTRL-N instead of CTRL-M,adter runing ./thunderfbird;  I get this :Gdk-WARNING : gdkdrawable-x11.c:787 drawable is not a pixmap or window,1,1,1
+120,Thunderbird-218500,Thunderbird-218553,FIXED,Compose window should be renamed to Write for consistency,new messages popup (from traybar in windows) shows username; should be account name,0,1,1
+121,Thunderbird-218566,Thunderbird-218587,FIXED,Cannot open attachments from within Thunderbird,Drag and drop messages to other applications like MS word,0,1,1
+122,Thunderbird-218774,Thunderbird-218786,FIXED,clear filter (and spam) log doesnt appear to work; you have to close and re open the dialog,RFE - Would like more available buttons to put on toolbar,0,1,1
+123,Thunderbird-218812,Thunderbird-218814,FIXED,Receipt notification message should not popup in spammail folder,select box fails when adding customized headers in message filters,1,1,1
+124,Thunderbird-218838,Thunderbird-218847,FIXED,There is no keyboard shortcut to select/unselect folders in the Items for offline use dialog,add build config option for building tb extensions,0,1,1
+125,Thunderbird-218847,Thunderbird-218859,WONTFIX,add build config option for building tb extensions,if a newsgroups is marked as read; when you are not in the newsgroup it will not be marked as read,0,1,1
+126,Thunderbird-218872,Thunderbird-218875,FIXED,Selecting a mailing list from address book causes UI to repaint rapidly and property window cannot be closed.,error importing mail from outlook express if there is a forward slash ( / ) in the folder name,1,1,1
+127,Thunderbird-218950,Thunderbird-218954,FIXED,email button in a cards display is shown a few pixels too close to the previous line (name),remember password doesnt always work,0,1,1
+128,Thunderbird-218997,Thunderbird-218999,FIXED,attachment folder setting not remembered,Thunderbird should use a tabbed interface (thundertab),0,0,1
+129,Thunderbird-218999,Thunderbird-219083,FIXED,Thunderbird should use a tabbed interface (thundertab),Single/Double mouse click on underlinked links does nothing.,1,0,1
+130,Thunderbird-219131,Thunderbird-219138,WONTFIX,Qute status icons by sboulema should be included in default theme,UI Suggestions for the Junk Mail Controls window,1,1,1
+131,Thunderbird-219198,Thunderbird-219211,FIXED,In address book the scroll bar of the entries section shows and hides fast and continously when: the section height is equal to the list in that section,seemingly random crashes at startup,0,1,1
+132,Thunderbird-219215,Thunderbird-219246,FIXED,use message metadata to set default filename when saving message to disk,RFE: send & receive - establish dialup connection automatically,0,1,1
+133,Thunderbird-219336,Thunderbird-219344,FIXED,Trunk Fixes Wanted for Thunderbird 0.3,Turn ON Quote-Level Colors (Text & Background) by default,0,1,1
+134,Thunderbird-219372,Thunderbird-219386,FIXED,The filename of the attachments become wrong with huge email i.e. 271 files - 2.5 Mb,mailto: links with spaces in the subject do not work,1,1,1
+135,Thunderbird-219465,Thunderbird-219488,FIXED,Need id= for View|Message Body As Menu to allow for customization,POP should not leave mail on server by default,0,1,1
+136,Thunderbird-219488,Thunderbird-219525,FIXED,POP should not leave mail on server by default,Visual Distinction Needed for Thunderbird Icon,0,1,1
+137,Thunderbird-219525,Thunderbird-219540,FIXED,Visual Distinction Needed for Thunderbird Icon,crash when editing mail filter,0,1,1
+138,Thunderbird-219586,Thunderbird-219591,FIXED,Eudora; Outlook mailboxes with / in name fail to import,To much padding around toolbar buttons in small mode,0,1,1
+139,Thunderbird-219591,Thunderbird-219598,FIXED,To much padding around toolbar buttons in small mode,thunderbird crash on start on WindowsXP,1,1,1
+140,Thunderbird-219795,Thunderbird-219796,FIXED,Add menu item for address book,No way to register Thunderbird as default application for news,0,1,1
+141,Thunderbird-219844,Thunderbird-219889,FIXED,when adding a new account thunderbird rejects the email address as invalid,A Filter extension to block certain kinds of files in the attachement,0,1,1
+142,Thunderbird-219996,Thunderbird-219998,FIXED,Hourglass cursor persists after changing folder,Cant rename a newsgroup,1,1,1
+143,Thunderbird-220167,Thunderbird-220173,FIXED,Mozilla Thunderbird does not decode BinHex attachments,If new email comes in while reading a message in the preview pane; the message scrolls back to the start,1,1,1
+144,Thunderbird-220173,Thunderbird-220194,FIXED,If new email comes in while reading a message in the preview pane; the message scrolls back to the start,filtered msgs that are moved to another folder are left on pop3 server even when server settings have delete messages on server when deleted or moved from inbox,0,1,1
+145,Thunderbird-220358,Thunderbird-220372,FIXED,IMAP Folders  not being downloaded,File toolbar button does not work until Thunderbird is restarted,1,1,1
+146,Thunderbird-220372,Thunderbird-220404,FIXED,File toolbar button does not work until Thunderbird is restarted,Card Summary Pane menu item should be under View; not View | Toolbars,0,1,1
+147,Thunderbird-220404,Thunderbird-220417,FIXED,Card Summary Pane menu item should be under View; not View | Toolbars,Thunderbird 0.2 shows email address instead of username on usenet postings,0,1,1
+148,Thunderbird-220417,Thunderbird-220634,WONTFIX,Thunderbird 0.2 shows email address instead of username on usenet postings,new male notification window does not display account name but rather server user name,0,1,1
+149,Thunderbird-220656,Thunderbird-220662,FIXED,Changing folder doesnt reset the View drop down list to All,Crash at nsPresShell.cpp:5154 while trying to edit a filter,1,1,1
+150,Thunderbird-220846,Thunderbird-220861,FIXED,Change of Window Configuration affect on Character Coding,Message pane empty if focused during mail download,1,1,1
+151,Thunderbird-221030,Thunderbird-221054,FIXED,Unable to set up IMAP over SSL using the New Account Wizard,From/Sender header confusion when used with Exchange/Outlook,0,0,1
+152,Thunderbird-221134,Thunderbird-221169,FIXED,title bar should not display email subject if View > Layout > Message Pane is disabled,No support of vCard format,0,1,1
+153,Thunderbird-221170,Thunderbird-221171,FIXED,Custom mail notification sound does not work,Print Preview does not work,0,1,1
+154,Thunderbird-221202,Thunderbird-221204,FIXED,Local directory textbox not visible,Default Move to folder when creating new filters,1,1,1
+155,Thunderbird-221237,Thunderbird-221297,FIXED,Thunderbird 0.2 - Address book flashing text,TB should support XMLHttpRequest,0,1,1
+156,Thunderbird-221297,Thunderbird-221300,FIXED,TB should support XMLHttpRequest,New Mail flag even when junk mail was filtered outside of account,0,1,1
+157,Thunderbird-221310,Thunderbird-221313,FIXED,Sending mail through sendmail doesnt work with SASL/TLS,I cannot create multiple news accounts to the same server but to different ports.,0,1,1
+158,Thunderbird-221319,Thunderbird-221360,FIXED,need to port the UI changes from the vCard feature to tbird,support F5 and/or F9 for checking mail,1,0,1
+159,Thunderbird-221360,Thunderbird-221415,FIXED,support F5 and/or F9 for checking mail,In Junk Mail Controls control is disabled,0,0,1
+160,Thunderbird-221451,Thunderbird-221469,FIXED,Open With radio button frequently disabled when opening an attachment,Thunderbird does not jump to next unread message if in a different folder,1,1,1
+161,Thunderbird-221469,Thunderbird-221542,FIXED,Thunderbird does not jump to next unread message if in a different folder,tbird enterprise M1 tracking bug,1,1,1
+162,Thunderbird-221542,Thunderbird-221615,FIXED,tbird enterprise M1 tracking bug,View Before Return Receipt (Reciept),1,0,1
+163,Thunderbird-221615,Thunderbird-221652,FIXED,View Before Return Receipt (Reciept),Wish to overtype from address in new message and reply windows.,0,0,1
+164,Thunderbird-221724,Thunderbird-221726,FIXED,Thunderbird filter on sender actually filters on from,optionally add unread;total; and size columns to thunderbird folder pane; controlled by pref,0,1,1
+165,Thunderbird-221726,Thunderbird-221736,FIXED,optionally add unread;total; and size columns to thunderbird folder pane; controlled by pref,BMS Offline Tracking Bug,1,1,1
+166,Thunderbird-221736,Thunderbird-221748,FIXED,BMS Offline Tracking Bug,add header,1,1,1
+167,Thunderbird-221818,Thunderbird-221861,FIXED,Outbox / Send Later feature,Sender e-mail is the wrong one when we click an e-mail address (to send a new mail) from a received e-mail,0,1,1
+168,Thunderbird-221891,Thunderbird-221908,FIXED,Menus disabled and other problems occur when attempting to cutomize toolbars in two windows simultaneously.,not understanding non-western folder names,1,1,1
+169,Thunderbird-222020,Thunderbird-222049,WONTFIX,Ctrl-N should open a new window in the default browser,taskOverlay.xul  should include chrome://communicator/locale/tasksOverlay.dtd,1,1,1
+170,Thunderbird-222521,Thunderbird-222522,FIXED,Auto Proxy URLs do not work in Thunderbird,POP account window too small. Have to resize it to see where the account is stored,0,1,1
+171,Thunderbird-222652,Thunderbird-222728,FIXED,tbird enterprise M2 tracking bug,Sort mails news posts by multiple categories,1,1,1
+172,Thunderbird-222783,Thunderbird-222786,FIXED,Move the whole localeVersion thingy to use the preprocessor,Several images in HTML mail are not rendered,1,1,1
+173,Thunderbird-222786,Thunderbird-222797,FIXED,Several images in HTML mail are not rendered,can not start thunderbird/0.3 after decompresing,0,1,1
+174,Thunderbird-222841,Thunderbird-222886,FIXED,Bugfix for 89212 kills account settings prefs,Non-permanent freeze on move message(s),0,1,1
+175,Thunderbird-222886,Thunderbird-222892,FIXED,Non-permanent freeze on move message(s),Mail attachments interfere with each other (css of unclosed anchor tag of HTML attachment leaks into entire message preview),1,1,1
+176,Thunderbird-223132,Thunderbird-223217,FIXED,need a scrollbar on the envelope panel (view all headers / long address lists),Main headers are displayed instead of attachment headers,1,1,1
+177,Thunderbird-223282,Thunderbird-223284,WONTFIX,[RFE]  Hidden pref to specify location of training.dat ?,Command for Message/Watch Thread and Message/Ignore Thread should appear in news messages context menu (Thunderbird),0,1,1
+178,Thunderbird-223340,Thunderbird-223341,FIXED,Multiple attachments cause excessive size in attachments pane,UI for moving a message uses too many submenus,1,1,1
+179,Thunderbird-223408,Thunderbird-223464,FIXED,View - Layout Menu needs to use radio buttons instead of check marks,asking for incorrect user to log into smtp server,0,1,1
+180,Thunderbird-223566,Thunderbird-223572,WONTFIX,AOL and NS mail support,Sent Folder Loses Track of Which Messages Have Attachments,0,1,1
+181,Thunderbird-223600,Thunderbird-223602,FIXED,crash (internal error with JVM manager) opening messages with certain viewable attachments when Java plugin enabled,Thunderbird lacks message count column in folders pane,1,1,1
+182,Thunderbird-223730,Thunderbird-223864,FIXED,Opening folder... remains in status bar after folder has been fully opened,When sorting mail by Order Received; no sort icon is displayed,1,1,1
+183,Thunderbird-223864,Thunderbird-223865,FIXED,When sorting mail by Order Received; no sort icon is displayed,Cannot sort by spam status in message list pane,1,1,1
+184,Thunderbird-223871,Thunderbird-223898,FIXED,Thunderbird takes over OS X minimize window keyboard shortcut,Bayesian Spam Filters Uncustomizable,0,1,1
+185,Thunderbird-223909,Thunderbird-223916,FIXED,copy and paste windows clipboard images,mail message cannot be deleted,0,1,1
+186,Thunderbird-223943,Thunderbird-223981,FIXED,expand mailnews.headers.showUserAgent to include x-newsreader,Truncated mail is not deleted after successful download  by clicking Click Here,1,1,1
+187,Thunderbird-223981,Thunderbird-224030,FIXED,Truncated mail is not deleted after successful download  by clicking Click Here,Clicking on Date to put newest posts at top breaks threading.,1,1,1
+188,Thunderbird-224197,Thunderbird-224258,FIXED,NNTP error causes thunderbird to hang,Pressing space bar on account header does not advance to nexr unread message,1,1,1
+189,Thunderbird-224391,Thunderbird-224407,WONTFIX,Outgoing mail/news should use UTF-8 by default,attempting to change preferences for Composition panel fails,1,1,1
+190,Thunderbird-224459,Thunderbird-224475,FIXED,Downloading large a large number of headers for news (NNTP) causes hang,A line of the message containing double quotes is not displayed,1,1,1
+191,Thunderbird-224511,Thunderbird-224544,FIXED,Interface could make better use of icons to represent message states and flags,mozilla/mail/base/content/hiddenWindow.xul has wrong linebreaks,0,1,1
+192,Thunderbird-224544,Thunderbird-224614,FIXED,mozilla/mail/base/content/hiddenWindow.xul has wrong linebreaks,provide Do not notify when an email classified as junk is received,0,1,1
+193,Thunderbird-224618,Thunderbird-224626,FIXED,Default value for customize toolbar is displayed as icons,mail display windows jumps to top when automatically downloading new mail,1,1,1
+194,Thunderbird-224670,Thunderbird-224671,FIXED,Offline: when going online only one message is sent and not moved to the Sent folder,Offline: no popup when starting Thunderbird with Unsent messages,1,1,1
+195,Thunderbird-224858,Thunderbird-224863,FIXED,Thunderbird crashed,Address book filter should also look for nicknames - quick search,0,1,1
+196,Thunderbird-224891,Thunderbird-224897,FIXED,View > Character Coding > Customize... menu option is broken,stray ^M characters in mailWindowOverlay.xul and messengercompose.xul makes build fail,0,1,1
+197,Thunderbird-224897,Thunderbird-224903,FIXED,stray ^M characters in mailWindowOverlay.xul and messengercompose.xul makes build fail,Thunderbird doesnt save the option  to send an e-mail with a Disposition Notification,0,1,1
+198,Thunderbird-224963,Thunderbird-224965,FIXED,Unsaved window size after being changed for Tools -> Options window,cursor is invisible in Account Wizard where you enter your name and your email address,0,1,1
+199,Thunderbird-225067,Thunderbird-225117,FIXED,solitary carriage returns in mail/extensions/Makefile.in,feature: missing some sorting contact in the panel of the write window,0,1,1
+200,Thunderbird-225208,Thunderbird-225218,FIXED,DMG not mountable,print function fails with an unknown error if there are no printers installed,0,1,1
+201,Thunderbird-225288,Thunderbird-225315,FIXED,thunderbird does not recognize mission control preferences,Thunderbird partialy freezes when checking mail of one account and selecting folder bolonging to different one,0,1,1
+202,Thunderbird-225315,Thunderbird-225356,FIXED,Thunderbird partialy freezes when checking mail of one account and selecting folder bolonging to different one,New option: Do not display new Junk mail,0,1,1
+203,Thunderbird-225385,Thunderbird-225387,FIXED,Integrate Thunderbid with MCD,Need separate thread pane column for attachments,0,1,1
+204,Thunderbird-225387,Thunderbird-225426,FIXED,Need separate thread pane column for attachments,Cannot open/review attachments in compose window,0,1,1
+205,Thunderbird-225564,Thunderbird-225609,FIXED,Cannot sort messages by junk status,Should be able to hide in system tray,0,1,1
+206,Thunderbird-225660,Thunderbird-225662,FIXED,not deleting IMAP messages,LDAP charset BUG,0,1,1
+207,Thunderbird-225761,Thunderbird-225777,WONTFIX,see below,Cursor lags when moving between folder list and email list; but not the content portion,0,1,1
+208,Thunderbird-226179,Thunderbird-226303,FIXED,update menu for standalone window,allow multiple mail/news accounts with same server/user and different port numbers,0,1,1
+209,Thunderbird-226392,Thunderbird-226396,FIXED,Not all vCard fields are saved,associate an identity with folder (start composition while viewing folder),1,1,1
+210,Thunderbird-226447,Thunderbird-226449,FIXED,New messages alert does no more work,Cant Get or Send Mail (Thunderbird stuck in offline mode),0,1,1
+211,Thunderbird-226449,Thunderbird-226457,FIXED,Cant Get or Send Mail (Thunderbird stuck in offline mode),visual new mail notification for OS X,1,1,1
+212,Thunderbird-226468,Thunderbird-226519,FIXED,Contacts sidebar in Thunderbird lacks Add to BCC: button.,Fresh download will not run,0,1,1
+213,Thunderbird-226519,Thunderbird-226543,WONTFIX,Fresh download will not run,highlight/marker for reading mail,0,1,1
+214,Thunderbird-226543,Thunderbird-226544,WONTFIX,highlight/marker for reading mail,Bugfix for bug 64230 break account settings display,0,1,1
+215,Thunderbird-226544,Thunderbird-226551,FIXED,Bugfix for bug 64230 break account settings display,Large mark as read seconds (delay interval) value corrupted and integer preferences not validated,1,1,1
+216,Thunderbird-226551,Thunderbird-226570,FIXED,Large mark as read seconds (delay interval) value corrupted and integer preferences not validated,File structure problem. thunderbird should be MozillaThunderbird,0,1,1
+217,Thunderbird-226570,Thunderbird-226646,WONTFIX,File structure problem. thunderbird should be MozillaThunderbird,Tray icon stays when new mail arrives and filters move all the messages to local folders,0,1,1
+218,Thunderbird-226677,Thunderbird-226717,FIXED,No progress bar for mail download in Thunderbird,Encoding inconsistent main window vs. message window.,1,1,1
+219,Thunderbird-226759,Thunderbird-226780,FIXED,need to package files from toolkit/components/printing (/skin),Will not startup if Firebird is running.,0,1,1
+220,Thunderbird-226799,Thunderbird-226800,FIXED,Replying: Ctrl+Shift+R works; Ctrl+R does not,Building thunderbird with    --enable-static --disable-shared   fails on the final link,0,1,1
+221,Thunderbird-226850,Thunderbird-226877,FIXED,Need a shortcut to file messages in folders,Cannot move (drag) attached mail (message/rfc822) to mail folders,1,1,1
+222,Thunderbird-226927,Thunderbird-226947,FIXED,PDF file attachment corruption,icon for Replied email does not show deleted status,0,1,1
+223,Thunderbird-226947,Thunderbird-226982,FIXED,icon for Replied email does not show deleted status,attachment save as ... - filenames are lost,1,1,1
+224,Thunderbird-227012,Thunderbird-227013,FIXED,attach a web page; attachments panels does not snap into place,Creating a new filter does not show up in filter list dialog until you close it,0,1,1
+225,Thunderbird-227013,Thunderbird-227014,FIXED,Creating a new filter does not show up in filter list dialog until you close it,No progress dialog when right click save as on an attachment,1,1,1
+226,Thunderbird-227014,Thunderbird-227091,FIXED,No progress dialog when right click save as on an attachment,WinXP manifest resource contains alien strings,0,1,1
+227,Thunderbird-227091,Thunderbird-227188,FIXED,WinXP manifest resource contains alien strings,Error message when deleting mail account,0,1,1
+228,Thunderbird-227197,Thunderbird-227202,FIXED,dialogs/windows still use classic theme icons,Please add newsgroup aliases to the newsgroups functionality.,1,1,1
+229,Thunderbird-227204,Thunderbird-227206,FIXED,Sample screenshot / image of default Qute theme needs to be updated,Support pasting of email addresses from a spreadsheet,0,1,1
+230,Thunderbird-227206,Thunderbird-227209,FIXED,Support pasting of email addresses from a spreadsheet,Add priority menu drop down to compose toolbar,1,1,1
+231,Thunderbird-227209,Thunderbird-227214,FIXED,Add priority menu drop down to compose toolbar,Try to improve the spell checker,1,1,1
+232,Thunderbird-227214,Thunderbird-227216,FIXED,Try to improve the spell checker,Find in message should always set focus to the message pane,0,1,1
+233,Thunderbird-227216,Thunderbird-227217,FIXED,Find in message should always set focus to the message pane,send a copy to menu is missing folder icons,0,1,1
+234,Thunderbird-227217,Thunderbird-227251,FIXED,send a copy to menu is missing folder icons,Fix default columns in search addresses window,0,1,1
+235,Thunderbird-227251,Thunderbird-227265,FIXED,Fix default columns in search addresses window,View/Character Encoding changes state of outgoing message; so does not belong into View.,0,1,1
+236,Thunderbird-227265,Thunderbird-227286,FIXED,View/Character Encoding changes state of outgoing message; so does not belong into View.,drag security icon into customize toolbar dialog; get a bogus image,1,1,1
+237,Thunderbird-227286,Thunderbird-227288,FIXED,drag security icon into customize toolbar dialog; get a bogus image,Clicking on scrollbars in autocomplete drop down fails to scroll,1,1,1
+238,Thunderbird-227288,Thunderbird-227293,FIXED,Clicking on scrollbars in autocomplete drop down fails to scroll,Truncated messages will not download after the link is pressed,0,1,1
+239,Thunderbird-227305,Thunderbird-227319,FIXED,Support drag-drop single message to desktop / file-system window (e.g. Explorer),want: show text email as text; html email as html.,1,1,1
+240,Thunderbird-227335,Thunderbird-227351,FIXED,Find in page from stand alone message window is broken,Back button does not work after error the Import-wizard,1,1,1
+241,Thunderbird-227448,Thunderbird-227455,WONTFIX,Mail Toolbar can become hidden with no way to unhide it.,Sort icons on thread pane column headers are inverted (wrong on windows),0,1,1
+242,Thunderbird-227455,Thunderbird-227482,FIXED,Sort icons on thread pane column headers are inverted (wrong on windows),ldap filter doesnt work in address book but work in mail composer,0,1,1
+243,Thunderbird-227522,Thunderbird-227527,WONTFIX,thunderbird nightbuilds are is not working at all,browsing through mails in the mail list view doesnt automatically refresh the mail in the preview pane,1,1,1
+244,Thunderbird-227527,Thunderbird-227560,FIXED,browsing through mails in the mail list view doesnt automatically refresh the mail in the preview pane,Unable to use plaintext-only authentication with IMAP (Server has broken CRAM MD5 Support),0,1,1
+245,Thunderbird-227608,Thunderbird-227617,FIXED,when I open pre-created mailing lists; the list members are replaced by dummy members,after thunderbird stays open for a long while it stops checking for email,0,1,1
+246,Thunderbird-227628,Thunderbird-227638,WONTFIX,Mac Thunderbird 0.4 still shows version as 0.3a in Info.plist,spaces not always trimmed before user-inserted hard line breaks,0,1,1
+247,Thunderbird-227688,Thunderbird-227722,FIXED,Constant hour glass after Panda removes swen virus,Bad sort of mail threads when sort by date,1,1,1
+248,Thunderbird-227728,Thunderbird-227751,WONTFIX,Thunderbird should not load any HTML images by default,Crash if I choose view image from the context menu.,1,1,1
+249,Thunderbird-227755,Thunderbird-227763,WONTFIX,When displaying HTML messages marked as junk; sanitize the HTML option in Junk Mail controls is global; should be per account,Missing possibility to insert a link or an image when one uses Edit as New,0,1,1
+250,Thunderbird-227841,Thunderbird-227852,FIXED,AIX: Thunderbird fails to build because of redefined macros,text-size menu item under View does not appear.,0,1,1
+251,Thunderbird-227863,Thunderbird-227865,FIXED,User-Agent Header should make more sense,The Tools->Options Panel does not remember the previous folder.,0,1,1
+252,Thunderbird-227865,Thunderbird-227875,WONTFIX,The Tools->Options Panel does not remember the previous folder.,mark search result as junk crashes app,0,1,1
+253,Thunderbird-227875,Thunderbird-227883,FIXED,mark search result as junk crashes app,Aqua UI Improvements,1,1,1
+254,Thunderbird-227897,Thunderbird-227903,FIXED,Clicking on URL in email opens two windows in Firebird,Autocomplete popup fails to show comment field for LDAP,0,1,1
+255,Thunderbird-227903,Thunderbird-227905,FIXED,Autocomplete popup fails to show comment field for LDAP,Document LDAP schema for Thunderbird,1,1,1
+256,Thunderbird-227905,Thunderbird-227910,FIXED,Document LDAP schema for Thunderbird,cant download new dictionaries,1,1,1
+257,Thunderbird-227927,Thunderbird-227928,FIXED,IMAP count incorrect after deleting unread messages (but correct after expunging/compacting),mail-status icon in the subject column should be separated,1,1,1
+258,Thunderbird-227928,Thunderbird-227942,WONTFIX,mail-status icon in the subject column should be separated,Block images from this server option in thunderbird,1,1,1
+259,Thunderbird-227943,Thunderbird-227944,WONTFIX,Add label options to mark button,The view filter in the search bar cannot filter on flagged/non-flagged messages,1,1,1
+260,Thunderbird-227947,Thunderbird-227953,FIXED,Word attachments not sent,Forwarded As Attachment morphs forwarded message into base64 on OS X,1,1,1
+261,Thunderbird-227953,Thunderbird-227961,FIXED,Forwarded As Attachment morphs forwarded message into base64 on OS X,links in messages do not open browser,0,1,1
+262,Thunderbird-228012,Thunderbird-228021,FIXED,unexpected alert dialog box when checking inbox / mail,The menus are opened always on the primary screen.,1,1,1
+263,Thunderbird-228021,Thunderbird-228034,FIXED,The menus are opened always on the primary screen.,unable to launch TB 0.4 on win NT 4: can not find entrypoint of procedure CopyStgMedium in dll urlmon.dll,0,1,1
+264,Thunderbird-228046,Thunderbird-228048,WONTFIX,missing ability to select installed language - xpi,EML attachment: Can not forward/reply/copy/move when opened,1,1,1
+265,Thunderbird-228209,Thunderbird-228215,FIXED,when I start the thunderbird 0.4 it crashes; if I start regxpcom.exe before; it seems to be good.,0.4 mis-marks folder as having new messages,1,1,1
+266,Thunderbird-228215,Thunderbird-228235,FIXED,0.4 mis-marks folder as having new messages,When I delete an account; it is deleted; but an error message appears saying that the account was not deleted.,0,1,1
+267,Thunderbird-228265,Thunderbird-228300,FIXED,Notifier rings and shows mail for---in inbox  but none exists.,cant install themes if install path contains 8 bit characters,0,1,1
+268,Thunderbird-228300,Thunderbird-228344,FIXED,cant install themes if install path contains 8 bit characters,Some IMAP folders not displayed,0,1,1
+269,Thunderbird-228415,Thunderbird-228484,FIXED,Thunderbird desktop icon does not include 48 48 version,clicking mailto: link crashes Thunderbird on Mac OS X [@ AddExtraWindowsToGroup],0,1,1
+270,Thunderbird-228484,Thunderbird-228509,FIXED,clicking mailto: link crashes Thunderbird on Mac OS X [@ AddExtraWindowsToGroup],Cannot scroll when selecting address from multiple choices in list.,1,1,1
+271,Thunderbird-228550,Thunderbird-228562,FIXED,[import] Importing mail messages from Eudora stops after a little time; without any message; then crashes [@ ntdll.dll - nsEudoraCompose::ConvertSysToUnicode ],shift+forward should toggle html/plain text,0,1,1
+272,Thunderbird-228562,Thunderbird-228676,FIXED,shift+forward should toggle html/plain text,Download link is missing if truncated emails are moved to local folders,0,1,1
+273,Thunderbird-228676,Thunderbird-228689,FIXED,Download link is missing if truncated emails are moved to local folders,When editing a message as new; we should replace the existing vCard on the message with our own.,0,1,1
+274,Thunderbird-228689,Thunderbird-228691,FIXED,When editing a message as new; we should replace the existing vCard on the message with our own.,Mail folder broken if name has a hash (#) in it,0,1,1
+275,Thunderbird-229003,Thunderbird-229087,FIXED,Unread count persistently inaccurate,Wrong email appears when entry of main email address is deferred,0,1,1
+276,Thunderbird-229087,Thunderbird-229096,FIXED,Wrong email appears when entry of main email address is deferred,Blank toolbar after 19-Dec builds. No Icons at all.,0,1,1
+277,Thunderbird-229096,Thunderbird-229097,FIXED,Blank toolbar after 19-Dec builds. No Icons at all.,toolbar buttons missing,1,1,1
+278,Thunderbird-229112,Thunderbird-229114,FIXED,Unable to bring up a compose window in debug builds,Status bar on bottom disapears when resolution is in 800 by 600,0,1,1
+279,Thunderbird-229179,Thunderbird-229209,FIXED,Thunderbird crashed when adding several names (emails) in one line,Incorrect encoding warning dialog should be more user friendly (maybe add button Use UNICODE ?),1,1,1
+280,Thunderbird-229462,Thunderbird-229463,WONTFIX,support for adding custom news headers (in the prefs and in individual messages),news: backtrack references,0,1,1
+281,Thunderbird-229491,Thunderbird-229492,WONTFIX,Filter Conditions area is very tall.,New filters are created with unhelpful New Filter default name,1,1,1
+282,Thunderbird-229496,Thunderbird-229517,WONTFIX,Error Console should not be in release builds,RFE Junk mail delete,1,1,1
+283,Thunderbird-229740,Thunderbird-229744,FIXED,M5 Tracking Bug,Spell checker considers capitalized words incorrect.,0,1,1
+284,Thunderbird-229823,Thunderbird-229868,FIXED,Thunderbird 0.4 tmp file corruption when used with Panda Titanium,Problem downloading messages with multiple email accounts,1,1,1
+285,Thunderbird-229879,Thunderbird-229881,FIXED,Thunderbird does not properly display attachments sent from a mac,file menu label missing and label=&direct.label; at bottom of window,1,1,1
+286,Thunderbird-229881,Thunderbird-229892,FIXED,file menu label missing and label=&direct.label; at bottom of window,Scroll button not visible when only one scroll bar in view source window,1,1,1
+287,Thunderbird-230031,Thunderbird-230042,FIXED,Incorrect highlighting in Tools->Options,Saving UTF-8 Mail as text results in Question Marks,0,1,1
+288,Thunderbird-230182,Thunderbird-230185,FIXED,User-Agent header; in sent messages; should contain more information,Message labeling is lost when messages are moved to another folder,0,0,1
+289,Thunderbird-230241,Thunderbird-230274,FIXED,Incomplete addresses entered in Bcc: field; resolve completely in a To: field,iframes should be disabled if remote images are blocked,0,1,1
+290,Thunderbird-230392,Thunderbird-230395,FIXED,Create new window (if none exists to show) when clicking the dock icon,TB craches accidently,1,1,1
+291,Thunderbird-230395,Thunderbird-230399,FIXED,TB craches accidently,JavaScript errors by opening/closing message-source,1,1,1
+292,Thunderbird-230399,Thunderbird-230437,FIXED,JavaScript errors by opening/closing message-source,Task bar mail icon not removed if message filter moved message to local folder,1,1,1
+293,Thunderbird-230448,Thunderbird-230461,FIXED,Change default forwarding preference to inline instead of attachment,unwanted folders (Sent; Templates; Drafts) should not be created again,0,1,1
+294,Thunderbird-230562,Thunderbird-230602,FIXED,crash when using comma inside newsgroup header,Use Pinstripe theme for Thunderbird,0,1,1
+295,Thunderbird-230700,Thunderbird-230757,FIXED,Trunk Patches to Port to the latest M branch,Incorrect SMTP sent when sending from non-default SMTP,0,1,1
+296,Thunderbird-230925,Thunderbird-230928,FIXED,Font drop down in compose window has only three fonts,Cant redirect messages to new recipients (sometimes called bounce to new),1,1,1
+297,Thunderbird-231032,Thunderbird-231040,FIXED,mailto: tag does not work with unescaped spaces (e.g.; in subject),After successful deletion of an account a dialog informs the user Failed to Remove Account,0,1,1
+298,Thunderbird-231040,Thunderbird-231096,FIXED,After successful deletion of an account a dialog informs the user Failed to Remove Account,Cant subscribe to imap folder or newsgroup,0,1,1
+299,Thunderbird-231096,Thunderbird-231113,FIXED,Cant subscribe to imap folder or newsgroup,Thunderbird needs a loading/splash screen,1,1,1
+300,Thunderbird-231113,Thunderbird-231122,WONTFIX,Thunderbird needs a loading/splash screen,duplicate download,0,1,1
+301,Thunderbird-231224,Thunderbird-231261,FIXED,winking smiley is backwards,RFE:  Lockout with Master Password Authentication,1,1,1
+302,Thunderbird-231289,Thunderbird-231322,FIXED,Custom toolbar changes priority without user requesting,it would be useful to store preferences; filters; bayesian statistics on imap server,0,1,1
+303,Thunderbird-231330,Thunderbird-231455,WONTFIX,BUILDS INTO SPECIFIC OS FOLDERS,No groups in NNTP subscribe dialog,0,1,1
+304,Thunderbird-231541,Thunderbird-231552,FIXED,Leave messages on server should be chosen by default (dataloss),dragging addresses to addressing widget causes attachment bucket to pop open,0,1,1
+305,Thunderbird-231552,Thunderbird-231583,FIXED,dragging addresses to addressing widget causes attachment bucket to pop open,<!--[if !supportEmptyParas]--> <!--[endif]--> visible in email sent from Thunderbird to Outlook Express,1,1,1
+306,Thunderbird-231654,Thunderbird-231679,FIXED,make delete normally only apply to the threadpane - too easy to accidentally delete folder,No filter criteria for Labels,0,0,1
+307,Thunderbird-231742,Thunderbird-231744,FIXED,Identity smart logic is case sensitive,Extra character inserted in attachment,0,1,1
+308,Thunderbird-231784,Thunderbird-231846,FIXED,Platform specific prefs in Thunderbird are missing?,Delete bug in thread view,1,1,1
+309,Thunderbird-231846,Thunderbird-231902,FIXED,Delete bug in thread view,Incoming mail causes preview paine to scroll back to top of message,1,1,1
+310,Thunderbird-231959,Thunderbird-231960,FIXED,M6 Tracking Bug,Unable to create a table from pasted data,0,1,1
+311,Thunderbird-231960,Thunderbird-231967,FIXED,Unable to create a table from pasted data,Support for trace-malloc,0,1,1
+312,Thunderbird-231967,Thunderbird-232077,FIXED,Support for trace-malloc,IMAP folders that are on a third or higher level do not show in Move To pannel,0,1,1
+313,Thunderbird-232166,Thunderbird-232220,FIXED,Unfork mailnews;js; move diffs to thunderbird.js,Unable to associate a file type to an application bundle under Mac OS,1,1,1
+314,Thunderbird-232228,Thunderbird-232234,FIXED,Crash when sending mail with ctrl+enter keystroke,pasting spreadsheet column of email addresses to compose To field results in only one address,1,1,1
+315,Thunderbird-232252,Thunderbird-232253,FIXED,open drafts discarded without prompt on shutdown,The filename with non-ascii characters doesnt show up in the attachment window.,1,1,1
+316,Thunderbird-232343,Thunderbird-232422,FIXED,spell checker broken,buggy TAB and cursor keys navigation in destination type drop down list (to/cc/bcc/...),1,1,1
+317,Thunderbird-232433,Thunderbird-232459,FIXED,Account Settings / Local Folders needs a browse button,When Thunderbird is open Firefox will not open.,0,1,1
+318,Thunderbird-232459,Thunderbird-232482,FIXED,When Thunderbird is open Firefox will not open.,IMAP sub-subfolders not remembered properly,0,1,1
+319,Thunderbird-232590,Thunderbird-232602,FIXED,Ctrl-K on UNIX/Linux should not check spelling; interferes with Emacs shortcut key,Cant copy text from message preview pane,0,1,1
+320,Thunderbird-232602,Thunderbird-232621,FIXED,Cant copy text from message preview pane,signature separator characters should be optional,0,1,1
+321,Thunderbird-232679,Thunderbird-232681,FIXED,Cant open blank new message when main mail window is not open,Cant open new message when no windows are open,0,1,1
+322,Thunderbird-232699,Thunderbird-232753,FIXED,thunderbird.exe -turbo brings up quickstart icon with no function,roll getmess.xpi extension into official build,0,1,1
+323,Thunderbird-232917,Thunderbird-232923,FIXED,Problem with some Microsoft Word attachments,Microsoft Word documents incorrectly encoded,1,1,1
+324,Thunderbird-233027,Thunderbird-233045,FIXED,multi-message selection: mark as read timer not cleared,Large text attachments slow UI to a crawl.,1,1,1
+325,Thunderbird-233089,Thunderbird-233098,WONTFIX,Make top level message in thread Bold when new message arrives,Taskbar title is the same as the message title,1,1,1
+326,Thunderbird-233125,Thunderbird-233132,FIXED,compose window falls to background on launch,Expand ;;To``; cannot see all recipients; missing scrollbar,0,1,1
+327,Thunderbird-233182,Thunderbird-233187,WONTFIX,Thread pane context menu re-org: Thread/Folder items,Ability to assoicate any messages as a thread,1,1,1
+328,Thunderbird-233265,Thunderbird-233281,FIXED,Losing Local Folders Solution,Junk Mail Controls dialog bug when deselecting Move incoming messages,1,1,1
+329,Thunderbird-233281,Thunderbird-233417,FIXED,Junk Mail Controls dialog bug when deselecting Move incoming messages,Reply options: Ability to reply ToSender or ToList,0,1,1
+330,Thunderbird-233417,Thunderbird-233418,WONTFIX,Reply options: Ability to reply ToSender or ToList,Option Check for new messages every XXX minutes unselected; but still tries to access server,0,1,1
+331,Thunderbird-233428,Thunderbird-233446,FIXED,User defined notify sounds dont work,subject/from/date/to text not lined up in preview pane,1,1,1
+332,Thunderbird-233446,Thunderbird-233674,FIXED,subject/from/date/to text not lined up in preview pane,filters based on relative date,1,1,1
+333,Thunderbird-233754,Thunderbird-233784,FIXED,mark for deletion does not put red x on e-mails you replied to,message contents do not display if mail folder on network share or usb drive,1,1,1
+334,Thunderbird-233790,Thunderbird-233816,FIXED,toolbar button jumps when marking a message as junk (or not junk),IMAP Mail folders lost when server connection is lost,1,1,1
+335,Thunderbird-233842,Thunderbird-233867,FIXED,Cannot install extensions,Cannot filter on age with IMAP,0,1,1
+336,Thunderbird-233944,Thunderbird-233951,FIXED,Avoid dynamic resizing of the message headers in the message pane,download headers for subfolders on imap servers; instead of only from the inbox,0,1,1
+337,Thunderbird-233951,Thunderbird-233966,WONTFIX,download headers for subfolders on imap servers; instead of only from the inbox,when a virus enters in the form of an email Norton Antivirus Corporate takes my inbox file and quarantines the entire thing.,0,1,1
+338,Thunderbird-233974,Thunderbird-233976,WONTFIX,unfork mailcommands.js,thunderbird should use the view source from mozilla/toolkit,1,1,1
+339,Thunderbird-233976,Thunderbird-233982,FIXED,thunderbird should use the view source from mozilla/toolkit,Cursor wont move forward after pressing Spacebar in some situations,0,1,1
+340,Thunderbird-234121,Thunderbird-234143,FIXED,Change wording of Mark message read... pref,Spell checker should be able to work with mixed languages,0,1,1
+341,Thunderbird-234150,Thunderbird-234222,WONTFIX,Setting Thunderbird to Default Newsreader doesnt update news protocol handler entries in registry,Message view does not allow view of flagged mail,0,1,1
+342,Thunderbird-234224,Thunderbird-234253,FIXED,general.useragent.override is broken by Bug 227863,Limit Extensions File Picker to .xpi,0,1,1
+343,Thunderbird-234253,Thunderbird-234270,FIXED,Limit Extensions File Picker to .xpi,Limit Theme File Picker to .jar,1,1,1
+344,Thunderbird-234270,Thunderbird-234362,FIXED,Limit Theme File Picker to .jar,Error closing TB after installing extension,0,1,1
+345,Thunderbird-234466,Thunderbird-234518,FIXED,Syntax highlighting is broke for view source of mail messages (should be disabled),prefs.js path filename *.mab problem,0,1,1
+346,Thunderbird-234521,Thunderbird-234541,FIXED,Building process while compiling in NsModule.cpp - related to bugfix for bug 182928 ?,Handle command line urls,0,1,1
+347,Thunderbird-234541,Thunderbird-234567,FIXED,Handle command line urls,Check for new messages ever XX minutes does not work,1,1,1
+348,Thunderbird-234635,Thunderbird-234665,FIXED,The label display in an address registration screen is bad.,Delete button should re-text to Undelete when a deleted message is selected,0,1,1
+349,Thunderbird-234665,Thunderbird-234698,FIXED,Delete button should re-text to Undelete when a deleted message is selected,reply_on_top preference not getting set for all identities when manipulated from account settings UI,0,1,1
+350,Thunderbird-234707,Thunderbird-234719,FIXED,Message Pane splitter jumps around when viewing messages,New filters not saved if filters window open and Thunderbird exits with Control-Q,0,1,1
+351,Thunderbird-234765,Thunderbird-234793,FIXED,The scroll bar in the advanced address search in the address book has no effect,Display preferred format  in columns and make it editable,1,1,1
+352,Thunderbird-234793,Thunderbird-234801,FIXED,Display preferred format  in columns and make it editable,New messages appear in wrong place in thread view,0,1,1
+353,Thunderbird-234811,Thunderbird-234870,FIXED,ldap connections left open on send,mail filter on subject using begins with option does not function at all.,0,1,1
+354,Thunderbird-234903,Thunderbird-234915,WONTFIX,Auto create registry keys at startup,Send Page opens Outlook instead of Thunderbird,0,1,1
+355,Thunderbird-235114,Thunderbird-235119,WONTFIX,integrate SpamAssassin junk mail tests,Long mail headers not completely visible but truncated,0,1,1
+356,Thunderbird-235141,Thunderbird-235184,FIXED,After new install; summary view pane size is all wrong,Thunderbird loses all mail in subfolders when dragging a folder to another folder,1,1,1
+357,Thunderbird-235367,Thunderbird-235369,FIXED,unsanitize spam should refresh and load images,Address import from Outlook ignores Notes field,0,1,1
+358,Thunderbird-235369,Thunderbird-235376,FIXED,Address import from Outlook ignores Notes field,mozilla-xremote-client missing from Linux builds,0,1,1
+359,Thunderbird-235376,Thunderbird-235382,FIXED,mozilla-xremote-client missing from Linux builds,select addresses dialog is gone in mozilla thunderbird and the only thing that can be used is contacts sidebar,0,1,1
+360,Thunderbird-235382,Thunderbird-235389,WONTFIX,select addresses dialog is gone in mozilla thunderbird and the only thing that can be used is contacts sidebar,Delete whole threads at a time,0,1,1
+361,Thunderbird-235389,Thunderbird-235402,WONTFIX,Delete whole threads at a time,ThunderBird should propose a way to save all attachments of all selected messages in a directory,1,1,1
+362,Thunderbird-235451,Thunderbird-235507,FIXED,Search criteria panel in both SearchMessages and Filter->New  dialogs initially displayed blank,thread pane column headers jiggle when changing sort order,1,1,1
+363,Thunderbird-235507,Thunderbird-235577,FIXED,thread pane column headers jiggle when changing sort order,Implement Add to Addressbook and compose mailto to contextual menu in message body,1,1,1
+364,Thunderbird-235577,Thunderbird-235642,FIXED,Implement Add to Addressbook and compose mailto to contextual menu in message body,segfault when opening Calendar from Tools menu,1,1,1
+365,Thunderbird-235651,Thunderbird-235659,FIXED,Tracking bug for Windows Installer,Message pane and folder list scrollbar not at edge of screen when maximized,1,1,1
+366,Thunderbird-235666,Thunderbird-235699,FIXED,Next and Previous buttons should work on read messages,Dialogue Filter Rules too large for 640x480 displays,1,1,1
+367,Thunderbird-235956,Thunderbird-236076,FIXED,add number of unread messages next to (collapsed) account name,Attachment name unecessarily truncated,0,1,1
+368,Thunderbird-236076,Thunderbird-236096,FIXED,Attachment name unecessarily truncated,click to select column to display - comment popup,1,1,1
+369,Thunderbird-236099,Thunderbird-236143,FIXED,RCPT TO Syntax Error in Address; local-part of address for (FTGATE Pro mta) list subscription is quoted.,unable to rename folder when only changing CAPTIALLETTER to smallletter,0,1,1
+370,Thunderbird-236156,Thunderbird-236214,FIXED,Missing DTD errors; unable to start thunderbird,The space character doesnt appear when pressing on the spacebar,0,1,1
+371,Thunderbird-236239,Thunderbird-236311,FIXED,Some attachments are encoded as appledouble [text.txt; word.doc] Cant send/receive msword .doc attachment: null byte in message; appledouble error copying to sent folder,want option to only load html/images if sender is in address book,0,1,1
+372,Thunderbird-236498,Thunderbird-236528,FIXED,Add Pref UI for specifying default HTML font and colors for HTML compose,unable to include quotes () in message filter,1,1,1
+373,Thunderbird-236588,Thunderbird-236616,WONTFIX,please add an auto-update function for the addressbook,alternative trash folder names,0,1,1
+374,Thunderbird-236648,Thunderbird-236704,FIXED,Priority Toolbar button shows wrong priority state,Thunderbird under Linux deletes messages from POP3 server even with Leave Messages on Server checked,0,1,1
+375,Thunderbird-236922,Thunderbird-236952,WONTFIX,Compact folders should be renamed to expunge,Security and return Receipts panels missing from account manager,0,1,1
+376,Thunderbird-236952,Thunderbird-237029,FIXED,Security and return Receipts panels missing from account manager,nsMsgContentPolicy should honor the plugin pref,0,1,1
+377,Thunderbird-237029,Thunderbird-237045,FIXED,nsMsgContentPolicy should honor the plugin pref,New emoticons for thunderbird,1,1,1
+378,Thunderbird-237045,Thunderbird-237082,FIXED,New emoticons for thunderbird,hangs when time-out error popup comes up while dragging email to local folder,1,1,1
+379,Thunderbird-237146,Thunderbird-237151,FIXED,SMTP server list doesnt multiple instances of same server (with no username; difft ports/other parameters),Add button for resetting training.dat file in the junk controls dialog,0,1,1
+380,Thunderbird-237151,Thunderbird-237179,FIXED,Add button for resetting training.dat file in the junk controls dialog,Drag attachment from messages to desktop rather than right-click save,1,1,1
+381,Thunderbird-237348,Thunderbird-237376,WONTFIX,RFE Show junk probability,Put reply to newsgroup on top,1,1,1
+382,Thunderbird-237376,Thunderbird-237398,FIXED,Put reply to newsgroup on top,Contacts Sidebar says Addressbook:; however it should say Address Book:,0,1,1
+383,Thunderbird-237398,Thunderbird-237447,FIXED,Contacts Sidebar says Addressbook:; however it should say Address Book:,Image does not display on javascript clip: rect,0,1,1
+384,Thunderbird-237553,Thunderbird-237563,FIXED,Cant drag a mailing list to compose window from contacts bar,Will not rename folder name if change in case is only difference. ie old -> Old,0,1,1
+385,Thunderbird-237603,Thunderbird-237618,FIXED,Need Firefox like credits page in Help / About dialog,Status bar spoofing with %01; %00,1,1,1
+386,Thunderbird-237618,Thunderbird-237645,FIXED,Status bar spoofing with %01; %00,Missing components in build process,0,1,1
+387,Thunderbird-237645,Thunderbird-237715,FIXED,Missing components in build process,crash using CntrlEnter to send mail  0.5bad  0.4good,0,1,1
+388,Thunderbird-238024,Thunderbird-238060,FIXED,cannot work offline with lotus domino imap server,enable type ahead find,1,1,1
+389,Thunderbird-238141,Thunderbird-238275,FIXED,Junk toolbar button never goes to disabled state,Thunderbird uses domain name only in HELO,0,1,1
+390,Thunderbird-238562,Thunderbird-238567,FIXED,Add DOM Inspector to Windows Installer build,Thunderbird Cannot Steal Back mailto Handling From Outlook,0,1,1
+391,Thunderbird-238600,Thunderbird-238614,WONTFIX,Toolbar button request: toggle message pane,TB09 crashed after cancelling message send operation [@ nsQueryInterface::operator()],1,1,1
+392,Thunderbird-238614,Thunderbird-238638,FIXED,TB09 crashed after cancelling message send operation [@ nsQueryInterface::operator()],Inline forward converts text in body into attachment (text/enriched),0,1,1
+393,Thunderbird-238759,Thunderbird-238766,FIXED,Thunderbird window ignored by DOM Inspector,Preview pane scrolls to top after some events in inbox,1,1,1
+394,Thunderbird-238827,Thunderbird-238829,FIXED,crash marking messages in junk folder as junk; then going to another folder,Windows Installer Truncates text on the welcome screen,1,1,1
+395,Thunderbird-238829,Thunderbird-238831,FIXED,Windows Installer Truncates text on the welcome screen,Thunderbird handles connection timeouts poorly,0,1,1
+396,Thunderbird-239106,Thunderbird-239131,FIXED,Land Pinstripe for Thunderbird,Thunderbird should use the new password manager,1,0,1
+397,Thunderbird-239131,Thunderbird-239134,FIXED,Thunderbird should use the new password manager,Thunderbird does not open a url when clicked; instead it saves a copy and opens it locally,1,0,1
+398,Thunderbird-239136,Thunderbird-239167,FIXED,Thunderbird needs to integrate with the new download manager,Filter in messages for to: or cc: is case sensitive,1,1,1
+399,Thunderbird-239226,Thunderbird-239239,FIXED,Opening Forward Message Attachment Opens parent message in a new window,Option to remove dashes at the top of email signature,0,1,1
+400,Thunderbird-239322,Thunderbird-239328,FIXED,Small Junk icon on toolbar is blank,Attachment : Open with doesnt work,1,1,1
+401,Thunderbird-239349,Thunderbird-239350,FIXED,Junk Filter incorrectly marks mails as junk; no junk icon in summary pane; junk icon in header pane (IMAP only?). Delete mail marked as junk deletes legitimate e-mail (Dataloss),[OSX] The right end of a Return Receipts selection list is not displayed.,1,1,1
+402,Thunderbird-239350,Thunderbird-239378,FIXED,[OSX] The right end of a Return Receipts selection list is not displayed.,No checkmarks in View menu,1,1,1
+403,Thunderbird-239475,Thunderbird-239482,FIXED,attachment bucket does not always show correct icon for attachments,ctrl-k should shift focus to the search bar,0,1,1
+404,Thunderbird-239482,Thunderbird-239483,FIXED,ctrl-k should shift focus to the search bar,Mark All Read key command does not work on linux GTK2,1,1,1
+405,Thunderbird-239483,Thunderbird-239558,FIXED,Mark All Read key command does not work on linux GTK2,autocompletion of addresses interferes with backspace,0,1,1
+406,Thunderbird-239610,Thunderbird-239629,FIXED,There is no indication that mail marked as deleted is marked as deleted.,Ctrl+A focuses search bar instead of selecting all emails in a folder.,1,1,1
+407,Thunderbird-239629,Thunderbird-239652,FIXED,Ctrl+A focuses search bar instead of selecting all emails in a folder.,Ctrl+A moves focus to Subject or sender contains box,1,1,1
+408,Thunderbird-239658,Thunderbird-239685,FIXED,Add ability to open attachments from the compose window,non accessible attachments in .eml,0,1,1
+409,Thunderbird-239741,Thunderbird-239760,FIXED,Unable to forward messages,[OSX] A selection list will become blank if a check box is chosen by creation of a message filter.,0,0,1
+410,Thunderbird-239760,Thunderbird-239764,FIXED,[OSX] A selection list will become blank if a check box is chosen by creation of a message filter.,grab Eudora attachments and embedded files when importing,1,1,1
+411,Thunderbird-239801,Thunderbird-239817,FIXED,No nightly thunderbird builds for linux,Data pasted into compose window loses formatting on Mac [Apple; clipboard; copy],0,1,1
+412,Thunderbird-239934,Thunderbird-239965,FIXED,menuitems in folder submenus have the wrong text color when active,If no default browser is set; we try to open external urls like attachments,1,1,1
+413,Thunderbird-239965,Thunderbird-239984,FIXED,If no default browser is set; we try to open external urls like attachments,[OSX] Minimize Window and Zoom Window in the Window menu; cannot be chosen.,1,1,1
+414,Thunderbird-239984,Thunderbird-239995,FIXED,[OSX] Minimize Window and Zoom Window in the Window menu; cannot be chosen.,Filter: delete and mark as read dont work together,1,1,1
+415,Thunderbird-240033,Thunderbird-240120,FIXED,long waits when laptop comes out of hybernation,account icon doesnt show that theres new messages,1,1,1
+416,Thunderbird-240138,Thunderbird-240168,FIXED,Show just the name and not the email address in the message pane,Compose windows clips the subject line when stretching the message text field,0,1,1
+417,Thunderbird-240468,Thunderbird-240476,FIXED,Thunderbird does not delete Junk mail Automatically,Interesting Trunk Bug Fixes to Port to the 0.6 branch,0,1,1
+418,Thunderbird-240476,Thunderbird-240505,FIXED,Interesting Trunk Bug Fixes to Port to the 0.6 branch,Empty trash on exit option is missing for local folders,0,1,1
+419,Thunderbird-240680,Thunderbird-240681,FIXED,Installer doesnt set the PathToExe registry entry,Thunderbird should register .eml files in Windows if set as default mail application,0,1,1
+420,Thunderbird-240741,Thunderbird-240750,FIXED,cleanup shortBrandName verses fullBrandName,Use sane widths and heights for all resolutions,1,1,1
+421,Thunderbird-240750,Thunderbird-240788,FIXED,Use sane widths and heights for all resolutions,Marking Message as Junk Hangs Thunderbird,1,1,1
+422,Thunderbird-240788,Thunderbird-240804,FIXED,Marking Message as Junk Hangs Thunderbird,thunderbird packaging changes for zip-build automation,0,0,1
+423,Thunderbird-240804,Thunderbird-240814,FIXED,thunderbird packaging changes for zip-build automation,mapi32.dll problem: Setting TB as default mail client stops MS Outlook from working,0,0,1
+424,Thunderbird-240819,Thunderbird-240825,FIXED,Crash in mail.dll when checking mail - TB073 [@ nsTransform2D::SetToIdentity ],[OSX;MOZILLA_1_7_BRANCH]: Print Preview is blank and is displayed.,1,1,1
+425,Thunderbird-240970,Thunderbird-240976,FIXED,Context menu text is right aligned in date area,Allow bounce/redirect of mail messages,1,1,1
+426,Thunderbird-240996,Thunderbird-241001,FIXED,Newly composed message lost if unable to successfully post to newsgroup,Cannot delete message,1,1,1
+427,Thunderbird-241003,Thunderbird-241014,FIXED,build changes to support new branding artwork,When i have multiple news servers; i cannot do a crosspost,0,1,1
+428,Thunderbird-241018,Thunderbird-241029,FIXED,folderpane context menu shows all entries on every position,polish the about dialog,1,1,1
+429,Thunderbird-241029,Thunderbird-241030,FIXED,polish the about dialog,Save All attachments from a draft message downloads the entire email for each attachment,1,1,1
+430,Thunderbird-241066,Thunderbird-241073,FIXED,Remove Print Preview from contextual and Print Toolbar icon menu on Mac OS X,formatting toolbar goes crazy when there is some error while delivering mail,0,1,1
+431,Thunderbird-241073,Thunderbird-241086,FIXED,formatting toolbar goes crazy when there is some error while delivering mail,Renaming folder to same name with different capitals fails,0,1,1
+432,Thunderbird-241120,Thunderbird-241136,FIXED,messengerWindow.ico inconsistent with new logo,When contacts are open in a frame in the new message; there are no Add Bcc: button.,0,1,1
+433,Thunderbird-241202,Thunderbird-241203,FIXED,FormatToolbar overlaps MsgHeadersToolbar,attachment not visible until message loaded,0,1,1
+434,Thunderbird-241203,Thunderbird-241224,FIXED,attachment not visible until message loaded,Requesting ability to post a message to current folder,1,1,1
+435,Thunderbird-241251,Thunderbird-241267,FIXED,javascript warnings when opening about dialog,[message/rfc822 ; .EML] opening a fwd local message has original messagess attachments (TB bug for Bug 203570),1,1,1
+436,Thunderbird-241389,Thunderbird-241417,FIXED,Address book is empty,[OSX; 1.7Branch] build error(The application icon name is mistaken.),0,1,1
+437,Thunderbird-241417,Thunderbird-241420,FIXED,[OSX; 1.7Branch] build error(The application icon name is mistaken.),Copying sent message to IMAP inbox creates new subfolder called INBOX,0,1,1
+438,Thunderbird-241425,Thunderbird-241463,FIXED,use the correct clearUserPref() instead of ClearUserPref() in pref-fonts.js,Long Recipients List Scroll Out of Window; Folders Pane Follows Suite,0,1,1
+439,Thunderbird-241549,Thunderbird-241561,WONTFIX,Remember View-Layout-Message Pane setting for individual folders,Adding Subject:; Date:; From: to the replying message,0,1,1
+440,Thunderbird-241601,Thunderbird-241602,FIXED,Address book icon looks like spell check icon in customize dialog,register properties chrome url for Win XP Start menu,1,1,1
+441,Thunderbird-241602,Thunderbird-241686,FIXED,register properties chrome url for Win XP Start menu,unable to click on dialogue boxes when setting up new account,0,1,1
+442,Thunderbird-241842,Thunderbird-241846,FIXED,Uninstaller gives error about not all files being deleted,no proxy prompt; must change window configuration to see email internet images,1,1,1
+443,Thunderbird-241849,Thunderbird-241986,FIXED,compile error on linux platforms on tbird .6 branch,Signed and Encrypted messages not prominantly displayed.,0,1,1
+444,Thunderbird-242249,Thunderbird-242255,FIXED,opening another thunderbird.exe should unminimize (restore/maximize) window,Thunderbird needs to register as default handler of mailto protocols,0,1,1
+445,Thunderbird-242302,Thunderbird-242304,FIXED,Context menus objectIsImage is totally bogus (and throws exceptions),New messages in thread are not obvious,1,1,1
+446,Thunderbird-242361,Thunderbird-242428,FIXED,User-Agent header malformed,feature request: fix vertical panes,0,1,1
+447,Thunderbird-242433,Thunderbird-242434,FIXED,Junk button icon not greyed out when disabled,If message headers take too much space scrollbars are not showed.,1,1,1
+448,Thunderbird-242437,Thunderbird-242474,FIXED,[OSX]:Window menu should conform to Apple Human Interface Guidelines,Thunderbird doesnt respect ~/Library/KeyBindings/DefaultKeyBinding.dict,0,1,1
+449,Thunderbird-242533,Thunderbird-242536,WONTFIX,Need to register a content type association on Windows,when composing mail; the View->Character encoding menu and the Options->Languages - Outgoing mail combobox is empty,1,1,1
+450,Thunderbird-242538,Thunderbird-242548,WONTFIX,LDAP connection failed,Missing files when building with GTK1,0,1,1
+451,Thunderbird-242548,Thunderbird-242561,FIXED,Missing files when building with GTK1,Message navigation (Next/Previous Message; Unread; Unread Thread) and Delete do not update selected message in main mail window,0,1,1
+452,Thunderbird-242561,Thunderbird-242571,WONTFIX,Message navigation (Next/Previous Message; Unread; Unread Thread) and Delete do not update selected message in main mail window,Eliminate dist\thunderbird packaging step,0,1,1
+453,Thunderbird-242571,Thunderbird-242576,FIXED,Eliminate dist\thunderbird packaging step,Loose security device (PKCS11) after close app,0,1,1
+454,Thunderbird-242576,Thunderbird-242581,FIXED,Loose security device (PKCS11) after close app,Clicking dock icon should open Mail & Newsgroups window if no windows are open,0,1,1
+455,Thunderbird-242614,Thunderbird-242623,FIXED,LDAP address do not show up in contact window when composing e-mail,Manually marking messages as junk doesnt move them.,0,1,1
+456,Thunderbird-242623,Thunderbird-242625,FIXED,Manually marking messages as junk doesnt move them.,Get rid of the clear button in the quick search bar,0,1,1
+457,Thunderbird-242672,Thunderbird-242675,FIXED,Help menu should conform to Apple Human Interface Guidelines,Highlight incorrect spellings while composing mail.,0,1,1
+458,Thunderbird-242685,Thunderbird-242700,FIXED,Typing F; N; T; B; P; M; C; R; J in dialog boxes causes menus to flash,Random old messages being sent on startup,1,1,1
+459,Thunderbird-242752,Thunderbird-242771,FIXED,System New Mail Sound should be System Alert Sound,cant subscript de.etc.bahn.tarif+service,0,1,1
+460,Thunderbird-242791,Thunderbird-242860,FIXED,click-selecting an email displays it instantly. moving between mails using cursors causes annoying delay,Create filter from message on List-id header,1,1,1
+461,Thunderbird-242864,Thunderbird-242867,FIXED,Delete key does not delete messages on MAC,Outlook express style auto-configuration function,0,1,1
+462,Thunderbird-242944,Thunderbird-242947,FIXED,Crash when offline search a newsgroup with criteria body (doesnt) contains  [@ nsMsgSearchTerm::StripQuotedPrintable],Keyboard shortcut for search messages (Shift-Ctrl-F) doesnt work on Linux,0,1,1
+463,Thunderbird-242947,Thunderbird-242955,FIXED,Keyboard shortcut for search messages (Shift-Ctrl-F) doesnt work on Linux,Wrong UI colors,1,1,1
+464,Thunderbird-242957,Thunderbird-242959,FIXED,import address book screen needs to be resizable,Thunderbird should open .eml files from command line,0,1,1
+465,Thunderbird-242959,Thunderbird-242961,FIXED,Thunderbird should open .eml files from command line,change reply above/below default setting,0,1,1
+466,Thunderbird-242961,Thunderbird-242962,WONTFIX,change reply above/below default setting,Thunderbird occasionally hangs on shutdown,0,1,1
+467,Thunderbird-242983,Thunderbird-242988,FIXED,Thunderbird crashes when I close the main mailbox window also if I quit,improve html we emit for vCards,1,1,1
+468,Thunderbird-242988,Thunderbird-243003,FIXED,improve html we emit for vCards,omit account information page on startup,1,1,1
+469,Thunderbird-243045,Thunderbird-243052,FIXED,Thunderbird preferences window too small for buttons/content,cannot connect to localhost running courier-imap-ssl,0,1,1
+470,Thunderbird-243138,Thunderbird-243142,FIXED,Manage Certificates; Security Devices dialogs are 1 pixel wide,Angle-brackets around e-mail addresses not escaped when saving plain-text message as HTML,0,1,1
+471,Thunderbird-243167,Thunderbird-243172,FIXED,Platform-specific en-mac/unix/win.jar localization files not all included for each distribution,The edit as new command not use the inline style of the template in new message.,0,1,1
+472,Thunderbird-243230,Thunderbird-243256,FIXED,Port of the UI changes of bug 84692 to Thunderbirds Offline Extension,Filters should work for user-created folders too.,1,1,1
+473,Thunderbird-243307,Thunderbird-243323,FIXED,remove the clear button in the mail quick search and addressbook quick search,Need larger Send button in the Compose window,0,1,1
+474,Thunderbird-243472,Thunderbird-243479,FIXED,Crash when exiting Thunderbird via File->Close or File->Quit [crash @get_gtk_widget_for_gdk_window],Message filters failing due to line wrap of headers,1,1,1
+475,Thunderbird-243480,Thunderbird-243496,FIXED,previous/next buttons should be up/down instead of left/right,Ability to query server authentication capabilities,0,1,1
+476,Thunderbird-243504,Thunderbird-243506,FIXED,filename of attachment is truncated at the first # (numbersign) or ; (semicolon),unicode filenames are not supported for attachments,0,1,1
+477,Thunderbird-243562,Thunderbird-243586,FIXED,Add Talkback component to the installer,Manually marking deleted IMAP message as junk undeletes message,0,1,1
+478,Thunderbird-243631,Thunderbird-243668,FIXED,Availability to show the name out of the addressbook for a display name,Get Mail does nothing at all,0,1,1
+479,Thunderbird-243668,Thunderbird-243672,FIXED,Get Mail does nothing at all,Word wrap pref change doesnt take effect on open compose windows,0,1,1
+480,Thunderbird-243733,Thunderbird-243741,FIXED,Internally register to handle vCard attachment URLs,Quality Feedback Agent does not exist,0,1,1
+481,Thunderbird-243741,Thunderbird-243783,FIXED,Quality Feedback Agent does not exist,The full mail address should be displayed as default in the message pane!,0,1,1
+482,Thunderbird-243783,Thunderbird-243792,WONTFIX,The full mail address should be displayed as default in the message pane!,Cannot add usenet groups with + in group name,0,1,1
+483,Thunderbird-243810,Thunderbird-243818,FIXED,unable to read new mail when viewing inbox,Unable to read new mail 0.6+ when already viewing Inbox,1,1,1
+484,Thunderbird-243827,Thunderbird-243852,FIXED,Build process is killed after making libmail.so (AVIARY_1_0_20040515_BRANCH),Block loading of remote images in mail messages is reversed.,0,1,1
+485,Thunderbird-243852,Thunderbird-243883,FIXED,Block loading of remote images in mail messages is reversed.,Message Filterl UI is broken,0,1,1
+486,Thunderbird-243959,Thunderbird-243970,WONTFIX,Thunderbird should provide official GTK1 builds.,Paste Keyboard Shortcut confused by capslock,0,1,1
+487,Thunderbird-244134,Thunderbird-244145,FIXED,Additional thunderbid patches to support the new semi single profile changes,intermittent segfault,1,1,1
+488,Thunderbird-244145,Thunderbird-244172,FIXED,intermittent segfault,thunderbird forgets loaded pkcs11 module after exiting,0,1,1
+489,Thunderbird-244209,Thunderbird-244246,FIXED,Offline Settings > KB value not be stored for Compact folders if it will save over ....,Command+a fails to select all messages in Search Messages Results pane,0,1,1
+490,Thunderbird-244247,Thunderbird-244274,FIXED,Initial Focus in Help About,would like to be able to empty the junk folder to trash,0,1,1
+491,Thunderbird-244278,Thunderbird-244289,FIXED,Check new application icon into trunk,Drafts; Sent and Templates are not saved if the target folder is a shared folder,0,1,1
+492,Thunderbird-244289,Thunderbird-244294,FIXED,Drafts; Sent and Templates are not saved if the target folder is a shared folder,messages not shown; folders still present for IMAP & locally stored messages,0,1,1
+493,Thunderbird-244313,Thunderbird-244325,WONTFIX,option to set headers to be seen in preview pane/message window,Add a modifier box to the quick search bar,0,1,1
+494,Thunderbird-244325,Thunderbird-244331,FIXED,Add a modifier box to the quick search bar,scroll bar does not match reality,0,1,1
+495,Thunderbird-244357,Thunderbird-244361,FIXED,nsBayesianFilter.cpp : possible catastrophic underflow,Newsgroups selecting mark red with out going into the groups comes back,1,1,1
+496,Thunderbird-244390,Thunderbird-244397,FIXED,File Not Found At End Of Install,Tbird installer insists on network downloading,1,1,1
+497,Thunderbird-244397,Thunderbird-244402,FIXED,Tbird installer insists on network downloading,Training.dat not being updated.,0,1,1
+498,Thunderbird-244455,Thunderbird-244457,FIXED,Help prevent forgetting inclusion of attachments,Dont show vCards as external attachments,0,1,1
+499,Thunderbird-244457,Thunderbird-244476,FIXED,Dont show vCards as external attachments,A display becomes inaccurate when the separator in a Compose window is contracted.,0,1,1
+500,Thunderbird-244522,Thunderbird-244536,FIXED,Selecting address book recipient from list before LDAP finishes lookup causes Enter to not behave as expected,Very old emails not marked junk,0,1,1
+501,Thunderbird-244536,Thunderbird-244544,WONTFIX,Very old emails not marked junk,Text attachments should be received as attachment by default,0,1,1
+502,Thunderbird-244605,Thunderbird-244631,WONTFIX,thunderbird fails to link when configured with --enable-static; undefined reference to app_getModuleInfo,when sending mail; hangs when copying message to sent folder,1,1,1
+503,Thunderbird-244660,Thunderbird-244674,FIXED,Thunderbird specific changes to get extension manager running,Long subjects lead to scrambled Windowtitle; possible unchecked sprintf ?,0,1,1
+504,Thunderbird-244724,Thunderbird-244769,WONTFIX,When forwarding Junk; do not put it in my Sent folder,attachments list does not scroll properly,0,1,1
+505,Thunderbird-244780,Thunderbird-244800,FIXED,Change in Image Loading policy broke Save Image As,Minor menu item re-organization,0,1,1
+506,Thunderbird-244800,Thunderbird-244851,FIXED,Minor menu item re-organization,Address book misses option to store middle name,0,1,1
+507,Thunderbird-245064,Thunderbird-245068,WONTFIX,[PATCH] changes the mail-emailaddress xbl widget to open a compose window when left clicked on.,install directory picker doesnt allow user entry - must browse,0,1,1
+508,Thunderbird-245194,Thunderbird-245196,FIXED,[OSX; AVIARY_BRANCH] build error(link error on thunderbird-bin),add color to quoted message parts,0,1,1
+509,Thunderbird-245196,Thunderbird-245230,FIXED,add color to quoted message parts,Junk mail marked read; not marked junk; not moved to junk folder,1,1,1
+510,Thunderbird-245280,Thunderbird-245284,FIXED,backport bug 191839 (nsIContentPolicy) to aviary branch,RTF file renders improperly in preview pane,0,1,1
+511,Thunderbird-245284,Thunderbird-245325,FIXED,RTF file renders improperly in preview pane,[Contacts side bar is empty in the compose window] and [Add to Address Book ... pane isnt filling in],1,1,1
+512,Thunderbird-245325,Thunderbird-245328,FIXED,[Contacts side bar is empty in the compose window] and [Add to Address Book ... pane isnt filling in],CSS loads remote images despite user prefs,0,1,1
+513,Thunderbird-245328,Thunderbird-245340,FIXED,CSS loads remote images despite user prefs,Change font for all Language Groups s at once,0,1,1
+514,Thunderbird-245360,Thunderbird-245371,FIXED,show border / blocked image icon (like broken image icon) when an image is blocked.,Input to search field is consumed by main window,1,1,1
+515,Thunderbird-245430,Thunderbird-245466,FIXED,Investigate static build version of thunderbird,Dont save the port number of an IMAPS server when it is not the default port (993),0,1,1
+516,Thunderbird-245466,Thunderbird-245471,FIXED,Dont save the port number of an IMAPS server when it is not the default port (993),Automatic mail checks stop after waking from sleep,0,1,1
+517,Thunderbird-245483,Thunderbird-245492,FIXED,Hook up print preview support,RFE: Would like a Resend message feature,1,1,1
+518,Thunderbird-245532,Thunderbird-245538,FIXED,Thunderbird sometimes doesnt recognize that it is no longer the default mail client,Getting new mail from pop3 makes inbox disappear,0,1,1
+519,Thunderbird-245552,Thunderbird-245563,FIXED,default character encoding option for outgoing mail is unusable,Newsgroup name should appear in a different color if it contains a watched thread with unread messages.,0,1,1
+520,Thunderbird-245616,Thunderbird-245646,FIXED,[OSX; AVIARY_BRANCH]thunderbird cannot be used. And It cannot exit.,freeze when trying to open specific mail message,0,1,1
+521,Thunderbird-245646,Thunderbird-245659,FIXED,freeze when trying to open specific mail message,switching between plaintext-e-mails and HTML-e-mails not practical,1,1,1
+522,Thunderbird-245661,Thunderbird-245672,FIXED,use nsIImageLoadingContent for copying image location,Provide means to manually order (sort) folders or groups,0,1,1
+523,Thunderbird-245741,Thunderbird-245803,FIXED,Re-use qute artwork for shared imap folder icons,sanitized mail options are difficult to understand,1,1,1
+524,Thunderbird-245814,Thunderbird-245820,FIXED,blockquote syntax error - mail/base/skin/messageQuotes.css,event queue disappearing on SMP Linux(?),0,1,1
+525,Thunderbird-245917,Thunderbird-245921,FIXED,About Mozilla Thunderbird or About Thunderbird; pick one,Multiple Reply-To entries result in only one displayed,1,1,1
+526,Thunderbird-246169,Thunderbird-246174,FIXED,No import option for Eudora available (Communicator 4.x only),Add CLOSE button to Message Filters Window,0,1,1
+527,Thunderbird-246285,Thunderbird-246291,FIXED,OS X Profiles not recognized by the 0.7 branch builds,password manager fails to re-prompt for password; causes lock-out when password is changed/disabled (imap),0,1,1
+528,Thunderbird-246342,Thunderbird-246371,FIXED,Compose messages in HTML format in wont un-check. cant compose in plain text.,Spell Checker fails to write out custom words to persdict.dat,0,1,1
+529,Thunderbird-246371,Thunderbird-246401,FIXED,Spell Checker fails to write out custom words to persdict.dat,Private entries do not get synchronized with Palm address book sync.,0,1,1
+530,Thunderbird-246414,Thunderbird-246436,FIXED,Drafts & Templates dont remember background and font colors,More labels,0,1,1
+531,Thunderbird-246439,Thunderbird-246457,FIXED,Crash checking for new IMAP messages [@ OnCreateServerSourceFolderPathString],Import from Outlook 2002 German: Attachment file name cut to 8.3 format (except the latest attachment),0,1,1
+532,Thunderbird-246563,Thunderbird-246594,FIXED,Text not localizable in dialog for attachments-helper-applications,News reader opens new window new expired deleted articles,0,1,1
+533,Thunderbird-246595,Thunderbird-246597,FIXED,File -> Send Link does not send link,Thunderbird thinks URLs are files to be downloaded,0,1,1
+534,Thunderbird-246606,Thunderbird-246640,FIXED,Show more information in the add/remove programs list,find and replace should only operate on selection (when present),0,1,1
+535,Thunderbird-246744,Thunderbird-246759,FIXED,Missing identity attributes for multiple identities UI,Interface missing to setup movemail account,1,1,1
+536,Thunderbird-246759,Thunderbird-246791,FIXED,Interface missing to setup movemail account,Installer creates unwanted empty directory in start menu,0,1,1
+537,Thunderbird-246909,Thunderbird-246928,FIXED,Thunderbird process remain active after closing,Linking URL from Thunderbird mail to Firefox produces extraneous dialog,0,1,1
+538,Thunderbird-246966,Thunderbird-246994,FIXED,Thunderbird does show blank page for some mails; due to problems with storing the previous e-mail,Need a new extension wrapper for the palm sync extension,0,1,1
+539,Thunderbird-247025,Thunderbird-247084,FIXED,cant install 2 themes,Multiple identities UI doesnt allow to set up BCC addresses,0,1,1
+540,Thunderbird-247084,Thunderbird-247099,FIXED,Multiple identities UI doesnt allow to set up BCC addresses,clicking URLs in HTML mail displays dialog asking what TB should do with HTM file,0,1,1
+541,Thunderbird-247128,Thunderbird-247163,FIXED,product will not run; complains GLIBC 2.3.4 required; but requirements on home page state 2.3.2,Email headers not properly displayed,0,1,1
+542,Thunderbird-247217,Thunderbird-247223,FIXED,App doesnt listen to mozilla-xremote-client anymore,Request: Anti-Virus support,0,1,1
+543,Thunderbird-247236,Thunderbird-247245,FIXED,Thunderbird 0.7 doesnt display system tray icon (new mail),Message copy always saved in Sent folder when alternate identities are used.,0,1,1
+544,Thunderbird-247300,Thunderbird-247309,WONTFIX,adaptive junk filter removing new mark from incomming mail,message filter needs a forward email rule,1,1,1
+545,Thunderbird-247369,Thunderbird-247385,FIXED,Application Menu title should be Thunderbird instead of Mozilla Thunderbird,Compose Mail To from newsgroup message does not save in Sent folder,1,1,1
+546,Thunderbird-247468,Thunderbird-247469,FIXED,[Aviary] Starting with a blank window after packaging thunderbird.,manually marked junk mails dont move to Junk folder,0,1,1
+547,Thunderbird-247552,Thunderbird-247570,FIXED,When upgrading to 0.7; problems not finding the 0.6 profile on OS X,option to remove X-Accept-Language header,1,1,1
+548,Thunderbird-247644,Thunderbird-247661,FIXED,If Thunderbird has more then one profile Firefox cant be started by clicking a hyperlink,Get mail button dont work - pop,1,1,1
+549,Thunderbird-247696,Thunderbird-247754,FIXED,Mac OS X Version should be   2004; not 2003,mozilla-xremote-client needs -a Thunderbird with capital T,1,1,1
+550,Thunderbird-247838,Thunderbird-247842,FIXED,Same string used twice in pref-viewing_messages.xul,Help in the menu bar should be different between Windows and other platforms,0,1,1
+551,Thunderbird-247842,Thunderbird-247845,FIXED,Help in the menu bar should be different between Windows and other platforms,New mail icon,1,1,1
+552,Thunderbird-248047,Thunderbird-248073,FIXED,Profile Migration from the Mozilla Suite,Install Extension confirmation dialog should use the new mozapp xpinstall chrome,0,1,1
+553,Thunderbird-248073,Thunderbird-248095,FIXED,Install Extension confirmation dialog should use the new mozapp xpinstall chrome,Spell checker should ignore words from Address Book,0,1,1
+554,Thunderbird-248145,Thunderbird-248155,FIXED,Preferred send message format being ignored,installer uses wrong directory,0,1,1
+555,Thunderbird-248313,Thunderbird-248315,FIXED,Download of mail to Global Inbox stalls,crash with html mail when clicking or mouseover-ing a link [@ nsImageLoader::Load ],0,1,1
+556,Thunderbird-248575,Thunderbird-248592,FIXED,Broken chrome for offline folder select in Thunderbird 0.7 (OS X),Block loading of remote images in mail messages is reversed (still present in 0.7!),1,1,1
+557,Thunderbird-248643,Thunderbird-248650,FIXED,New profile code breaks the new mail indicator icon in the Windows system tray,Performing a quick search only finds exact matches,0,1,1
+558,Thunderbird-248681,Thunderbird-248688,FIXED,Add backend support for ability to toggle Reply/Reply to All in Composer,Thunderbird biff integration refers to the old profile APIs,0,0,1
+559,Thunderbird-248688,Thunderbird-248692,FIXED,Thunderbird biff integration refers to the old profile APIs,Cannot create folder as sub folder of existing folder using UW IMAP server,1,1,1
+560,Thunderbird-248703,Thunderbird-248760,FIXED,read mail window titlebar says null - Mozilla Thunderbird if message has no subject,image from clipboard ist pasted into new message but NOT sent,0,1,1
+561,Thunderbird-248797,Thunderbird-248811,FIXED,Unable to delete mailing list in contacts list compose window,URLs will not open when clicked in email.,0,1,1
+562,Thunderbird-248814,Thunderbird-248834,FIXED,Customize dialog cant be reopened from composition and address book windows,option to export address to vCard,0,1,1
+563,Thunderbird-249108,Thunderbird-249109,FIXED,clicking OK button doesnt close address editing window,Double-quotes (both bar and >) in display,0,1,1
+564,Thunderbird-249109,Thunderbird-249145,FIXED,Double-quotes (both bar and >) in display,If load remote images is off; then should be able to click on a button to view images for a specific (safe)email,1,1,1
+565,Thunderbird-249236,Thunderbird-249267,FIXED,Error message appears when trying to forward an e-mail with attachments and mail is not delivered,add option to reply quoting selected text.,0,1,1
+566,Thunderbird-249337,Thunderbird-249383,FIXED,Unread count is > 0; but nothing displays in the messages pane,From address saved on folder level like in Kmail,0,1,1
+567,Thunderbird-249494,Thunderbird-249496,FIXED,Profile Migration from Outlook Express,Mark All Read cant be undone,0,1,1
+568,Thunderbird-249580,Thunderbird-249585,FIXED,Remove unused thunderbird.js prefs,#NAME?,1,1,1
+569,Thunderbird-249585,Thunderbird-249614,FIXED,#NAME?,Changes For the Import Modules to make them work with migration,1,1,1
+570,Thunderbird-249614,Thunderbird-249620,FIXED,Changes For the Import Modules to make them work with migration,inconsistent labeling: folder context menu for account node is named properties but goes to account settings,0,0,1
+571,Thunderbird-249620,Thunderbird-249626,FIXED,inconsistent labeling: folder context menu for account node is named properties but goes to account settings,RFC 2047 encoded To personal name with commas incorrectly interpreted,0,0,1
+572,Thunderbird-249650,Thunderbird-249667,FIXED,Add support for a website header to the message header pane (for RSS),RFE: More customizable new mail sound effects (filters & accounts),1,1,1
+573,Thunderbird-249683,Thunderbird-249684,FIXED,Unable to Launch the Profile Manager in Thunderbird 0.7 Release,Return Receipt prompt should not use OK/Canel,0,1,1
+574,Thunderbird-249684,Thunderbird-249715,FIXED,Return Receipt prompt should not use OK/Canel,A trailing tilde (~) in a folder name makes the folder disappear,1,1,1
+575,Thunderbird-249741,Thunderbird-249750,FIXED,Add back Get Mail Drop Down Listing Each Mail Account,Messages that is attachments cannot be drag-dropped to IMAP folder,0,1,1
+576,Thunderbird-249806,Thunderbird-249808,FIXED,Occasional disconnect with IMAP SSL - wont reconnect!,Wrong sorting of threads (newsgroups),0,1,1
+577,Thunderbird-249836,Thunderbird-249838,WONTFIX,Need shortcut to archive messages to specific folder,Enable Webservices for Supporting Extensions Manager,0,1,1
+578,Thunderbird-249838,Thunderbird-249841,FIXED,Enable Webservices for Supporting Extensions Manager,False positives from message bodies search in newsgroups and IMAP accounts,0,1,1
+579,Thunderbird-249841,Thunderbird-249857,FIXED,False positives from message bodies search in newsgroups and IMAP accounts,T-bird can not import from Mozilla (or vice versa),0,1,1
+580,Thunderbird-249865,Thunderbird-249892,FIXED,Addition of X-Account-Key header to mbox uses CRLF,Spell Checker give error message every time Send Message is clicked,0,1,1
+581,Thunderbird-249920,Thunderbird-249932,FIXED,POP3 Server not ready: creates login loop,Thunderbird treats https:// links in email as attachments (weird!),0,1,1
+582,Thunderbird-249967,Thunderbird-249981,FIXED,UI polish to the RSS support in Thunderbird,[import] Ability to Import unix mailbox files,0,1,1
+583,Thunderbird-249988,Thunderbird-249992,FIXED,Offline settings arent saved.,Optional Save in Sent folder,0,1,1
+584,Thunderbird-250042,Thunderbird-250047,FIXED,shift-tab is broken inside search-bar,Import of Netscape 4.x mail into Thunderbird fails,0,1,1
+585,Thunderbird-250084,Thunderbird-250093,FIXED,Change behavior for when Junk Mail controls are run,Add profile migration from Outlook,0,1,1
+586,Thunderbird-250093,Thunderbird-250114,FIXED,Add profile migration from Outlook,add shrink to fit / automatic image resizing support for image attachment display,0,1,1
+587,Thunderbird-250306,Thunderbird-250325,FIXED,double clicking an account always expands/collapses the first account,Menu item check boxes and radio buttons are stretched,1,1,1
+588,Thunderbird-250325,Thunderbird-250333,FIXED,Menu item check boxes and radio buttons are stretched,Missing menu entry to open address book,0,1,1
+589,Thunderbird-250387,Thunderbird-250390,FIXED,Empty trash on exit.,Deleting subfolders which have the same name isnt possible.,1,1,1
+590,Thunderbird-250415,Thunderbird-250417,FIXED,Ctrl+scrollwheel should Zoom/Unzoom message by default (mousewheel.withcontrolkey.action = 3),New mail notification if mail goes straight to trash,0,1,1
+591,Thunderbird-250454,Thunderbird-250492,WONTFIX,Allow user-defined criteria for Smarter identity picking,Spell checker ignore first letter of word,1,1,1
+592,Thunderbird-250738,Thunderbird-250744,FIXED,IMAP does not check all folders on startup,shortcuts/icons for desktop/quick launch/start menu (empty folder) are created even if unchecked during installation,0,1,1
+593,Thunderbird-250828,Thunderbird-250863,FIXED,When i use global inbox; thunderbird does not use localized string Inbox.,inserted HTML image link tag converted and sent as downloaded image attachment,0,1,1
+594,Thunderbird-250918,Thunderbird-250931,FIXED,Offline Re-org,thunderbird enables cookies by default,1,1,1
+595,Thunderbird-251009,Thunderbird-251072,WONTFIX,Switching from message list to compose window using ALT-TAB loses focus,No subject email displayed with subject of null in message window,0,1,1
+596,Thunderbird-251072,Thunderbird-251089,FIXED,No subject email displayed with subject of null in message window,Links not working,1,1,1
+597,Thunderbird-251094,Thunderbird-251114,FIXED,Support migration from Netscape 4.x,Allow dynamic selection of SMTP server,0,1,1
+598,Thunderbird-251135,Thunderbird-251190,FIXED,OS X UI issues with new quick search box (text overflows text box),Saved passwords accesible without any User identification,0,1,1
+599,Thunderbird-251279,Thunderbird-251296,FIXED,No tooltip for From: in collapsed/brief header if sender isnt in Address Book,implement favorite/favourite folders,1,1,1
+600,Thunderbird-251296,Thunderbird-251343,FIXED,implement favorite/favourite folders,Messages deleted from folders do not end up in trash,0,1,1
+601,Thunderbird-251343,Thunderbird-251364,FIXED,Messages deleted from folders do not end up in trash,Reply and Forward headers not styled according to HTML Options,0,1,1
+602,Thunderbird-251605,Thunderbird-251626,FIXED,TB07x Crash when doing multiple advanced address book searches [@ nsAbView::GetCardValue][@ nsAbView::Init],Extension/Theme Managers Broken,0,1,1
+603,Thunderbird-251626,Thunderbird-251628,FIXED,Extension/Theme Managers Broken,Profile Manager Does Not Work.,1,1,1
+604,Thunderbird-251628,Thunderbird-251652,FIXED,Profile Manager Does Not Work.,Selecting copy email address from a mail window results in quotes being copied as well; creating a malformed email address.,0,1,1
+605,Thunderbird-251652,Thunderbird-251657,FIXED,Selecting copy email address from a mail window results in quotes being copied as well; creating a malformed email address.,Automatic profile migration from Eudora,0,1,1
+606,Thunderbird-251657,Thunderbird-251705,FIXED,Automatic profile migration from Eudora,all emails are detected as Junk !!!,0,1,1
+607,Thunderbird-251736,Thunderbird-251758,WONTFIX,Attachements of junk mails should not be easily accessible,Attachments not imported from Outlook 2003,0,1,1
+608,Thunderbird-251811,Thunderbird-251813,WONTFIX,Show mail attachment information in upper right corner,unable to delete multiple message threads,1,1,1
+609,Thunderbird-251865,Thunderbird-251882,WONTFIX,Need readability measurement tool,assertion in isctype.c when processing non us-ascii junk mail,0,1,1
+610,Thunderbird-251882,Thunderbird-251895,FIXED,assertion in isctype.c when processing non us-ascii junk mail,Pasting a paragraph leaves cursor on 2nd to last line; not the end of the pasted text,0,1,1
+611,Thunderbird-252056,Thunderbird-252076,FIXED,Thunderbird should set itself as default mail/news client on GNOME,Req: More advanced mail filters (ability to forward; auto-reply),0,1,1
+612,Thunderbird-252094,Thunderbird-252103,WONTFIX,thunderbird incorrectly reports that a lotus notes mailbox is empty,When selecting reply/forward the default identity of the downloading account is used.,0,1,1
+613,Thunderbird-252103,Thunderbird-252115,FIXED,When selecting reply/forward the default identity of the downloading account is used.,Multi-line headers not recognized by mail filters,0,1,1
+614,Thunderbird-252127,Thunderbird-252150,FIXED,latest nightly build is completely unusable after install,shouldnt show deferred accounts in search dialog,0,1,1
+615,Thunderbird-252150,Thunderbird-252172,FIXED,shouldnt show deferred accounts in search dialog,editing quoted numbered list (<ol>) causes numbers to reset,0,1,1
+616,Thunderbird-252247,Thunderbird-252250,FIXED,Persistent JavaScript Error: GetThreadTree is not defined,Incorrect handling of S/MIME keys with multiple identities (need UI for per-identity cert settings),0,0,1
+617,Thunderbird-252250,Thunderbird-252253,FIXED,Incorrect handling of S/MIME keys with multiple identities (need UI for per-identity cert settings),Make Thunderbird import mail and settings from The Bat! mailer application,0,0,1
+618,Thunderbird-252352,Thunderbird-252404,FIXED,cannot position caret in search bar text with mouse; selects all on click,Cannot launch Thunderbird ; a lot of xul errors when starting.,0,1,1
+619,Thunderbird-252404,Thunderbird-252425,FIXED,Cannot launch Thunderbird ; a lot of xul errors when starting.,provide Thunderbird as extension for Firefox,0,1,1
+620,Thunderbird-252425,Thunderbird-252442,WONTFIX,provide Thunderbird as extension for Firefox,Advanced ordering by several columns e.g. date + status in mail list window,0,1,1
+621,Thunderbird-252577,Thunderbird-252592,FIXED,Thunderbird fails to start,To: header is transcoded improperly when replying,0,1,1
+622,Thunderbird-252655,Thunderbird-252662,FIXED,Account Wizard radio buttons are broken,Suppress printing of full address list with a message,0,1,1
+623,Thunderbird-252924,Thunderbird-252927,FIXED,a left-click followed by a right-click is handled as double-click,please move the Thunderbird profiles folder into the Mozilla folder,0,1,1
+624,Thunderbird-253054,Thunderbird-253072,FIXED,Spellchecking in Thunderbird does not function on new install,POP retrieval and filter action: fille into IMAP-folder does not work,0,1,1
+625,Thunderbird-253234,Thunderbird-253255,FIXED,[patch]No Option to set Junk Mail as Read,Saving modified draft to server drafts folder doesnt set IMAP \draft flag,0,1,1
+626,Thunderbird-253327,Thunderbird-253339,FIXED,crash while accessing some messages of the RSS fead via nntp//rss [@ nsMsgContentPolicy::ShouldLoad ],Remove old program files when installing on top of an existing installation,0,1,1
+627,Thunderbird-253339,Thunderbird-253388,FIXED,Remove old program files when installing on top of an existing installation,Thunderbird 20040727 core dumps on startup and does not start,0,1,1
+628,Thunderbird-253403,Thunderbird-253412,FIXED,compose window doesnt remember the size of contacts panel,Tb hangs on startup,0,1,1
+629,Thunderbird-253591,Thunderbird-253617,WONTFIX,mail_prefs.js/news_prefs.js/prefs.js,Options / General panel on Windows wont remember any settings,1,1,1
+630,Thunderbird-253617,Thunderbird-253652,FIXED,Options / General panel on Windows wont remember any settings,Crash to desktop if the email in question is displayed [@ 0x00000000 - npdsplay.dll - nsPluginHostImpl::GetPluginFactory ],0,1,1
+631,Thunderbird-253673,Thunderbird-253681,FIXED,empty subjects shows up as null in the title bar,Install a read-only extension fails and subsequent extension installations of any kind fail; requiring reinstallation of Thunderbird.,0,1,1
+632,Thunderbird-253803,Thunderbird-253835,FIXED,compose when in newsgroup crash,thunderbird loops forever reading a FIFO signature file,1,1,1
+633,Thunderbird-253879,Thunderbird-253886,FIXED,extension installation fails on trunk; branch unaffected,pop3 mailbox locks on receive of strange empty email,1,1,1
+634,Thunderbird-254016,Thunderbird-254025,FIXED,Thunderbird nightlies default to local folders on IMAP account,Thunderbird mail still incapable of importing settings and inbox from Mozilla 1.x mail client,0,1,1
+635,Thunderbird-254031,Thunderbird-254034,FIXED,DOM inspector from addons.mozilla.org needs to work on thunderbird,Download size of linux build is huge,1,1,1
+636,Thunderbird-254043,Thunderbird-254089,WONTFIX,user_pref(alerts.totalOpenTime; 0); does not work when junk filtering is activated,Link in message opens in Internet Explorer when both IE and Firefox are open,0,1,1
+637,Thunderbird-254101,Thunderbird-254113,FIXED,ISP RDF functionality broken,QP without final newline display problems,0,1,1
+638,Thunderbird-254113,Thunderbird-254115,FIXED,QP without final newline display problems,advanced address book search results list output,0,1,1
+639,Thunderbird-254117,Thunderbird-254118,FIXED,not able do download offline version of the ldap adressbook [@ SINGSIGN_PromptUsernameAndPassword() ],Characters lost when importing outlook express address book characters outside systems local codepage,1,1,1
+640,Thunderbird-254199,Thunderbird-254219,FIXED,mail crashes after changing criteria when searching,Feature request - ability to modify cyrus ACL(s) for mail folders,0,1,1
+641,Thunderbird-254290,Thunderbird-254323,FIXED,Account Wizard/Manager Fails to Create IMAP account properly,Default behavior for HTML Mails like Outlook 2003 SP1,0,1,1
+642,Thunderbird-254462,Thunderbird-254474,FIXED,Thunderbird changes for Proper Software Update,Look into the Message Body Quick Search Critieria for IMAP users,0,1,1
+643,Thunderbird-254474,Thunderbird-254486,FIXED,Look into the Message Body Quick Search Critieria for IMAP users,password manager erases the username and password of a news server when it gives a too many connections error message.,1,1,1
+644,Thunderbird-254527,Thunderbird-254557,FIXED,TB09 crashes when using a symlink to a signature file [@ nsLocalFile::SetRelativeDescriptor],mail/app/Makefile.in DESTDIR typo lets make install DESTDIR=/tmp/somedir/ fail,0,1,1
+645,Thunderbird-254557,Thunderbird-254571,FIXED,mail/app/Makefile.in DESTDIR typo lets make install DESTDIR=/tmp/somedir/ fail,rules.mk should use mkdir -p instead of solely mkdir,1,1,1
+646,Thunderbird-254571,Thunderbird-254691,FIXED,rules.mk should use mkdir -p instead of solely mkdir,Selected mails are marked as unread,0,1,1
+647,Thunderbird-254694,Thunderbird-254700,FIXED,readme.txt in program directory refers to Seamonkey,Active field in Message Filters>New gets white on white highlighting,0,1,1
+648,Thunderbird-254724,Thunderbird-254733,FIXED,Thunderbird does not maintain the selected category of the preferences-window (Firefox does),default not used with multiple outgoing mail servers(multiple SMTP),0,1,1
+649,Thunderbird-254876,Thunderbird-254913,WONTFIX,Only add signature when emailing to other domain,add phishing detection to mail client,0,1,1
+650,Thunderbird-255043,Thunderbird-255044,FIXED,Signature files should be copied from Mozilla profile directories,Prefs for where to store collected addresses arenn migrated from Mozilla to Thunderbird,1,1,1
+651,Thunderbird-255044,Thunderbird-255061,FIXED,Prefs for where to store collected addresses arenn migrated from Mozilla to Thunderbird,Migration dialog will not appear on first start,1,1,1
+652,Thunderbird-255061,Thunderbird-255065,FIXED,Migration dialog will not appear on first start,no migration occurs for Eudora on Mac OS X,1,1,1
+653,Thunderbird-255082,Thunderbird-255084,WONTFIX,after migration local folders with non-default name arent shown,crash in print preview with blocked remote images,0,1,1
+654,Thunderbird-255084,Thunderbird-255093,FIXED,crash in print preview with blocked remote images,final panel in Migration wizard times out before having a chance to hit Finish,0,1,1
+655,Thunderbird-255093,Thunderbird-255096,WONTFIX,final panel in Migration wizard times out before having a chance to hit Finish,Wrong version number in 20040810 nightly Windows installer,0,1,1
+656,Thunderbird-255096,Thunderbird-255104,WONTFIX,Wrong version number in 20040810 nightly Windows installer,Tbird spell check horked on new install,0,1,1
+657,Thunderbird-255195,Thunderbird-255229,FIXED,Cant add newsblog accounts on linux,New; standard (Firefox-like) default theme for Thunderbird (Winstripe),0,1,1
+658,Thunderbird-255229,Thunderbird-255233,WONTFIX,New; standard (Firefox-like) default theme for Thunderbird (Winstripe),Please make dialogs such as Do you want to send unsent messages? modeless instead of modal,1,1,1
+659,Thunderbird-255234,Thunderbird-255244,FIXED,Send unsent messages... in context menu of unsent messages folder should not end with ...,reply-lines look bad,1,1,1
+660,Thunderbird-255244,Thunderbird-255360,WONTFIX,reply-lines look bad,No (modal) connection error dialogs (please),1,1,1
+661,Thunderbird-255451,Thunderbird-255457,FIXED,Better Integration with the Master Password,big space under status bar,0,1,1
+662,Thunderbird-255457,Thunderbird-255479,FIXED,big space under status bar,Use a separate dialog for proxy connection settings,0,1,1
+663,Thunderbird-255479,Thunderbird-255504,FIXED,Use a separate dialog for proxy connection settings,link contained in mail cant open in a firefox tab but only in a new firefox window,0,1,1
+664,Thunderbird-255560,Thunderbird-255573,FIXED,[Mac] should allow Thunderbird to become the default email/news/feed aggregator application,ActiveSync with Pocket PC (PPC),0,0,1
+665,Thunderbird-255687,Thunderbird-255733,WONTFIX,Status bar notifier that folder compaction is necessary,errors trying to export address books,0,1,1
+666,Thunderbird-255733,Thunderbird-255809,FIXED,errors trying to export address books,On OS X and Linux; Migration wizard shows all available migrators,0,1,1
+667,Thunderbird-255809,Thunderbird-255813,FIXED,On OS X and Linux; Migration wizard shows all available migrators,Account Wizard still says Edit -> Mail & Newsgroups Account Settings,0,1,1
+668,Thunderbird-255918,Thunderbird-255974,WONTFIX,Thunderbird doesnt remember last selected pref panel,When downloading mail with no subject and/or(?) sender; client stop download,0,1,1
+669,Thunderbird-256049,Thunderbird-256051,FIXED,Error ``id has no properties [xs] in file ``chrome://messenger/content/messengercompose/addressingWidgetOverlay.js; line 1057; character 0.,Thunderbird forgets saved username and password on NNTP authentication errors.,0,0,1
+670,Thunderbird-256190,Thunderbird-256221,FIXED,thunderbird.js preferences getting loaded before mailnews.js,crash running filter on an IMAP folder [@ nsImapMailFolder::MarkMessagesRead ],0,1,1
+671,Thunderbird-256221,Thunderbird-256278,FIXED,crash running filter on an IMAP folder [@ nsImapMailFolder::MarkMessagesRead ],when trying to start TB 0.7.3 fails with multiple Entry Point Not Found,1,1,1
+672,Thunderbird-256278,Thunderbird-256310,FIXED,when trying to start TB 0.7.3 fails with multiple Entry Point Not Found,invalid LDAP hostname doesnt give any error,0,1,1
+673,Thunderbird-256441,Thunderbird-256455,WONTFIX,Mail folder icons do not match Firefox folder icons,[Mac] Unable to copy from MS Word and paste into message compose body with formatting,0,1,1
+674,Thunderbird-256455,Thunderbird-256495,FIXED,[Mac] Unable to copy from MS Word and paste into message compose body with formatting,message filter for all folders,0,1,1
+675,Thunderbird-256507,Thunderbird-256520,FIXED,After installing extension. TB says restart your browser,Deleted address entries remain visible until pane is cleared and displayed again,0,1,1
+676,Thunderbird-256545,Thunderbird-256634,FIXED,Add search for recipient into the quick search bar,TB07x crash searching mail messages [@ nsHTMLEditRules::WillInsertText],0,1,1
+677,Thunderbird-256634,Thunderbird-256636,FIXED,TB07x crash searching mail messages [@ nsHTMLEditRules::WillInsertText],TB07x crash searching addressbook [@ nsAbView::GetCardValue],0,1,1
+678,Thunderbird-256775,Thunderbird-256820,FIXED,twisties are invisible in Advanced prefs (options) dialog,no keybinding for rewrap,0,1,1
+679,Thunderbird-256820,Thunderbird-256837,FIXED,no keybinding for rewrap,Not possible to choose SMTP authentication type,0,1,1
+680,Thunderbird-256915,Thunderbird-256916,FIXED,help doesnt appear (seamonkey-based dialogs),There is no context menu on right click in message pane,0,1,1
+681,Thunderbird-256955,Thunderbird-256966,FIXED,Offline preferences are still enabled even though Offline support wasnt selected during install.,Cant create two news accounts over ssh tunnel,0,1,1
+682,Thunderbird-257053,Thunderbird-257058,WONTFIX,Thunderbird Quality Feedback agent has typo in title,Eudora import does not properly handle text/enriched messages,0,1,1
+683,Thunderbird-257058,Thunderbird-257112,FIXED,Eudora import does not properly handle text/enriched messages,Line wrap problem,0,1,1
+684,Thunderbird-257252,Thunderbird-257378,FIXED,Empty Trash does not remove new indicators from rss trash folder,L10n teams should be able to translate reply header on date through *.properties file.,0,1,1
+685,Thunderbird-257378,Thunderbird-257391,FIXED,L10n teams should be able to translate reply header on date through *.properties file.,Thunderbird not updating the WinXP registry unread mail counter properly.,0,1,1
+686,Thunderbird-257391,Thunderbird-257404,FIXED,Thunderbird not updating the WinXP registry unread mail counter properly.,Reply should only quote selected text,0,1,1
+687,Thunderbird-257541,Thunderbird-257555,WONTFIX,Thunderbird 0.7.3/Firefox 0.9.3 scrollbar anomaly - random sizing; inaccurate mouse handling,Eudora import drops first line of some x-flowed or x-rich messages,0,1,1
+688,Thunderbird-257555,Thunderbird-257569,FIXED,Eudora import drops first line of some x-flowed or x-rich messages,Addressbook:New Card - cant use arrow keys to move between fields,0,1,1
+689,Thunderbird-257569,Thunderbird-257587,WONTFIX,Addressbook:New Card - cant use arrow keys to move between fields,Disable smart update and theme/extension update checking for 0.8,0,1,1
+690,Thunderbird-257587,Thunderbird-257590,FIXED,Disable smart update and theme/extension update checking for 0.8,Syntax error in xul template when trying to add a new imap folder,0,1,1
+691,Thunderbird-257590,Thunderbird-257599,FIXED,Syntax error in xul template when trying to add a new imap folder,Undo should be allowed after deleting an address book card,0,1,1
+692,Thunderbird-257663,Thunderbird-257674,WONTFIX,Implement Dont ask me again checkbox for remembering mail format content type for address book contact when sending (plaintext vs. HTML),Ignored word gets reselected on replace of a following word,0,1,1
+693,Thunderbird-257735,Thunderbird-257741,FIXED,Drafts wrongly saved to sent folder after failing and retrying (common issue of Drafts/Templates/Outbox==Unsent Messages),LDAP: Address Book needs some way to indicate a ldap query is in progress,0,1,1
+694,Thunderbird-257849,Thunderbird-257885,FIXED,First launch with no migration sources; the Nothing radio button is not selected,Setting a Flag/Star with the context menu causes the Mark|Flagged checkmark to persist incorrectly,0,1,1
+695,Thunderbird-257885,Thunderbird-257901,FIXED,Setting a Flag/Star with the context menu causes the Mark|Flagged checkmark to persist incorrectly,Thundbird/Mail need option to download email only after click,1,1,1
+696,Thunderbird-257952,Thunderbird-257958,FIXED,forwarded message is missing if  inline forward for a second time on the same source message,If the mail subject is empty; the title bar displays null.,0,1,1
+697,Thunderbird-257986,Thunderbird-257990,FIXED,Problem deleting local folders with forward slashes in the folder name,Integrate Junk Mail settings into Options and Account Settings,0,1,1
+698,Thunderbird-257990,Thunderbird-258024,FIXED,Integrate Junk Mail settings into Options and Account Settings,IMAP should try a relogin before reporting disconnect from server.,0,1,1
+699,Thunderbird-258077,Thunderbird-258087,FIXED,TB will not authenticate with POP3 server -since 20040824,thunderbird does not properly quote replies when reading or composing messages to/from hotmail users,1,1,1
+700,Thunderbird-258113,Thunderbird-258159,FIXED,a number of my emails have lost their correct message and have in the message area text from other messages; a few of the messages are now blank - correct messages were present when they arrived,Server Certificate Expired dialog shows date in invalid UTF-8,0,1,1
+701,Thunderbird-258370,Thunderbird-258393,FIXED,Slack Timer with delay zero locks up UI,vcal attachments not displayed when sent from outlook as apointment,1,1,1
+702,Thunderbird-258447,Thunderbird-258454,FIXED,Mail Start Page ignores character setting,forwarded emails are named like the subject,0,1,1
+703,Thunderbird-258489,Thunderbird-258517,FIXED,Outgoing mail imported from Eudora shows raw HTML code,Standardize profile storage location to agree with Firefox and Sunbird,0,1,1
+704,Thunderbird-258608,Thunderbird-258617,FIXED,Title attribute in HTML email does not display,Adding an entry from mail: should check for e-mail address doesnt already exist in address book,0,1,1
+705,Thunderbird-258801,Thunderbird-258804,FIXED,it doesnt build if a patch isnt applied on nsProfileMigrator.cpp,It tries to build Dogbert for BeOS and its not needed,1,1,1
+706,Thunderbird-258804,Thunderbird-258806,FIXED,It tries to build Dogbert for BeOS and its not needed,it doesnt build if a patch isnt applied at nsModule.cpp,1,1,1
+707,Thunderbird-258806,Thunderbird-258828,FIXED,it doesnt build if a patch isnt applied at nsModule.cpp,yEnc support missing for usenet binary attachment encoding,0,1,1
+708,Thunderbird-258876,Thunderbird-258879,FIXED,need to bump thunderbird.exe version string to 0.8.0.0,Make Customize... window be like the one in Firefox,0,1,1
+709,Thunderbird-258879,Thunderbird-258896,WONTFIX,Make Customize... window be like the one in Firefox,Add preference to choose which of text/html or text/plain is displayed when reading a multipart/alternative mail,1,1,1
+710,Thunderbird-258896,Thunderbird-258897,FIXED,Add preference to choose which of text/html or text/plain is displayed when reading a multipart/alternative mail,Inbox folder in Local folders can not be localised - hardcoded in English,0,1,1
+711,Thunderbird-258909,Thunderbird-258919,WONTFIX,hard to see accounts that use the global inbox,After prompting and sending in plain text; it should attach any images inserted,0,1,1
+712,Thunderbird-259115,Thunderbird-259121,FIXED,[REGRESSION] New search bar accessibility issues,Edit Message As New | Drafts |Templates Loses format=flowed,0,1,1
+713,Thunderbird-259177,Thunderbird-259185,WONTFIX,put the active-icon (throbber) into the menu bar by default and make it smaller to be consistent with Firefox,message count and file size is wrong for folders on pop3 account,1,1,1
+714,Thunderbird-259215,Thunderbird-259230,FIXED,6 accts; 1 window; w/s 29.8MB; disk 40.9MB; total 70.7MB -- unacceptable,Local Folders path cant be changed,0,1,1
+715,Thunderbird-259230,Thunderbird-259259,FIXED,Local Folders path cant be changed,Messages visually disappearing when closing thread,0,1,1
+716,Thunderbird-259259,Thunderbird-259261,FIXED,Messages visually disappearing when closing thread,Import of Outlook addresses does not import notes.,0,1,1
+717,Thunderbird-259293,Thunderbird-259295,FIXED,Get Mail button does not change when clicked,Thunderbird Theme should be consistent with Firefox Theme,1,1,1
+718,Thunderbird-259399,Thunderbird-259413,WONTFIX,Unnecessary menu item Mail & Newsgroups in tools menu of address book.,Digitally sign messages (by default) isnt effective for replies or forwards,0,1,1
+719,Thunderbird-259413,Thunderbird-259418,FIXED,Digitally sign messages (by default) isnt effective for replies or forwards,Installer wizard has graphic artifact,0,1,1
+720,Thunderbird-259418,Thunderbird-259434,FIXED,Installer wizard has graphic artifact,TB09 crash with Mark Newsgroup Read  [@ nsMsgKeySet::AddRange],0,1,1
+721,Thunderbird-259434,Thunderbird-259453,FIXED,TB09 crash with Mark Newsgroup Read  [@ nsMsgKeySet::AddRange],Customized labels colors and names not imported from Mozilla Mail,0,1,1
+722,Thunderbird-259453,Thunderbird-259460,FIXED,Customized labels colors and names not imported from Mozilla Mail,Multiple accounts with same server name do not import properly from MozMail,1,1,1
+723,Thunderbird-259587,Thunderbird-259597,WONTFIX,Quick search no longer has keyboard accelerator (Restore label),Crash if JVM plugin used and accessed file has a . in its name.,0,1,1
+724,Thunderbird-259643,Thunderbird-259653,WONTFIX,Toolbars cutomize dialog should have the cancel button removed for consistency with Firefox,No menu action for opening the address book,0,1,1
+725,Thunderbird-259781,Thunderbird-259784,WONTFIX,sorting on unread flag not updated when flag changes,Junk status getting lost on messages in Junkfolder,0,1,1
+726,Thunderbird-259885,Thunderbird-259892,FIXED,Thunderbird Help uses Ctrl in shortcuts; but its Cmd on Mac,STAT error when getting POP mail,0,1,1
+727,Thunderbird-259901,Thunderbird-259914,WONTFIX,Include small default text signature promoting Thunderbird,quicksearch toolbar no longer displays recipient  when focused on Sent,0,0,1
+728,Thunderbird-259914,Thunderbird-259925,FIXED,quicksearch toolbar no longer displays recipient  when focused on Sent,mail marked as junk loses its flag when deleted,0,0,1
+729,Thunderbird-260020,Thunderbird-260034,WONTFIX,[RFE] Different zones for security and privacy,Cannot send mail if temporary directory contains non-ascii characters,0,1,1
+730,Thunderbird-260034,Thunderbird-260037,FIXED,Cannot send mail if temporary directory contains non-ascii characters,accept smtp tls certificates permanently,0,1,1
+731,Thunderbird-260076,Thunderbird-260115,FIXED,No new mail notification icon when using global inbox and filters,quicksearch clear button is no longer there,0,1,1
+732,Thunderbird-260422,Thunderbird-260424,FIXED,Enable/disable message filter makes filter list jump to the top of the list,Cant apply message filters from one account to any other accounts,1,1,1
+733,Thunderbird-260447,Thunderbird-260471,FIXED,Getting new mail results in a Folder is Being Processed Error,mail filters not working,0,1,1
+734,Thunderbird-260482,Thunderbird-260539,FIXED,custom mail headers (e.g. In-Reply-To) cannot be passed from command line,RFE: Detect and alert missing mailbox before recreating it,1,1,1
+735,Thunderbird-260539,Thunderbird-260540,WONTFIX,RFE: Detect and alert missing mailbox before recreating it,Thunderbird 0.8 hangs while copying message to Sent folder,0,1,1
+736,Thunderbird-260552,Thunderbird-260556,WONTFIX,Previous/Next button not shown by default in message window,Cannot drag email attachments into inbox for viewing and replying,0,1,1
+737,Thunderbird-260644,Thunderbird-260683,WONTFIX,Enh: Make Simple HTML/Sanitized Mode More Useful,View->Layout: Inactive view modes continue to have checkmarks in 0.8,0,1,1
+738,Thunderbird-260744,Thunderbird-260752,FIXED,Opening file dialog could use more precise instructions,Remote image links in HTML email are sent as attachments,0,1,1
+739,Thunderbird-260787,Thunderbird-260793,WONTFIX,empty folder or folders with no unread messages should display zero (0) for count,Customize View options should have a way to re-order the list of custom views.,1,1,1
+740,Thunderbird-260861,Thunderbird-260892,FIXED,Thunderbird Extensions manager: Install should be Install... (an ellipsis is missing),Email with attached message creates unending series of attachments,1,1,1
+741,Thunderbird-260912,Thunderbird-260935,WONTFIX,blinking cursor is ~5 spaces away from text being typed (when using russian char set),Crash when searching a Offline Newsgroup with a large number of posts,0,1,1
+742,Thunderbird-260981,Thunderbird-260991,FIXED,Empty trash fails to clear trash folder,Allow the no subject warning box when sending mail to be disabled,0,1,1
+743,Thunderbird-260995,Thunderbird-261001,FIXED,Cannot Install Nightly Due to Installer Error,missing leading slash in comment,0,1,1
+744,Thunderbird-261001,Thunderbird-261004,FIXED,missing leading slash in comment,[RFE] Create filters for local folder,1,1,1
+745,Thunderbird-261032,Thunderbird-261065,WONTFIX,[RFE] Text user interface for when using it via terminal,Can not open attachments from the attachments pane,0,1,1
+746,Thunderbird-261187,Thunderbird-261193,FIXED,Background image; colors of mail persist to next composed message,Import-Mail-Communicator 4.x broken,0,1,1
+747,Thunderbird-261199,Thunderbird-261216,FIXED,UI for defining and editing virtual folders,[Mac] Missing PrintPDE.plugin,0,1,1
+748,Thunderbird-261216,Thunderbird-261237,FIXED,[Mac] Missing PrintPDE.plugin,Large attachments shown in the wrong mail,0,1,1
+749,Thunderbird-261331,Thunderbird-261345,FIXED,View->Threads->(any option) gives focus to search field,Threads does not  collect RE: together with FW: (or Fwd; Forward etc.) mails,0,1,1
+750,Thunderbird-261389,Thunderbird-261395,FIXED,Normal Text Size (CTRL+0) should be added to View-menu; like in Firefox,improved eml import and export for multiple .eml-files,0,1,1
+751,Thunderbird-261485,Thunderbird-261487,FIXED,Universal encoding auto-detect missing,Dragging a file to a new message window doesnt attach the file,0,1,1
+752,Thunderbird-261512,Thunderbird-261520,FIXED,Number of selected messages in status bar,thunderbird doesnt block all remote images,0,1,1
+753,Thunderbird-261559,Thunderbird-261573,FIXED,Thunderbird should register *.eml file type association,No default template,0,1,1
+754,Thunderbird-261668,Thunderbird-261670,FIXED,POP3; Fetch headers only: Mails disappear from inbox,message sometimes gets deleted immediately instead of being moved to the trash,1,1,1
+755,Thunderbird-261682,Thunderbird-261721,FIXED,View Unread messages updates to quickly.,correct passwords rejected by pop server when using TB0.8 passwords work in 0.73,0,1,1
+756,Thunderbird-261913,Thunderbird-261924,FIXED,Buddy icons not shown in message pane nor address book,text does not wrap with variable-width font as monospace font,1,1,1
+757,Thunderbird-261938,Thunderbird-261940,FIXED,Caption Languages in font preferences should be Character encoding,IMAP mail server alert message Mailbox is at 91% of quota appears every few seconds,0,1,1
+758,Thunderbird-261961,Thunderbird-261963,FIXED,thunderbird doesnt handle xremote requests correctly; crash if tbird already running,cant login to pop server if username contains @ at symbol,1,1,1
+759,Thunderbird-262008,Thunderbird-262012,FIXED,add a close icon inside the quick search box,not easy to navigate the search message results pane,0,1,1
+760,Thunderbird-262145,Thunderbird-262185,FIXED,Opening a virtual folder ignores default sort direction,Filters should be able to take action on every message,1,1,1
+761,Thunderbird-262300,Thunderbird-262307,FIXED,Composition & Addressing and Advanced Account Settings should be handled by Identity Manager,Reply window in plain text (s.b. html) with MS Word font/formatting garbage at top,0,1,1
+762,Thunderbird-262307,Thunderbird-262309,WONTFIX,Reply window in plain text (s.b. html) with MS Word font/formatting garbage at top,tbird crash on startup (before any windows appear),0,1,1
+763,Thunderbird-262442,Thunderbird-262481,FIXED,mail/components/compose/content/abCommon.js is unused,new filter action: save attachment(s) to specified folder,0,1,1
+764,Thunderbird-262626,Thunderbird-262701,FIXED,add UI to open about:config,Thunderbird display is awfully broken with a XUL error box,0,1,1
+765,Thunderbird-262701,Thunderbird-262704,FIXED,Thunderbird display is awfully broken with a XUL error box,spell checker checks spelling of CSS code in forwarded HTML emails.,0,1,1
+766,Thunderbird-262842,Thunderbird-262856,FIXED,Fonts options in pref UI; Outgoing Server in Account Settings are broken with a xul parsing error,some e-mails; in the inbox folder and with atachment; on having been erased; they eliminate of the folder trash,0,1,1
+767,Thunderbird-262886,Thunderbird-262891,FIXED,Cant open attachments from the mail compose window anymore,Cannot change the Local Folders Directory,0,1,1
+768,Thunderbird-262963,Thunderbird-262968,FIXED,mail_mozilla.gif checked in as text,To field annoyingly fills in framis@myisp.com; needs to be an option.,0,1,1
+769,Thunderbird-262986,Thunderbird-262995,FIXED,typo in messenger-mapi/mapi.properties,Date Column is only showing the Time the message came in.,0,1,1
+770,Thunderbird-263027,Thunderbird-263038,WONTFIX,Option to hide empty folders; including drafts; sent; junk; trash.,Address Book/Mail - Tools - Import => produces a pop-up with an XML error,0,1,1
+771,Thunderbird-263038,Thunderbird-263051,FIXED,Address Book/Mail - Tools - Import => produces a pop-up with an XML error,problems with official thunderbird branding icon for locale start page,0,1,1
+772,Thunderbird-263051,Thunderbird-263072,FIXED,problems with official thunderbird branding icon for locale start page,Change Mail to &brandShortName; in junkMailInfo.dtd,0,1,1
+773,Thunderbird-263072,Thunderbird-263076,FIXED,Change Mail to &brandShortName; in junkMailInfo.dtd,.mht attachments treated like mail,0,1,1
+774,Thunderbird-263116,Thunderbird-263152,WONTFIX,Draft messages should never be marked read,Remote image not blocked in quote-printable html mail,0,1,1
+775,Thunderbird-263180,Thunderbird-263189,FIXED,Threaded mail view in Virtual Folders is not possible,Recognise non-Standard Re:s in subject,0,1,1
+776,Thunderbird-263192,Thunderbird-263193,FIXED,More DTD errors in Thunderbird,Can not Specify Local Folder Location,0,1,1
+777,Thunderbird-263210,Thunderbird-263222,FIXED,Switching params while group by sort is checked causes crash,Erroneous total message count in folder pane,0,1,1
+778,Thunderbird-263255,Thunderbird-263269,FIXED,Improve thread pane UI for message grouping,Message body search does not work for an IMAP folder,0,1,1
+779,Thunderbird-263348,Thunderbird-263353,FIXED,Unable to move a Virtual Folder back to its previous locations.,use the win xp style open/close twisty for the tree widget,0,1,1
+780,Thunderbird-263353,Thunderbird-263382,FIXED,use the win xp style open/close twisty for the tree widget,brand.dtd and brand.properties not getting set up right on the trunk,1,1,1
+781,Thunderbird-263382,Thunderbird-263390,FIXED,brand.dtd and brand.properties not getting set up right on the trunk,View Menu item - the word Toolbars is not visible in the UI,1,1,1
+782,Thunderbird-263390,Thunderbird-263397,FIXED,View Menu item - the word Toolbars is not visible in the UI,Use number of misspelled words as a criteria in Bayesian filtering.,0,1,1
+783,Thunderbird-263531,Thunderbird-263546,FIXED,a default custom install should match a default install,Security risk: TB uses IE to open javascript pop-up in news-feed items,0,1,1
+784,Thunderbird-263546,Thunderbird-263552,FIXED,Security risk: TB uses IE to open javascript pop-up in news-feed items,no way to change quicksearch options via keyboard,0,1,1

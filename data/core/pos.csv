@@ -1,0 +1,1125 @@
+,Issue_id_1,Issue_id_2,Resolution,Title_1,Title_2,same_comp,same_prio,same_tw
+0,Core-273,Core-24514,DUPLICATE,Submenu open delay wrong on Windows,Tweak open delay; or use an OS setting,1,0,1
+1,Core-414,Core-415,DUPLICATE,on resizing browser A HREF= function() js function undefined,,0,0,1
+2,Core-452,Core-6464,DUPLICATE,user entries in LOCAL_MACHINE instead of CURRENT_USER,Profile system should honor OSs multi-user definitions,1,0,1
+3,Core-466,Core-991,DUPLICATE,font stacks and a parsing algorithm bug,[DOGFOOD][4.xP] font tags containing blocks are badly parsed,0,0,1
+4,Core-581,Core-31413,DUPLICATE,CSS must have fonts cursive and fantasy arent supported,,0,0,1
+5,Core-597,Core-2084,DUPLICATE,PageDown/PageUp key presses should scroll document,,0,0,1
+6,Core-599,Core-1533,DUPLICATE,ss:FTP directories not displaying,FTP URLs crash 11.23.98 XPViewer App,1,0,1
+7,Core-603,Core-1433,DUPLICATE,script src= doesnt work,Page loading is synchronous for embedded stuff like stylesheets,1,1,1
+8,Core-709,Core-1802,DUPLICATE,<TR ALIGN=center> Doesnt center cell data,<tr align=left/right/center> not working,1,1,1
+9,Core-737,Core-6936,DUPLICATE,file:/// url navigation and generated directory,file:// Can not view directories,1,0,1
+10,Core-756,Core-1358,DUPLICATE,ABBR not handled correctly,[4.xP]Tooltips do not work,0,0,1
+11,Core-810,Core-812,DUPLICATE,borders around elements eat their way into text,no left padding,0,1,1
+12,Core-935,Core-1346,DUPLICATE,auto-closing DT/DD doesnt work,simple parsing bug,1,1,1
+13,Core-1002,Core-11020,DUPLICATE,Placeholder bug for SU support in 5.0,,0,0,1
+14,Core-1061,Core-24861,DUPLICATE,nested quotes not yet supported (<q> CSS quoting),Quotes nesting doesnt work [GC],0,1,1
+15,Core-1063,Core-2486,DUPLICATE,width of form element not right,Text inputs are one (or two) character(s) too wide,0,1,1
+16,Core-1070,Core-18480,DUPLICATE,Crashes when viewing pages with too many nested tags.,bad html crashes mozilla,1,0,1
+17,Core-1071,Core-1080,DUPLICATE,Image position incorect when inside <p></p>,{vmargin} top/bottom block margins and floaters dont mix well,1,1,1
+18,Core-1073,Core-7259,DUPLICATE,navigator.preference() not wired up yet,navigator.preference() method does not return anything.,1,0,1
+19,Core-1094,Core-2082,DUPLICATE,FORM behaves like inline element,form elements not treated as forms children,0,1,1
+20,Core-1095,Core-3977,DUPLICATE,colspan with width distorts tables,,0,0,1
+21,Core-1110,Core-2947,DUPLICATE,Table layout looks funky,Table width wrong caused by colspan/img/overflow,0,1,1
+22,Core-1141,Core-2592,DUPLICATE,CSS inherit Value should be supported,inherit keyword doesnt work for auto margins,0,1,1
+23,Core-1218,Core-2015,DUPLICATE,Text transform errors,text-transform problems,1,1,1
+24,Core-1221,Core-1223,DUPLICATE,Crash in JS_GetPrivate(),Crash when handling js with statement in NGLayout,0,1,1
+25,Core-1235,Core-5016,DUPLICATE,{feature} we dont handle relatively positioned objects quite right,Relatively positioned inline elements should be absolute containers,0,0,1
+26,Core-1267,Core-1324,DUPLICATE,body does not handle style changed reflow targeted at it,Assertion in nsBodyFrame,1,0,1
+27,Core-1325,Core-1401,DUPLICATE,cell borders dont draw correctly,table borders almost invisible,1,1,1
+28,Core-1356,Core-1420,DUPLICATE,URL: (relative) Bogus Image crashes NGLayout,URL: partial URL in IMG SRC crashes,1,1,1
+29,Core-1358,Core-1995,DUPLICATE,[4.xP]Tooltips do not work,,0,0,1
+30,Core-1363,Core-2038,DUPLICATE,how should we do lists in the ua.css,UL; etc. left margin vs. padding,1,1,1
+31,Core-1405,Core-5685,DUPLICATE,transparent radio buttons,[PP][NATIVE-WIDGET]<input> background cannot be made transparent (which should be default),0,0,1
+32,Core-1427,Core-9140,DUPLICATE,Image maps areas not accessible as content through DOM,{html4} AREA elements dont fire events,0,0,1
+33,Core-1495,Core-2486,DUPLICATE,search for: edit field too large,Text inputs are one (or two) character(s) too wide,0,1,1
+34,Core-1516,Core-32252,DUPLICATE,small-caps need boldening to match the big caps,,0,0,1
+35,Core-1519,Core-4248,DUPLICATE,underline and collapsing trailing whitespace,,0,0,1
+36,Core-1538,Core-2105,DUPLICATE,Search or keyword text not visibly contained within the input box.,Text invisible in form textbox,0,0,1
+37,Core-1551,Core-1563,DUPLICATE,Right-hand regions of tables filled with garbage,,0,0,1
+38,Core-1561,Core-10926,DUPLICATE,NECKO: Location bar not updated on 301 redirect,301/302 Redirects dont update location Bar,0,0,1
+39,Core-1592,Core-1631,DUPLICATE,xpviewer is unresponsive while loading the lower banner,Conn: Freeze during page loading,1,1,1
+40,Core-1637,Core-1638,DUPLICATE,ftp pages are displayed with improper formatting; no breaks,Layout of ftp page is extremely slow; slower than NOVA,0,1,1
+41,Core-1640,Core-2110,DUPLICATE,URL: Relative addressing yields http://promo1.html; munged page layout,NECKO: URI scheme parsing; extensibility broken/missing,1,1,1
+42,Core-1662,Core-1685,DUPLICATE,Background does not lay out,background image/color is not displayed,1,1,1
+43,Core-1674,Core-1839,DUPLICATE,Strange word-wrapping bug,frame reference,0,1,1
+44,Core-1752,Core-1839,DUPLICATE,Javascript error,frame reference,0,1,1
+45,Core-1753,Core-1810,DUPLICATE,Page from cache is incomplete,nucache is hosed,1,1,1
+46,Core-1776,Core-44973,DUPLICATE,Object Tag needs version control,,0,0,1
+47,Core-1779,Core-1798,DUPLICATE,Thin borderline case fails; top border is 2x-3x,border sizes: thin/medium/thick cause rounding problems,0,1,1
+48,Core-1794,Core-2382,DUPLICATE,disney doesnt load anymore,,0,0,1
+49,Core-1813,Core-5856,DUPLICATE,Javascript has Pentium-style precision errors,,0,0,1
+50,Core-1825,Core-2486,DUPLICATE,Right-aligned table cell on this page doesnt layout properly on initial load,Text inputs are one (or two) character(s) too wide,0,1,1
+51,Core-1826,Core-1939,DUPLICATE,Padding does not work in text field form elements,{css1} form elements not supporting borders and padding,0,1,1
+52,Core-1865,Core-3958,DUPLICATE,[PP] Animated Backgrounds are 2X slower on Mac OS then other platforms,[PP] Animation on throbber slow to load; doesnt show up sometimes,0,0,1
+53,Core-1885,Core-5030,DUPLICATE,Animated gifs reloading unnecessarily,[BETA] Animated GIFs hit server (200) every time they loop,1,0,1
+54,Core-1886,Core-11491,DUPLICATE,Setting document.body.bgColor does not cause the expected effect,Background color not covering all backround region,0,0,1
+55,Core-1928,Core-1958,DUPLICATE,Submitting multiple check boxes sends the string on instead of the box IDs,Image inputs do not submit x and y coordinates to server,1,1,1
+56,Core-1965,Core-2091,DUPLICATE,[PP] Mouse events dont get through to text frames in linux,[PP] Unable to click on links,1,0,1
+57,Core-2029,Core-10736,DUPLICATE,Document load stalls,sched - MakeAbsolute performance (supporting large files) (gagan; ),0,0,1
+58,Core-2068,Core-127798,DUPLICATE,Example 11.5 in w3 HTML 4.0 spec not rendered properly,,0,0,1
+59,Core-2112,Core-5014,DUPLICATE,Two text areas getting selected at once,Need a function to render selection as inactive,0,0,1
+60,Core-2132,Core-10731,DUPLICATE,[PP]Jan25/Need:Mac DNS Lookup is Synchronous,DNS: [Arch]sched - async dns mac (gordon; 2d),1,1,1
+61,Core-2149,Core-2177,DUPLICATE,[PP] Tree View crashes in Mac viewer,,0,0,1
+62,Core-2213,Core-3511,DUPLICATE,Key handling needs fixing,[BLOCK] Need key code -> character code translation,1,0,1
+63,Core-2235,Core-3649,DUPLICATE,String catenation in JavaScript has non-linear memory/time usage,js.c lacks gc-checking branch callback.,1,0,1
+64,Core-2324,Core-3437,DUPLICATE,CSS visited pseudo-class does not appear to be working,visited links dont show up in different color,0,1,1
+65,Core-2344,Core-2397,DUPLICATE,Body background does not lay out.,[PP] http://www.sony.com/: background does not render,1,0,1
+66,Core-2357,Core-17303,DUPLICATE,<INPUT TYPE=TEXT> does not use specified font [M12],Text input fields in chrome should use sans serif font,0,1,1
+67,Core-2359,Core-2390,DUPLICATE,[PP]http://members.aol.com: Frame problem in layout. Also; minimize; then maximize and page does not reload (hangs),[PP] http://www.sportsline.com/: Only object that loads on page is the top table,1,0,1
+68,Core-2364,Core-2542,DUPLICATE,Resizing browser window enlarges image,Resize expands JS/JPEG  pix endlessly,0,1,1
+69,Core-2365,Core-2372,DUPLICATE,[PP] URL does not load,,0,0,1
+70,Core-2374,Core-2394,DUPLICATE,this page renders as totally white with a few form widgets...,www.bloomberg.com {floater},1,1,1
+71,Core-2387,Core-2390,DUPLICATE,[PP] http://www.imdb.com/: Image at top is only object that loads,[PP] http://www.sportsline.com/: Only object that loads on page is the top table,1,1,1
+72,Core-2426,Core-9449,DUPLICATE,Title shows garbage text for non-Western pages,window titlebar does not render non-English [unicode] text properly,0,0,1
+73,Core-2433,Core-2447,DUPLICATE,Parsing invalid html,Parsing html,1,1,1
+74,Core-2434,Core-10738,DUPLICATE,NECKO: Possible problem with persistent connections,sched - need to get keep alive working in necko,0,0,1
+75,Core-2442,Core-8984,DUPLICATE,TEXTAREAs need linebreaking enabled; and proper default set,[FEATURE] textarea wrap doesnt seem to be working,0,0,1
+76,Core-2515,Core-3337,DUPLICATE,Table does not appear,Table not displayed,0,1,1
+77,Core-2538,Core-2923,DUPLICATE,[PP}Jan25.Checkbox frames dont draw correctly on mac,[PP] Checkboxes dont display,0,1,1
+78,Core-2573,Core-2632,DUPLICATE,INPUT attribute TABINDEX not implemented,INPUT attribute TABINDEX not implemented,1,1,1
+79,Core-2575,Core-3289,DUPLICATE,[PP] selection calls nsWindow->update and repaints too much,,0,0,1
+80,Core-2580,Core-4220,DUPLICATE,window.open,[BLOCK] Apprunner fails to open window from JavaScript,1,0,1
+81,Core-2587,Core-3013,DUPLICATE,move from 1 bit alpha to 8 bit alpha,,0,0,1
+82,Core-2590,Core-38370,DUPLICATE,<HR> and <BR> are unstylable!!!,,0,0,1
+83,Core-2599,Core-4223,DUPLICATE,Whe i try to select a text from the view source windows,,0,0,1
+84,Core-2642,Core-36217,DUPLICATE,Cycling through TEXTAREAs in tabindex order messes up,,0,0,1
+85,Core-2646,Core-2974,DUPLICATE,Image loading problems in righmost frame; background color incorrect,,0,0,1
+86,Core-2648,Core-2997,DUPLICATE,[4.xP] Table alignment not rendered properly.,,0,0,1
+87,Core-2651,Core-3238,DUPLICATE,http://www.warnerbros.com: two tables not centered correctly,Table is not centered,0,1,1
+88,Core-2659,Core-2986,DUPLICATE,checkboxes; text fields; images; popdown menus not rendering correctly,,0,0,1
+89,Core-2746,Core-2771,DUPLICATE,CSS behaves wrongly in table,nested list parsing problem,0,0,1
+90,Core-2779,Core-15499,DUPLICATE,{compat} cellpadding and cellspacing not working,,0,0,1
+91,Core-2793,Core-3513,DUPLICATE,Tables shrink on an incremental reflow,Table cells shrink on reflow,1,1,1
+92,Core-2874,Core-115998,DUPLICATE,onLoad racy with applet tag,,0,0,1
+93,Core-2909,Core-3108,DUPLICATE,URL: NECKO: Dr. Watson .. application error with gecko.exe -- \ in URL,URL: crashing on backslash \,1,1,1
+94,Core-2928,Core-6086,DUPLICATE,Status info lost after mousing over link,Mouse-over link doesnt show all URL types in status bar,0,0,1
+95,Core-2947,Core-3977,DUPLICATE,Table width wrong caused by colspan/img/overflow,,0,0,1
+96,Core-2954,Core-3977,DUPLICATE,Last image in this table row doesnt fit in table row (drawn below),,0,0,1
+97,Core-2956,Core-7112,DUPLICATE,Images misaligned between table rows,{compat} ALIGN attribute needs special treatment,1,1,1
+98,Core-2964,Core-3322,DUPLICATE,Drop down menu does not work on www.creaf.com,[PP][BLOCK]ender/wallet -- select ONCHANGE handler failures,1,1,1
+99,Core-2970,Core-11431,DUPLICATE,Text inside <MAP> not displayed,content inside of <MAP> is not displayed,1,0,1
+100,Core-2971,Core-5821,DUPLICATE,[4.xP]Extra Whitespace between table cell and graphic,{compat} Nav4 vs CSS2 line box model,0,1,1
+101,Core-2977,Core-7656,DUPLICATE,Background color not displayed on for index watch table,{css1} Canvas should have root element background,1,0,1
+102,Core-3002,Core-4168,DUPLICATE,Errors prevent NGL from logging into myNetscape.,Netcenter sign-in form submit,0,0,1
+103,Core-3016,Core-5821,DUPLICATE,[PP] 99020415: Incorrect layout in intel.com image,{compat} Nav4 vs CSS2 line box model,0,1,1
+104,Core-3018,Core-3322,DUPLICATE,Dropdown list not drawing at intel.com,[PP][BLOCK]ender/wallet -- select ONCHANGE handler failures,0,1,1
+105,Core-3021,Core-3322,DUPLICATE,Extra onChange fired for combo box.  (IE 5 HTML 4 bug),[PP][BLOCK]ender/wallet -- select ONCHANGE handler failures,1,1,1
+106,Core-3128,Core-52441,DUPLICATE,Global mailcap; mime-type files should use $MOZILLA_FIVE_HOME,,0,0,1
+107,Core-3153,Core-9958,DUPLICATE,[History] Preserve scroll offset information across reconstructs.,[FEATURE] History Object to be implemented so that session History will be complete,0,0,1
+108,Core-3183,Core-3502,DUPLICATE,Layering of Windowed controls,{css2} z-index and forms,0,1,1
+109,Core-3188,Core-3189,DUPLICATE,<center> not cleared at end of form,NAV compatibility: <p> auto-closure at <form> and <hr>,1,0,1
+110,Core-3288,Core-3553,DUPLICATE,[BLOCK] Toolbar buttons are not working at all,[BLOCK] Linux: Links do not work.,0,1,1
+111,Core-3291,Core-7417,DUPLICATE,[PP] mozilla.org image doesnt show up,,0,0,1
+112,Core-3320,Core-3321,DUPLICATE,purify reports UMR in PaintUnicode,purify reports UMR in PaintUnicode,1,0,1
+113,Core-3325,Core-4050,DUPLICATE,LABEL attribute (for OPTION element) not working,Both <option label> AND <option> content are displayed,0,1,1
+114,Core-3403,Core-3411,DUPLICATE,m3s: Mac crashes near startup in gfx- large leak somewhere?,View manager fails to check return values,0,0,1
+115,Core-3414,Core-4427,DUPLICATE,horizontal group of images not appearing,{compat} Images with combined width greater than table wrap,1,0,1
+116,Core-3426,Core-3529,DUPLICATE,ContentRemoved needs to be tweaked to work with trees,[RDF/XUL] ContentRemoved doesnt take care of a tree containers children,1,0,1
+117,Core-3428,Core-12861,DUPLICATE,[PP]Crash trying to load external XUL file,nsStr does not handle memory allocation failures well,0,0,1
+118,Core-3502,Core-16272,DUPLICATE,{css2} z-index and forms,Text Input fields always above all layers,1,0,1
+119,Core-3520,Core-5238,DUPLICATE,page with image crashes browser on exit,Image lacking src attribute yields a crash upon exit,0,0,1
+120,Core-3530,Core-4974,DUPLICATE,form values not persistent,form input cleared when back is pressed,0,1,1
+121,Core-3692,Core-4441,DUPLICATE,Both objects showing up from nested OBJECT tags,Nested object elements,0,0,1
+122,Core-3694,Core-3803,DUPLICATE,[PP]Crash from cgi activation from clickthru ad at this page,apprunner crashes when clicking on the Countdown link,1,1,1
+123,Core-3700,Core-8228,DUPLICATE,All raptor* dll names need a change,,0,0,1
+124,Core-3716,Core-6823,DUPLICATE,[PP][BLOCK]crash selecting Bookmarks/Manage Bookmarks in apprunner,,0,0,1
+125,Core-3761,Core-3762,DUPLICATE,Animated GIFs cause entire window to redraw,Entire window redraws on button mouseover,1,1,1
+126,Core-3791,Core-17781,DUPLICATE,[DOGFOOD]ABR:  Image upload,Clean up:remove xp_mcom complications on mac(in gif.cpp and xpcompat.h),1,1,1
+127,Core-3805,Core-17685,DUPLICATE,Browser doesnt correctly resubmit forms when going back,Need a way to save post data in Session History and repost on B/F,0,1,1
+128,Core-3827,Core-9749,DUPLICATE,Need to initialize editor from an nsString,newline after <pre> gets dropped,1,0,1
+129,Core-3852,Core-6585,DUPLICATE,Windows: some HTML4 named entities not displayed,missing glyphs should use substitute,0,0,1
+130,Core-3871,Core-3874,DUPLICATE,DOM: HTMLLinkElement attributes returning undefined,DOM: HTMLTitleElement.text string returning undefined,1,1,1
+131,Core-3916,Core-33443,DUPLICATE,{compat} [IMG] Make IMG height=% relative to viewport,,0,0,1
+132,Core-3942,Core-10720,DUPLICATE,NECKO: Moz never finishes loading the page,sched META refresh needs to be implemented for necko,1,1,1
+133,Core-3955,Core-16270,DUPLICATE,Multiple size events,,0,0,1
+134,Core-3958,Core-18738,DUPLICATE,[PP] Animation on throbber slow to load; doesnt show up sometimes,Image display is 50-100% slower than 4.x,0,1,1
+135,Core-3962,Core-6262,DUPLICATE,Form does not display non-ascii characters,(feature) enabling ender in Gecko needs to be implemented,0,1,1
+136,Core-3976,Core-26834,DUPLICATE,Apprunner not resizing according to screensize too big for <=832x624 resolution,opened windows need sanity checks on size; position and visibility,1,1,1
+137,Core-3991,Core-5890,DUPLICATE,Sparc: colormap flashing on 8-bit displays,,0,0,1
+138,Core-3995,Core-7776,DUPLICATE,HTMLDocument property referrer doesnt return server name,need Referer header for images [was: Anacam image doesnt show up properly -- thinks its being stolen.],0,1,1
+139,Core-4042,Core-13350,DUPLICATE,viewer freezes when javascript in infinite loops,DOM needs to police JS infinite loops; schedule garbage collection,1,1,1
+140,Core-4069,Core-4110,DUPLICATE,onLoad event does not work.,Body onLoad Problem,0,0,1
+141,Core-4080,Core-7595,DUPLICATE,JS events:  onChange failure,onchange function never gets called for GFX text control,0,0,1
+142,Core-4081,Core-4445,DUPLICATE,Adding someone to CC list on a bugzilla bug fails,[BLOCK][PP] problems submitting bugzilla forms on linux,1,0,1
+143,Core-4086,Core-4363,DUPLICATE,Tinderbox/apprunner crashes; assert in nsViewManager::Refresh(),demo #2 & #3 work in viewer; crash apprunner,1,0,1
+144,Core-4094,Core-12760,DUPLICATE,{first-letter}{css1} first-letter color interfers with text-transform: capitalize,{first-letter} bodys :first-letter not picked up by inlines,1,1,1
+145,Core-4146,Core-4255,DUPLICATE,Text selection fails unless cursor has changed to insertion cursor,UMR: TextFrame::PaintAsciiText() and into GTK land,1,1,1
+146,Core-4147,Core-14026,DUPLICATE,Cant copy text to clipboard using keyboard shortcut,Copy/Paste/Cut (etc) disabled within Browser,0,0,1
+147,Core-4168,Core-4322,DUPLICATE,Netcenter sign-in form submit,Cant log in to Netscape WebMail - button not recognized,1,1,1
+148,Core-4198,Core-25453,DUPLICATE,iframe height percent not drawn at proper percent,IFRAME height attribute problem??,1,1,1
+149,Core-4221,Core-4229,DUPLICATE,Slow Image Loading and Redraws,Slowness in image rendering on unix.,0,1,1
+150,Core-4234,Core-13072,DUPLICATE,{css1} font-size not interpreted correctly,font-size not interpreted as height of fonts em-square {ll},1,0,1
+151,Core-4266,Core-4814,DUPLICATE,Layout error of XML document,{ib} block within inline acts as inline with line break,1,1,1
+152,Core-4267,Core-36790,DUPLICATE,<html:style> doesnt work in XUL/XML/XHTML,,0,0,1
+153,Core-4286,Core-4615,DUPLICATE,hrs and floaters dont interact well...,unnecessary horizontal scrollbar triggered by HR and float,1,1,1
+154,Core-4304,Core-6865,DUPLICATE,line spacing problem that is solved by inserting a space before </font> tag,{css1} Inline box model is not considering block-level parents line-height,1,1,1
+155,Core-4327,Core-12221,DUPLICATE,[DOGFOOD] Selection only changes while over text,[Dogfood] Gfx text controls need to notify on mouse events,1,0,1
+156,Core-4362,Core-4363,DUPLICATE,viewer tests,demo #2 & #3 work in viewer; crash apprunner,1,1,1
+157,Core-4376,Core-5821,DUPLICATE,{compat} Table border=0 ignored,{compat} Nav4 vs CSS2 line box model,0,0,1
+158,Core-4413,Core-4432,DUPLICATE,My netscape crashes apprunner,NECKO: Gtk/NSPR: Timers misfiring,0,1,1
+159,Core-4439,Core-9475,DUPLICATE,[PP] size dialogs to content,[PP] Intrinsic sizing doesnt work under unix,1,1,1
+160,Core-4502,Core-9305,DUPLICATE,Caret needs to track focus,When text input control loses focus; insertion caret remains,0,1,1
+161,Core-4540,Core-4554,DUPLICATE,Navigator doesnt fit in window,,0,0,1
+162,Core-4542,Core-15282,DUPLICATE,selected text does not obey system highlight color,selection code should respect style context settings,0,0,1
+163,Core-4583,Core-24924,DUPLICATE,[PP]em and en dashes not displaying under linux,Simple forms of missing CP1252 chars arent displayed,1,1,1
+164,Core-4597,Core-4684,DUPLICATE,Copy/Paste broken,[PP]Linux: nsClipboard needs to support multiple formats,1,0,1
+165,Core-4612,Core-6150,DUPLICATE,Table not centered on page at http://www.netsurf.de,{compat} HTMLs align != CSS text-align,0,1,1
+166,Core-4630,Core-4647,DUPLICATE,[PP]Frames dont resize properly,[PP]Draggable frame separator impossible to drag,1,1,1
+167,Core-4653,Core-4669,DUPLICATE,Text is unreadable,Page looks odd,1,1,1
+168,Core-4658,Core-4721,DUPLICATE,Back +Forward buttons not functional,,0,0,1
+169,Core-4663,Core-4722,DUPLICATE,[PP]Apprunner: Cut; Paste not wired up.,,0,0,1
+170,Core-4665,Core-4684,DUPLICATE,Copy/cut not working,[PP]Linux: nsClipboard needs to support multiple formats,0,0,1
+171,Core-4677,Core-5821,DUPLICATE,Extra space between images,{compat} Nav4 vs CSS2 line box model,1,1,1
+172,Core-4683,Core-4703,DUPLICATE,Demo#10 under Debug | Viewer menu crashes,surf demo 9; then demo 10,0,0,1
+173,Core-4684,Core-9618,DUPLICATE,[PP]Linux: nsClipboard needs to support multiple formats,[PP]sched: Linux Clipboard Image & HTML  support,1,0,1
+174,Core-4707,Core-12579,DUPLICATE,Need to be able to access contents of archives,Implement jar: protocol (tracking bug),1,1,1
+175,Core-4752,Core-5110,DUPLICATE,nested or overlapping bold/italic/underline operations delete or move about content incorrectly,frame displayed out of order after editing,0,0,1
+176,Core-4769,Core-5821,DUPLICATE,{compat} Buttons have extra spacing,{compat} Nav4 vs CSS2 line box model,1,0,1
+177,Core-4780,Core-6871,DUPLICATE,[PP][BLOCKER] Mac Borderless top-level windows,[PP][Mac][BLOCKER]gfx rendered drop-down lists dont get placed on top,0,1,1
+178,Core-4828,Core-4829,DUPLICATE,Frame loaded in wrong area,,0,0,1
+179,Core-4921,Core-5419,DUPLICATE,cursor keys scroll document and option list at same time,,0,0,1
+180,Core-4946,Core-35772,DUPLICATE,<P> tag used as spacers between <LI> tags in unordered lists [P-Margin],,0,0,1
+181,Core-4947,Core-5849,DUPLICATE,Loading frameset causes current page to render in frameset,,0,0,1
+182,Core-4948,Core-5000,DUPLICATE,[PP]Font selection problem,[PP]GFX changes required to assume 96 dpi default scaling,0,0,1
+183,Core-4957,Core-6048,DUPLICATE,{perf} Big files make layout really buggy and slow.,[PP] {perf} Layout of large HTML files goes wrong,1,1,1
+184,Core-4993,Core-6936,DUPLICATE,NECKO: [PP]local directory load fails,file:// Can not view directories,1,1,1
+185,Core-5014,Core-7465,DUPLICATE,Need a function to render selection as inactive,selected text not deselected when focus switched to other window,0,0,1
+186,Core-5031,Core-5821,DUPLICATE,Main menu of DiasporAsia site,{compat} Nav4 vs CSS2 line box model,0,0,1
+187,Core-5039,Core-6658,DUPLICATE,text fields are too narrow,,0,0,1
+188,Core-5045,Core-5874,DUPLICATE,cannot apply styles to text for subsequent editor windows.,Only the first editor window works properly,1,0,1
+189,Core-5065,Core-5497,DUPLICATE,cant delete text in url control while page is loading,[PP] windows only: delete key not working,0,1,1
+190,Core-5117,Core-5701,DUPLICATE,Enable AppleEvents in seamonkey,,0,0,1
+191,Core-5122,Core-21296,DUPLICATE,[PP] Menu bar not disabled when application modal dialog appears,Cant use Mac menu bar with a menuless window (or modal dialog) in front,0,0,1
+192,Core-5136,Core-9467,DUPLICATE,Need a color picker in preference UI,Constraining the dimensions of pm.xul window,0,0,1
+193,Core-5176,Core-5469,DUPLICATE,M4 results of W3C CSS Test Suite,line wrapping problems with negative inline element margins,0,1,1
+194,Core-5196,Core-7112,DUPLICATE,NECKO: [PP]Main table not centered,{compat} ALIGN attribute needs special treatment,0,1,1
+195,Core-5232,Core-5797,DUPLICATE,Out of align..,Cell width calculation problem; when specified cell width is very large,1,0,1
+196,Core-5258,Core-10935,DUPLICATE,Alignment problems with tables,text/html; charset=iso-8859-1 broken for Content-Type,0,1,1
+197,Core-5273,Core-5356,DUPLICATE,menu items getting popualated with duplicate items,,0,0,1
+198,Core-5343,Core-7027,DUPLICATE,[4.xP] Focus unresponsive to cursor scrolling,page up/down requires a focus click to start working,1,1,1
+199,Core-5349,Core-5886,DUPLICATE,<a href=...><img src=...></a> links broken,events on :before and :after not going to parent,0,1,1
+200,Core-5353,Core-5499,DUPLICATE,Open New Window opens a browser window that barely redraws,opening local file results in graphic defects in new window,0,0,1
+201,Core-5371,Core-6899,DUPLICATE,Table is duplicated,{sink} [4.xP] Site displays twice in the same browser window,0,0,1
+202,Core-5478,Core-9671,DUPLICATE,[PP]Linux: Filter support for nsIFileWidget not implemented,feature: Linux File picker filtering work - Filter by format,1,1,1
+203,Core-5479,Core-9621,DUPLICATE,[PP]Mac: Filter support for nsIFileWidget not implemented,Filter by format (mac) Specify file format,1,0,1
+204,Core-5507,Core-14945,DUPLICATE,selecting file | open creates new window,,0,0,1
+205,Core-5528,Core-5900,DUPLICATE,{compat} sun.com page has unexpected purple lines showing between left columns menu items.,{compat} Images composed of two separate parts show white borders between them,1,0,1
+206,Core-5542,Core-9708,DUPLICATE,[PP] [GFX Text Control] URL location field border has random colors when page resized,[BLOCKER] SetScrollPreference(nsScrollPreference_kNeverScroll) not working properly,0,1,1
+207,Core-5543,Core-5544,DUPLICATE,Comment nodes in the content model contain markup delimeters,Comment nodes in the content model contain markup delimeters,1,1,1
+208,Core-5544,Core-6071,DUPLICATE,Comment nodes in the content model contain markup delimeters,Node::nodeValue for comment shouldnt have comment delimeters,0,1,1
+209,Core-5545,Core-33799,DUPLICATE,Slowly expanding Apprunner window vertically leaves gunk,sidebar doesnt repaint when I resize the window horizontally,1,0,1
+210,Core-5549,Core-6081,DUPLICATE,Mozilla banner is not displayed,,0,0,1
+211,Core-5556,Core-6055,DUPLICATE,Delete and arrow keys do not work when in a field of a form,in Textarea and text boxes arrow keys dont work,0,1,1
+212,Core-5607,Core-5689,DUPLICATE,Sidebar horked on Mac,,0,0,1
+213,Core-5638,Core-5903,DUPLICATE,text jumping behavior after hitting return in front of line,Multiple returns in a paragraph get collapsed.,1,1,1
+214,Core-5640,Core-10681,DUPLICATE,cant enter text between two lines,[DOGFOOD] Cannot set selection between consecutive <BR> tags,1,1,1
+215,Core-5675,Core-6188,DUPLICATE,Crash - OpenBlockingStream is returning the wrong value,,0,0,1
+216,Core-5707,Core-24478,DUPLICATE,window title incorrect for images,,0,0,1
+217,Core-5731,Core-5743,DUPLICATE,Need a time stamp output to measure performance on Linux.,,0,0,1
+218,Core-5767,Core-6150,DUPLICATE,Table cell (<td align=center>) don t format page properly.,{compat} HTMLs align != CSS text-align,0,1,1
+219,Core-5775,Core-5821,DUPLICATE,{compat} JPEG images not seamlessly spaced,{compat} Nav4 vs CSS2 line box model,1,0,1
+220,Core-5854,Core-10737,DUPLICATE,ftp://ftp.mozilla.org crashes,[DOGFOOD] sched - get ftp download going (judson; 2d),0,0,1
+221,Core-5880,Core-9276,DUPLICATE,[PP]Linux- default Character Set menu does not fit in Window,[dogfood] [PP] View->Character set menu is not scrollable and most encodings cannot be seen,0,0,1
+222,Core-5896,Core-7799,DUPLICATE,Apprunner crash on close,,0,0,1
+223,Core-5936,Core-5944,DUPLICATE,SELECT onChange JavaScript hanlder doesnt work right,[BLOCK]ender- Mouse Events dont work with *GFX* OPTGROUP or OPTION elements,0,1,1
+224,Core-5962,Core-6005,DUPLICATE,crash at end of profile manager..,crash closing window,0,0,1
+225,Core-5976,Core-6005,DUPLICATE,Clicking ok in link dialog crashes,crash closing window,0,0,1
+226,Core-5997,Core-10236,DUPLICATE,Suppress mouse over link cursor in editor,get rid of hand cursor over links in editor,1,0,1
+227,Core-6014,Core-7354,DUPLICATE,[PP]trashed display when scrolling with up/down arrows,,0,0,1
+228,Core-6023,Core-10077,DUPLICATE,M5: Screen redraws are only partial.,,0,0,1
+229,Core-6029,Core-12860,DUPLICATE,[PP] Grey flicker when scrolling,[DOGFOOD] [PP]nsIWindow::Scroll() - Scrolling on unix flashes too much,0,1,1
+230,Core-6046,Core-8607,DUPLICATE,document::doctype not implemented,Optimize charset conversion for intl documents,1,1,1
+231,Core-6058,Core-22658,DUPLICATE,Closing the prefs window activates the wrong browser window,stacked dependent dialogs activate the wrong window when closed,0,0,1
+232,Core-6087,Core-7354,DUPLICATE,Scrolling: Mouse; Up/Down arrows; and PgUp/PgDn not same,,0,0,1
+233,Core-6090,Core-10465,DUPLICATE,userAgent/appVersion strings on NT reports Win95 instead of WinNT,User Agent Components need to be platform/build specific,1,1,1
+234,Core-6132,Core-6149,DUPLICATE,No links are functional when present in left- or right-aligned tables,Links not functional in left/right aligned tables,0,0,1
+235,Core-6142,Core-7368,DUPLICATE,Reload bug,,0,0,1
+236,Core-6145,Core-13375,DUPLICATE,Pages with really small background images are very slow..,[Perf] small gif in background makes page VERY slow,0,0,1
+237,Core-6150,Core-7112,DUPLICATE,{compat} HTMLs align != CSS text-align,{compat} ALIGN attribute needs special treatment,1,1,1
+238,Core-6170,Core-8743,DUPLICATE,cant set cookie,Cookie not set error ?,1,1,1
+239,Core-6177,Core-6934,DUPLICATE,5/10 build gets frequent but Random start-up crashes in raptorgfxwin.dll,Frequent (~20% ) start-up crashes in raptorgfxwin.dll,1,1,1
+240,Core-6180,Core-56561,DUPLICATE,[PP]Saved files on Mac have UNIX line breaks,,0,0,1
+241,Core-6215,Core-6346,DUPLICATE,OnSubmit method not getting called,[BLOCKING WALLET]form submission no longer works,1,1,1
+242,Core-6257,Core-28792,DUPLICATE,(feature) Publishing needs to be implemented,,0,0,1
+243,Core-6267,Core-6268,DUPLICATE,(feature) Color properties/picker needs to be implemented,(feature) Color properties/picker needs to be implemented,1,1,1
+244,Core-6268,Core-9467,DUPLICATE,(feature) Color properties/picker needs to be implemented,Constraining the dimensions of pm.xul window,0,1,1
+245,Core-6285,Core-10007,DUPLICATE,image.setAttribute(align; bottom) behaves oddly,Using DOM 1 based DHTML is causing a crash,1,1,1
+246,Core-6297,Core-10465,DUPLICATE,JS Navigator object returns bogus platform,User Agent Components need to be platform/build specific,0,1,1
+247,Core-6311,Core-7821,DUPLICATE,finish string resource work,make strres locale-sensitive,1,1,1
+248,Core-6351,Core-21036,DUPLICATE,Modified image used on page not updated between page reloads,Imglib needs to support the necko cache; after it is enabled,0,1,1
+249,Core-6355,Core-6356,DUPLICATE,need UCS-4 converter,need UCS-4 converter,1,0,1
+250,Core-6358,Core-8000,DUPLICATE,Bookmarks/alerts area does not resize correctly,,0,0,1
+251,Core-6407,Core-6934,DUPLICATE,crash in raptorgfxwin.dll,Frequent (~20% ) start-up crashes in raptorgfxwin.dll,1,1,1
+252,Core-6409,Core-6525,DUPLICATE,animations stop after 1.5 hours,Animated GIF freezes at one frame after ~7 minutes,1,1,1
+253,Core-6442,Core-6896,DUPLICATE,[PP] Cant type apostrophe in Win compose window (editor and mail),[BLOCKER] Windows editor interpres the . key as a forward delete,1,0,1
+254,Core-6520,Core-7081,DUPLICATE,[enter] does not work in form(s),Form submission through ENTER in a text field broken on win32/gtk,1,1,1
+255,Core-6542,Core-7822,DUPLICATE,Not able to display Japanese menus and menu items.,[PP]support the locale in menus on Linux,0,1,1
+256,Core-6574,Core-181336,DUPLICATE,Incorrect rendering when font-variant is specified inside of element with text-decoration [FONT],,0,0,1
+257,Core-6603,Core-12689,DUPLICATE,Prev button on 1st screen of Prof Creator is not disabled(greyed out),Make CreateProfileWizard part of a meta wizard,1,1,1
+258,Core-6627,Core-14772,DUPLICATE,Reload Policy,Pragma: no-cache header used incorrectly,1,1,1
+259,Core-6644,Core-12415,DUPLICATE,Invalid HTML not displaying,nulls occasionally appear in the input stream provided by necko,0,1,1
+260,Core-6647,Core-281972,DUPLICATE,CSS2 outline property,,0,0,1
+261,Core-6690,Core-12689,DUPLICATE,Rename & Delete buttons should be greyed out by default.,Make CreateProfileWizard part of a meta wizard,1,1,1
+262,Core-6692,Core-12689,DUPLICATE,New btn should grey out once user selects an existing profile.,Make CreateProfileWizard part of a meta wizard,1,1,1
+263,Core-6702,Core-6744,DUPLICATE,Represents spaces in profile name as %20,profile created has %20 in string rather than a space,1,0,1
+264,Core-6707,Core-11881,DUPLICATE,GetFolder: object for File URL as targetFolder does not appear to get created properly,,0,0,1
+265,Core-6710,Core-13490,DUPLICATE,[DOGFOOD][UI] First input control in dialogs should get focus,,0,0,1
+266,Core-6721,Core-7112,DUPLICATE,[4.xP] Contents of <td> not alligned as per align tag,{compat} ALIGN attribute needs special treatment,0,1,1
+267,Core-6724,Core-14827,DUPLICATE,Frames : scolling=no (ignored?),FRAME and IFRAME attribute scrolling=no is ignored,1,0,1
+268,Core-6727,Core-7998,DUPLICATE,sidebar doesnt use the complete height,,0,0,1
+269,Core-6748,Core-13401,DUPLICATE,XIF: nsHTMLToTXTSinkStream: no unicode encoder,Entities/numeric character refs not correctly copied to clipboard,1,1,1
+270,Core-6756,Core-8091,DUPLICATE,Clicking on an item in a combo box does not cause an event,[4.xP] onchange event fires late,0,1,1
+271,Core-6769,Core-9467,DUPLICATE,cant change font color from UI,Constraining the dimensions of pm.xul window,0,1,1
+272,Core-6770,Core-38887,DUPLICATE,illegal use of nsString- Bookmarks dont correctly import Japanese/Hebrew bookmarks from the IE Favorties List,,0,0,1
+273,Core-6795,Core-58612,DUPLICATE,{feature} Start spellchecking at word immediately following caret,,0,0,1
+274,Core-6816,Core-7063,DUPLICATE,spellchecker prepends latin for Word string,,0,0,1
+275,Core-6861,Core-7878,DUPLICATE,[PP] Font sizes (-1; -2) are missing from Format|Size menu.,[PP]Popup items like -2 show up as separators,0,1,1
+276,Core-6863,Core-6864,DUPLICATE,Spell check toolbar icon not functional,[BETA][PP]Spell check menu item not functional on Mac or Linux.,1,1,1
+277,Core-6864,Core-25152,DUPLICATE,[BETA][PP]Spell check menu item not functional on Mac or Linux.,,0,0,1
+278,Core-6902,Core-10255,DUPLICATE,Editor allows a user to open the same dialog multiple times.,Modal Dialogs do not behave modally,0,1,1
+279,Core-6954,Core-7522,DUPLICATE,{table-reflow} Mozillaa left index column sometimes cut off,,0,0,1
+280,Core-6982,Core-9979,DUPLICATE,clicking in white space of table header scrolls up,Click upon image scrolls page to display entire image,0,1,1
+281,Core-7013,Core-7354,DUPLICATE,Text is garbled when using keyboard to scroll,,0,0,1
+282,Core-7027,Core-9701,DUPLICATE,page up/down requires a focus click to start working,nsWebShell Key events not working until focus set in window (TAB; PgDn; ALT+; CTRL+),0,0,1
+283,Core-7044,Core-7112,DUPLICATE,Image not displayed correctly and mouseover hilighting doesnt show up,{compat} ALIGN attribute needs special treatment,0,1,1
+284,Core-7066,Core-8112,DUPLICATE,check use of global errno,Lack of thread-safety with JS Math routines,1,1,1
+285,Core-7111,Core-8743,DUPLICATE,Yahoo/AOL mail never logs in,Cookie not set error ?,1,1,1
+286,Core-7124,Core-7258,DUPLICATE,clicking disabled/readonly html:input type=text enables field to type,,0,0,1
+287,Core-7134,Core-13652,DUPLICATE,JS: blur() does not work.,Text select and button blur methods dont work,0,1,1
+288,Core-7179,Core-34887,DUPLICATE,nsCSSRendering::PaintBackground is called too many times,,0,0,1
+289,Core-7196,Core-15817,DUPLICATE,[DOGFOOD]MLK: 3072 bytes leaked- a single image leaking?,[DOGFOOD]MLK: every GIFDecoder leaks,1,1,1
+290,Core-7208,Core-7330,DUPLICATE,[CRASH] This Latin 3 test page causes a crash,[Necko] nsIWebShellServices::StopLoadingDocument is not reentr safe,0,1,1
+291,Core-7251,Core-447581,DUPLICATE,improve startup performance tracking bug,,0,0,1
+292,Core-7256,Core-9682,DUPLICATE,Feature: Implement chrome registration interface,sched: High-level API for downloadable chrome,0,1,1
+293,Core-7266,Core-69070,DUPLICATE,HTML input widget/image: check SRC= origin - input src needs CheckLoadURL,,0,0,1
+294,Core-7275,Core-12770,DUPLICATE,RFE: hide image download placeholders,placeholder box pseudo-element needed,0,1,1
+295,Core-7292,Core-7554,DUPLICATE,JS handler should get called when label is clicked (radio/checkbox),<label> doesnt work with <button> (should execute script),0,1,1
+296,Core-7322,Core-12689,DUPLICATE,[BLOCKER] navigationManagerFinish.xul: non-localizable XUL file,Make CreateProfileWizard part of a meta wizard,1,1,1
+297,Core-7333,Core-7401,DUPLICATE,XUL fails and/or crashes silently if file not found,apprunner should dump warnings if it cant find XUL files,1,0,1
+298,Core-7350,Core-21036,DUPLICATE,cgi used as a pic does not reload correctly,Imglib needs to support the necko cache; after it is enabled,1,1,1
+299,Core-7351,Core-7354,DUPLICATE,Using keyboard instead of scrollbar to scroll HTML pages would not refresh correctly,,0,0,1
+300,Core-7356,Core-7414,DUPLICATE,Bootup Crash RAPTORHTML.DLL,Crash on launch Apprunner M6 build - RAPTORHTML.DLL,1,1,1
+301,Core-7370,Core-19209,DUPLICATE,Wide Bookmarks cause bookmark menu chaos,menus should truncate long entries.,0,0,1
+302,Core-7399,Core-10373,DUPLICATE,Escaping illegal chars in URLs,Non-ASCII url cannot be found,0,0,1
+303,Core-7414,Core-7802,DUPLICATE,Crash on launch Apprunner M6 build - RAPTORHTML.DLL,,0,0,1
+304,Core-7438,Core-9844,DUPLICATE,Availability of pageX and pageY properties in Gecko.,RFE: No way to find size/position via DOM,1,1,1
+305,Core-7446,Core-7522,DUPLICATE,{table-reflow} hover events causes table rendering anomoly,,0,0,1
+306,Core-7477,Core-8071,DUPLICATE,if scrolling=no exists; frame does not load,,0,0,1
+307,Core-7484,Core-10720,DUPLICATE,NECKO: Clicking on delivery center doesnt take you to the correct URL,sched META refresh needs to be implemented for necko,1,1,1
+308,Core-7526,Core-7799,DUPLICATE,Apprunner crashes on exit,,0,0,1
+309,Core-7543,Core-25657,DUPLICATE,size attribute for text input tag handled inconsistently,[FIX]When does 18 = 29?  When you use the SIZE attritbute in a text type input field.,1,1,1
+310,Core-7550,Core-20110,DUPLICATE,Mousing over Javascript pre-cached images is ludicrously slow,very slow; cpu-hogging mouseover of javascript buttons,1,1,1
+311,Core-7565,Core-24042,DUPLICATE,Open from Editor vs. Open from Browser,[4.xP]Need menu item to open a web location into editor,1,0,1
+312,Core-7584,Core-7586,DUPLICATE,Windows: need to use good defaults for fonts,[BETA] Japanese Font selection is not always appropriate,0,0,1
+313,Core-7586,Core-8801,DUPLICATE,[BETA] Japanese Font selection is not always appropriate,,0,0,1
+314,Core-7605,Core-51327,DUPLICATE,need to escape certain chars in property files,,0,0,1
+315,Core-7612,Core-8048,DUPLICATE,[PP]no popup menus on linux,sched: Get context menus to work under Linux [PP],0,0,1
+316,Core-7617,Core-28212,DUPLICATE,apprunner reformats during mouse click on or tabbing to link,,0,0,1
+317,Core-7644,Core-184120,DUPLICATE,[converter]Surrogate support for UCS-4 converters,,0,0,1
+318,Core-7649,Core-7940,DUPLICATE,Crash when exiting,Crash in JavaScript garbage collection,0,1,1
+319,Core-7666,Core-18726,DUPLICATE,Shift click and click and hold on links dont bring up menu,[feature] Long-click means of invoking contextual menus not supported,0,0,1
+320,Core-7755,Core-10402,DUPLICATE,Hidden objects with position set to relative or absolute dont display under Javascript control unless they are first set to visible and then hidden from an ONLOAD handler.,Views and Frames need to be properly synced up,0,1,1
+321,Core-7776,Core-14129,DUPLICATE,need Referer header for images [was: Anacam image doesnt show up properly -- thinks its being stolen.],referrer should be correctly set in HTTP request headers,0,1,1
+322,Core-7823,Core-21099,DUPLICATE,[4.xP] Text improperly weighted as bold,html link not displayed or interfered with,0,1,1
+323,Core-7839,Core-17468,DUPLICATE,[Webshell] Links with target=_new are not functional,[WebShell] links w/target attribute do not create new window when clicked,0,1,1
+324,Core-7847,Core-10373,DUPLICATE,Problems with local urls,Non-ASCII url cannot be found,0,0,1
+325,Core-7884,Core-161508,DUPLICATE,Unable to uninstall .xpi packages,,0,0,1
+326,Core-7937,Core-11020,DUPLICATE,XP Install Tracking Tasks,,0,0,1
+327,Core-7963,Core-9686,DUPLICATE,[converter]need cp950 converters,[converter]BIG-5s UDC not mapped to Unicodes PUA,1,1,1
+328,Core-8045,Core-30736,DUPLICATE,error locations in *linked* scripts wrong,Errors in .js files not reported correctly,0,1,1
+329,Core-8048,Core-11583,DUPLICATE,sched: Get context menus to work under Linux [PP],[dogfood] [blocker] Need XP context and popup menus,1,0,1
+330,Core-8085,Core-8089,DUPLICATE,Apprunner crash while doing things in preferences,,0,0,1
+331,Core-8098,Core-10310,DUPLICATE,Crash on load of a www.hotwired.com page.,{stress} CRASH: massively nested divs,0,0,1
+332,Core-8118,Core-8119,DUPLICATE,it has a lot of trouble loading animated gifs,it has a lot of trouble loading animated gifs,1,1,1
+333,Core-8232,Core-8410,DUPLICATE,Changing Prefs50 file to handle Widget mode causes Browser blank,[BLOCKER] loading about:blank causes hang,0,0,1
+334,Core-8323,Core-8384,DUPLICATE,[PP]Java Script error: Components.classes has no properties,Prefs from JS fail on ftp.mozilla.org bits on Windows,1,1,1
+335,Core-8329,Core-9035,DUPLICATE,[CRASHER] Looks like JavaScript write causes crash during document load,crash in nsContentList.cpp - duplicate release,0,1,1
+336,Core-8333,Core-10373,DUPLICATE,ftp fails with files that have spaces in names,Non-ASCII url cannot be found,0,0,1
+337,Core-8337,Core-10373,DUPLICATE,ftp cant handle files with non-US characters in them,Non-ASCII url cannot be found,0,0,1
+338,Core-8366,Core-9917,DUPLICATE,opening prefs gives: javascript error: pref is not defined,,0,0,1
+339,Core-8373,Core-15604,DUPLICATE,Stack array bounds read in xptcall,startup crash in PrepareAndDispatch (solaris/native optimized),1,1,1
+340,Core-8377,Core-8383,DUPLICATE,okay and cancel buttons on form submission popups do nothing when pressed,,0,0,1
+341,Core-8470,Core-17468,DUPLICATE,[Webshell] [beta] Fix resolving of frame targets,[WebShell] links w/target attribute do not create new window when clicked,0,0,1
+342,Core-8520,Core-17781,DUPLICATE,[DOGFOOD]Purify reports Array Bounds Read when viewing www.mirabilis.com,Clean up:remove xp_mcom complications on mac(in gif.cpp and xpcompat.h),1,1,1
+343,Core-8544,Core-8676,DUPLICATE,Two images in a table cell shown on 2 rows instead of side by side,,0,0,1
+344,Core-8549,Core-9120,DUPLICATE,component.reg needs to be writeable for apprunner to start,mozilla segfaults when run in a non-writable directory,0,0,1
+345,Core-8550,Core-9454,DUPLICATE,GTK+ Menus dont place themselves optimally,[dogfood][BETA]sched: XP & popup menus partially offscreen,1,1,1
+346,Core-8583,Core-8585,DUPLICATE,Browser simply crashes while visiting the page with the sound file,,0,0,1
+347,Core-8593,Core-9456,DUPLICATE,[PP]Mouse exit must be generated when mouse leaves apprunner window,[PP]DOM Event listeners dont get MouseOut events when mouse leaves window,0,1,1
+348,Core-8654,Core-8655,DUPLICATE,Problems with interlaced gifs,,0,0,1
+349,Core-8726,Core-9104,DUPLICATE,HTML:input widgets appear on all tabs of tab widget,Tab widget showing all html elements from all tabs,1,0,1
+350,Core-8758,Core-8770,DUPLICATE,Crash on Startup in nsMsgAccountManager::isUnique,,0,0,1
+351,Core-8773,Core-8923,DUPLICATE,after H.Line insertion curosr becomes big,inserting horizontal line makes caret Jumbo size,1,1,1
+352,Core-8804,Core-8956,DUPLICATE,need to click again for input,Dogfood: After clicking on toolbar button; focus should return to editor content window.,0,1,1
+353,Core-8895,Core-10720,DUPLICATE,Homepage redirects dont work,sched META refresh needs to be implemented for necko,1,1,1
+354,Core-8925,Core-21226,DUPLICATE,Popup menus in sidebar do not anchor properly,Popupanchor/popupalign attributes dont work for <popup> tag,1,1,1
+355,Core-8927,Core-62536,DUPLICATE,Link to anchor will not scroll overflow data.,,0,0,1
+356,Core-8953,Core-8996,DUPLICATE,Ignoring font size tags,<font color=#ffffff> has nog effect,1,1,1
+357,Core-9020,Core-14049,DUPLICATE,Error Loading URL when choosing the different search engine site,,0,0,1
+358,Core-9036,Core-10732,DUPLICATE,Viewer blocks forever on dns lookup if machine loses network connection.,[BETA]sched - async dns win (rpotts; 2d),1,0,1
+359,Core-9092,Core-9286,DUPLICATE,alignment pull-down menu is a pop-up window now,Windows: During life of XUL popup; mouse should be captured. Click outside window should close.,0,1,1
+360,Core-9208,Core-10128,DUPLICATE,NECKO: Form data not properly submitted,sched - Form Submission (POST) not implemented in Necko.,1,1,1
+361,Core-9276,Core-11586,DUPLICATE,[dogfood] [PP] View->Character set menu is not scrollable and most encodings cannot be seen,[FEATURE] XP & content menus need to be scrollable,0,0,1
+362,Core-9286,Core-11587,DUPLICATE,Windows: During life of XUL popup; mouse should be captured. Click outside window should close.,,0,0,1
+363,Core-9327,Core-9631,DUPLICATE,Need to set set styles on top-level windows,sched: XUL-based specification of resizability; modality; close; min/max widgets,1,1,1
+364,Core-9372,Core-9701,DUPLICATE,[PP]Menus become unresponsive after dialogues are presented,nsWebShell Key events not working until focus set in window (TAB; PgDn; ALT+; CTRL+),1,0,1
+365,Core-9380,Core-9503,DUPLICATE,[pp]selecting Manage Bookmarks... menutiem crashes,,0,0,1
+366,Core-9443,Core-9475,DUPLICATE,Linux: Resizing is broken,[PP] Intrinsic sizing doesnt work under unix,1,0,1
+367,Core-9451,Core-10016,DUPLICATE,Crash when tooltips appear and disappear quickly,[PP] [DOGFOOD] Tooltips crash on linux,0,0,1
+368,Core-9526,Core-9701,DUPLICATE,[PP]editor startup time is real slow(several minutes),nsWebShell Key events not working until focus set in window (TAB; PgDn; ALT+; CTRL+),0,0,1
+369,Core-9544,Core-330494,DUPLICATE,[FEATURE] captureEvents() method doesn not work.,,0,0,1
+370,Core-9570,Core-17102,DUPLICATE,[DOGFOOD]Editor cannot save on top of original file,[DOGFOOD][PP] Linux file picker UI needs Replace existing file? dialog,1,1,1
+371,Core-9576,Core-12677,DUPLICATE,I cannot delete <p>this text</p>,[DOGFOOD] need rules code for delete selection,1,0,1
+372,Core-9615,Core-13021,DUPLICATE,sched: Convert appcores to components,Replace AppCores with scriptable components,1,0,1
+373,Core-9620,Core-107521,DUPLICATE,Filter by format Mac: Put filter in dialog,,0,0,1
+374,Core-9621,Core-107521,DUPLICATE,Filter by format (mac) Specify file format,,0,0,1
+375,Core-9676,Core-32157,DUPLICATE,[Tree][feature] Tooltips in treeview,,0,0,1
+376,Core-9681,Core-35402,DUPLICATE,sched: Downloadable chrome security,,0,0,1
+377,Core-9689,Core-10650,DUPLICATE,[GTK Themes] Gtk-WARNINGs on startup[PP],,0,0,1
+378,Core-9690,Core-17303,DUPLICATE,[4.xP] Text input element should be in monospace font,Text input fields in chrome should use sans serif font,0,1,1
+379,Core-9691,Core-21701,DUPLICATE,{css2}visibility: collapse == hidden (except certain table elements),[BLOCK] misuse of style attr mVisible,0,0,1
+380,Core-9765,Core-12974,DUPLICATE,Images dont load; alt-text displayed inappropriately,images dont load,0,1,1
+381,Core-9819,Core-11150,DUPLICATE,After visiting a XUL page scroll bar disappears,Scroll bar disapears after preview of Chromes in ChromeZone,1,1,1
+382,Core-9903,Core-22782,DUPLICATE,Hasty File->Open Web Location... behavior,Arrow/letter keys get to browser when menu is active,1,1,1
+383,Core-9906,Core-12722,DUPLICATE,[CRASH] {compat} assigning new sources to frames/objects via JS using relative URLs,[DOGFOOD].test9 crashes,0,0,1
+384,Core-10042,Core-10582,DUPLICATE,Basic Authentication does not work.,sched -Unable to visit a site that requires authentication,1,0,1
+385,Core-10052,Core-50626,DUPLICATE,{css1} widths not applied with display:inline,,0,0,1
+386,Core-10178,Core-18066,DUPLICATE,[MLK] Potential leak of 17160 bytes - in NS_NewRDFElement,[mlk] unconditional addref in AddEventListener(),0,0,1
+387,Core-10189,Core-10190,DUPLICATE,nsWinReg::SetValue not implemented,[feature] nsWinReg::SetValue & nsWinReg::GetValue not implemented,1,0,1
+388,Core-10202,Core-17932,DUPLICATE,{sink} content before STYLE element in BODY displayed twice,[PP] Crash navigating thru Back & Forward button,0,1,1
+389,Core-10243,Core-12689,DUPLICATE,[BLOCKER] *.html: please convert to localizable XUL file,Make CreateProfileWizard part of a meta wizard,1,1,1
+390,Core-10248,Core-12689,DUPLICATE,[BLOCKER] *.xul: non-localizable XUL file,Make CreateProfileWizard part of a meta wizard,1,1,1
+391,Core-10250,Core-12689,DUPLICATE,[BLOCKER] *.xul: non-localizable XUL file,Make CreateProfileWizard part of a meta wizard,1,1,1
+392,Core-10326,Core-12748,DUPLICATE,Win95-Error loading this url,DNS: IPv4 dotted quad URLs fail b/c we reverse lookup (PTR),1,1,1
+393,Core-10388,Core-17468,DUPLICATE,Target Link does not work,[WebShell] links w/target attribute do not create new window when clicked,0,1,1
+394,Core-10430,Core-10688,DUPLICATE,[DOGFOOD] Using the Tab key kills the caret and selection,Hitting Tab Key turns off selection by forcing focus change,1,1,1
+395,Core-10461,Core-10462,DUPLICATE,PNG images are not shown correctly,,0,0,1
+396,Core-10491,Core-78510,DUPLICATE,Open link in new window or target=_blank should give link :visited color,,0,0,1
+397,Core-10511,Core-53838,DUPLICATE,crash when closing browser or Composer window via keybinding,,0,0,1
+398,Core-10534,Core-10614,DUPLICATE,timing out trying to load large page of text,,0,0,1
+399,Core-10542,Core-10614,DUPLICATE,pages consistently fails to load on any platform,,0,0,1
+400,Core-10578,Core-24406,DUPLICATE,[CRASH] [webshell] printing mozillazine poll results,[PATCH]Password; Textfields; TextAreas print blank,1,1,1
+401,Core-10627,Core-11133,DUPLICATE,www.nvidia.com causes download attempt instead of displaying,content type shouldnt contain charset (or version) information,1,1,1
+402,Core-10642,Core-18033,DUPLICATE,[DOGFOOD] HOME and END keys not hooked up,,0,0,1
+403,Core-10659,Core-10698,DUPLICATE,infinite loop in nsHTMLEditor::InsertText(),[BLOCKER] Infinitely repeating text causes hang,1,1,1
+404,Core-10661,Core-13513,DUPLICATE,[DOGFOOD] bullet list button should be a toggle,takes more than one click to remove list,1,0,1
+405,Core-10664,Core-21432,DUPLICATE,[FEATURE] print preview not enabled,,0,0,1
+406,Core-10678,Core-11425,DUPLICATE,[BLOCKER] blur event handlers need to know blur type,find doesnt render selection until the editor gets focus,0,0,1
+407,Core-10719,Core-10720,DUPLICATE,necko not reloading new content on browser buster page,sched META refresh needs to be implemented for necko,1,1,1
+408,Core-10767,Core-24778,DUPLICATE,[PP] A local image with a broken reference is not displaying the ALT name.,[BLOCKED][FIX]image-button doesnt show alternative text value,0,1,1
+409,Core-10777,Core-12451,DUPLICATE,[PP]Absence of image in list-style test should generate circle list identifier,{css1}not using list-style-type when list-style-image fails,0,0,1
+410,Core-10779,Core-25258,DUPLICATE,When focus lost; menus in chrome retain active look,Selected FORM fields and links do not redraw when losing focus,0,0,1
+411,Core-10850,Core-11062,DUPLICATE,Massive footprint of viewer/apprunner,Page manager takes too much memory,0,1,1
+412,Core-10903,Core-11220,DUPLICATE,Migration missing on Macintosh,[feature] hookup & enable Mac profile migration,0,0,1
+413,Core-10926,Core-30783,DUPLICATE,301/302 Redirects dont update location Bar,location bar needs updated on redirects.,0,1,1
+414,Core-11004,Core-13016,DUPLICATE,Cant use AltGr key to write in URL.,[PP][key][DOGFOOD]Win32 - AltGR key not working,1,0,1
+415,Core-11006,Core-11266,DUPLICATE,Menu windows ahead of other programs,[PP][DOGFOOD] XPMenus wont go away,1,0,1
+416,Core-11065,Core-11071,DUPLICATE,Banging on Preview button results in crash.,Crash trying to access a site with no/firewalled access.,0,1,1
+417,Core-11112,Core-13859,DUPLICATE,Crash calling blocking read on nsHTTPChannel,[DOGFOOD] crash with unconstrained table inside box,0,0,1
+418,Core-11137,Core-11266,DUPLICATE,When menus dropped down; they stay down when other menus active,[PP][DOGFOOD] XPMenus wont go away,1,0,1
+419,Core-11228,Core-11453,DUPLICATE,usemap cant deal with map names containing whitespace,Client-side image map links fail when map name contains space,0,1,1
+420,Core-11233,Core-35791,DUPLICATE,Tables implement visibility:collapse incorrectly,,0,0,1
+421,Core-11237,Core-11238,DUPLICATE,node.replaceChild(;newNode) crashes Mozilla,node.replaceChild(;newNode) crashes Mozilla,0,1,1
+422,Core-11263,Core-18447,DUPLICATE,[PP] XP text widget has gray background,{css1} Text input changes background when clicked,1,1,1
+423,Core-11285,Core-33312,DUPLICATE,[DPD]selects do not properly inherit font properly,,0,0,1
+424,Core-11315,Core-12689,DUPLICATE,Feature Request: Create Profile should use a deck,Make CreateProfileWizard part of a meta wizard,1,1,1
+425,Core-11333,Core-12232,DUPLICATE,Links get messed up,[EVENTTARG] events going to wrong element: visibility=hidden,0,1,1
+426,Core-11353,Core-11354,DUPLICATE,Opening components closes the previous component,,0,0,1
+427,Core-11394,Core-12748,DUPLICATE,[PP]Page only partially loads on Win 95,DNS: IPv4 dotted quad URLs fail b/c we reverse lookup (PTR),1,1,1
+428,Core-11475,Core-11522,DUPLICATE,[Crasher] Clicking on back button crashes application.,Crash while loading arrow.gif in the res directory,1,1,1
+429,Core-11538,Core-22942,DUPLICATE,[XML] XML parser needs to load http type external DTD asychronously,Load external DTDs (entity/entities) (local and remote) if a pref is set,1,1,1
+430,Core-11562,Core-13115,DUPLICATE,[XML] bad entity causes xul file not to load,,0,0,1
+431,Core-11584,Core-11857,DUPLICATE,Crash in nsHTMLEditor::GetSelectedElement,crash in nsHTMLEditor::GetSelectedElement,1,1,1
+432,Core-11622,Core-12817,DUPLICATE,Autoregistration on release builds only when build# is different,[feature] XPInstall need to check build num & auto reg flag,0,0,1
+433,Core-11629,Core-15441,DUPLICATE,Forward button doesnt work after backtracking from named anchor,,0,0,1
+434,Core-11694,Core-15118,DUPLICATE,nsIDOMNotation.h is missing,,0,0,1
+435,Core-11729,Core-180762,DUPLICATE,security for event capture,,0,0,1
+436,Core-11734,Core-29712,DUPLICATE,Need check access calls for accesses to forms by name,Named forms vulnerability,0,0,1
+437,Core-11758,Core-15310,DUPLICATE,[IME/rule]Crash - Inputting Japanese characters in Text area and Object cause Apprunner craches,[IME/rule][Dogfood] Typing Japanese characters in the mail composition and forms insert no text.,1,0,1
+438,Core-11767,Core-36796,DUPLICATE,[FEATURE]print setup needs to implemented,,0,0,1
+439,Core-11773,Core-12126,DUPLICATE,Cant Undo a background color change,Removing bgcolor attribute from BODY tag doesnt trigger repaint,0,1,1
+440,Core-11794,Core-11804,DUPLICATE,Remove all style not operational,Toolbar buttons need to toggle type-in state,1,0,1
+441,Core-11809,Core-136936,DUPLICATE,Dr Watson log generated running TestInterfaceInfo,,0,0,1
+442,Core-11830,Core-13161,DUPLICATE,[FEATURE] sched: clipboard interface for seeing if anything is on clipboard,[FEATURE] implement nsClipboard::HasDataMatchingFlavors,1,1,1
+443,Core-11863,Core-14042,DUPLICATE,Regression: JS not run,{sink} JS script output dropped,0,1,1
+444,Core-11883,Core-12198,DUPLICATE,[PP]app closes when select submit on form,,0,0,1
+445,Core-11926,Core-11927,DUPLICATE,window.opener is null,ShowWindowWithArgs doesnt return a window object,0,1,1
+446,Core-11934,Core-17468,DUPLICATE,target=_blank links dont work,[WebShell] links w/target attribute do not create new window when clicked,1,1,1
+447,Core-11982,Core-13325,DUPLICATE,[cosmetic] dont draw box around small unloaded images,ImageFrame displays error icons too quickly,0,1,1
+448,Core-12107,Core-16414,DUPLICATE,CreateDirectory doesnt,[DOGFOOD]mozilla.exe crashes if theres no profile directory.,0,1,1
+449,Core-12115,Core-18066,DUPLICATE,[mlk] -size of leak?- XUL elements leak after being involved in an event dispatch,[mlk] unconditional addref in AddEventListener(),0,0,1
+450,Core-12158,Core-14727,DUPLICATE,GFX text boxes are incredibly slow,[PERF] Pages with forms degrade browser performance.,0,0,1
+451,Core-12194,Core-13047,DUPLICATE,problems setting visibility dynamically,,0,0,1
+452,Core-12210,Core-12226,DUPLICATE,[PP][CRASH] Win32; Mac: Backspace crashes in Location control,[BLOCKER] backspace in GFX text control crashes on event procesing in the PresShell,0,0,1
+453,Core-12219,Core-14574,DUPLICATE,[PP] Win32 - Keyboard use of menus is failing,[XBL] Regression: Cant navigate in menus with arrow keys,1,1,1
+454,Core-12234,Core-72540,DUPLICATE,make vertical scrollbar for web pages visible always,,0,0,1
+455,Core-12307,Core-18840,DUPLICATE,this.form.(radio button)[1].value not works,[4.xP] [Testcase] Identically named radio and checkbox inputs dont create expected arrays.,0,1,1
+456,Core-12348,Core-62043,DUPLICATE,DOM1 Errata: defaultChecked doesnt reset checkbox,,0,0,1
+457,Core-12395,Core-13786,DUPLICATE,[IME/rule]Crash-Typing Japanese characters in table causes Apprunner crashes,[IME/rule]Typing Japanese characters at the next line of Heading2 insert no text,1,0,1
+458,Core-12396,Core-12426,DUPLICATE,[PP] Triggering jar files on Macintosh results in crash,Crash in libreg when StartInstall called,1,0,1
+459,Core-12402,Core-13786,DUPLICATE,[IME][IME-CRASH]Editor crash in the middle of text input/editing,[IME/rule]Typing Japanese characters at the next line of Heading2 insert no text,0,1,1
+460,Core-12432,Core-17088,DUPLICATE,OnLoad fired before document load completes / not fired,[BLOCKER] dogfood [TESTCASE] OnLoad handler not called if page comes from memory cache,0,0,1
+461,Core-12484,Core-12485,DUPLICATE,[CRASH] A crash occurs with a A element that contains both  HREF and ONFOCUS attributes.,[CRASH] A crash occurs with a A element that contains both  HREF and ONFOCUS attributes.,1,0,1
+462,Core-12495,Core-21178,DUPLICATE,[BLOCKER][REGRESSION][PRINTING] assertion (used to crash) when printing mail,[PP][DOGFOOD][REGRESSION]Printing causes a crash,1,0,1
+463,Core-12543,Core-12559,DUPLICATE,[TESTCASE] document.links[num].hash returns undefined.,basedLink.pathname; Link.port; Link.protocol; and Link.search return undefined.,1,0,1
+464,Core-12545,Core-12559,DUPLICATE,[TESTCASE] document.links[num].host and document.links[num].hostname return undefined.,basedLink.pathname; Link.port; Link.protocol; and Link.search return undefined.,1,0,1
+465,Core-12619,Core-12641,DUPLICATE,Another Multi-Table rendering problem,,0,0,1
+466,Core-12630,Core-12729,DUPLICATE,Note:  This may be bug 12475! submit and preview buttons for talkback dont trigger action -M9 on Linux,hidden params are not submitted correctly (HTTP Get),0,1,1
+467,Core-12713,Core-25963,DUPLICATE,mouse over optimizations...,excessive string conversion resolving :visited style,0,0,1
+468,Core-12727,Core-12729,DUPLICATE,MindIt shtml not reading/displaying form values,hidden params are not submitted correctly (HTTP Get),1,1,1
+469,Core-12872,Core-27984,DUPLICATE,GetLastPageVisited() broken,,0,0,1
+470,Core-12885,Core-14386,DUPLICATE,[treewidget] cell map corruption,,0,0,1
+471,Core-12901,Core-12902,DUPLICATE,[FEATUERE] Implment/turn-on gfx-rendered form elements,[BETA][FEATURE] Implement/enable GFX-rendered form elements,1,1,1
+472,Core-12910,Core-14827,DUPLICATE,Complex frames do not display properly.,FRAME and IFRAME attribute scrolling=no is ignored,1,0,1
+473,Core-12920,Core-12953,DUPLICATE,Profile Manager isnt working,create new profile dialog is mostly blank,1,1,1
+474,Core-12936,Core-17647,DUPLICATE,Invalid File Type in several places.,Images with uppercase suffix are viewed as text (e.g. foo.PNG),1,1,1
+475,Core-12941,Core-12953,DUPLICATE,Create Profile Wizard (Account Wizard) - new UI is not working,create new profile dialog is mostly blank,1,1,1
+476,Core-12969,Core-16800,DUPLICATE,RFE: Include URL of image in text output,,0,0,1
+477,Core-13042,Core-37660,DUPLICATE,Windows - Window menu missing from keyboard sequence,,0,0,1
+478,Core-13081,Core-14540,DUPLICATE,Crash mousing over bookmarks menu title in menubar,[DOGFOOD] Crash mousing over bookmarks menu with large bookmarks file,1,1,1
+479,Core-13087,Core-20572,DUPLICATE,background color for text controls broken,Text and password fields not showing background-color style,0,1,1
+480,Core-13095,Core-24078,DUPLICATE,Column resizing persistence not quite working,,0,0,1
+481,Core-13179,Core-232919,DUPLICATE,Smart window sizing; working zoom,,0,0,1
+482,Core-13184,Core-56589,DUPLICATE,[PI] Support Menu Sharing Toolkit,,0,0,1
+483,Core-13187,Core-24688,DUPLICATE,JS Component Loader needs to report uncaught exceptions,runtime errors in wrapped JS are not made obvious,1,1,1
+484,Core-13208,Core-15555,DUPLICATE,Popups confuse navigator.xul persistence,popup browser window attributes should not persist to real browsers,1,1,1
+485,Core-13214,Core-229526,DUPLICATE,significant whitespace stripped out of HTML elements,,0,0,1
+486,Core-13258,Core-65917,DUPLICATE,If link enclosed in B tags is clicked; highlight is wrong,,0,0,1
+487,Core-13354,Core-22842,DUPLICATE,Content ignored because of unclosed <P> inside <IFRAME>,<map><p></map> doesnt close the <p>,1,1,1
+488,Core-13372,Core-23445,DUPLICATE,Win32 - Alt-Space must be hit twice to bring up control menu,[Windows] ALT;SPACEBAR is not activating control menu,0,0,1
+489,Core-13401,Core-40350,DUPLICATE,Entities/numeric character refs not correctly copied to clipboard,,0,0,1
+490,Core-13421,Core-53155,DUPLICATE,we need better typelib runtime versioning,,0,0,1
+491,Core-13470,Core-66057,DUPLICATE,Proxy: read http_proxy variable from UNIX shell,,0,0,1
+492,Core-13513,Core-28491,DUPLICATE,takes more than one click to remove list,unlisting adds another bullet instead of getting out of list mode,1,0,1
+493,Core-13527,Core-13858,DUPLICATE,Selecting text while loading a www page causes display problems,Selection problem while loading,0,0,1
+494,Core-13627,Core-19283,DUPLICATE,PNG transparency problems when transparent color == background color,Binary PNG transparency does not work correctly on Windows,1,1,1
+495,Core-13633,Core-13650,DUPLICATE,Crash at startup in nsPresContext::PreferenceChanged,crash in nsPrecContext with bogus mShell memeber,0,1,1
+496,Core-13650,Core-13780,DUPLICATE,crash in nsPrecContext with bogus mShell memeber,,0,0,1
+497,Core-13689,Core-13690,DUPLICATE,http://www.xemacs.org/faq/xemacs-faq.html: displays garbage,[PP]http://www.xemacs.org/faq/xemacs-faq.html : displays garbage,1,1,1
+498,Core-13728,Core-16074,DUPLICATE,Cant FTP/Gopher,,0,0,1
+499,Core-13735,Core-15377,DUPLICATE,MLK:924 bytes  nsHTMLValue::nsHTMLValue(),MLK: content object leak,1,0,1
+500,Core-13759,Core-15315,DUPLICATE,Doesnt download page if # is in the URL,relative links with fragments dont work if base URL ends in /,1,1,1
+501,Core-13785,Core-48444,DUPLICATE,[tracking] psm mozilla intergration,,0,0,1
+502,Core-13786,Core-16570,DUPLICATE,[IME/rule]Typing Japanese characters at the next line of Heading2 insert no text,[IME]Extraneous Return/Enter in JA input causes Editor assert,0,1,1
+503,Core-13828,Core-16940,DUPLICATE,IME should be disabled at the PASSWORD field,[FEATURE] need an XP API to disable input methods for password fields,0,0,1
+504,Core-13840,Core-15787,DUPLICATE,Elminate [x] close button from profile manager XUL screens,map the window manager X to be Exit (in profile manager) and Cancel (in create profile wizard),1,0,1
+505,Core-13852,Core-13879,DUPLICATE,All text edit fields are text areas are blinking,Input field caret does not respond to focus,1,0,1
+506,Core-13919,Core-28491,DUPLICATE,cant un-list cleanly,unlisting adds another bullet instead of getting out of list mode,1,1,1
+507,Core-13924,Core-185689,DUPLICATE,Import IE cookies,,0,0,1
+508,Core-13947,Core-14206,DUPLICATE,Crash-Printing Japanese page,[Webshell] [top100] Crash-Printing large complex page,0,1,1
+509,Core-13988,Core-15742,DUPLICATE,Browser does not paint correctly on first load,clicking on buttons draws them out of position,0,1,1
+510,Core-14002,Core-15063,DUPLICATE,[PERFORMANCE] cache results of nsProfile::GetCurrentProfileDir(),no one should be calling nsProfile::GetProfileDir() directly,0,0,1
+511,Core-14020,Core-14164,DUPLICATE,Assertions about mDocWeak in password dialog,Assertion failure in nsEditor::GetDocument,0,0,1
+512,Core-14030,Core-35772,DUPLICATE,<P></P> should not be ignored in NavQuirks mode {ll},,0,0,1
+513,Core-14033,Core-28766,DUPLICATE,<font size=1> is bigger in Mozilla than in Nav4 {ll} {font} {compat},,0,0,1
+514,Core-14083,Core-14090,DUPLICATE,Border-color does not work on table unless border-style is assigned regardless of border attribute,table border looks inset on white background in quirks mode,1,1,1
+515,Core-14136,Core-15005,DUPLICATE,Changing document.links[num].href has no effect,onload handler in an img tag doesnt get triggered,1,0,1
+516,Core-14158,Core-14159,DUPLICATE,Table width renders incorrectly,Table width renders incorrectly,1,1,1
+517,Core-14221,Core-14859,DUPLICATE,Regression: <Return> doesnt break a blockquote,splitting html mail quotes doesnt work,1,1,1
+518,Core-14225,Core-14227,DUPLICATE,Unhandled exception: you cant dereference a NULL nsCOMPtr,,0,0,1
+519,Core-14229,Core-14755,DUPLICATE,Assertion failure in UnregisterDataSource,RDF/XML datasource doesnt prevent duplicate loads,1,1,1
+520,Core-14245,Core-19165,DUPLICATE,[DOGFOOD]Attempting to reference data of NULL pointer (JS3250.DLL) [note: win2k],,0,0,1
+521,Core-14253,Core-14386,DUPLICATE,Freeing damaged memory in nsCellMaps destructor,,0,0,1
+522,Core-14259,Core-14263,DUPLICATE,Linux/Alpha: nsNativeComponentLoader::Init doesnt get called in gdb,,0,0,1
+523,Core-14275,Core-21870,DUPLICATE,Unable to disable submenus parents,[PP] Mac: File > Offline menu should be greyed out till beta,1,1,1
+524,Core-14323,Core-37656,DUPLICATE,{compat} pages navigation tool bar isnt displayed properly,,0,0,1
+525,Core-14370,Core-36665,DUPLICATE,Win32 - Application key does nothing,,0,0,1
+526,Core-14439,Core-15820,DUPLICATE,[DOGFOOD]MLK: The nsImageManager is not being deleted...,[DOGFOOD]MLK: every ImageManagerImpl leaks,1,1,1
+527,Core-14463,Core-14473,DUPLICATE,Drag selecting across lines tiggers infinite loop,[blocker] Ctrl-A(Selectl all) freezes window,0,1,1
+528,Core-14496,Core-35682,DUPLICATE,Clicking on MIDI file link doesnt play in Quicktime,,0,0,1
+529,Core-14517,Core-14775,DUPLICATE,[PP] Crash occurs after triggering a jar and moving mouse pointer,[PP][BLOCKER] Crash removing delete observer when closing windows,0,0,1
+530,Core-14556,Core-14812,DUPLICATE,resizing bookmarks crashes,[DOGFOOD][CRASH][PP]Resizing Bookmarks window crashes appruner on Mac,0,0,1
+531,Core-14627,Core-14804,DUPLICATE,[PP] Mouse click events improperly handled (selection),Double-click handling is wrong,0,0,1
+532,Core-14640,Core-14774,DUPLICATE,Composer cant cope with <iframe> tags,,0,0,1
+533,Core-14652,Core-15832,DUPLICATE,Clicking return on a bullet did not create a new bulleted line,,0,0,1
+534,Core-14684,Core-16209,DUPLICATE,Need to automatically update mozregistry.dat,[DOGFOOD]M9 mozregistry.dat crashes with M10; registry format changed,1,1,1
+535,Core-14703,Core-21877,DUPLICATE,Crash in cookies dialog clicking on View Stored Cookies,,0,0,1
+536,Core-14714,Core-39805,DUPLICATE,[FOCUS/ACT]selection continues to change when no longer front/focused window,,0,0,1
+537,Core-14751,Core-17968,DUPLICATE,XOR drawing mode does not work with remote Solaris displays,Selection does not invert on an 8-bit display useably,0,1,1
+538,Core-14803,Core-18859,DUPLICATE,textarea not setting value properly,[DOGFOOD] URL bar messed up,0,1,1
+539,Core-14805,Core-16612,DUPLICATE,Mozilla segfaults on startup with an optimized build,Native class use at startup fails,1,0,1
+540,Core-14808,Core-15901,DUPLICATE,Highlight painting problems in text widget,[DOGFOOD] Selected text does not clear when you type,1,0,1
+541,Core-14819,Core-17027,DUPLICATE,need to remove vestigial native menu code from widget/src/* (not mac),Eliminate dead code from layout to reduce footprint,0,0,1
+542,Core-14941,Core-16414,DUPLICATE,[DOGFOOD]if you have no previous profile and nothing to migrate no profile is written,[DOGFOOD]mozilla.exe crashes if theres no profile directory.,1,1,1
+543,Core-14946,Core-16418,DUPLICATE,Image URL redirect appends junk to end of url string.,[CRASH][DOGFOOD] Submit a form at excite.com + you crash,0,1,1
+544,Core-14981,Core-55731,DUPLICATE,[Feature] Javascript can execute in any file regardless of extension,,0,0,1
+545,Core-15000,Core-16255,DUPLICATE,Want a way to apply a class,,0,0,1
+546,Core-15005,Core-22710,DUPLICATE,onload handler in an img tag doesnt get triggered,[DOM] onload and onerror handler of Image object dont fire,1,0,1
+547,Core-15048,Core-18598,DUPLICATE,ALT-Tabbing away from Mozilla creates spurious ALT events,menus take focus on alt; then behave in a non-standard way,0,0,1
+548,Core-15075,Core-15261,DUPLICATE,Crashing in creating profiles- [NEW] in profile manager,[DOGFOOD]CRASH when creating new profile,1,1,1
+549,Core-15090,Core-315826,DUPLICATE,Make expat an XPCOM component that exposes SAX interfaces,,0,0,1
+550,Core-15116,Core-79732,DUPLICATE,rightmost pixels of italic text dont change on hover/blink (should set overflow area of text frames),,0,0,1
+551,Core-15117,Core-15118,DUPLICATE,Start creating XML entity content objects.,,0,0,1
+552,Core-15122,Core-606574,DUPLICATE,instrument event loop to determine event-to-event latency,,0,0,1
+553,Core-15138,Core-18395,DUPLICATE,Display current state for editor toolbar font face & size,[Sched] Editor UI updating should use JS commander nodes,1,1,1
+554,Core-15145,Core-17686,DUPLICATE,[RFE] Allow users to disable image animation,,0,0,1
+555,Core-15158,Core-22071,DUPLICATE,[FEATURE] Make Toolbar Grippies Sizable,[feature] [XBL] Toolbar grippies need to support different looks to be skinnable,1,1,1
+556,Core-15175,Core-15927,DUPLICATE,<auth> Proxy doesnt work,[BETA][DOGFOOD]No proxy authentication,1,1,1
+557,Core-15195,Core-16266,DUPLICATE,Text areas not repainting properly,[PAINTING] [DOGFOOD] Text fields/editor content in Linux are displaying gray blocks at the end,1,0,1
+558,Core-15197,Core-15261,DUPLICATE,setTimeout() is still called after window is closed,[DOGFOOD]CRASH when creating new profile,0,0,1
+559,Core-15248,Core-61125,DUPLICATE,interpretation of width for tables with border-collapse:separate,,0,0,1
+560,Core-15255,Core-16037,DUPLICATE,Tweak-UIs X-Mouse conflicts with Menu bars and Option Lists,menus loose focus and close when using ActiveWindowTracking=1 (X-Mouse; focus follows mouse),1,1,1
+561,Core-15285,Core-15709,DUPLICATE,[PP]File Op: DirCreate fails to create directory on Linux,[PP] GetFolder: Path returned is missing / at the end,1,1,1
+562,Core-15286,Core-56314,DUPLICATE,selection needs to swap highlight foreground/background color based on background color,,0,0,1
+563,Core-15310,Core-16570,DUPLICATE,[IME/rule][Dogfood] Typing Japanese characters in the mail composition and forms insert no text.,[IME]Extraneous Return/Enter in JA input causes Editor assert,0,1,1
+564,Core-15323,Core-24676,DUPLICATE,Outlines do not follow the curved edge of elements with -moz-border-radius set,[BORDER ROUNDED]Need -moz-outline-radius,1,0,1
+565,Core-15359,Core-15649,DUPLICATE,View Source output lacks line breaks,view-source no longer preformatted!,1,1,1
+566,Core-15396,Core-23860,DUPLICATE,Splitter shows box to soon when dragged to expand,Splitter: drag to spring open confusing,1,1,1
+567,Core-15398,Core-16209,DUPLICATE,XPCOM Prevents Loading of browser,[DOGFOOD]M9 mozregistry.dat crashes with M10; registry format changed,0,1,1
+568,Core-15418,Core-15454,DUPLICATE,Linux on a machine with no profile results in startup errors,CreateProfileWizard.js error: nextButton has no properties,1,0,1
+569,Core-15425,Core-16468,DUPLICATE,subframe subjects show up as the main subject,<IFRAME SRC=...> changes the window title,0,1,1
+570,Core-15426,Core-19191,DUPLICATE,[PP] Mac OS: drag-selecting out of textbox yields Win32ish behavior,[Mac] Text selection not per HIG (not selecting entire line),1,1,1
+571,Core-15443,Core-15445,DUPLICATE,MathML not mentioned on Projects page,,0,0,1
+572,Core-15452,Core-15454,DUPLICATE,Unable to create new profile-NEXT button is inoperable,CreateProfileWizard.js error: nextButton has no properties,1,0,1
+573,Core-15453,Core-15454,DUPLICATE,javascript error in profile wizard,CreateProfileWizard.js error: nextButton has no properties,1,0,1
+574,Core-15528,Core-15529,DUPLICATE,some files in js/src have no license boilerplate at all,some files in js/src have no license boilerplate at all,1,1,1
+575,Core-15546,Core-23667,DUPLICATE,[SHOCKWAVE] Shockwave movie would not work,NPP_StreamAsFile is never called,0,1,1
+576,Core-15574,Core-19221,DUPLICATE,[FEATURE]losing events to nonmodal dialogs on top of modal dialogs,,0,0,1
+577,Core-15625,Core-29643,DUPLICATE,the videos do not display,IMG src can *only* handle image content types.,0,1,1
+578,Core-15754,Core-62722,DUPLICATE,Editable combobox,,0,0,1
+579,Core-15799,Core-68061,DUPLICATE,Border attribute of TABLE element does not distinguish cells,,0,0,1
+580,Core-15873,Core-17933,DUPLICATE,Back/Forward buttons disabled w/ DB meta charset tag pages,Back button doesnt work properly on pages w/ meta char tag,0,1,1
+581,Core-15913,Core-32518,DUPLICATE,mouse over link; extra content inserted into document,[REFLOW]Mouseover link causes page to be duplicated.,1,0,1
+582,Core-15918,Core-18480,DUPLICATE,Long; gruesome flat-HTML crashes apprunner&raptor,bad html crashes mozilla,0,1,1
+583,Core-15927,Core-22405,DUPLICATE,[BETA][DOGFOOD]No proxy authentication,Proxy authentication,1,1,1
+584,Core-15977,Core-15978,DUPLICATE,Paragraph writes into other table cell,Paragraph writes into other table cell,1,1,1
+585,Core-15989,Core-29498,DUPLICATE,Text describing images before they load is reversed,Left-to-right characters are drawn in the wrong order if the element contains one or more right-to-left characters (M13),1,1,1
+586,Core-16013,Core-16402,DUPLICATE,Immediate crash with mozilla-apprunner.sh,nsRDFService.cpp problem,1,1,1
+587,Core-16050,Core-17309,DUPLICATE,css styles rendered after page load,Caching needs to be re-enabled when the cache is fixed.,1,0,1
+588,Core-16051,Core-133165,DUPLICATE,[outline]Link-select dashed outline does not border text properly,,0,0,1
+589,Core-16060,Core-16930,DUPLICATE,[CRASH]Scroll bar in file listing bombs,,0,0,1
+590,Core-16108,Core-53065,DUPLICATE,merge ns[C]String and nsXPIDL[C]String,,0,0,1
+591,Core-16110,Core-16429,DUPLICATE,[Urg. request] Pls rewrite titledbutton to contain 2 child nodes...,Make titledbuttons be containers (image + text),1,1,1
+592,Core-16124,Core-17265,DUPLICATE,Page with many small inline images displays very slowly,,0,0,1
+593,Core-16129,Core-17851,DUPLICATE,[Dogfood][PP]Bookmarks from folder on personal toolbar dont load,[PP][DOGFOOD] selecting an element in a XUL popup on the personal toolbar does not trigger anything,1,0,1
+594,Core-16161,Core-17570,DUPLICATE,HTTP Refresh header ignored,HTTP Refresh (change columns in bugzilla),1,0,1
+595,Core-16172,Core-17042,DUPLICATE,Menu becomes inactive,,0,0,1
+596,Core-16212,Core-16709,DUPLICATE,Save frames state when it is going to be reframed,[DOGFOOD]dataloss because ender stores state in frames; not DOM.,0,0,1
+597,Core-16274,Core-19177,DUPLICATE,Writing out bad proxy prefs,,0,0,1
+598,Core-16301,Core-18579,DUPLICATE,Link-select dashed outline does not clear,[outline]Link outlines arent redrawn correctly when unselected,0,1,1
+599,Core-16318,Core-16612,DUPLICATE,compiling xptcinvoke_unixish_x86.cpp with -O -fexpensive-optimizations breaks XPTC_InvokeByIndex,Native class use at startup fails,0,1,1
+600,Core-16320,Core-16326,DUPLICATE,X button on toolbar doesnt do anything + JS error in console,,0,0,1
+601,Core-16321,Core-16523,DUPLICATE,toolbar toggle buttons generating JS errors,[blocker]nsTextEditRules::DidDoAction returns NS_ERROR_FAILURE for actions not performed by rules system,1,0,1
+602,Core-16333,Core-16402,DUPLICATE,apprunner crashes,nsRDFService.cpp problem,1,1,1
+603,Core-16345,Core-23838,DUPLICATE,Default tags in document ?head? are not inserted,Composer doesnt insert DOCTYPE,1,1,1
+604,Core-16379,Core-16806,DUPLICATE,[RFE]scrolling things should remember scroll position,Save scroll position in session history,0,1,1
+605,Core-16558,Core-17393,DUPLICATE,Images with complex URL fail to load,[Dogfood] I cant use the nscp phonebook with seamonkey,0,1,1
+606,Core-16573,Core-16639,DUPLICATE,[CRASH] [BLOCKER] assertion in table regression tests,[DOGFOOD][CRASH] assertion when exiting page with image,1,1,1
+607,Core-16591,Core-16603,DUPLICATE,createElement() with space in name throws no/wrong exception,DOM doesnt throw INVALID_CHARACTER_ERR for arguments with invalid characters,1,1,1
+608,Core-16607,Core-16656,DUPLICATE,[CRASH] misaligned table layout,tons of asserts loading page,1,1,1
+609,Core-16641,Core-18840,DUPLICATE,onclick does not update form...,[4.xP] [Testcase] Identically named radio and checkbox inputs dont create expected arrays.,1,1,1
+610,Core-16678,Core-16773,DUPLICATE,Need to clean up AutoProxy routine!,Enable AutoProxification,1,1,1
+611,Core-16782,Core-17685,DUPLICATE,[DOGFOOD]Post Data forgotten when traversing thro Session History.,Need a way to save post data in Session History and repost on B/F,1,0,1
+612,Core-16995,Core-17686,DUPLICATE,Close/open loop for animated GIFs with right-click,,0,0,1
+613,Core-17010,Core-32161,DUPLICATE,edges of textarea border clipped,HTML text inputs show the text misplaced; and clobber their borders,0,0,1
+614,Core-17027,Core-121881,DUPLICATE,Eliminate dead code from layout to reduce footprint,,0,0,1
+615,Core-17029,Core-49527,DUPLICATE,I18n DLLs need to be combined,,0,0,1
+616,Core-17059,Core-22331,DUPLICATE,spacing between lines doesnt revert back after style change,block transformation code unfinished,1,0,1
+617,Core-17064,Core-17076,DUPLICATE,Image with wrong filename extension isnt displayed,misnamed local image file causes load to fail,1,1,1
+618,Core-17067,Core-29643,DUPLICATE,Webcam32 JavaScript Image Pull does not work,IMG src can *only* handle image content types.,0,1,1
+619,Core-17089,Core-48798,DUPLICATE,Resize browser window to short heights -> corrupted vertical scroll bar,,0,0,1
+620,Core-17092,Core-55368,DUPLICATE,Shrinking height of browser yields premature scroll bar disappearance,,0,0,1
+621,Core-17094,Core-17103,DUPLICATE,Russian & Ukrainian detectors when they are ON disable ALL input functions,[BETA] Using Russian Detector and visiting the URL leads to a crash,1,1,1
+622,Core-17216,Core-17518,DUPLICATE,clicking in page causes page to shift several pixels,[4.xP] Problem with non-href anchors,1,1,1
+623,Core-17295,Core-17296,DUPLICATE,Core dump on startup,,0,0,1
+624,Core-17309,Core-29370,DUPLICATE,Caching needs to be re-enabled when the cache is fixed.,Cache doesnt work for CSS and JS files,0,0,1
+625,Core-17330,Core-17331,DUPLICATE,Borders Shown on Empty <DIV>,,0,0,1
+626,Core-17363,Core-17519,DUPLICATE,<select> displays first choice when nothing selected,[DOGFOOD] selects showing up with wrong thing initially selected,1,0,1
+627,Core-17369,Core-44678,DUPLICATE,Tweak PLEvent handling on Mac for responsive UI,,0,0,1
+628,Core-17389,Core-17390,DUPLICATE,MLK: leaking nsAttrSelectors while running editor,leaking documents and webshells while running editor,0,0,1
+629,Core-17406,Core-17851,DUPLICATE,Bookmarks within folders on toolbar dont work,[PP][DOGFOOD] selecting an element in a XUL popup on the personal toolbar does not trigger anything,1,0,1
+630,Core-17528,Core-17530,DUPLICATE,[Dogfood] Delete is removing all my text from bugsplat bugs,[Dogfood] Delete is removing all my text from bugsplat bugs,1,0,1
+631,Core-17572,Core-18798,DUPLICATE,[DOGFOOD] crash trying to go back and forward,[WEBSHELL] Wrong behavior restoring frame state after hitting back,0,0,1
+632,Core-17592,Core-29595,DUPLICATE,[FLOAT] Tables are overlapping tables,[FLOAT] Text description overlapping right table on amazon.com,1,1,1
+633,Core-17679,Core-26186,DUPLICATE,[feature]Support for SVG specification,[FEATURE] Please Implement SVG (Scalable Vector Graphics),1,1,1
+634,Core-17684,Core-33959,DUPLICATE,[ssl]Javascript: No result for navigator.SecurityPolicy,navigator.securityPolicy not hooked up,0,0,1
+635,Core-17688,Core-17689,DUPLICATE,[DOGFOOD] Crash when entering password information,[DOGFOOD][BLOCKER] Crash with gfx text controls,1,0,1
+636,Core-17715,Core-17719,DUPLICATE,[UI] double clicking of a profile should act like selecting and hitting enter or hitting start,,0,0,1
+637,Core-17717,Core-18198,DUPLICATE,Added Bookmarks are displayed twice in Personal toolbar,new bookmarks are added to the bookmarks popup twice,1,1,1
+638,Core-17730,Core-18447,DUPLICATE,[form] Input gets background color mentioned in table cell.,{css1} Text input changes background when clicked,1,1,1
+639,Core-17757,Core-17758,DUPLICATE,Text in collapsed cells sometimes shown; sometimes not.,,0,0,1
+640,Core-17804,Core-18353,DUPLICATE,[BETA][PP] Linux - Typing into text input doesnt scroll,[DOGFOOD] text scroll fails when entered text exceeds control width,0,0,1
+641,Core-17812,Core-17849,DUPLICATE,This page is layed out different in Apprunner and Editor,Table layout not consistantly rendering background images.,0,1,1
+642,Core-17830,Core-17989,DUPLICATE,select scroll does not work with GFX scrollbars,[DOGFOOD] Selection AutoScrolling broken when using GFX Scrollbars,1,0,1
+643,Core-17869,Core-17870,DUPLICATE,Loading this cbs.marketwatch.com page kills mozilla.,,0,0,1
+644,Core-17922,Core-18945,DUPLICATE,Text selects while scrolling through drop-down menus,combobox with scrollbar; entries are highlighted after scrolling,1,1,1
+645,Core-17967,Core-22428,DUPLICATE,HTTP POST has trouble with large files.,cant use mozilla to attach files to bugzilla,0,0,1
+646,Core-18090,Core-19394,DUPLICATE,SIGSEV inside IL_StreamAbort method.,[DOGFOOD][talkback] top 1 in M11. - crash in il_image_abort 3815b27f,1,0,1
+647,Core-18162,Core-18170,DUPLICATE,partly transparent image as table background draws random pixels,[BACKGROUND]rendering problems with tables with non opaque background images,1,1,1
+648,Core-18167,Core-18285,DUPLICATE,[CRASH] clicking text with CSS,Warning aFrame is already associated with a region (was crash on infoworld),0,0,1
+649,Core-18168,Core-18480,DUPLICATE,incomplete render on huge complex colored text page,bad html crashes mozilla,0,1,1
+650,Core-18189,Core-30091,DUPLICATE,[INC CONTENT SINK] select scrollbars display multiple times on js enhanced form,nsFormControlList::NamedItem() does a linear walk through the control list,0,0,1
+651,Core-18224,Core-20185,DUPLICATE,<input type=image> has redraw problems in apprunner,absolute position elements repaint wrong w/GFX scrollbars on,0,0,1
+652,Core-18237,Core-35402,DUPLICATE,[Feature] Ensure only code from content in chrome: executes,,0,0,1
+653,Core-18238,Core-24081,DUPLICATE,[dogfood]OOPS! There was already a state in the hash table for the key,error getting history state for the key on loading some pages,0,1,1
+654,Core-18281,Core-19367,DUPLICATE,Wrong Pasting string behavior,pasting text over selected text causes text to shift down,1,1,1
+655,Core-18320,Core-23667,DUPLICATE,Plugin which works with Navigator 4.5/4.6 fails with Mozilla,NPP_StreamAsFile is never called,1,1,1
+656,Core-18411,Core-30221,DUPLICATE,[FEATURE]Tabbing between fields in authentication dialog,,0,0,1
+657,Core-18499,Core-18769,DUPLICATE,[DOGFOOD] Ziff-Davis browser benchmark tests cant run (cookie prob?),[DOGFOOD][BETA] Ziff-Davis browser benchmark tests cant run,0,1,1
+658,Core-18516,Core-22861,DUPLICATE,No default filename when saving image,,0,0,1
+659,Core-18560,Core-18827,DUPLICATE,[FLOAT] line box doesnt flow around float,[FLOAT] Problem with reflow around images,1,1,1
+660,Core-18597,Core-30015,DUPLICATE,Text overunning buttons (and table cells?),[HAVE FIX]The form control buttons for e-mail are running together,0,0,1
+661,Core-18635,Core-18640,DUPLICATE,nsBasePrincipal.cpp attempts illegal cast,sun workshop compiler c++ 5.0 fails to compile caps,1,1,1
+662,Core-18641,Core-45698,DUPLICATE,it is impossible to register xpcom plugin for an extension,,0,0,1
+663,Core-18655,Core-20193,DUPLICATE,[CRASH] crash when closing browser window with menu accelerators,[dogfood]Ctrl-W to close window crashes,0,0,1
+664,Core-18659,Core-21556,DUPLICATE,Site repeatedly crashes 11/11/1999 nightly build,crash on SMP systems: socket transport in load group,1,1,1
+665,Core-18664,Core-25425,DUPLICATE,{dom1}Tables inside a DIV get a border after moving the DIV,changing document.bgcolor creates borders,0,1,1
+666,Core-18690,Core-21686,DUPLICATE,Adding image to cart crashes browser,StdURL parsing code doesnt lower case scheme name,1,1,1
+667,Core-18755,Core-20807,DUPLICATE,Form is disappearing and then reappearing.,Bugzilla Query page rearranges forms before stopping,0,1,1
+668,Core-18756,Core-28766,DUPLICATE,Tables being drawn incorrectly; maybe <font size=1> too big {font} {ll},,0,0,1
+669,Core-18757,Core-18928,DUPLICATE,Bad HTML causes frames not to render. Frames render in Nav.,Malformed frameset is opens unless leaf is encountered,0,1,1
+670,Core-18775,Core-20807,DUPLICATE,query page dancing as it loads,Bugzilla Query page rearranges forms before stopping,0,1,1
+671,Core-18783,Core-19165,DUPLICATE,Crashing on startupin recent builds,,0,0,1
+672,Core-18802,Core-20185,DUPLICATE,[DOGFOOD] painting problems on pages with forms,absolute position elements repaint wrong w/GFX scrollbars on,0,0,1
+673,Core-18844,Core-22782,DUPLICATE,Typing in menu after editbox sends keypress to both,Arrow/letter keys get to browser when menu is active,1,1,1
+674,Core-18871,Core-57679,DUPLICATE,ftp hangs on HP 10.20,,0,0,1
+675,Core-18891,Core-23679,DUPLICATE,Communicator support for Microsofts Challenge Handshake Response protocol,NTLM auth for HTTP,0,0,1
+676,Core-18895,Core-112713,DUPLICATE,[CBX]Implement GFX scrollbars for selects,,0,0,1
+677,Core-18902,Core-23667,DUPLICATE,Plugin doesnt do anything,NPP_StreamAsFile is never called,1,1,1
+678,Core-18934,Core-29086,DUPLICATE,textarea [TAB] should move to next field; not 6 spaces.,,0,0,1
+679,Core-18941,Core-22274,DUPLICATE,(see 22274) Extra space in table cells with images (standard mode),,0,0,1
+680,Core-18970,Core-21117,DUPLICATE,AIX does not build linking in the standard gtk libraries,,0,0,1
+681,Core-19115,Core-514490,DUPLICATE,Give bandwith priority to current window,,0,0,1
+682,Core-19200,Core-19917,DUPLICATE,Strange (broken) redirect tag mis-interpreted,4.xP Partial URLs of the form //hostname/path resolved wrongly.,0,1,1
+683,Core-19217,Core-37587,DUPLICATE,Text of URL should auto-select when clicked,,0,0,1
+684,Core-19240,Core-19421,DUPLICATE,Menus fail to appear after app launch,,0,0,1
+685,Core-19244,Core-19421,DUPLICATE,Menubar does not display,,0,0,1
+686,Core-19273,Core-28783,DUPLICATE,Pasting text is very slow (reflow),,0,0,1
+687,Core-19302,Core-21961,DUPLICATE,[DOGFOOD]Crash closing a dialog in its JS onload handler,,0,0,1
+688,Core-19347,Core-21942,DUPLICATE,Menus not working on third monitor,[Win98] menus show up on primary monitor in a multiple monitor environment,1,0,1
+689,Core-19387,Core-19394,DUPLICATE,Crash IL_StreamAbort during nsCRT::free() call,[DOGFOOD][talkback] top 1 in M11. - crash in il_image_abort 3815b27f,1,0,1
+690,Core-19406,Core-22040,DUPLICATE,[TESTCASE] Links array messed up if we use AREA.,DOM reporting 2x the AREA tags that exist,0,1,1
+691,Core-19449,Core-32783,DUPLICATE,Rember password feature prevents form submission,Attempting to log in to hotmail.com fails.,1,1,1
+692,Core-19481,Core-22311,DUPLICATE,Mozilla does not support Global IME,[feature]Support Active IME,1,1,1
+693,Core-19508,Core-21940,DUPLICATE,URL location display vanishes after switching toolbar off/on,content of input field doesnt show up after expanding a toolbar,1,0,1
+694,Core-19524,Core-19525,DUPLICATE,Mozilla M11 crashes without any apparant reason at KDevelop.org,,0,0,1
+695,Core-19956,Core-22274,DUPLICATE,(see 22274) Extra space below image in cell,,0,0,1
+696,Core-19967,Core-20161,DUPLICATE,[DOGFOOD] Crash on screen name submit in AIM,[DOGFOOD]Crashing in delete in nsBoxFrame,0,1,1
+697,Core-19974,Core-99987,DUPLICATE,Windowshading a window with an open popup menu leaves the menu up,,0,0,1
+698,Core-20017,Core-48857,DUPLICATE,Mouseover effect persists after personal toolbar drag.,,0,0,1
+699,Core-20020,Core-30878,DUPLICATE,Interface buttons respond to right mouse button clicks.,[ESM/CSS] Right-click != Left-click,1,0,1
+700,Core-20043,Core-22341,DUPLICATE,addFile() returns bogus -1 when installing older version,Error -208 unexpectedly returned when installing file with version info that is smaller,1,1,1
+701,Core-20056,Core-20085,DUPLICATE,[PP]Unable to logon to Amazon.com,,0,0,1
+702,Core-20072,Core-27048,DUPLICATE,On redirected channel should get the redirect url,need http clients to implement nsIHTTPEventSink,1,1,1
+703,Core-20109,Core-20147,DUPLICATE,Next and Back buttons dont function,[DOGFOOD] Profile Manager dialog buttons not defined,0,1,1
+704,Core-20116,Core-20814,DUPLICATE,Basic Authentication fails for site (see test URL),MSFT IIS server 1.0 pukes on lower case accept header,1,1,1
+705,Core-20174,Core-22888,DUPLICATE,Cursor blinks in location bar when not in focus,caret continues to blink when text field doesnt have focus,0,1,1
+706,Core-20188,Core-26582,DUPLICATE,Throbber doesnt stop when image URL is invalid,nsImageRequest isnt being notified of abort on missing disk based images,1,1,1
+707,Core-20215,Core-21814,DUPLICATE,You cannot enter FTP directories,,0,0,1
+708,Core-20292,Core-26767,DUPLICATE,FTP not show some Japanese directory names correctly,,0,0,1
+709,Core-20303,Core-20387,DUPLICATE,Clicking on a cell results in strange formatting/arrow graphic,scroll bars appearing in single line text control (scrollbars),1,0,1
+710,Core-20322,Core-25258,DUPLICATE,[TESTCASE] objects not removing border when losing focus on tabbing,Selected FORM fields and links do not redraw when losing focus,1,1,1
+711,Core-20331,Core-20645,DUPLICATE,Crash on stress test,[top100][dogfood] www.developer.com is crashing,1,0,1
+712,Core-20342,Core-20387,DUPLICATE,Gfx Scrollbars appear at the end of empty Gfx TextFields,scroll bars appearing in single line text control (scrollbars),0,0,1
+713,Core-20356,Core-20357,DUPLICATE,JS thin locks fatter than fat locks?,,0,0,1
+714,Core-20476,Core-22512,DUPLICATE,Clicks close to scrollbar thumb causes scroll-to-beginning/end,Clicking just below scrollbar thumb moves thumb to bottom.,0,1,1
+715,Core-20491,Core-20557,DUPLICATE,Links in table do not work correctly,[EVENTTARG]blockquote overhangs right aligned table,1,1,1
+716,Core-20516,Core-20519,DUPLICATE,[PP]Copy and pasting inserts duplicate URL into location bar,[dogfood] key events getting through to editor key listener (symptom = control-v pastes text twice in HTML text controls),0,0,1
+717,Core-20557,Core-23161,DUPLICATE,[EVENTTARG]blockquote overhangs right aligned table,[dogfood][EVENTTARG] Cant click on right hand URLs on CNET,0,1,1
+718,Core-20575,Core-22274,DUPLICATE,Cell height is not correct in HTML 4.0 Strict//EN,,0,0,1
+719,Core-20587,Core-21358,DUPLICATE,when trying to download a file from download.com; it keeps on refreshing,,0,0,1
+720,Core-20592,Core-20605,DUPLICATE,Crash in il_image_abort(),[DOGFOOD]Access Voilation while loading any page on this site.,0,1,1
+721,Core-20775,Core-20859,DUPLICATE,Cannot browse using a proxy server,,0,0,1
+722,Core-20776,Core-28003,DUPLICATE,Flash of black,no background color should be set on a window on linux,0,1,1
+723,Core-20789,Core-24186,DUPLICATE,{compat} Spaces between lines bigger than legacy browsers.,In NavQuirks mode; ignore line-height on block elements {ll} {compat} [TEXT],1,0,1
+724,Core-20806,Core-28161,DUPLICATE,crash after attempted profile migration,,0,0,1
+725,Core-20844,Core-648429,DUPLICATE,RFE: Implement compression of network cache data,,0,0,1
+726,Core-20855,Core-36104,DUPLICATE,names anchors do not work correctly,,0,0,1
+727,Core-20939,Core-47660,DUPLICATE,Store image dimensions in cache,,0,0,1
+728,Core-20949,Core-21317,DUPLICATE,purify reports UMRs in nsCAutoString::=(nsCAutoString const&),UMR: nsCAutoString::=(nsCAutoString const&),1,1,1
+729,Core-20952,Core-20982,DUPLICATE,purify reports ABR in nsLineLayout::CanPlaceFrame,[BLOCK] UMB in nsLineLayout::CanPlaceFrame,1,1,1
+730,Core-20973,Core-45756,DUPLICATE,Finish hooking up Table Properties dialog,,0,0,1
+731,Core-21013,Core-24033,DUPLICATE,Cant submit bugzilla query,Set-cookie: HTTP header is somehow pushed into the content model.,0,0,1
+732,Core-21022,Core-29498,DUPLICATE,RTL fonts in LTR docs display as LTR,Left-to-right characters are drawn in the wrong order if the element contains one or more right-to-left characters (M13),0,1,1
+733,Core-21042,Core-21047,DUPLICATE,The table displaying the main page does not render correctly,,0,0,1
+734,Core-21046,Core-21197,DUPLICATE,[DOGFOOD] unable to sign in,[dogfood] Cookies register o.k.; but too late for browser to recognize? (asynch/cookie issue?),1,1,1
+735,Core-21055,Core-22321,DUPLICATE,Unknown content-type dialog thrown when HTTP response doesnt contain a content-type,URI dispatcher needs to discern content-type,1,1,1
+736,Core-21066,Core-95282,DUPLICATE,Use unicode collation (available in MacOS 8.6 and 9.0) for nsICollation,,0,0,1
+737,Core-21107,Core-21271,DUPLICATE,Crash in HTML content sink,Crash when clicking on a channel,1,1,1
+738,Core-21108,Core-21186,DUPLICATE,span ending a element,[DOGFOOD] Cant click on links in CNET story,0,1,1
+739,Core-21184,Core-73295,DUPLICATE,Disk cache writes are very slow on NT,,0,0,1
+740,Core-21190,Core-21373,DUPLICATE,history.back() doesnt work,Javascript history.back; .forward; .go dont work,1,1,1
+741,Core-21243,Core-22175,DUPLICATE,GFX scrollbar slider insensitive to perp cursor positioning,dragging thumb away from scrollbar should cancel scrolling,1,1,1
+742,Core-21247,Core-21885,DUPLICATE,[Dogfood]Typing is very slow (key event handling is slow),[Perf Feature] Implement XBL event bindings,1,0,1
+743,Core-21327,Core-21328,DUPLICATE,Enable network cache by default,[DOGFOOD] Enable network cache by default,1,0,1
+744,Core-21363,Core-25258,DUPLICATE,loss of :focus no longer causing repaint,Selected FORM fields and links do not redraw when losing focus,0,0,1
+745,Core-21372,Core-21567,DUPLICATE,Back function is too literal,,0,0,1
+746,Core-21404,Core-22227,DUPLICATE,[Dogfood] Can not insert bullets in a blank table cell,Cant insert into blank table cell,1,1,1
+747,Core-21408,Core-21436,DUPLICATE,Crash when clicking on message,,0,0,1
+748,Core-21433,Core-22937,DUPLICATE,[Print Fail CRASH] Browser crashes when trying to print web page,[DOGFOOD] Tables take up too much space when printed,0,1,1
+749,Core-21531,Core-22512,DUPLICATE,[gfx scrollbar] thumb scrolls past mousedown in scroll area,Clicking just below scrollbar thumb moves thumb to bottom.,1,0,1
+750,Core-21578,Core-72507,DUPLICATE,RFE: Implement a flat-file cache database,,0,0,1
+751,Core-21605,Core-22032,DUPLICATE,Mozilla wont open this page!,,0,0,1
+752,Core-21613,Core-21616,DUPLICATE,Space after :first-letter pseudo-element line is larger than between other lines,Space after ::first-letter pseudo-element line is larger than between other lines,0,1,1
+753,Core-21614,Core-21616,DUPLICATE,Space after :first-letter pseudo-element line is larger than between other lines,Space after ::first-letter pseudo-element line is larger than between other lines,0,1,1
+754,Core-21615,Core-21616,DUPLICATE,Space after :first-letter pseudo-element line is larger than between other lines,Space after ::first-letter pseudo-element line is larger than between other lines,0,1,1
+755,Core-21622,Core-21657,DUPLICATE,[CRASH] Crash printing cgi page,crash when I print cnn.com,1,1,1
+756,Core-21624,Core-25258,DUPLICATE,[Regression] {css2} Widgets losing :focus attribute not redrawing,Selected FORM fields and links do not redraw when losing focus,0,1,1
+757,Core-21625,Core-21634,DUPLICATE,Reload this page and assert in nsXULDocument::ExecuteScript,,0,0,1
+758,Core-21630,Core-29606,DUPLICATE,Chienes IMEs under Windows-2000 not working well,Win2k CJK IME disabled in Composer; location bar; etc.,1,1,1
+759,Core-21637,Core-29641,DUPLICATE,Large/long pages wont load,Layout for pages with long text is very slow,1,1,1
+760,Core-21657,Core-44718,DUPLICATE,crash when I print cnn.com,,0,0,1
+761,Core-21678,Core-23161,DUPLICATE,[EVENTTARG][DOGFOOD] event handling on right-floating images causes links not to work,[dogfood][EVENTTARG] Cant click on right hand URLs on CNET,0,1,1
+762,Core-21707,Core-24078,DUPLICATE,Tree: Dragging column headers problem in history window,,0,0,1
+763,Core-21774,Core-46814,DUPLICATE,Background image not layed out correctly after closing sidebar and reloading,,0,0,1
+764,Core-21803,Core-21805,DUPLICATE,Lots of asserts displaying message,Lots of Assertions displaying message,1,1,1
+765,Core-21804,Core-21805,DUPLICATE,Lots of asserts displaying message,Lots of Assertions displaying message,1,1,1
+766,Core-21878,Core-21918,DUPLICATE,mozilla from CVS SIGSEVs on this page,CNN Story Causes Crash,1,1,1
+767,Core-21902,Core-58589,DUPLICATE,Logitech Trakball scrolling,,0,0,1
+768,Core-21919,Core-22270,DUPLICATE,Input field resize...,Text field in profile-wizard changes size on click,0,0,1
+769,Core-21920,Core-28766,DUPLICATE,<font size=1> rendered too big {font} {ll},,0,0,1
+770,Core-21985,Core-57342,DUPLICATE,[RFE] view as text option for unknown mime type,,0,0,1
+771,Core-21996,Core-22536,DUPLICATE,[FEATURE] View > Use Stylesheet menu items do nothing,,0,0,1
+772,Core-22008,Core-22529,DUPLICATE,[TRACKING] Spacebar; PageDn; PageUp behave erratically/unreliably,[FEATURE] Keyboard shortcuts,0,0,1
+773,Core-22063,Core-22765,DUPLICATE,form input field behave erratically,form inputs are incorrectly painting at left edge in floated tables,1,0,1
+774,Core-22131,Core-27006,DUPLICATE,POST method form fields values do not make it to the CGI,<meta> content-type with charset doesnt repost form data on reload,1,0,1
+775,Core-22153,Core-61893,DUPLICATE,Form action mailto: not implemented,,0,0,1
+776,Core-22260,Core-111103,DUPLICATE,Mozilla must ignore attribute values for unknown elements (esp. STYLE for I/NO/LAYER) [LAYER],,0,0,1
+777,Core-22262,Core-35646,DUPLICATE,Display unknown tags as icons,,0,0,1
+778,Core-22270,Core-29198,DUPLICATE,Text field in profile-wizard changes size on click,,0,0,1
+779,Core-22298,Core-26493,DUPLICATE,Mozilla delays; then crashes in use with WinGate Gateway Client,,0,0,1
+780,Core-22328,Core-24186,DUPLICATE,[BLOCK] Line-height inside TD is too high (?); skews table layout,In NavQuirks mode; ignore line-height on block elements {ll} {compat} [TEXT],1,0,1
+781,Core-22377,Core-28934,DUPLICATE,Mouse cursor doesnt change from Hand to Line when using cursors to scroll down.,link highlighting then scroll wheel,1,1,1
+782,Core-22393,Core-37463,DUPLICATE,Javascript function causes crash,,0,0,1
+783,Core-22407,Core-23401,DUPLICATE,keyboard scrolling fails - javascript error,Page Up/Down does not work: XUL controllers clobbered?,0,1,1
+784,Core-22471,Core-22529,DUPLICATE,Many keystrokes dont work on OpenVMS M15,[FEATURE] Keyboard shortcuts,0,0,1
+785,Core-22482,Core-24329,DUPLICATE,serious flaws browsing web through proxy server that requires user authentication,Proxy: session-length auth cache,1,1,1
+786,Core-22483,Core-26857,DUPLICATE,bad display (html codes appearing),document.write(</SCRIPT>); closes <SCRIPT> tag.,1,1,1
+787,Core-22566,Core-26149,DUPLICATE,Password box does not close,AutoFill Password dialog wont go away upon cancelling,1,1,1
+788,Core-22569,Core-29854,DUPLICATE,first-letter selector in table cells doesnt work,No text wrap in tables with first-letter style rule,1,0,1
+789,Core-22580,Core-29154,DUPLICATE,form text remember any non Latin1 char as .,nsPresState::SetStateProperty trash non ASCII unicode data,1,1,1
+790,Core-22611,Core-22782,DUPLICATE,Arrow keys manipulate window when menu is deployed,Arrow/letter keys get to browser when menu is active,1,1,1
+791,Core-22685,Core-22692,DUPLICATE,Sorting changes the content of the text boxes,Removing a floater deletes its frames but not its views,0,1,1
+792,Core-22691,Core-22765,DUPLICATE,Forms do really strange things,form inputs are incorrectly painting at left edge in floated tables,1,0,1
+793,Core-22705,Core-22795,DUPLICATE,eMail checking onsubmit does not work,,0,0,1
+794,Core-22764,Core-24304,DUPLICATE,M12 cant use autoproxy,Preferences change function not registered as yet,0,1,1
+795,Core-22769,Core-26828,DUPLICATE,scroll bar design is misleading,,0,0,1
+796,Core-22770,Core-102370,DUPLICATE,[quirks]<dl> <dt> indenting does not work.,,0,0,1
+797,Core-22774,Core-35666,DUPLICATE,[FLOAT] flow around tables seems to retain state inappropriatly,,0,0,1
+798,Core-22775,Core-242621,DUPLICATE,AutoScroll/Panning support [eg; Mousewheel Click/Drag triggered],,0,0,1
+799,Core-22812,Core-23161,DUPLICATE,[EVENTTARG]some links dont work,[dogfood][EVENTTARG] Cant click on right hand URLs on CNET,1,1,1
+800,Core-22850,Core-25712,DUPLICATE,Anchors created by document.write dont work.,Anchor moves to wrong position,0,1,1
+801,Core-22873,Core-46594,DUPLICATE,Text cant be selected on some pages,,0,0,1
+802,Core-22886,Core-48200,DUPLICATE,redirects with no trailing CRLF after headers dont work,,0,0,1
+803,Core-22906,Core-34291,DUPLICATE,Hyperlinks wrap incorrectly with fixed width tables,[TEXT] text wrapping bug at punctuation followed by span,0,0,1
+804,Core-22913,Core-54834,DUPLICATE,word wrap off on page with code sample,,0,0,1
+805,Core-22974,Core-24679,DUPLICATE,[dogfood] Cant log into E*trade site,Problems logging on to Etrade,0,1,1
+806,Core-23140,Core-46757,DUPLICATE,[Menus] Mappings not removed for menupopups when frames destroyed,,0,0,1
+807,Core-23146,Core-96870,DUPLICATE,print option for printing background images,,0,0,1
+808,Core-23151,Core-23680,DUPLICATE,[DOGFOOD] table cells arent side by side on cvs diff pages,Unable to display cvs logs using mozilla,0,1,1
+809,Core-23180,Core-25161,DUPLICATE,Cant select form elements in editor,Editor needs to handle editing pages with forms,1,0,1
+810,Core-23255,Core-101148,DUPLICATE,content inside table but not in table cells (bad html) cause random behavior,,0,0,1
+811,Core-23375,Core-24033,DUPLICATE,Bugzilla bug list looks funny.,Set-cookie: HTTP header is somehow pushed into the content model.,0,0,1
+812,Core-23386,Core-311340,DUPLICATE,Copied text not available after app shuts down,,0,0,1
+813,Core-23445,Core-86770,DUPLICATE,[Windows] ALT;SPACEBAR is not activating control menu,,0,0,1
+814,Core-23465,Core-78510,DUPLICATE,Ability to update the color of visited links (VLINK) without having to reload,,0,0,1
+815,Core-23509,Core-24890,DUPLICATE,Go to the Mousewheel pref and press OK gives you error,,0,0,1
+816,Core-23524,Core-23525,DUPLICATE,{BLOCKER] Browser does not launch after profile creation,,0,0,1
+817,Core-23552,Core-23555,DUPLICATE,SPAN inside A splits link,SPAN splits link into pieces,1,1,1
+818,Core-23591,Core-24113,DUPLICATE,<TABLE BORDER=1 FRAME=void RULES=groups> not displaying correctly,<table> frame and rules attributes not handled correctly,1,1,1
+819,Core-23604,Core-399384,DUPLICATE,first-letter into inline frame lost on restyle (e.g.; from :hover),,0,0,1
+820,Core-23681,Core-25096,DUPLICATE,find selection not working,Bringing up modal dialog causes the selection to disappear,0,0,1
+821,Core-23691,Core-41924,DUPLICATE,Inline IMGs with no explicit size should not have a placeholder box,,0,0,1
+822,Core-23717,Core-24385,DUPLICATE,crash after leaving browser on over night,crash in StripeTimer::Notify closing mail window while checking for new mail,1,1,1
+823,Core-23738,Core-124744,DUPLICATE,|nsIPtr| is deprecated in favor of |nsCOMPtr|,,0,0,1
+824,Core-23772,Core-25308,DUPLICATE,Unable to target IFrame with <A>,Base targeting doesnt go to the correct frame.,1,0,1
+825,Core-23851,Core-43030,DUPLICATE,IME-Adding spaces at beginning of line needs two spaces when IME is on,,0,0,1
+826,Core-23853,Core-23927,DUPLICATE,[PP] Linux: Location: control not case-insensitive,capitalized letters in http portion of URLs break URL parsing,1,1,1
+827,Core-23882,Core-53317,DUPLICATE,Crash when clicking on link on http://www.usatoday.com/sports/sfront.htm,,0,0,1
+828,Core-24120,Core-39755,DUPLICATE,Content not being drawn,,0,0,1
+829,Core-24125,Core-41924,DUPLICATE,Support the name attribute in the alt text generation algorithm,,0,0,1
+830,Core-24143,Core-39938,DUPLICATE,History does not reflect server-side redirects,,0,0,1
+831,Core-24147,Core-62418,DUPLICATE,Directory and files gets create when starting Mozilla with a profile that point to a invalid directory,,0,0,1
+832,Core-24179,Core-27661,DUPLICATE,Using arrow keys in drop down selection scrolls the page,[GFX LIST]navigating in combo/list box causes entire page to scroll,0,1,1
+833,Core-24209,Core-24497,DUPLICATE,text boxes flash when first clicked,1st click to input field blinks its background,1,1,1
+834,Core-24211,Core-52414,DUPLICATE,Keyboard scrolling not working when mouse out of frame,,0,0,1
+835,Core-24252,Core-24304,DUPLICATE,Proxy not used when running for the first time,Preferences change function not registered as yet,1,1,1
+836,Core-24296,Core-40430,DUPLICATE,Access keys not in DTDs in many cases,,0,0,1
+837,Core-24312,Core-64978,DUPLICATE,some component has bad registration behavior (optimized mac RegXPCom crashes),,0,0,1
+838,Core-24325,Core-29697,DUPLICATE,Highlighting text inputs acting strange.,,0,0,1
+839,Core-24352,Core-29515,DUPLICATE,Slow rendering of deeply nested <ul>s,Moving mouse over links at abcnews.com freezes browser,0,1,1
+840,Core-24364,Core-31086,DUPLICATE,UI Composer; Position of Window Not Remembered (Linux only),,0,0,1
+841,Core-24370,Core-27784,DUPLICATE,Must click on Mail login to see asterisks,,0,0,1
+842,Core-24425,Core-24597,DUPLICATE,[PP] find field has menu item overlay text,,0,0,1
+843,Core-24438,Core-25021,DUPLICATE,Cannot print .png images,OnEndDocumentLoad is not reached when an image file is viewed directly,0,1,1
+844,Core-24497,Core-25947,DUPLICATE,1st click to input field blinks its background,clicking on text control form element too slow,1,1,1
+845,Core-24523,Core-35228,DUPLICATE,[Feature]Print odd/even pages,,0,0,1
+846,Core-24549,Core-35777,DUPLICATE,Mozilla crashes whenever I open a certain website.,,0,0,1
+847,Core-24557,Core-24933,DUPLICATE,Int. chars in Whats related doesnt work.,[BETA1] Non-ASCII Rel Links show up in garbage on cached page,1,1,1
+848,Core-24645,Core-52359,DUPLICATE,[XBL] Convert DOM window keybindings to XBL,,0,0,1
+849,Core-24679,Core-40449,DUPLICATE,Problems logging on to Etrade,,0,0,1
+850,Core-24681,Core-26716,DUPLICATE,[Activation] Cant launch after turning the activation prefs on (true; www.my.netscape.com),,0,0,1
+851,Core-24696,Core-34033,DUPLICATE,View->Sidebar; document scrollbars stop working,Widgets are getting destroyed for unknown reasons,0,0,1
+852,Core-24771,Core-25425,DUPLICATE,Changing the background color dynamically generates a table border when the tables border is set to 0,changing document.bgcolor creates borders,0,1,1
+853,Core-24819,Core-29370,DUPLICATE,Linked CSS rules sometimes forgotten?,Cache doesnt work for CSS and JS files,1,1,1
+854,Core-24822,Core-39368,DUPLICATE,Incremental loading for text files,,0,0,1
+855,Core-24883,Core-24885,DUPLICATE,[CRASH] Crash when hitting backspace key in any text box,Crash when typing Backspace in URL bar,0,1,1
+856,Core-24905,Core-56561,DUPLICATE,Mac - Line breaks not correctly copied to clipboard,,0,0,1
+857,Core-24956,Core-29840,DUPLICATE,Scrolling line by line is 2x as slow as 4.x,,0,0,1
+858,Core-25004,Core-26193,DUPLICATE,Document.write used in a TD element drops out BGCOLOR/BACKGROUND in cell,element.bgColor appears to be failing in M13 for table elements,1,1,1
+859,Core-25164,Core-53896,DUPLICATE,spacebar scrolls page instead of submits,,0,0,1
+860,Core-25181,Core-25269,DUPLICATE,mail wizard crashes when you hit cancel and start with mozilla -mail,,0,0,1
+861,Core-25189,Core-78510,DUPLICATE,Link color doesnt change before mouse moves,,0,0,1
+862,Core-25246,Core-25259,DUPLICATE,Assertion and failure to end load of page,[Regression]Cannot enter text in Composer,0,0,1
+863,Core-25261,Core-30936,DUPLICATE,TAB Key does not return to URL bar after EOF,,0,0,1
+864,Core-25283,Core-26265,DUPLICATE,String bundle throwing JS exceptions on Mac.,,0,0,1
+865,Core-25335,Core-26174,DUPLICATE,Remember password prompt is not modal,,0,0,1
+866,Core-25371,Core-28244,DUPLICATE,display problem in the history window,[Tree] tree doesnt clip its children to its view,0,1,1
+867,Core-25450,Core-30267,DUPLICATE,Images dont show,,0,0,1
+868,Core-25454,Core-26149,DUPLICATE,Doesnt recognise failed authorisation,AutoFill Password dialog wont go away upon cancelling,1,1,1
+869,Core-25458,Core-28583,DUPLICATE,Tabbing from proxy textfield to its port doesnt highlight text,Focusing text widget (except on click) should select widget contents [also form <input> field],1,1,1
+870,Core-25538,Core-74383,DUPLICATE,TEXTAREA not displaying input as typed....,,0,0,1
+871,Core-25571,Core-26265,DUPLICATE,[PP]Creating 2nd profile with same name does not give me warning,,0,0,1
+872,Core-25612,Core-39901,DUPLICATE,variable width images not displayed correctly,,0,0,1
+873,Core-25618,Core-28586,DUPLICATE,[RFE] Failed connections or unknown host alerts should be displayed as webpages,,0,0,1
+874,Core-25628,Core-26834,DUPLICATE,new window positioned partly offscreen; no menus.,opened windows need sanity checks on size; position and visibility,1,0,1
+875,Core-25646,Core-179052,DUPLICATE,put build ID in separate file,,0,0,1
+876,Core-25712,Core-39716,DUPLICATE,Anchor moves to wrong position,,0,0,1
+877,Core-25743,Core-28003,DUPLICATE,new window blinks in black before drawn,no background color should be set on a window on linux,0,1,1
+878,Core-25806,Core-25833,DUPLICATE,Dialog box shows up only once when multiple wrong URLs are entered,,0,0,1
+879,Core-25868,Core-32335,DUPLICATE,HTTP Basic authentication on sub directories,basic auth must use realm,1,0,1
+880,Core-25915,Core-26658,DUPLICATE,scroll bar doesnt allways work,linux: Scrollbars in browser sometimes go free; stop working,1,1,1
+881,Core-25933,Core-25934,DUPLICATE,Fonts resise causes table border to appear,Font resise causes table border to appear,1,1,1
+882,Core-25938,Core-26882,DUPLICATE,Spacebar in text area scrolls containing page down,spacebar causes page down in forms - textarea,0,1,1
+883,Core-25945,Core-25946,DUPLICATE, ; ;  unavailable in textbox before page completely loaded,,0,0,1
+884,Core-25991,Core-26317,DUPLICATE,cant re-use same profile name after deleting profile dir,Doing MigrateProfileInfo() all the time will have lots of side effects,1,1,1
+885,Core-25995,Core-102477,DUPLICATE,Download manager (multiple downloads per window),,0,0,1
+886,Core-25999,Core-31482,DUPLICATE,page displays blank - http://www.wingspanbank.com,frameset ROWS=95;*; nothing comes up,0,1,1
+887,Core-26013,Core-37275,DUPLICATE,change progids to CompanyName.ProductName.Version from <component://...>,,0,0,1
+888,Core-26015,Core-28553,DUPLICATE,table disappears on mouseover,Table disappears when mouse over link (Unnecessary reframing for special frames),0,0,1
+889,Core-26022,Core-48351,DUPLICATE,XHTML 1.0 document with text/html media-type is treated as HTML 4.0 document.,,0,0,1
+890,Core-26026,Core-36790,DUPLICATE,embedded stylesheet in XHTML 1.0 document is not recognized.,,0,0,1
+891,Core-26028,Core-29641,DUPLICATE,extremely long delay after loading page,Layout for pages with long text is very slow,1,1,1
+892,Core-26093,Core-47309,DUPLICATE,Whitespace is not being carried in cut and paste operations,,0,0,1
+893,Core-26156,Core-26336,DUPLICATE,No unregistered protocol warnings on URIs in FORM action,A form submit where action=https://... produces no user warning.,0,1,1
+894,Core-26167,Core-26381,DUPLICATE,Enter bulleted list; bold last word; last word is duplicated at top,double key event action,0,1,1
+895,Core-26190,Core-30743,DUPLICATE,M13 crashed while loading http://www.hamsterdance.com,M14: Crash on attempt to load http://www.broadway.com,1,1,1
+896,Core-26207,Core-30852,DUPLICATE,Expires date header not being honored; always gets cached copy,Image cache not refreshed on reload,0,1,1
+897,Core-26209,Core-26584,DUPLICATE,Fixed Positioning: Not inline with W3C results,position: fixed DIV displays copy of HTML document and junk instead of DIV content,1,1,1
+898,Core-26226,Core-27775,DUPLICATE,Cannot display correctly www.oracle.com,cannot load oracle site (due to javascript error?),0,1,1
+899,Core-26360,Core-26381,DUPLICATE,Paste into HTML Editor window duplicates the original data,double key event action,0,1,1
+900,Core-26361,Core-32276,DUPLICATE,Menus are not attached to the window / window jumps,,0,0,1
+901,Core-26388,Core-28783,DUPLICATE,Performance and optimization cleanup,,0,0,1
+902,Core-26398,Core-26590,DUPLICATE,Table | Properties dialog window too short; OK not visible,,0,0,1
+903,Core-26407,Core-37656,DUPLICATE,www.totalrpg.coms tables do not display well,,0,0,1
+904,Core-26427,Core-26876,DUPLICATE,Manage Bookmark does not refresh when you resize a column,,0,0,1
+905,Core-26435,Core-28221,DUPLICATE,Could custom allocators for |nsString| speed page loads?,[tracking bug] profile string usage; deploy new implementations where appropriate,0,0,1
+906,Core-26473,Core-652771,DUPLICATE,info needed for new Euro character?,,0,0,1
+907,Core-26481,Core-31399,DUPLICATE,Crash canceling xpi from Progress dialog (bigfile),Crash occurs when selecting Cancel from download dialog,1,1,1
+908,Core-26484,Core-27832,DUPLICATE,XUL Key Bindings and XBL Bindings should not support key,key binding with without xulkey=true fails on mail window,1,1,1
+909,Core-26538,Core-29370,DUPLICATE,CSS?,Cache doesnt work for CSS and JS files,0,1,1
+910,Core-26562,Core-26591,DUPLICATE,[PP] link dialog/props panel comes up blank,link panel shows up too wide.,1,0,1
+911,Core-26570,Core-26607,DUPLICATE,crash accessing bugzilla queries from personal toolbar,,0,0,1
+912,Core-26582,Core-35506,DUPLICATE,nsImageRequest isnt being notified of abort on missing disk based images,,0,0,1
+913,Core-26640,Core-26649,DUPLICATE,Crash in mem cache loading BBC news site,,0,0,1
+914,Core-26658,Core-34033,DUPLICATE,linux: Scrollbars in browser sometimes go free; stop working,Widgets are getting destroyed for unknown reasons,0,0,1
+915,Core-26687,Core-39986,DUPLICATE,tinderbox leak log shows new 3k leak regression,,0,0,1
+916,Core-26718,Core-64857,DUPLICATE,Conn: Mozilla goes deaf to net when network config changes,,0,0,1
+917,Core-26736,Core-29370,DUPLICATE,CSS doesnt show correctly; also iframes...,Cache doesnt work for CSS and JS files,0,1,1
+918,Core-26742,Core-33467,DUPLICATE,RFE: Add Site needed in Cookie Manager -> Website Setup,Cookie Manager should allow direct entry of entries to reject/allow - add site button,1,1,1
+919,Core-26793,Core-48634,DUPLICATE,JavaScript cannot obtain dimensions of the *visible* window area,,0,0,1
+920,Core-26848,Core-37587,DUPLICATE,Auto-Select content in URL bar,,0,0,1
+921,Core-26855,Core-28580,DUPLICATE,Location widget (urlbar) keeps Focus after Enter/Return key,Kbd Focus should shift to main window after CR/NL,1,0,1
+922,Core-26860,Core-32736,DUPLICATE,turn on --enable-x11-shm by default,,0,0,1
+923,Core-26875,Core-27486,DUPLICATE,Java appletss stop method is not called during page switch,Browser deadlock because Plug-in native window is destroyed before the applets stop is called,1,1,1
+924,Core-26926,Core-58830,DUPLICATE,sort out ownership model (WAS: shutdown crash in PresShell::ProcessReflowCommands),,0,0,1
+925,Core-26965,Core-32664,DUPLICATE,add link to bug form to Mozilla QA menu,,0,0,1
+926,Core-26994,Core-27266,DUPLICATE,Remove All styles doesnt work,Remove All Styles should work for all text attributes; not just B;I;U,1,0,1
+927,Core-27012,Core-38966,DUPLICATE,Need UI for setting site-specific policies,,0,0,1
+928,Core-27031,Core-27339,DUPLICATE,Having intranet address in URL redirecting page on linux.,,0,0,1
+929,Core-27107,Core-27109,DUPLICATE,Clicking on a Certificate dialog box crashes mozilla.exe,Security Advisor crashes,1,1,1
+930,Core-27120,Core-27287,DUPLICATE,Command line args no longer work to launch mail etc.,,0,0,1
+931,Core-27123,Core-29311,DUPLICATE,excessive calls to nsViewManager::MoveViewTo,,0,0,1
+932,Core-27203,Core-29643,DUPLICATE,Pictures from livecam are not updated,IMG src can *only* handle image content types.,0,1,1
+933,Core-27233,Core-53165,DUPLICATE,JS fill-in is very slow,,0,0,1
+934,Core-27235,Core-30026,DUPLICATE,Browser crashes when JavaScript writes a <SCRIPT SRC=> tag,browser crashes when loading this page,1,1,1
+935,Core-27244,Core-34176,DUPLICATE,layout falls of edge of page; no horizontal scroll bar,Text in articles does not wrap correctly (table-layout: fixed),0,1,1
+936,Core-27249,Core-28781,DUPLICATE,crash when going from slashdot to freshmeat using back context menu,linux; win: Back/Forward from context menu crashes browser,0,0,1
+937,Core-27340,Core-27855,DUPLICATE,Close profile manager via start button and hang,,0,0,1
+938,Core-27346,Core-155510,DUPLICATE,[feature] auto-sizing columns of tree widget,,0,0,1
+939,Core-27366,Core-37886,DUPLICATE,FastTrack admin pages are incorrect,,0,0,1
+940,Core-27548,Core-30372,DUPLICATE,Shockwave site that crashes mozilla http://www.z100.com/source/hpsn/britney/index.html,can not load  page with midi file. Mozilla crashes.,0,1,1
+941,Core-27551,Core-74889,DUPLICATE,improve scalable font handling on X,,0,0,1
+942,Core-27603,Core-34291,DUPLICATE,URL does not wrap properly,[TEXT] text wrapping bug at punctuation followed by span,1,0,1
+943,Core-27611,Core-28815,DUPLICATE,Feature: Mozilla should handle profiles like Netscape 4.x on *NIX platforms,By-pass Profile screen(s) at FIRST START-UP,1,1,1
+944,Core-27660,Core-31048,DUPLICATE,crash in nsGenericElement::HandleDOMEvent,,0,0,1
+945,Core-27729,Core-38960,DUPLICATE,attempting to open .bmp image crashes Seamonkey,,0,0,1
+946,Core-27835,Core-27951,DUPLICATE,Setting input (type=text) editfield value to  (empty string) doesnt work,<INPUT TYPE=RESET> doesnt clear text field,0,1,1
+947,Core-27845,Core-27846,DUPLICATE,Directory listings are hosed.,Directory listings are hosed.,1,1,1
+948,Core-27938,Core-33733,DUPLICATE,Scroll wheels scroll page *and* select options at same time,Pulldown list does not go away on mousewheel action,0,1,1
+949,Core-28036,Core-38808,DUPLICATE,[regression]-CreateProfile foo $HOME/foo puts foo in .mozilla,,0,0,1
+950,Core-28067,Core-29206,DUPLICATE,Plugin plays outside gray area and blocks image,QuickTime plugin half-drawn and positioned incorrectly,1,1,1
+951,Core-28107,Core-28112,DUPLICATE,The Character coding cache list does not get saved for the next session,charset cache for View|Character Coding menu not persistent,1,1,1
+952,Core-28111,Core-37656,DUPLICATE,multiple width=100% table cells render incorrectly,,0,0,1
+953,Core-28142,Core-36547,DUPLICATE,Back button loads page in wrong frame,,0,0,1
+954,Core-28145,Core-28148,DUPLICATE,linux: mouse control grabbed when trying to change master passwd,,0,0,1
+955,Core-28207,Core-28243,DUPLICATE,Create new profile runs twice,linux: Profile not getting saved on Linux,0,1,1
+956,Core-28213,Core-28526,DUPLICATE,Whitespace related layout issues on linux.com {compat},extra vertical space in tables [P-Margin],0,0,1
+957,Core-28272,Core-30606,DUPLICATE,Invalid scroll when window gets focus.,target/anchor links jump on lost then gain focus,0,1,1
+958,Core-28297,Core-29370,DUPLICATE,Page doesnt reload properly,Cache doesnt work for CSS and JS files,0,1,1
+959,Core-28337,Core-28434,DUPLICATE,ASSERTION: failed to remove frame: result; file nsContainerFrame.cpp; line 802,crash clicking link on www.nytimes.com,1,1,1
+960,Core-28361,Core-28403,DUPLICATE,Netscape acting as a server?,Crash in UCONV.DLL when zonealarm is active,0,1,1
+961,Core-28376,Core-28396,DUPLICATE,spacecharacternotworking,cant-type-spaces-in-plain-text-fields,0,1,1
+962,Core-28391,Core-148585,DUPLICATE,RFE: click method for elements which allow onclick handler,,0,0,1
+963,Core-28403,Core-32048,DUPLICATE,Crash in UCONV.DLL when zonealarm is active,Browser does not start if Wingate is enabled,1,1,1
+964,Core-28421,Core-29749,DUPLICATE,Page doesnt display correctly,BORDER=false converted to 0xFA; big border,0,1,1
+965,Core-28465,Core-28640,DUPLICATE,Box layout does not provide consistent sizes,Accessing bookmarks menu causes exit crash,0,0,1
+966,Core-28490,Core-29370,DUPLICATE,Layout messed up when reloading page,Cache doesnt work for CSS and JS files,0,1,1
+967,Core-28516,Core-28688,DUPLICATE,blank lines inserted when removing a bullet,if final LI in UL list is empty; clicking un-list toolbar button creates three Normals instead of one,1,1,1
+968,Core-28526,Core-35772,DUPLICATE,extra vertical space in tables [P-Margin],,0,0,1
+969,Core-28536,Core-28540,DUPLICATE,DirectoryViewer does not parse de-locale dateformat,[RFE] FTP: nsFTPListingConv creates incorrect date in http-index-format,0,1,1
+970,Core-28565,Core-29394,DUPLICATE,Problems with table sizing,Table layout trashed on site lenta.ru,0,1,1
+971,Core-28581,Core-30563,DUPLICATE,Default profile name should be nicer than `mozProfile,,0,0,1
+972,Core-28615,Core-65608,DUPLICATE,[RFE]Run-time hooks to export history,,0,0,1
+973,Core-28616,Core-48790,DUPLICATE,png image not displayed,,0,0,1
+974,Core-28643,Core-29370,DUPLICATE,CSS ignored when displayed in a frame,Cache doesnt work for CSS and JS files,0,1,1
+975,Core-28648,Core-29989,DUPLICATE,<FONT> ignored immediately after <HR>,Text after carriage return in messages is wront font; clicking back then causes browser crash,1,0,1
+976,Core-28710,Core-28716,DUPLICATE,Multiple bullet levels on same line,Multiple bullet levels on same line,1,0,1
+977,Core-28747,Core-29643,DUPLICATE,Image in web page not displaying,IMG src can *only* handle image content types.,0,1,1
+978,Core-28751,Core-28854,DUPLICATE,remove default pref: intl.mailcharset.cyrillic,clean up intl values in all.js,1,1,1
+979,Core-28752,Core-30950,DUPLICATE,Parts of windows translucent,Background doesnt paint until document loaded,0,1,1
+980,Core-28779,Core-29574,DUPLICATE,MLK: nsProfileAccess,[MLK] Each ProfileStruct is leaking a bunch of C strings,1,1,1
+981,Core-28845,Core-50480,DUPLICATE,[INLINE][LIST]bullet lists cram together when no contents in an <li>,,0,0,1
+982,Core-28848,Core-47496,DUPLICATE,Insecure gifs appear on secure page.,,0,0,1
+983,Core-28867,Core-29355,DUPLICATE,nsThread leaked by SetMainThread,,0,0,1
+984,Core-28878,Core-44718,DUPLICATE,Crash on trying to print www.aol.com page,,0,0,1
+985,Core-28924,Core-31587,DUPLICATE,strange FTP password dialog behavior,Incorrect password information in FTP authentication window.,1,1,1
+986,Core-28934,Core-50511,DUPLICATE,link highlighting then scroll wheel,,0,0,1
+987,Core-28966,Core-100828,DUPLICATE,Remove implementation exposing methods from nsILocalFileMac,,0,0,1
+988,Core-29000,Core-68059,DUPLICATE,Remove link should be disabled when not in a link,,0,0,1
+989,Core-29130,Core-29133,DUPLICATE,Page no longer displayed although document done message appears,,0,0,1
+990,Core-29177,Core-29749,DUPLICATE,Undefined attributes in FRAMESET tag screw up frame height,BORDER=false converted to 0xFA; big border,0,1,1
+991,Core-29192,Core-29400,DUPLICATE,strange behavior of multi-level menus (especially in the blue bookmarks menu),Menus dont work properly when too many submenus are open,1,1,1
+992,Core-29206,Core-36046,DUPLICATE,QuickTime plugin half-drawn and positioned incorrectly,,0,0,1
+993,Core-29226,Core-29229,DUPLICATE,Loading this url never completes,,0,0,1
+994,Core-29246,Core-64327,DUPLICATE,Selection.idl and Range.idl need comments,,0,0,1
+995,Core-29248,Core-29252,DUPLICATE,Security Advisor does not open.,,0,0,1
+996,Core-29315,Core-169492,DUPLICATE,Javascript-generated window comes up with the wrong size and bad chrome,,0,0,1
+997,Core-29352,Core-32415,DUPLICATE,mouseout events not working,,0,0,1
+998,Core-29375,Core-29387,DUPLICATE,ABR: nsURLEscape(),[ABR] in nsURLEscape and nsURLUnescape,1,1,1
+999,Core-29394,Core-29735,DUPLICATE,Table layout trashed on site lenta.ru,most of page collapses to a single overlapping line,1,1,1
+1000,Core-29447,Core-33784,DUPLICATE,[MARGIN-C][P-Margin] <center><p> adds extra line break,,0,0,1
+1001,Core-29511,Core-39209,DUPLICATE,Cell with fixed width resizes on reflow,,0,0,1
+1002,Core-29519,Core-29544,DUPLICATE,Redrawing selects on Bugzilla bug query page -> 30-45 seconds,Bugzilla query page displays *really* slowly in mozilla,1,1,1
+1003,Core-29536,Core-41268,DUPLICATE,resource: protocol needs to use memory cache,,0,0,1
+1004,Core-29621,Core-30016,DUPLICATE,nsDirectoryService leaks,[MLK] nsDirectoryService leaks,1,0,1
+1005,Core-29698,Core-105909,DUPLICATE,Non-Ascii directory & file name should be displayed as it is in URL,,0,0,1
+1006,Core-29765,Core-30532,DUPLICATE,cannot find libjpeg on SuSE 6.2,,0,0,1
+1007,Core-29808,Core-35921,DUPLICATE,Mailnews/Aim windows sometimes doesnt refresh display,,0,0,1
+1008,Core-29829,Core-57563,DUPLICATE,[feature] Disable attribute doesnt work on top-level Mac menus,,0,0,1
+1009,Core-29864,Core-31265,DUPLICATE,Cant login on ebay,ebay sign in fails,1,1,1
+1010,Core-29879,Core-33119,DUPLICATE,nsCSSRendering.cpp: #ifdef XP_Unix needs to go away,Background image on paragraph tiles from the paragraph to the bottom of the page,1,1,1
+1011,Core-29920,Core-29923,DUPLICATE,javascript window.open doesnt work,Javascript problem,0,1,1
+1012,Core-29940,Core-34291,DUPLICATE,word wrap error with html anchor at end of line,[TEXT] text wrapping bug at punctuation followed by span,1,0,1
+1013,Core-30007,Core-31644,DUPLICATE,link text multiplies on every  mouseover and mouseout,Left side of etrade page rendered repeatedly,1,0,1
+1014,Core-30122,Core-39992,DUPLICATE,drop down box leaves screen debris,,0,0,1
+1015,Core-30152,Core-33524,DUPLICATE,choosing columns to show and hide in manage bookmarks crashes,,0,0,1
+1016,Core-30196,Core-31196,DUPLICATE,JPEGs are not displayed on non-RedHat Linux systems,Need to ship jpeg library that we build from the tree,1,1,1
+1017,Core-30217,Core-31997,DUPLICATE,Explicitly set status bar text is persistent across sites,Statusbar text set via JavaScript persists over session,0,0,1
+1018,Core-30322,Core-33762,DUPLICATE,2nd visit to mixed site shows locked lock,,0,0,1
+1019,Core-30354,Core-30786,DUPLICATE,Regression: mail window taskbar icons are jammed together,task icons in the browser window are messed up.,1,1,1
+1020,Core-30364,Core-30365,DUPLICATE,nsFileTransport::OpenInputStream takes 1.10 sec out of (9.9secs + dll loadtime),,0,0,1
+1021,Core-30396,Core-30602,DUPLICATE,Version number reporting (client sniffer),,0,0,1
+1022,Core-30482,Core-33948,DUPLICATE,Drag-selecting text not correct in URL bar,difficult to select text (like in location bar),1,1,1
+1023,Core-30483,Core-30487,DUPLICATE,Font attributes spill out of <TABLE></TABLE>,Erroneous close font tag inside table affects entire document,0,0,1
+1024,Core-30507,Core-35639,DUPLICATE,[feature] [XUL] Make <editor> init machinery happen by default,,0,0,1
+1025,Core-30549,Core-34218,DUPLICATE,Scrollbar flies off into space when child movement inits scroll..,Scrollbar leaves traces of itself as it shrinks (incremental;paint),0,0,1
+1026,Core-30551,Core-35246,DUPLICATE,CSS :active pseudo-class does nothing in forms,,0,0,1
+1027,Core-30568,Core-32849,DUPLICATE,The URL text box freezes periodicaly,URL text box stopps working,1,1,1
+1028,Core-30596,Core-32191,DUPLICATE,images stacked instead of side by side,[FIXED IN 0.9.2] incorrect line break before and after img tag,0,0,1
+1029,Core-30599,Core-30666,DUPLICATE,win32: Crash running profile manager 2nd time,,0,0,1
+1030,Core-30612,Core-30613,DUPLICATE,sometimes bugzilla query pages not displayed correctly,,0,0,1
+1031,Core-30695,Core-30738,DUPLICATE,Mail app crashes in lineLayout/blockFrame when replying to a particular msg,Crash when replying to a message with a bugzilla page.,1,0,1
+1032,Core-30874,Core-30885,DUPLICATE,CRASH when viewing page,Crash on above page,0,1,1
+1033,Core-30880,Core-30881,DUPLICATE,Right-click on button with onClick fires the onClick event,,0,0,1
+1034,Core-30990,Core-37657,DUPLICATE,THIS WEEK: News and Features Headline in wrong location,,0,0,1
+1035,Core-31034,Core-34033,DUPLICATE,Scrollbar randomly stops working,Widgets are getting destroyed for unknown reasons,0,0,1
+1036,Core-31059,Core-79818,DUPLICATE,css @media screws up js cssRules[i] access,,0,0,1
+1037,Core-31137,Core-32201,DUPLICATE,layout uses too much stack space,The new layout of wired.com crashes the browser consistently,0,1,1
+1038,Core-31138,Core-31997,DUPLICATE,onmouseovers for A tags not working,Statusbar text set via JavaScript persists over session,0,0,1
+1039,Core-31185,Core-33772,DUPLICATE,If the server closes connection; no warning is issued,No warning when connection to TLS only site is not possible because tls is turned off in prefs.,1,1,1
+1040,Core-31196,Core-32754,DUPLICATE,Need to ship jpeg library that we build from the tree,,0,0,1
+1041,Core-31217,Core-32232,DUPLICATE,crash scrolling mousewheel outside app boundaries,,0,0,1
+1042,Core-31249,Core-41250,DUPLICATE,download new font if glyph cannot be found,,0,0,1
+1043,Core-31256,Core-41262,DUPLICATE,Problems with border-collapse and tables,,0,0,1
+1044,Core-31284,Core-44980,DUPLICATE,No Proxy For should support the *.mynet.com format,,0,0,1
+1045,Core-31296,Core-126919,DUPLICATE,[rfe]Font anti-aliasing on Linux?,,0,0,1
+1046,Core-31312,Core-32201,DUPLICATE,browse crashed if I open the URL specified,The new layout of wired.com crashes the browser consistently,1,1,1
+1047,Core-31335,Core-34943,DUPLICATE,Domain Guessing: localhost  links switches to www.localhost.com,Domain guessing (automatic www. and .com) shouldnt happen on links/URLs,1,1,1
+1048,Core-31353,Core-42387,DUPLICATE,Going to a secure page; can sometimes get an endless stream of dialogs,,0,0,1
+1049,Core-31375,Core-125729,DUPLICATE,[RFE] saving web page appends URL as comment in file.,,0,0,1
+1050,Core-31391,Core-31804,DUPLICATE,FTP active followed by open new browser hangs Mozilla,open up another window/location while downloading freezes browser,1,0,1
+1051,Core-31424,Core-38244,DUPLICATE,content of html file missing in the middle of file,,0,0,1
+1052,Core-31447,Core-116361,DUPLICATE,META refresh with URL causes browser-loop,,0,0,1
+1053,Core-31490,Core-71458,DUPLICATE,Scrollbar: click-dragging within elevator produces weird results,,0,0,1
+1054,Core-31559,Core-32161,DUPLICATE,Typing into textbox erases top of textbox,HTML text inputs show the text misplaced; and clobber their borders,0,1,1
+1055,Core-31579,Core-31713,DUPLICATE,Big white spot in Mozillazine talkback pages,Offscreen form elements render in the upper left corner of the content area,0,1,1
+1056,Core-31588,Core-31594,DUPLICATE,Clicking on text in named anchor jumps to top of anchor when anchor is not terminated,Editor underlines named anchors but browser doesnt when anchor is not terminated,1,1,1
+1057,Core-31663,Core-31713,DUPLICATE,Shows textarea over the image/logo on the top of the page,Offscreen form elements render in the upper left corner of the content area,0,0,1
+1058,Core-31678,Core-33212,DUPLICATE,https dialog is completely blank,,0,0,1
+1059,Core-31921,Core-56021,DUPLICATE,Cannot resize windows larger than physical screen,,0,0,1
+1060,Core-31957,Core-35508,DUPLICATE,crash opening popup windows,,0,0,1
+1061,Core-32023,Core-135403,DUPLICATE,improve User Identification Request cancel button,,0,0,1
+1062,Core-32029,Core-32161,DUPLICATE,form textinputs drawing bad / border gets whacked,HTML text inputs show the text misplaced; and clobber their borders,0,1,1
+1063,Core-32150,Core-38495,DUPLICATE,Scriptable Plugin methods/members need to be accessable from JavaScript,,0,0,1
+1064,Core-32248,Core-46268,DUPLICATE,<table bgcolor=> not showing up,,0,0,1
+1065,Core-32319,Core-53363,DUPLICATE,Undocumented Plug-in Behavior Not Supported ... and Breaks Acrobat Functionality,,0,0,1
+1066,Core-32356,Core-32358,DUPLICATE,[RFE] Context menu for mailto links; changes to copy option,,0,0,1
+1067,Core-32435,Core-32436,DUPLICATE,valign=baseline does not work correctly,vertical-align:baseline in table cells aligns on top,1,1,1
+1068,Core-32518,Core-36401,DUPLICATE,[REFLOW]Mouseover link causes page to be duplicated.,,0,0,1
+1069,Core-32544,Core-33733,DUPLICATE,Scroll-Wheel doesnt work in drop boxes,Pulldown list does not go away on mousewheel action,0,1,1
+1070,Core-32565,Core-32827,DUPLICATE,Pull down lists with scrollbars dont operate correctly,Pull down lists with scrollbars dont work,1,1,1
+1071,Core-32605,Core-34834,DUPLICATE,excessive CPU time with PSM,runaway psm,1,1,1
+1072,Core-32667,Core-37657,DUPLICATE,[FLOAT]Quirk: floating tables should not carry to next line,,0,0,1
+1073,Core-32877,Core-35407,DUPLICATE,Frame content doesnt show,,0,0,1
+1074,Core-32941,Core-34769,DUPLICATE,enablePrivilege non-functional; stops script if no PSM.,crash when running docfragment test -- cache related??,0,1,1
+1075,Core-33002,Core-37699,DUPLICATE,maximizing hides scrollbar without showing all content,,0,0,1
+1076,Core-33095,Core-35772,DUPLICATE,when two tables are separated with <p> mozilla removes tha gap [P-margin],,0,0,1
+1077,Core-33128,Core-33676,DUPLICATE,Unable to quit when Viewing Source,keyboard shortcuts dont work in Source window,0,1,1
+1078,Core-33184,Core-38019,DUPLICATE,[RFE] User/Password dialogs with security indicator for SSL,,0,0,1
+1079,Core-33229,Core-41748,DUPLICATE,Cursor not changed when ctrl held down,,0,0,1
+1080,Core-33253,Core-33415,DUPLICATE,Entering news:// url into url bar crashes browser,,0,0,1
+1081,Core-33269,Core-38486,DUPLICATE,Back/Forward Page Performance is slow compared to IE/Opera,,0,0,1
+1082,Core-33289,Core-33321,DUPLICATE,New window/dialog position inconvenient,,0,0,1
+1083,Core-33334,Core-39042,DUPLICATE,[RFE] Hyperlink URLs in text/plain and *.txt,,0,0,1
+1084,Core-33385,Core-35772,DUPLICATE,anchored links in DIVs fail with position: absolute,,0,0,1
+1085,Core-33446,Core-66715,DUPLICATE,GCC compiler warning in mozilla/layout/base/src/nsGenericDOMDataNode.cpp,,0,0,1
+1086,Core-33686,Core-34093,DUPLICATE,Cannot login to hotmail,Cant Login,1,1,1
+1087,Core-33687,Core-33688,DUPLICATE,http://webmail.netscape.com is not diplayed property when http compression is on,http://webmail.netscape.com is not diplayed property when http compression is on,1,1,1
+1088,Core-33739,Core-39268,DUPLICATE,FreeBSD 4.0 build crashes at startup,,0,0,1
+1089,Core-33759,Core-33803,DUPLICATE,document.images.complete fails if not called using the img elements name but an index,document.domain doesnt affect javascript: URLs,0,1,1
+1090,Core-33787,Core-34217,DUPLICATE,JavaScript URLs behaving strangely,javascript: URI does not execute JS; clears window instead,0,0,1
+1091,Core-33808,Core-35956,DUPLICATE,Strange continuing ftp download.,,0,0,1
+1092,Core-33809,Core-77365,DUPLICATE,Need support to bypass confirm dialog to implement Linux automation,,0,0,1
+1093,Core-33836,Core-33935,DUPLICATE,Absolute path to <link> for file loaded as file:/// causes crash,Open File on this test case causes crash,1,1,1
+1094,Core-33856,Core-43580,DUPLICATE,MLK: nsBasicEncoder,,0,0,1
+1095,Core-33871,Core-592827,DUPLICATE,[trk] (DOM2 HTML) HTMLDOMImplementation,,0,0,1
+1096,Core-33947,Core-46266,DUPLICATE,[CRASH] Mozilla crashes on starting a download.,,0,0,1
+1097,Core-33966,Core-174049,DUPLICATE,Smooth Scrolling would be nice.,,0,0,1
+1098,Core-33973,Core-34217,DUPLICATE,Get Mail link in Netscape Webmail gives error,javascript: URI does not execute JS; clears window instead,0,0,1
+1099,Core-34026,Core-37078,DUPLICATE,tasks/tools/history edit functions dont,,0,0,1
+1100,Core-34067,Core-34092,DUPLICATE,Installing PSM locks up Linux Commercial build,installing PSM from iPlanet crash,1,1,1
+1101,Core-34177,Core-56629,DUPLICATE,http proxy gives no errors when set to wrong address,,0,0,1
+1102,Core-34178,Core-34179,DUPLICATE,<META HTTP-EQUIV=Refresh ...>,<META HTTP-EQUIV=Refresh ...>,1,1,1
+1103,Core-34210,Core-37991,DUPLICATE,No error is displayed if you cannot connect,,0,0,1
+1104,Core-34237,Core-39721,DUPLICATE,[BiDi] cant type in hebrew,,0,0,1
+1105,Core-34391,Core-38488,DUPLICATE,recent nightly builds try to access URLs as files from current website,,0,0,1
+1106,Core-34404,Core-50480,DUPLICATE,[LIST][MARGIN-C]margins collapse through empty list items despite markers,,0,0,1
+1107,Core-34424,Core-34458,DUPLICATE,Need an interface to obtain current document DTD,nsIHTMLContentSink needs a SetDefaultDocType() call.,0,0,1
+1108,Core-34431,Core-38284,DUPLICATE,Scroll wheel on IBM thinkpad doesnt work,,0,0,1
+1109,Core-34440,Core-34478,DUPLICATE,Cannot open local file on linux on pressing OK,file picker doesnt refresh directory listing,1,0,1
+1110,Core-34445,Core-34447,DUPLICATE,Crashes while launching 2000-04-04-09-M15/sea Windows commercial build.,Crashes while launching 2000-04-04-09-M15/sea Windows commercial build.,1,1,1
+1111,Core-34446,Core-34447,DUPLICATE,Crashes while launching 2000-04-04-09-M15/sea Windows commercial build.,Crashes while launching 2000-04-04-09-M15/sea Windows commercial build.,1,1,1
+1112,Core-34477,Core-157128,DUPLICATE,Editor embedding tracking bug,,0,0,1
+1113,Core-34481,Core-34491,DUPLICATE,Double free in nsHTTPCompressConv loading URL,immediate crash loading www.excite.com,1,1,1
+1114,Core-34519,Core-39649,DUPLICATE,Implement property dialog popup when double click on element,,0,0,1
+1115,Core-34573,Core-50280,DUPLICATE,Setting TEXTAREA.rows/cols and input.size doesnt resize the control,,0,0,1
+1116,Core-34579,Core-34585,DUPLICATE,Font Size Too Small,,0,0,1
+1117,Core-34625,Core-35767,DUPLICATE,[regression] Euro HTML rendering problem,,0,0,1
+1118,Core-34688,Core-40190,DUPLICATE,Height attribute on images not respected inside tables,,0,0,1
+1119,Core-34698,Core-67864,DUPLICATE,Table captions dont handle embedded tables,,0,0,1
+1120,Core-34731,Core-35681,DUPLICATE,[regression] Line break does not work JA page correctly,,0,0,1
+1121,Core-34858,Core-40571,DUPLICATE,form.name[i] not implemented,,0,0,1
+1122,Core-34981,Core-41924,DUPLICATE,Change how layout handle broken images,,0,0,1
+1123,Core-34991,Core-34992,DUPLICATE,nested tables,,0,0,1

@@ -1,0 +1,603 @@
+,Title_1,Title_2,label
+0,Log information regarding changes to job in jobtracker,Make jobtracker resilient to memory issues,1.0
+1,JobImpl does not handle asynchronous task events in FAILED state,JobImpl Invalid event: JOB_TASK_ATTEMPT_COMPLETED at FAILED,0.0
+2,Fix warnings found by findbugs 2,Empty catch blocks cause findbugs 2 warnings,0.0
+3,Locality hints for Reduce,mapred.map.tasks and mapred.reduce.tasks should be determined automatically by default,0.0
+4,setting fs.default.name to an invalid URI format kills init thread in JobTracker,JobClient looking for classes for submitted job in the wrong place,1.0
+5,Counters group names deprecation is wrong; iterating over group names deprecated names don't show up,Please delete me,0.0
+6,When abortTask of OutputCommitter fails with an Exception for a map-only job; the task is marked as success,JobTracker might wrongly log a tip as failed,0.0
+7,Provide an admin page displaying events in the cluster along with cluster status/health,Support for metrics aggregation module in JobTracker,0.0
+8,After JobTracker restart  Capacity Schduler does not schedules pending tasks from already running tasks.,Simplify Job Recovery,1.0
+9,job.xml should have high replication factor by default,TaskTracker falls into an infinite loop.,0.0
+10,Counters for the applicationmaster,Counters for MRAppMaster,0.0
+11,mr-jobhistory-daemon.sh should look for mapred script in HADOOP_MAPRED_HOME,mr-jobhistory-daemon.sh needs to be updated post YARN-1,0.0
+12,JobTracker.close() gets stuck occasionally,Sometimes; Reduce tasks hang    State is unassigned,0.0
+13,Display lost tracker information on the jobtracker webui and persist it across restarts,Multiple copies of jobconf is present in history-dir after restart,0.0
+14,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+15,TestLineRecordReader has no test case for compressed files,bzip2 codec can drop records when reading data in splits,1.0
+16,Make job-history cleanup-period configurable,Backport history clean up configurations to branch-1,0.0
+17,Change org.apache.hadoop.examples.RandomWriter and  org.apache.hadoop.examples.RandomTextWriter to use new mapreduce api.,Change org.apache.hadoop.examples. AggregateWordCount and  org.apache.hadoop.examples.AggregateWordHistogram to use new mapreduce api.,1.0
+18,gridmix has 11 findbugs warnings,Fix findbugs warnings in gridmix,0.0
+19,NPE in AM causes it to lose containers which are never returned back to RM,Locality scheduling broken due to mismatch between IPs and hosts,1.0
+20,Error in MR AM shutdown when running an uber-job,uber-jobs tried to write outputs into wrong dir,1.0
+21,JobTracker's processHeartbeat() should not call System.currentTimeMillis() everytime,The lowest level map-reduce APIs should be byte oriented,0.0
+22,Terasort hangs with MR2 FifoScheduler,Scheduling of reduce tasks results in starvation,0.0
+23,port gridmix tests to yarn,coverage for gridmix,0.0
+24,multibyte delimiters with LineRecordReader cause duplicate records,TextInputFormat: duplicate records with custom delimiter,1.0
+25,Windows eclipse cannot submit job from Windows client to Linux/Unix Hadoop cluster.,Remote job submit from windows to a linux hadoop cluster fails due to wrong classpath,0.0
+26,[MR-279] NM should pass a whitelisted environmental variables to the container ,Should set MALLOC_ARENA_MAX for all YARN daemons and AMs/Containers,1.0
+27,Reducers stuck in 'sort',JobConf should also load resources from hdfs (or other filesystems),0.0
+28,Pin reduces with consecutive IDs to nodes and have a single shuffle task per job per node,Need value for Running; Completed and Failed maps and reduces for a job.,0.0
+29,"LocalJobRunner uses ""mapred.output.committer.class"" configuration property to retrieve the OutputCommitter (regardless of whether the old API is used or the new API)",LocalJobRunner doesn't handle Jobs using o.a.h.mapreduce.OutputCommitter,1.0
+30,Client should be able to know why an AM crashed.,ApplicationMaster killed by NodeManager due to excessive virtual memory consumption,1.0
+31,[MR-279] [Security] All tokens in YARN + MR should have an expiry interval ,ContainerTokens should have an expiry interval,1.0
+32,Getting errors in reading the output files of a map/reduce job immediately after the job is complete,TaskTracker startup fails if any mapred.local.dir entries don't exist,0.0
+33,Mapper fail rate increases significantly as the number of reduces increase,In TaskTracker; the notification for waking up the completion-events fetcher thread may be lost,0.0
+34,Recovery of ResourceManager,,1.0
+35,Extend HADOOP-3293 to MapReduce package also,Optionally a separate daemon should serve JobHistory,0.0
+36,exporting pid doesn't work if the user's shell is not bash,Illegal state exception in printTaskLog -> sendError,0.0
+37,Reduce progress in the Reducer crosses 1,Job submission has strict permission validation,0.0
+38,Dependency cycle: Submitter and TaskTracker,We should have a C++ implementation of FileInputSplit,1.0
+39,CombineFileInputFormat returns duplicate  hostnames in split locations,CombineFileInputFormat must ensure it doesn't dupe locations in its InputSplit objects,1.0
+40,Modify org.apache.hadoop.mapred.jobcontrol.Job class to allow actions before status changes,Create a public scheduler API,1.0
+41,Mapper failed due to out of memory,extensive map tasks failures because of SocketTimeoutException during statusUpdate,0.0
+42,TaskTracker could send an out-of-band heartbeat when the last running map/reduce completes,Change examples code to use new mapreduce api.,0.0
+43,Jobs should not be initialized while the recovery is in progress,Hadoop JobClient can return specific exit codes for specific classes of exceptions,0.0
+44,Custom Splitter for handling many small files,mapred.jar property in a job configuration file handles only absolute path into the local file system,0.0
+45,Increase map/reduce child tasks' heapsize from current default of 200M to 512M,NullPointerException when retrieving task reports,0.0
+46,Reduce Input Records and Reduce Output Records counters are not being set when using the new Mapreduce reducer API,[mapred] Job submission to an invalid queue should fail.,0.0
+47,Lost heartbeat response containing MapTask throws NPE when it is resent,NullPointerException is coming in the job tracker when job tracker resends the previous heartbeat response.,1.0
+48,NPE in SocketChannelOutputStream during large sort benchmark,Cleanup JobHistory file naming to do with job recovery,0.0
+49,java.lang.RuntimeException: javax.xml.parsers.ParserConfigurationException:,Error in runtime in mapreduce code,1.0
+50,MRAppMaster throws InvalidStateTransitonException: Invalid event: TA_TOO_MANY_FETCH_FAILURE at KILLED for TaskAttemptImpl,Invalid event: TA_CONTAINER_LAUNCH_FAILED at KILLED,1.0
+51,TestJobHistoryParsing#testPartialJob timeouts in some environments,TestJobHistoryParsing.testPartialJob fails in branch-2,1.0
+52,ShuffleMetrics.ShuffleConnections Gauge Metric Climbs Infinitely,ShuffleMetrics.ShuffleConnections Gauge Metric Rises Infinitely,1.0
+53,Ability to limit running map and reduce tasks,To limit the map task number or reduce task number of an application,1.0
+54,MR job will fail after commit fail,Job should be marked as Failed if it is recovered from commit.,1.0
+55,HTML tag shown in Diagnostics field of JobHistoryPage,Don't escape HTML links in Diagnostics in JHS job overview,1.0
+56,Reducer's Maximum Shuffle Buffer Size should be enlarged for 64bit JVM,Reduce cannot use more than 2G memory  for the final merge,0.0
+57,TestMRCJCFileInputFormat.testAddInputPath() fails on trunk,org.apache.hadoop.mapreduce.lib.input.TestMRCJCFileInputFormat intermittently failed in trunk,1.0
+58,TaskMemoryManager should log process-tree's status while killing tasks.,DiskChecker$DiskErrorException when 'reduce > reduce',0.0
+59,Map/Reduce should use IP addresses to identify nodes rather than hostnames,provide progress feedback while the reducer is sorting,1.0
+60,speculative reduce should touch output files only through OutputFormat,JobClient doesn't wait for all task completion events before exiting,0.0
+61,Streaming: better conrol over input splits,Support raw binary data with Hadoop streaming,1.0
+62,Streaming does not checks whether  -mapper option is provided or not,Streaming overrides user given output key and value types.,1.0
+63,Checksum error during sorting in reducer,TaskLogServlet returns 410 when trying to access log early in task life,0.0
+64,Add warning message for underflow or overflow,Add warning message for the overflow in reduce() of org.apache.hadoop.mapreduce.lib.reduce.IntSumReducer,1.0
+65,HADOOP-801 doesn't add property to hadoop-default.xml,Task stuck in cleanup with OutOfMemoryErrors,1.0
+66,Need to document the controls for sorting and grouping into the reduce,Split map/reduce into sub-project,0.0
+67,[gridmix3] limit the maximum task duration in sleep job.,[gridmix3] Make Gridmix3 more customizable.,0.0
+68,Split map/reduce into sub-project,TextInputFormat should support character encoding settings,0.0
+69,AM crashing because of invalid TA_CONTAINER_COMPLETED event,MR AM crashes when a container-launch hangs on a faulty NM,1.0
+70,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+71,Make job-history cleanup-period configurable,Add test for job history cleaner,0.0
+72,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+73,Cleanup and Setup jobs should only call cleanupJob() and setupJob() methods of the OutputCommitter,committer.needsTaskCommit should not be called for a task cleanup attempt,0.0
+74,Improve the way error messages are displayed from jobclient,A proposal to merge common functionality of various Schedulers,1.0
+75,JT should remember blacklisted TT after restart,Collecting cpu and memory usage for MapReduce tasks,0.0
+76,The test TestMiniMRWithDFS.checkTaskDirectories is checking for task directories incorrectly,Add framework hooks to get the running/completed/pending tasks for a given job. Add a way to query the list of currently active tasktrackers from the JobTracker.,1.0
+77,Not able to refresh file cache,Handling of mapred.task.profile.params is hprof specific,0.0
+78,Implement a memory-to-memory sort in the map task,Change mapred.lib code to use new api,1.0
+79,distcp does not skip copying file if we are updating single file,Two distcp bugs,1.0
+80,Remove deprecated MultiFileInputFormat,Rack level copy of map outputs,0.0
+81,Documention for using external profilers on Map-Reduce applications,JobTracker should not expand jobs if its running low on memory,0.0
+82,CombineFileInputFormat does not work with paths not on default FS,CombineFileInputFormat only works when paths are on the default filesystem,1.0
+83,ability to configure gap/lag parameters for speculative execution for maps/reduces,"Add ability to send ""signals"" to jobs and tasks",0.0
+84,Per task memory usage stats from TaskMemoryManager on mapred web ui,Start times for some tasks are missing from task reports after job tracker restart,0.0
+85,Change org.apache.hadoop.examples.DBCountPageView to use new mapreduce api.,Change org.apache.hadoop.examples.dancing to use new mapreduce api,1.0
+86,"Streaming: when a job is killed; the message should say it was ""killed"" rather than ""failed""",Job.monitorAndPrintJob() should print status of the job at completion,1.0
+87,Fix intermittent test failure of TestMRJobsWithHistoryService.testJobHistoryData,Fix test failure of TestMiniMRClientCluster.testRestart,1.0
+88,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+89,Improve temporary directory name generation in LocalDistributedCacheManager for concurrent processes,Race for temp dir in LocalDistributedCacheManager.java,1.0
+90,TestRMContainerAllocator.testUpdatedNodes fails on jdk7,TestRMContainerAllocator#testUpdatedNodes fails,1.0
+91,MR AM unable to load native library without MR_AM_ADMIN_USER_ENV set,Update MRJobConfig.DEFAULT_MAPRED_ADMIN_USER_ENV value for loading correct navite lib when using ubertask feature,1.0
+92,Do not attempt to recover progress from previous job attempts if spill encryption is enabled,Jobs with encrypted spills don't tolerate AM failures,1.0
+93,Provide a way to query job tracker about its daemon thread's status,Concrete implementation of MultiFileInputFormat ,0.0
+94,Each task tracker should not execute more than one speculative task,ProcessTree.destroy() is sleeping for 5 seconds holding the task slot,0.0
+95,Inconsistent strings for job and queue related scheduling information in UI when the information is not available.,JobConf needs better javadoc,0.0
+96,The lowest level map-reduce APIs should be byte oriented,Add explicit remote map count JobTracker metrics,1.0
+97,"[mapred] ""bin/hadoop job -counter"" CLI should accept display names for group-name and counter-name.",TaskTracker could send an out-of-band heartbeat when the last running map/reduce completes,0.0
+98,control-c of the submitting program should kill the job,Blacklisting of TaskTrackers should take into account the user-ID,0.0
+99,check permissions for job inputs and outputs,Remove deprecated MultiFileInputFormat,0.0
+100,Remove getNumResolvedTaskTrackers() api from JobTracker,Unreachable code in TaskInProgress.inCompleteSubTask,1.0
+101,TaskTracker directoryCleanupThread never gets terminated,Remove getNumResolvedTaskTrackers() api from JobTracker,0.0
+102,Report Map-Reduce Framework Counters in pipeline order,Improve the way error messages are displayed from jobclient,1.0
+103,NPEs in JobClient when mapred.jobtracker.completeuserjobs.maximum is set to zero.,Split Information errors when input data volumn is trivial,0.0
+104,du fails on Ubuntu in TestJobHistory,TaskTracker doesnt recheck job tracker version on reconnect,1.0
+105,The temporary disk space limits should not skip jobs,Tasks fail due to lost mapout,0.0
+106,A successful tip can fail unnecessarily,Class JobControl needs to be rewritten for safe concurrency,0.0
+107,JobConf should also load resources from hdfs (or other filesystems),JobTracker.close() gets stuck occasionally,0.0
+108,Concrete implementation of MultiFileInputFormat ,Improve facilities for job-control; job-queues etc.,0.0
+109,JobControl should handle exceptions,JobConf is deprecated but Job does not support a constructor for Configuration,0.0
+110,A failing retry'able notification in JobEndNotifier can affect notifications of other jobs.,Support job end notification in .next /0.23,1.0
+111,Send out last-minute load averages in TaskTrackerStatus,Include one minute load average information in TaskTrackerStatus.ResourceStatus,0.0
+112,pipes combiner has a large memory footprint,pipes should wait for the process to exit and fail if the return code is bad,1.0
+113,hadoop yarn mapreduce skip failed records doesn't work,hadoop yarn mapreduce skip failed records doesn't work,1.0
+114,There are methods and capabilities in Job and other Classes for which no information is provided in Javadoc.,isRetired is not well defined. javadoc does not indicate how a job is retired and waht does retired mean.,1.0
+115,NNBench map task should create files in separate folder,Support MultiThreads in a Map and Distribution of files in NNBench,1.0
+116,Reducer should not signal fetch failures for disk errors on the reducer's side,Reducer should not implicate map attempt if it has insufficient space to fetch map output,0.0
+117,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+118,Killing a job just as it finishes can generate an NPE in client,Potential NullPointerException in YARNRunner.killJob(JobID arg0),1.0
+119,Aggregatewordcount and aggregatewordhist in hadoop-1 examples are not binary compatible with hadoop-2 mapred.lib.aggregate,Aggregatewordcount and aggregatewordhist in hadoop-1 examples can not find their inner classes when running on Yarn,1.0
+120,Exception thrown from pipes Map task is not handled properly,pipes does not allow jobconf values containing commas,1.0
+121,TaskTracker startup fails if any mapred.local.dir entries don't exist,TaskTracker should handle disk failures at both startup and runtime,1.0
+122,Create a test that would inject random failures for tasks in large jobs and would also inject TaskTracker failures,pipes combiner does not reset properly after a spill,0.0
+123,"TestFairScheduler fails with ""too many open files"" error",org.apache.hadoop.mapred.TestFairScheduler.testPoolAssignment (from TestFairScheduler) is failing in trunk,1.0
+124,Split Information errors when input data volumn is trivial,Distinguish between 'failed' and 'killed' tips,0.0
+125,Map tasks are receiving FileNotFound Exceptions for spill files on a regular basis and are getting killed,Have a test to verify that descendent processes of tasks that ignore SIGTERM are eventually cleaned up by a SIGKILL,0.0
+126,MR-279: simplify the jars ,Consolidate MRv2 maven modules,0.0
+127,Write unit tests to verify  the fix for HADOOP-5349,task trackers should not restart for having a late heartbeat,0.0
+128,Scheduler.normalizeRequest does not account for allocation requests that exceed maximumAllocation limits ,If a resource requirement is higher than available on any node; job should fail early,0.0
+129,Cluster summary should have total tasks in the JT and pending tasks to run.,eliminate parameters that must change with cluster size,1.0
+130,Port HADOOP-4667 to the default Map-Reduce scheduler,Add additional jobs of new types to gridmix,1.0
+131,incrementing counters should not be used for triggering record skipping,task attempt failing to report status just after the intialization,0.0
+132,Tasks to run on a different jvm version than the TaskTracker,Map/Reduce job with SequenceFileOutputFormat should be able to add user specified metadata to the output file,0.0
+133,TaskTrackers never (re)connect back to the JobTracker if the JobTracker node/machine is changed,The local bytes read of Mapper tasks are too high than bytes written,0.0
+134,want InputFormat for task logs,Provide a way to query job tracker about its daemon thread's status,0.0
+135,Class JobControl needs to be rewritten for safe concurrency,speculative reduce should touch output files only through OutputFormat,0.0
+136,Tasks are not scheduled even though task trackers have extra slots,[mapred] Change TaskMemoryManager to use JvmIDs instead of TaskIDs for memory-tracking.,0.0
+137,Exception thrown for URL.openConnection used in the shuffle phase should be caught thus making it possible to reuse the connection for future use,JobTracker's processHeartbeat() should not call System.currentTimeMillis() everytime,1.0
+138,Allow storage and caching of delegation token.,unchecked cast warnings in trunk,0.0
+139,Computing Input Splits on the MR Cluster,Move split creation from submission client to MRAppMaster,1.0
+140,Change org.apache.hadoop.examples.PiEstimator to use new mapreduce api.,Change org.apache.hadoop.mapred.lib.TotalOrderPartitioner to use new api,0.0
+141,Create a public scheduler API,Failed jobs should report the reason of failure on the web ui,1.0
+142,Tasks fail due to lost mapout,Blacklisted hosts may not be able to serve map outputs,0.0
+143,Mapper runs out of memory,Each task tracker should not execute more than one speculative task,0.0
+144,Text class constructor and setCopacity method,The description for some of the configuration entries in the default xml files are outdated and needs to be updated,0.0
+145,Change org.apache.hadoop.examples.terasort to use new mapreduce api,Change org.apache.hadoop.examples.Sort to use new api.,1.0
+146,Add job-level counters for the launched speculative tasks,"job submission protocol should have a method for getting the ""task capacity"" of the cluster",1.0
+147,JobHistoryServer should store tokens to authenticate clients across restart,Support token-preserving restart of history server,0.0
+148,Reuse output collectors across maps running on the same jvm,Optimize the last merge of the map output files,0.0
+149,MAPREDUCE-3451 introduced a bunch of findbugs warnings,,0.0
+150,MapReduce AM should have java.io.tmpdir=./tmp to be consistent with tasks,AM java.io.tmpdir should be set to $PWD/tmp,1.0
+151,Succeeded Job details displayed as Error  In JobHistoryServer UI when RM issues Reboot to 1st app master.,Historyserver does not refresh the result of restarted jobs after RM restart,1.0
+152,Fix flaky TestKill.testKillTask(),TestKill.testKillTask is flaky,1.0
+153,History link in resource manager is broken for KILLED jobs,Job staging directory remains if MRAppMaster is OOM,1.0
+154,Make Counter limits consistent across JobClient; MRAppMaster; and YarnChild,Job failed due to counter out of limited in MRAppMaster,1.0
+155,Shuffle#MergeManager should support org.apache.hadoop.mapreduce.Reducer,Shuffle#MergeManager should support org.apache.hadoop.mapreduce.Reducer,1.0
+156,Fix TestCombineFileInputFormat.testForEmptyFile,testForEmptyFile failed,0.0
+157,Error in estimating the length of the output file in Spill Phase,In sortAndSpill of MapTask.java; size is calculated wrongly when bufend < bufstart.,0.0
+158,add default value of MR_AM_ADMIN_USER_ENV,MR AM unable to load native library without MR_AM_ADMIN_USER_ENV set,1.0
+159,The example provided in the javadoc for Job is outdated.,Missing alternatives in javadocs for deprecated constructors in mapreduce.Job,1.0
+160,MapReduce teragen  example should print correct error message for invalid inputs. Currently throws ArrayIndexOutOfBoundsException .,Print usage for TeraSort job.,0.0
+161,Handling of mapred.task.profile.params is hprof specific,FileNotFoundException when finishing a profiled task that doesn't generate an output file,1.0
+162,Check for serializers early; and give out more information regarding missing serializers,Check NPE for serializer/deserializer in MapTask,1.0
+163,missing userlogs,Cleanup of task-logs should happen in TaskTracker instead of the Child,1.0
+164,When tasks fail to report status; show tasks's stack dump before killing,dump the threads stack trace to stdout before killing a Task in timeout,1.0
+165,[Gridmix] Add a load generating factory,[Gridmix] Exploit/Add security features in GridMix,1.0
+166,OOM in the TaskTracker while serving map outputs,TaskMemoryManager should log process-tree's status while killing tasks.,0.0
+167,mr-jobhistory-daemon.sh should rely on MAPREDUCE env. variables instead of the YARN ones,mr-jobhistory-daemon.sh needs to be updated post YARN-1,0.0
+168,mapper failed due to exceptions,Increase map/reduce child tasks' heapsize from current default of 200M to 512M,0.0
+169,Add serialization for Protocol Buffers,Large-scale reliability tests,1.0
+170,Optionally a separate daemon should serve JobHistory,Pin reduces with consecutive IDs to nodes and have a single shuffle task per job per node,0.0
+171,Command line UI for queues' information is broken with hierarchical queues.,Currently QueueManager API's return JobQueueInfo ; instead it should return QueueInfo; similarly wher ever  we are using JobQueueInfo as view ; we should use QueueInfo,1.0
+172,Have a better shutdown and cleanup mechanism in JobTracker,Killed task is logged as Failed upon a lost tracker,0.0
+173,App/Tasks progress is showing as 0% in UI even if successfully completed,Application's progress isn't updated from AM to RM.,1.0
+174,JobClient doesn't wait for all task completion events before exiting,getMapOutput() keeps failing too many times before the tasktracker fails,0.0
+175,JobHistory should log everything when a job fails or gets killed.,JobTracker doesn't need to download job's jar file onto its local filesystem.,0.0
+176,TestSubmitJob should use FileSystem instead of private HDFS classes.,TestSubmitJob in MR1 tests doesn't compile after HDFS-1623 merge,0.0
+177,Task tracker should wait for the process to exit before declaring the task successful or failed.,Memory management variables need a backwards compatibility option after HADOOP-5881,0.0
+178,Replace the JobConf.setNumOfMapTasks with FileInputFormat.setMapInputSize(long),Documention for using external profilers on Map-Reduce applications,0.0
+179,Unify  the way job history filename is parsed,JobClient can be constructed without initializing object state,0.0
+180,Generalize the SequenceFileInputFilter to apply to any InputFormat,Replace Strings with Objects for representing the slaves in the JobTracker.,1.0
+181,JobTracker Startup failed with java.net.BindException,job_null_0001 in jobid,0.0
+182,Create enum for the TaskTypes (Map; Reduce; JobSetup; JobCleanup; TaskCleanup),add new options to mapred job -list-attempt-ids to dump counters and diagnostic messages,0.0
+183,HTTP Circular redirect error on the job attempts page,RM UI -> Applications -> Application Master Link -> Job Link -> New Maps/Reduces leads to circular redirect error,1.0
+184,Unreachable code in TaskInProgress.inCompleteSubTask,NPE in TaskInProgress.cleanup,1.0
+185,LinuxTaskController throws NPE when task fails to start,TestKillSubProcessesWithLinuxTaskController failing on trunk,1.0
+186,Need more complete API of JobClient class,JobTracker should give preference to failed tasks over virgin tasks so as to terminate the job ASAP if it is eventually going to fail. ,1.0
+187,Throttle the deletion of data from the distributed cache,Make the NodeManager delete unused distributed-cache entires by LRU policy,1.0
+188,Provide a node health check script and run it periodically to check the node health status,want InputFormat for task logs,0.0
+189,Add a new record to JobHistory to record start time of each instance of AM,Augment JobHistory to include information needed for serving aggregated logs.,0.0
+190,Localization of a task's distributed-cache files gets blocked by deletion of old unrelated files when mapreduce.tasktracker.cache.local.size is hit.,TrackerDistributedCacheManager can delete file asynchronously,1.0
+191,Erroneous output folder handling in streaming testcases,Streaming overrides user given output key and value types.,1.0
+192,Delete the jobconf copy from the log directory of the JobTracker when the job is retired,After HADOOP-5420; tasks hang when the taskcontroller.cfg has multiple entries for mapred.local.dir,0.0
+193,Replace Strings with Objects for representing the slaves in the JobTracker.,Avoid creating JobInProgress objects before Access checks and Queues checks are done in JobTracker submitJob ,1.0
+194,Spurios logs with org.apache.hadoop.util.DiskChecker$DiskErrorException in TaskTracker,ResourceEstimator does not work after MAPREDUCE-842,1.0
+195, repeated replace() function calls damage the performance,Multiple replace function call can be replaced with a single for loop to improve performance ,1.0
+196,capacity scheduler allow capacity greater then 100% as long as its less then 101%,capacity scheduler allow capacity greater then 100% as long as its less then 101%,1.0
+197,JobTracker.addNewTracker() unnecessarily resolves already resolved nodes,HistoryViewer usage string is misleading.,0.0
+198,Memory management variables need a backwards compatibility option after HADOOP-5881,Write unit tests to verify  the fix for HADOOP-5349,0.0
+199,Counters value of  reduce input records do not match map output records,job.xml should have high replication factor by default,0.0
+200,Provide a command line option to check if a Hadoop jobtracker is idle,Need to document the controls for sorting and grouping into the reduce,0.0
+201,JobConf will not be deleted from the logs folder if job retires from finalizeJob(),When a job is retired by the same user's another job; its jobconf file is not deleted from the log directory of the JobTracker ,1.0
+202,Mapreduce-trunk test cases are failing,tests seem to be randomly failing,0.0
+203,Generalize mapred.child.ulimit so as to help setting up other limits.,Web UI JSP: need to HTML-Escape log file contents,0.0
+204,Reduce step hangs while recovering a block from bad datanode,There can be more than 'mapred.jobtracker.completeuserjobs.maximum' jobs for a user in the jobtracker,0.0
+205,Global scheduling in the Fair Scheduler,Support for FIFO pools in the fair scheduler,1.0
+206,Change org.apache.hadoop.mapred.lib. FieldSelectionMapReduce to use new api.,Change org.apache.hadoop.mapred.lib.MultipleSequenceFileOutputFormat/MultipleTextOutputFormat to use new api.,1.0
+207,Fix new findbug warnings in hadoop-mapreduce-client-core,Fix findbugs warnings in hadoop-mapreduce-client-core,1.0
+208,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+209,MR AppMaster can do sub-optimal assignment of containers to map tasks leading to poor node locality,AM hung with one pending map task,0.0
+210,mapred.nativetask.kvtest.KVTest crashes on PPC64LE,Native task crashes when merging spilled file on ppc64,1.0
+211,Fetcher#copyMapOutput is leaking usedMemory upon IOException during InMemoryMapOutput shuffle handler,Reducer hung in copy phase.,1.0
+212,[MAPREDUCE-3902] Disable AM blacklisting if #blacklistedNodes crosses the configured threshold,[MAPREDUCE-3902] Fix and re-enable RMContaienrAllocator unit tests,0.0
+213,TestMRJobClient.testJobClient is failing,TestMRJobClient fails on trunk,1.0
+214,Application Master is running forever when the TaskAttempt gets TA_KILL event at the state SUCCESS_CONTAINER_CLEANUP,AM stuck in KILL_WAIT for days,0.0
+215,Add support for the YARN Shared Cache,An ability to override LocalResourceVisibility for public resources,1.0
+216,Job history file is not flushed correctly because isTimerActive flag is not set true when flushTimerTask is scheduled.,JobHistoryEventHandler could not flush every 30 secondes,1.0
+217,TestMiniMRChildTask fails on Windows,PATH environment variable contains duplicate values in map and reduce tasks on Windows.,1.0
+218,native-task: simplify/remove dead code,native-task: Simplify ByteBufferDataReader/Writer,1.0
+219,Remove property mapreduce.tasktracker.taskmemorymanager.monitoringinterval,Remove mapreduce.tasktracker.taskmemorymanager.monitoringinterval from trunk,1.0
+220,[Umbrella] ResourceManager (RM) Fail-over,Fault tolerant Hadoop Job Tracker,0.0
+221,Refresh queue throws IO exception after configuring wrong queue capacity,,0.0
+222,There are methods that should be deprecated and new methods should be added with names matching purposes,getClusterStatus method in Cluster returns ClusterMetrics. It should be called getClusterMetrics or it should return ClusterStatus.,1.0
+223,MR job succeeds and exits even when unregister with RM fails,Succeed job tries to restart after RMrestart,0.0
+224,availableResources sent to applicationMaster in heartbeat should exclude blacklistedNodes free memory.,Deadlock allocating containers for mappers and reducers,1.0
+225,TestNonExistentJob is failed due to recent changes in YARN,TestNonExistentJob failing after YARN-873,1.0
+226,AM could potentially allocate a reduce container to a map attempt,MR app master may try to assign a reduce priority container to a map,0.0
+227,AM does not tell the RM about container requests that are no longer needed,AM leaves unwanted node/rack requests after container has been assigned,0.0
+228,mapred job -status fails with AccessControlException ,Job History File Permissions configurable,1.0
+229,Task list sort by task id broken,Task UI; sort by name doesn't work,1.0
+230,"the map task output servlet doesn't protect against "".."" attacks",Remove distcp from hadoop core libraries; and publish documentation,0.0
+231,pipes does not allow jobconf values containing commas,The combiner in pipes is closed before the last values are passed in.,1.0
+232,JobHistory should link to task logs,Fix NM UI to serve logs from DFS once application finishes,0.0
+233,Improve the way job history files are managed,Exception thrown for URL.openConnection used in the shuffle phase should be caught thus making it possible to reuse the connection for future use,1.0
+234,TaskLogServlet returns 410 when trying to access log early in task life,Generalize mapred.child.ulimit so as to help setting up other limits.,0.0
+235,HCE 2.0,Task level native optimization,1.0
+236,pipes should wait for the process to exit and fail if the return code is bad,Corner case exists in detecting Java process deaths that might lead to orphan pipes processes lying around in memory,1.0
+237,ProcfsBasedProcessTree#constructProcessInfo() may throw NumberFormatException,TestContainersMonitor failing intermittently,1.0
+238,No rack-name logged in JobHistory for unsuccessful tasks,[Rumen] TestRumenJobTraces fails after MAPREDUCE-3035,0.0
+239,mapred/local/jobTracker is not cleanup correctly,Tasklog servlet doesn't display any logs when logs are short,0.0
+240,JVM reuse across task types,setting io.sort.factor does not have effect?,0.0
+241,job level hook in OutputCommitter is not working in local mode,LocalJobRunner doesn't handle Jobs using o.a.h.mapreduce.OutputCommitter,1.0
+242,[Rumen] Extract some job configurations.,Bring in more job configuration properties in to the trace file,1.0
+243,TestJobInProgressListener sometimes timesout,TestJobInProgressListener brings up MinMR/DFS clusters for every test,1.0
+244,Runtimes of TestJobTrackerRestart* testcases are high again,OutputFormat should be given the reduce id directly rather than a filename,0.0
+245,Generate Eclipse's .classpath file from Ivy config,Eclipse .classpath file should be generated from Ivy files to avoid duplicating dependencies,1.0
+246,Job submission should fail if same uri is added for mapred.cache.files and mapred.cache.archives,mapred.cache.archives is not creating links for long path names,1.0
+247,Implement a config validator tool for the capacity scheduler,Configuration information should generate dump in a standard format.,1.0
+248,TestQueueManager takes too long and times out some times,JVM reuse across task types,0.0
+249,Calling getPriority on JobInfo after parsing a history log with JobHistoryParser throws a NullPointerException,getPriority() method within the JobHistoryParser JobInfo class fails,1.0
+250,Iterator for MapFileOutputFormat,A JobInProgressLIstener can change a job without informing other listeners,1.0
+251,Sporadic TestEmptyJobWithDFS failure due to NPE is JobTracker.submitJob(),Deserialize interface to support mechanism for supporting progress method in RecordReader,0.0
+252,Capacity scheduler reconfiguration of queues does not work for add sub-queues to an existing queue,"Adding child queues to any queue need the process restart ""./yarn rmadmin -refreshQueues"" throws IO exception",1.0
+253,Mock Contexts & Configurations,MRUnit driver classes should provide ability to set a configuration object to be passed into the mapper/reducer,1.0
+254,Showing inputsplit filename/offset inside the webui or tasklog,The Map tasks logs should have the value of input split it processed,1.0
+255,Reduce the number of progress calls in the merge code,Final map task gets stuck,0.0
+256,TaskRunner would crash in finally block if taskDistributedCacheManager is null,TaskRunner can get NPE in getting ugi from TaskTracker,1.0
+257,RM-NM secret-keys should be randomly generated and rolled every so often,NM<->RM shared secrets should be rolled every so often. ,0.0
+258,[MR-279] NodeManager should start its servers on ephemeral ports ,Multiple node managers support for the MiniYARNCluster,1.0
+259,snapshot a map-reduce to DFS ... and restore,Ability to pause/resume tasks,1.0
+260,Deadlock in preemption code in fair scheduler,JobTracker.finalizeJob inverts lock order and causes potential deadlock,1.0
+261,saveVersion.sh script fails in windows/cygwin (hadoop-yarn-common),saveVersion.sh fails if build directory contains space ,1.0
+262,JUnit tests should not create directories in the current directory,distcp failed due to problem in creating files,0.0
+263,streaming failed without printing out the cause (IllegalArgumentException),Streaming tests swallow exceptions,1.0
+264,Job completion delayed,All reducer tasks are finished; while some mapper tasks are still running,1.0
+265,Non-speculative and speculative tasks for a TIP start at the same time.,The shuffle keeps the ReduceTask locked while doing a FileSystem.rename leading to task timeouts,0.0
+266,combinefileinputformat does not work with non-splittable files,Compressed files with TextInputFormat does not work with CombineFileInputFormat,1.0
+267,Need value for Running; Completed and Failed maps and reduces for a job.,"Add Jar ""lib"" directory to TaskRunner's library.path setting to allow JNI libraries to be deployed via JAR file  ",0.0
+268,TestDBJob and TestDataDrivenDBInputFormat ant tests fail,TestDBJob and TestDataDrivenDBInputFormat timeout,1.0
+269,[MR-279] [Security] AM should not be able to abuse container tokens for repetitive container launches,Authorization checks needed for AM->NM protocol,1.0
+270,LInks in http://jobtracker/machines.jsp are broken while running hadoop locally,MAP_OUTPUT_BYTES counter is not recorded in Job history log for Map only jobs,0.0
+271,JobClient waitForCompletion() method sometimes throws an NPE,Setting lastProgressReport time in TIP's constructor causes TT to wrongly kill tasks.,0.0
+272,KeyFieldBasedPartitioner would lost data if specifed field not exist; and it should encode free not only support utf8,JUnit tests should not create directories in the current directory,0.0
+273,JobHistory should also support searching with special characters,"the map task output servlet doesn't protect against "".."" attacks",0.0
+274,LinuxTaskController is too strict on the initial ownership of files/dir.,TaskTracker.localizeJob should not set permissions on job log directory recursively,1.0
+275,HistoryViewer usage string is misleading.,When abortTask of OutputCommitter fails with an Exception for a map-only job; the task is marked as success,0.0
+276,TestDFSIO should allow to configure output directory,Support for file sizes less than 1MB in DFSIO benchmark.,1.0
+277,FileInputFormat in the new mapreduce package to support multi-level/recursive directory listing ,FileInputFormat doesn't read files recursively in the input path dir,1.0
+278,[mapred] Change TaskMemoryManager to use JvmIDs instead of TaskIDs for memory-tracking.,TaskTracker's Jetty throws SocketException followed by IllegalStateException,0.0
+279,"Rename Sqoop ""local"" transfer to ""direct""","Rename ""local"" mysql import to ""direct""",1.0
+280,streaming should default to KeyValueTextInputFormat with IdentityMapper,Hadoop Streaming should not use TextInputFormat class as the default input format class.,1.0
+281,mapred should provide an optional upper-bound for size of map outputs,When combiners exist; postpone mappers' spills of map output to disk until combiners are unsuccessful.,0.0
+282,Reducer sort failed due to wrong key class,DistributedCache parses Paths with sheme or port components incorrectly,0.0
+283,The local bytes read of Mapper tasks are too high than bytes written,Few tasks failed while creating the work directory for a job; when job tracker was restarted,0.0
+284,MR-279: AM logs are incorrectly going to stderr and error messages going incorrectly to stdout,MR-279: AM writes logs to stderr,1.0
+285,"Add Jar ""lib"" directory to TaskRunner's library.path setting to allow JNI libraries to be deployed via JAR file  ",Jobtracker leaves tasktrackers underutilized,0.0
+286,Problem running full map & reduce jobs on mrv2,sort example fails in shuffle/reduce stage as it assumes a local job by default ,1.0
+287,Job history log does not output final counters if job is failed or killed,JobControl should handle exceptions,0.0
+288,Add javadoc and site documentation for MRv2,Documentation for MRv2,1.0
+289,Add error reporting support to LocalJobRunner,[mapred] Enable tasks' memory management on Windows.,0.0
+290,Lower default allocation sizes; fix allocation configurations and document them,Lower minimum-allocation-mb to sensible defaults,1.0
+291,[Gridmix] TestCompressionEmulationUtils fails after MR-3158,Job submission failing in JUnit tests,0.0
+292,Task process exit with nonzero status of 134.        ,Duplicate destroy of process trees in TaskMemoryManager.,1.0
+293,setting io.sort.factor does not have effect?,Have a better shutdown and cleanup mechanism in JobTracker,0.0
+294,Docs updates for MR2,Documentation for MRv2,1.0
+295,Single shuffle to memory must not exceed Integer#MAX_VALUE,Negative Array Exception while reducer fetch mapper output,1.0
+296,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+297,Fix MR_CLIENT_TO_AM_IPC_MAX_RETRIES_ON_TIMEOUTS property in MRJobConfig,MRJobConfig#MR_CLIENT_TO_AM_IPC_MAX_RETRIES_ON_TIMEOUTS config name is wrong,1.0
+298,Allow repeating job commit by extending OutputCommitter API,Add retry on some connection exception on job commit phase,1.0
+299,Compatibility: Add a deprecated MRAdmin that wraps around RMAdmin,MRAdmin is removed from M/R while RMAdmin is added to Yarn,0.0
+300,jobhistory web ui not showing correct # failed reducers,Task attempts that fail from the ASSIGNED state can disappear,0.0
+301,Add Xattr option in DistCp docs ,Update distcp documentation to mention option for preserving xattrs.,1.0
+302,mr-jobhistory-daemon.sh doesn't accept --config,mr-jobhistory-daemon.sh does not parse --config options,0.0
+303,JobHistory task attempts page sorts elapsed time wrong,Job History Webpage Elapsed Time Column Sort Broken,1.0
+304,Allow AM to specify a port range for starting its webapp,allow specifying range on the port that MR AM web server binds to,1.0
+305,TestPipeApplication#testSubmitter fails in trunk,TestPipeApplication fails on trunk,1.0
+306,Counter limits always use defaults even if JobClient is given a different Configuration,Make Counter limits consistent across JobClient; MRAppMaster; and YarnChild,1.0
+307,TestMRCJCFileInputFormat.testAddInputPath() fails on trunk,TestMRCJCFileInputFormat#testAddInputPath fails in trunk,0.0
+308,Make TestMRJobsWithProfiler#testProfiler faster,TestMRJobsWithProfiler#testProfiler timesout,1.0
+309,Some tests in mapreduce-client-app are writing outside of target,TestMRAppMaster should use test.build.data for test directory,0.0
+310,ShuffleConsumerPlugin.Context should support org.apache.hadoop.mapreduce.Reducer,Shuffle#MergeManager should support org.apache.hadoop.mapreduce.Reducer,1.0
+311,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+312,Map directly to HDFS or reduce(),should dump stacks before timing out task,0.0
+313,JobClient can be constructed without initializing object state,Move handling of Task debugging out of TaskTracker,0.0
+314,Locking and exception issues in JobHistory Server.,FileNotFoundException while accessing job configuration from UI.,0.0
+315,There is little information provided when the TaskTracker kills a Task that has not reported within the timeout (600 sec) interval - this patch provides a stack trace of the task ,When tasks fail to report status; show tasks's stack dump before killing,1.0
+316,the map output servlet should only locate the index if it isn't in the cache,Change org.apache.hadoop.mapred.join to use new api,1.0
+317,Change org.apache.hadoop.mapred.lib.MultipleInputs to use new api.,Change org.apache.hadoop.mapred.lib.MultipleOutputs to use new api.,1.0
+318,Incorrect DBInputFormat transaction context,org.apache.hadoop.mapred.TestJobDirCleanup.testJobDirCleanup timesout occasionally ,0.0
+319,Move handling of Task debugging out of TaskTracker,Deadlock in JobTracker initJobs,0.0
+320,After HADOOP-5420; tasks hang when the taskcontroller.cfg has multiple entries for mapred.local.dir,Per-job local data on the TaskTracker node should have right access-control,1.0
+321,LocalJobRunner doesn't handle Jobs using o.a.h.mapreduce.OutputCommitter,LocalJobRunner doesn't honor custom OutputCommiter cleanupJob,1.0
+322,Ignored IOExceptions from MapOutputLocation.java:getFile lead to hung reduces,Counter formatting for the user logs should be pulled out of the public Counters API,0.0
+323,getMapOutput() keeps failing too many times before the tasktracker fails,TestJobInProgressListener sometimes timesout,0.0
+324,Race condition in LaunchTaskAction and KillJobAction,Earlier key-value buffer from MapTask.java is still referenced even though its not required anymore.,1.0
+325,JobConf is deprecated but Job does not support a constructor for Configuration,tasks should not run on nodes where they were previously lost,0.0
+326,TestWritableJobConf fails on trunk,fix TestWritableJobConf failures,0.0
+327,[MR-279] Decommissioned node does not shutdown,Decommission nodes link is not working,1.0
+328,NPE in TaskTracker RenitTrackerAction ,Unify  the way job history filename is parsed,0.0
+329,JobClient should check input/output specifications  before copying the job files on the DFS,The job submitter should make sure to validate jobs before creation of necessary files,1.0
+330,mapreduce/contrib/raid not compile due to hdfs changes.,Raid is not compile after DataTransferProtocol refactoring,1.0
+331,We should have a C++ implementation of FileInputSplit,In JobInProgress; failed TIP should be added back to the non-running queue only if the tip has not failed.,1.0
+332,job.jar; job.xml not deleted when JobClient submitJob method  fail with exception ,Remove the methods controlling comparator options from the JobConf and make them static in the comparator class,1.0
+333,Logging could hang/fail when drive is filled by mapred outputs.,JT not able to find task id while updating status,1.0
+334,ProcessTree.destroy() is sleeping for 5 seconds holding the task slot,Job History log file format is not friendly for external tools.,0.0
+335,JobClient should work with -1/+1 version of JobTracker,limit running tasks per job,0.0
+336,Have a test to verify that descendent processes of tasks that ignore SIGTERM are eventually cleaned up by a SIGKILL,ReduceCopier sleeps for a hardcoded interval of 5secs,0.0
+337,Few tasks failed while creating the work directory for a job; when job tracker was restarted,Hadoop reduce scheduler sometimes leaves machines idle,0.0
+338,MRReliabilityTest does not kill/fail tasks if history is enabled,MRReliability test does not work with retired jobs,1.0
+339,Streaming: better conrol over input splits,Implement a binary input/output format for Streaming,1.0
+340,Change org.apache.hadoop.mapred.jobcontrol to use new api,Change org.apache.hadoop.mapred.lib.MultipleInputs to use new api.,1.0
+341,Reported percentage complete is different between web ui and command line,JobTracker TaskInitialization failure on cygwin,1.0
+342,Change mapred.lib code to use new api,Reducer inputs should be spilled to HDFS rather than local disk.,1.0
+343,TestKillSubProcesses fails with assertion failure sometimes,Reported percentage complete is different between web ui and command line,1.0
+344,Remove distcp from hadoop core libraries; and publish documentation,SAXParseException causes test to run forever,0.0
+345,Generic 'Sort' Infrastructure for Map-Reduce framework.,Shuffle should be refactored to a separate task by itself,0.0
+346,Shuffle should be refactored to a separate task by itself,JobClient should work with -1/+1 version of JobTracker,0.0
+347,TT jetty server stuck in tight loop around epoll_wait,Tasktracker's java threads hunging,1.0
+348,MR tasks failing and crashing the AM when available-resources/headRoom becomes zero,Invalid event: TA_CONTAINER_LAUNCH_FAILED at KILLED,0.0
+349,Job.getJobID() will always return null,JobTracker and TaskTracker enter infinite loop when TaskTracker reports bad taskid,0.0
+350,Combine TaskTracker information into single class in JobTracker,Generalize the SequenceFileInputFilter to apply to any InputFormat,1.0
+351,MRAppMaster throws IllegalStateException while shutting down,MRAppMaster shutdown hook should not call FileSystem.closeAll(),0.0
+352,Hadoop reduce scheduler sometimes leaves machines idle,NPE in TaskTracker RenitTrackerAction ,0.0
+353,Update MapOutputServlet to use NIO channels,Rack-aware Shuffle,0.0
+354,Optimize finding of speculative tasks,mapred should provide an optional upper-bound for size of map outputs,0.0
+355,Rework job-setup and job-cleanup tasks,JobTracker crashes Sun JVM,0.0
+356,Reduce stuck in pending state for ever even though the job tracker shows a lot of free slots,Non-speculative and speculative tasks for a TIP start at the same time.,0.0
+357,The shuffle keeps the ReduceTask locked while doing a FileSystem.rename leading to task timeouts,Jobs with 0 maps will never get removed from the default scheduler,0.0
+358,Improve facilities for job-control; job-queues etc.,Job setup and take down on Nodes,0.0
+359,mapred.jar property in a job configuration file handles only absolute path into the local file system,Runtimes of TestJobTrackerRestart* testcases are high again,0.0
+360,Blacklisting of TaskTrackers should take into account the user-ID,Optimize finding of speculative tasks,0.0
+361,MAP_OUTPUT_BYTES counter is not recorded in Job history log for Map only jobs,TaskCompletionEvents do not distinguish between FAILED and KILLED task-attempts,0.0
+362,race when KILL_CONTAINER is received for a LOCALIZED container,NM should send a SIGKILL for completed containers also,1.0
+363,#NAME?,mapred job -list-attempt-ids fails to get attempt ids,0.0
+364,TestClusterMRNotification times out,TestLocalMRNotification.testMR occasionally fails,0.0
+365,,,0.0
+366,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+367,Job History server gives wrong no of total maps and reducers,When a job state is ERROR ; total map and reduce task are displayed as 0 in JHS home page ; while navigating inside the respective job page displays the correct total. ,1.0
+368,Terasort hangs with MR2 FifoScheduler,Reducers are assigned containers before all maps are assigned containers,0.0
+369,Application Master is hanging when the TaskImpl gets T_KILL event and completes attempts by the time  ,AM stuck in KILL_WAIT for days,0.0
+370,Update the documents to run MapReduce application,Default setting 'inheritParentEnv=false' caused mr executor failed to initialize,1.0
+371,MiniYARNCluster.start() returns before cluster is completely started,TestRMNMInfo and TestNetworkedJob fails in trunk,1.0
+372,TeraOutputFormat may overwrite an existing output directory,Terasort TeraOutputFormat does not check for output directory existance,0.0
+373,API Incompatibility - Sampler,Sort in hadoop-1 examples is not binary compatible with hadoop-2 mapred.lib,0.0
+374,,,0.0
+375,mr-jobhistory-daemon.sh doesn't accept --config,mr-jobhistory-daemon.sh --config option doesn't work,0.0
+376,Hadoop 1.X; 2.X and trunk do not build on Fedora 17,HadoopPipes.cc needs to include unistd.h,0.0
+377,There are methods that should be deprecated and new methods should be added with names matching purposes,reduceProgress is misleading. It should be renamed getReduceTasksProgress,1.0
+378,MapReduce jobs may fail during rolling upgrade due to MAPREDUCE-6829,MR task counters deserialized through RPC throws OutOfBoundsException if Counter enum class version not match,1.0
+379,Remove dead code block in  JobInProgress.completedTask,Investigate whether the array in the JobInProgress that holds TIP references can be removed,1.0
+380,mapreduce tar layout does not conform new layout,Mapreduce component should use consistent directory structure layout as HDFS/common,1.0
+381,test TestLinuxResourceCalculatorPlugin failing,TestLinuxResourceCalculatorPlugin is failing on trunk and 0.23 branch.,0.0
+382,Reducers throw oom exceptions during fetching map outputs,Sporadic TestEmptyJobWithDFS failure due to NPE is JobTracker.submitJob(),0.0
+383,Rack-aware Shuffle,Making reduce tasks locality-aware,1.0
+384,Properties max.map.slots and max.reduce.slots should be hyphenated.,CapacityScheduler: It should be possible to set queue hard-limit beyond it's actual capacity,1.0
+385,Avoid using deprecated api's,Reduce step hangs while recovering a block from bad datanode,0.0
+386,Deserialize interface to support mechanism for supporting progress method in RecordReader,NPE in tracker expiry thread.,0.0
+387,mapred.userlog.retain.hours killing long running tasks,Cleanup of task-logs should happen in TaskTracker instead of the Child,1.0
+388,mapred job -list all should display the code for Killed also.,JobHistory should log everything when a job fails or gets killed.,0.0
+389,harchive: Reduce the number of open calls  to _index and _masterindex ,Cache HAR filesystem metadata,1.0
+390,In JobInProgress; failed TIP should be added back to the non-running queue only if the tip has not failed.,Task process exit with nonzero status of 134.        ,1.0
+391,Fix and enable env tests in TestMiniMRChildTask,Reinstate environment variable tests in TestMiniMRChildTask,1.0
+392,Implement an in-cluster LocalJobRunner,MR-279: Implement uber-AppMaster (in-cluster LocalJobRunner for MRv2),1.0
+393,Job tracker should report the number of splits that are local to some task trackers,Jobs should not be initialized while the recovery is in progress,0.0
+394,Tasks need to emit a better error message when job-acls.xml file cannot be created,TaskRunner logDir race condition leads to crash on job-acl.xml creation,0.0
+395,DBInputFormat support for Oracle,org.apache.hadoop.mapred.lib.db.DBInputformat not working with oracle,1.0
+396,Modify Queue APIs to support a hierarchy of queues,Modify queue configuration format and parsing to support a hierarchy of queues.,0.0
+397,Distinguish between 'failed' and 'killed' tips,Create enum for the TaskTypes (Map; Reduce; JobSetup; JobCleanup; TaskCleanup),0.0
+398,Failed jobs should report the reason of failure on the web ui,Remove dead code block in  JobInProgress.completedTask,0.0
+399,The combiner in pipes is closed before the last values are passed in.,Hadoop Pipes Submitter assumes that presence of a Java InputFormat implies a Java RecordReader,1.0
+400,Support for metrics aggregation module in JobTracker,want InputFormat for zip files,0.0
+401,Log the reason for killing a task during speculative execution,Add explicit diagnostics when a task attempt is killed due to speculative execution,1.0
+402,Job History log file format is not friendly for external tools.,mapred.userlog.retain.hours killing long running tasks,0.0
+403,Investigate whether the array in the JobInProgress that holds TIP references can be removed,Report Map-Reduce Framework Counters in pipeline order,1.0
+404,In secure mode RM WebUI shows wrong user for application,JobClient fails due to a race in RM; removes staged files and in turn crashes MR AM,1.0
+405,mapred.userlog.limit.kb has inconsistent defaults,FileNotFoundException when finishing a profiled task that doesn't generate an output file,1.0
+406,When combiners exist; postpone mappers' spills of map output to disk until combiners are unsuccessful.,check permissions for job inputs and outputs,0.0
+407,Allow shuffle read and connection timeouts to be configurable,the map output servlet should only locate the index if it isn't in the cache,1.0
+408,the counter for map input locality should be associated with a map attempt,Need more complete API of JobClient class,1.0
+409,Create an InputFormat for reading lines of text as Java Strings,getDiagnostics in TaskReport should return exceptions,0.0
+410,The description for some of the configuration entries in the default xml files are outdated and needs to be updated,Submitted jobs on jobtracker.jsp,0.0
+411,eliminate parameters that must change with cluster size,Log information regarding changes to job in jobtracker,1.0
+412,In TaskTracker; the notification for waking up the completion-events fetcher thread may be lost,NPEs in JobClient when mapred.jobtracker.completeuserjobs.maximum is set to zero.,0.0
+413,Newly introduced findBugs warnings should be suppressed,Modify test-patch.sh to verify that the number of findBugs warning is always zero,1.0
+414,We should reuse key and value objects in the MultithreadedMapRunner.,Improvements to RPC between Child and TaskTracker,0.0
+415,JavaDoc does not generate correctly for MultithreadedMapRunner,JavaDoc generates partially for MultithreadedMapRunner,1.0
+416,There can be more than 'mapred.jobtracker.completeuserjobs.maximum' jobs for a user in the jobtracker,LInks in http://jobtracker/machines.jsp are broken while running hadoop locally,0.0
+417,JT should not iterate through all jobs in every heartbeat to find a cleanup or setup task,avoid bzip2 decompressor throwing exception on corrupted (prematurely truncated) file,0.0
+418,Remove my personal email address from the pipes build file.,mavenize pipes,0.0
+419,Support detailed timing for MapReduce job,Ability to pause/resume jobs,0.0
+420,The logging level of the tasks should be configurable by the job,the counter for map input locality should be associated with a map attempt,1.0
+421,"job submission protocol should have a method for getting the ""task capacity"" of the cluster",Iterator for MapFileOutputFormat,0.0
+422,ReduceCopier sleeps for a hardcoded interval of 5secs,Job.getJobID() will always return null,0.0
+423,Reduce task should stop shuffle-retrying in case of out-of-memory errors,Refactor reduce shuffle code,1.0
+424,Hadoop JobClient can return specific exit codes for specific classes of exceptions,Display lost tracker information on the jobtracker webui and persist it across restarts,0.0
+425,DistributedCache parses Paths with sheme or port components incorrectly,JobTracker.addNewTracker() unnecessarily resolves already resolved nodes,0.0
+426,Change org.apache.hadoop.examples.Sort to use new api.,Change org.apache.hadoop.examples.Grep to use new mapreduce api.,1.0
+427,TT jetty server stuck in tight loop around epoll_wait, TaskTracker jetty stuck in a tight loop,1.0
+428,Streaming has its own methods to monitor jobs. It should use the jobclient methods to monitor the jobs,streaming doesn't support jobclient.output.filter,0.0
+429,distcp failed due to problem in creating files,Reduce task should stop shuffle-retrying in case of out-of-memory errors,0.0
+430,want InputFormat and OutputFormat for zip archives,Provide a command line option to check if a Hadoop jobtracker is idle,0.0
+431,MultipleOutputs should use newer Hadoop serialization interface since 0.19,Mapper fail rate increases significantly as the number of reduces increase,0.0
+432,Revert the temporary change made to collection of Job's metrics done by HADOOP-3521,Job completion delayed,0.0
+433,The URL in TaskCompletionEvent should be the root URL for the taskTracker,We should reuse key and value objects in the MultithreadedMapRunner.,0.0
+434,jobID() lookup failure should notify client,"bin/hadoop job -kill command says"" job successfully killed"" even though job has retired.",0.0
+435,Job status exceeds 100% in some cases ,MR2 reduce tasks showing >100% complete,1.0
+436,"Add ability to send ""signals"" to jobs and tasks",Implement a generic DFA ,0.0
+437,TaskTracker doesnt recheck job tracker version on reconnect,"ProcessTree can try and kill a ""null"" PID",1.0
+438,Hadoop performance degrades significantly as more and more jobs complete,Inconsistency in handling lost trackers upon jobtracker restart,0.0
+439,Two small improvements to pipes,Hadoop Pipes do not load custom InputFormats at appropriate time; rendering them useless in certain scenarios,0.0
+440,Counters group names deprecation is wrong; iterating over group names deprecated names don't show up,Please delete me,0.0
+441,Job history counters should be avaible on the UI.,Proposal for redesign/refactoring of the JobTracker and TaskTracker,0.0
+442,Task trackers don't register with the job tracker until after they clean out their working directory,JobTracker Startup failed with java.net.BindException,0.0
+443,Log job history events to a common dump file,Locality hints for Reduce,0.0
+444,add new options to mapred job -list-attempt-ids to dump counters and diagnostic messages,Log job history events to a common dump file,0.0
+445,Fix warnings found by findbugs 2,Setting local variables to null causes findbugs 2 warnings,0.0
+446,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+447,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+448,Allow setting lineage information,Allow setting tags on MR jobs,1.0
+449,Cannot find partition.lst in Terasort on Hadoop/Local File System,"TeraSort fails with ""can't read paritions file"" - does not read partition file from distributed cache",1.0
+450,Task failing continuously on trunk,Update TaskUmbilicalProtocol to use ProtobufRPCEngine,1.0
+451,History link in resource manager is broken for KILLED jobs,killing jobs which have failed causes log missing,1.0
+452,JobHistoryServer has no information about applications if the MR-AM crashes,History for failed Application Masters should be made available to the Job History Server,1.0
+453,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+454,Pipes build problem with recent OpenSSL libs,hadoop-pipes doesn't use maven properties for openssl,0.0
+455,Add peak memory usage counter for each task,MapReduce jobs may fail during rolling upgrade due to MAPREDUCE-6829,1.0
+456,TestRMContainerAllocator#testCompletedTasksRecalculateSchedule fails,TestRMContainerAllocator is failing,0.0
+457,Support for node health scripts on Windows ,Support for node health scripts on Windows,0.0
+458,Recovery should restore task state from job history info directly,Wrong date and and time on job tracker page,0.0
+459,TestClusterMRNotification.testMR is failing,MRAppMaster#shutDownJob shouldn't send job end notification before checking isLastRetry,1.0
+460,Job history analysis showing wrong job runtime,Task trackers don't register with the job tracker until after they clean out their working directory,0.0
+461,Implement a Map-Reduce application which can be used to reliably launch speculative tasks,The test TestMiniMRWithDFS.checkTaskDirectories is checking for task directories incorrectly,1.0
+462,JobTracker TaskInitialization failure on cygwin,Inconsistent strings for job and queue related scheduling information in UI when the information is not available.,0.0
+463,Change Map-Reduce framework to use JAAS instead of UGI,MultipleOutputs should use newer Hadoop serialization interface since 0.19,0.0
+464,Job Client goes into infinite loop when we kill AM,NodeManager doesn't recognize kill -9 of AM container,0.0
+465,Change org.apache.hadoop.mapred.lib.MultipleOutputs to use new api.,Change org.apache.hadoop.mapred.lib.KeyFieldBasedComparator and org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner to use new api,1.0
+466,Implement memory-to-memory merge in the reduce,Refactor reduce shuffle code,1.0
+467,[mapred] Job submission to an invalid queue should fail.,All reducer tasks are finished; while some mapper tasks are still running,0.0
+468,Implement gridmix system tests with different time intervals of  high ram job traces.,Porting Gridmix v3 system tests into trunk branch.,1.0
+469,java tasks are not honouring the value of mapred.userlog.limit.kb,JvmEnv miss logSize argument,1.0
+470,Proposal for redesign/refactoring of the JobTracker and TaskTracker,Map-Reduce 2.0,0.0
+471,Change org.apache.hadoop.examples.SleepJob to use new api.,Change org.apache.hadoop.examples.RandomWriter and  org.apache.hadoop.examples.RandomTextWriter to use new mapreduce api.,1.0
+472,TestMRJobs; TestMROldApiJobs; and TestUberAM failures,Wrong jar getting used in TestMR*Jobs* for MiniMRYarnCluster,1.0
+473,Custom FileSystem class not found during child process initialization,exporting pid doesn't work if the user's shell is not bash,0.0
+474,java.io.File.createTempFile fails in map/reduce tasks,Problem in setting the childTmpDir in MapReduceChildJVM,1.0
+475,Sort buffer size (io.sort.mb) is limited to < 2 GB,mapreduce.task.io.sort.mb hardcoded cap at 2047,1.0
+476,NPE in text.encode when writing an invalid(?) JobProfile,ReduceTask logs show negative values,1.0
+477,Change examples code to use new mapreduce api.,Job tracker should report the number of splits that are local to some task trackers,0.0
+478,Duplicate destroy of process trees in TaskMemoryManager.,WebUI shows 100% Map Complete even though some maps are still running,1.0
+479,DiskChecker$DiskErrorException when 'reduce > reduce',Stale job files in mapred system directory,0.0
+480,The TaskTracker's shell environment should not be passed to the children.,Not able to refresh file cache,0.0
+481,Duplicate code in JobHistory TaskAttempt's can be collapsed into super class. ,Job and JobControl classes should return interfaces rather than implementations,0.0
+482,add a batch option to pipes launcher,streaming and pipes should reuse jvm's by default,1.0
+483,Secure job submission ,Text class constructor and setCopacity method,0.0
+484,TestJobTrackerRestart.testJobRecoveryWithEmptyHistory doesnt test the expected,Runtimes of TestJobTrackerRestart* testcases are high again,1.0
+485,Change org.apache.hadoop.mapreduce.Cluster methods to allow for extending,Remove Cluster's dependency on JobTracker,1.0
+486,Job and JobControl classes should return interfaces rather than implementations,Job recovery should fail or kill a job that fails ACL checks upon restart; if the job was running previously,0.0
+487,cluster_setup.xml exists in both mapreduce and common projects,Cluster-Setup and Single-Node-Setup Docs ,1.0
+488,OutputFormat should be given the reduce id directly rather than a filename,Attribute to mark Mappers and Reducers as side-effect free,0.0
+489,JobTracker and TaskTracker enter infinite loop when TaskTracker reports bad taskid,Reducer sort failed due to wrong key class,0.0
+490,NullPointerException when retrieving task reports,Reducers throw oom exceptions during fetching map outputs,0.0
+491,LocalJobRunner limited to single reducer,JobTracker might not accept first few jobs if restarted immediately,1.0
+492,TestTaskLimits fails occassionally,KeyFieldBasedPartitioner would lost data if specifed field not exist; and it should encode free not only support utf8,0.0
+493,Remove the methods controlling comparator options from the JobConf and make them static in the comparator class,JobControl Job does always has an unassigned name,1.0
+494,JobTracker.getSystemDir throws NPE if it is called during intialization,Reduce Input Records and Reduce Output Records counters are not being set when using the new Mapreduce reducer API,0.0
+495,JobClient looking for classes for submitted job in the wrong place,TestKillSubProcesses fails with assertion failure sometimes,1.0
+496,Large-scale reliability tests,Implement a Map-Reduce application which can be used to reliably launch speculative tasks,1.0
+497,Collecting cpu and memory usage for MapReduce tasks,Generic 'Sort' Infrastructure for Map-Reduce framework.,0.0
+498,Shuffle's getMapOutput() fails with EofException; followed by IllegalStateException,Task attempt stopped shuffling and hung the job,0.0
+499,Bad error messages for queues without acls,When you submit a job to a queue with no ACLs you get an inscrutible NPE,0.0
+500,pipes combiner does not reset properly after a spill,Exception thrown from pipes Map task is not handled properly,1.0
+501,Change org.apache.hadoop.mapred.join to use new api,Change org.apache.hadoop.examples.SleepJob to use new api.,1.0
+502,ReduceTask logs show negative values,setting fs.default.name to an invalid URI format kills init thread in JobTracker,1.0
+503,JobQueueTaskScheduler could assign multiple reduces per heartbeat,TaskTracker can skip a dfs check on every task launch.,0.0
+504,want InputFormat for zip files,Provide a node health check script and run it periodically to check the node health status,0.0
+505,event handling races in ContainerLauncherImpl and TestContainerLauncher,TestContainerLauncher fails on Windows due to assertion failures on event/thread counts,0.0
+506,Allow hadoop to run in an osgi container,Duplicate code in JobHistory TaskAttempt's can be collapsed into super class. ,0.0
+507,CompositeService should try to stop all services even if one fails,Add ShutDown hooks for MRV2 processes,1.0
+508,large pending jobs hog resources,Support for FIFO pools in the fair scheduler,1.0
+509,TextInputFormat should not create input splits for 0 byte files,Modify org.apache.hadoop.mapred.jobcontrol.Job class to allow actions before status changes,1.0
+510,counters: want rates and averages; and phase-level sums,ability to configure gap/lag parameters for speculative execution for maps/reduces,0.0
+511,Streaming tests in a clean workspace fail because of avro dependency.,Required avro class are missing in contrib projects,1.0
+512,Web UI JSP: need to HTML-Escape log file contents,Change Map-Reduce framework to use JAAS instead of UGI,0.0
+513,Counters don't reset state when readFields() called,AbstractCounters are not reset completely on deserialization,1.0
+514,TestReduceFetch failed in 0.20,TestReduceFetch failure,1.0
+515,"27 unit test failures with  Invalid ""mapreduce.jobtracker.address"" configuration value for JobTracker: ""local""",Fix / remove failing tests from MrV1,1.0
+516,Make block size and the size of archive created files configurable.,Partition size of Hadoop Archives should be configurable,1.0
+517,Submitting job information via DFS in Map/Reduce causing consistency and performance issues,Refactor reduce shuffle code,1.0
+518,Fix log serving in NodeManager,Display tail of aggregated logs by default,1.0
+519,JobClient should keep on retrying if the jobtracker is still initializing,JobClient should use multiple volumes as hadoop.tmp.dir,1.0
+520,MAPREDUCE-3522 commit causes compilation to fail,trunk build failure,1.0
+521,TestJobTrackerRestartWithLostTracker sometimes fails while validating history.,Reducers stuck in 'sort',0.0
+522,Rack level copy of map outputs,Implement memory-to-memory merge in the reduce,0.0
+523,streaming and pipes should reuse jvm's by default,Two small improvements to pipes,1.0
+524,DistributedCache creates its own FileSytem instance when adding a file/archive to the path,Distributed Cache doesn't accept paths from non-default filesystems,1.0
+525,Avoid creating JobInProgress objects before Access checks and Queues checks are done in JobTracker submitJob ,Allow shuffle read and connection timeouts to be configurable,1.0
+526,Change org.apache.hadoop.mapred.lib.ChainMapper/Reducer to use new api.,Change org.apache.hadoop.mapred.lib. FieldSelectionMapReduce to use new api.,1.0
+527,JobTracker.getJobCounters() should not hold JobTracker lock while calling JobInProgress.getCounters(),user finer grained locks in JT getCounters implementation,1.0
+528,Attribute to mark Mappers and Reducers as side-effect free,"Improve the shuffle phase by using the ""connection: keep-alive"" and doing batch transfers of files",0.0
+529,Bad File Descriptor in closing local file,Path separator in DistributedCache does not work between windows and unix,0.0
+530,[rumen] Add a map of jobconf key-value pairs in LoggedJob,Bring in more job configuration properties in to the trace file,1.0
+531,TaskMemoryMonitorThread is not stopped in close,If a mapper of a map/reduce job with combiner has to spill the map output; the performance degrades significantly,0.0
+532,TestReduceFetch failed.,TestReduceFetch failed in 0.20,1.0
+533,mapred.map.tasks and mapred.reduce.tasks should be determined automatically by default,Map directly to HDFS or reduce(),0.0
+534,The locality information for splits should be included in the job history,Add job-level counters for the launched speculative tasks,1.0
+535,NM leaks filesystems,Node Manager leaks socket connections connected to Data Node,0.0
+536,Fix new findbug warnings in hadoop-mapreduce-client-core,Findbugs warnings in mapreduce-client-core,1.0
+537,MapReduce counts forcibly preempted containers as FAILED,Container preemption interpreted as task failures and eventually job failures ,1.0
+538,Oozie delegation token renewal fails for MR tokens in branch-1,Delegation Token renewal exception in jobtracker logs,1.0
+539,Mapreduce App master waits long to kill containers on lost nodes.,Containers on lost nodes are considered failed after a too long time.,1.0
+540,Add missing job config options to mapred-default.xml,references to JobConf.DISABLE_MEMORY_LIMIT don't make sense in the context of MR2,1.0
+541,AM web UI: clicking on Map Task results in 500 error,Accessing task page for running job throw 500 Error code,1.0
+542,Add yarn.app.mapreduce.am.log.level to mapred-default.xml,yarn.app.mapreduce.am.log.level is not documented in mapred-default.xml,1.0
+543,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+544,Job Credentials are not transmitted if security is turned off,Job Credentials are not transmitted if security is turned off,0.0
+545,Fix native-task build on Ubuntu 13.10,native-task: Fix build on macosx,0.0
+546,JobTracker should log the scheduling of setup/cleanup task,Should we move out the creation of setup/cleanup tasks from JobInProgress.initTasks()? ,0.0
+547,JobTracker might wrongly log a tip as failed,Job history analysis showing wrong job runtime,0.0
+548,TimeWindow statistics are not updated for TaskTrackers which have been restarted.,"StatisticsCollector improperly keeps track of ""Last Day"" and ""Last Hour"" statistics for new TaskTrackers",0.0
+549,Several streaming test cases seem to be failing,Streaming tests fail with NPE in MiniDFSCluster,1.0
+550, Change org.apache.hadoop.mapred.lib.NLineInputFormat and org.apache.hadoop.mapred.MapFileOutputFormat to use new api.,Add serialization for Thrift,0.0
+551,Change org.apache.hadoop.mapred.lib.KeyFieldBasedComparator and org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner to use new api,Change org.apache.hadoop.mapred.lib.ChainMapper/Reducer to use new api.,1.0
+552,TaskTracker shuold run user tasks nicely in the local machine,Improve the way job history files are managed,1.0
+553,MultipleFileInputFormat should support a sub InputFormat,The URL in TaskCompletionEvent should be the root URL for the taskTracker,0.0
+554,Introduce the concept of Job Permissions,CompletedJobStore should be authorized using job-acls,1.0
+555,Implement a generic DFA ,Computing Input Splits on the MR Cluster,0.0
+556,WebUI shows 100% Map Complete even though some maps are still running,du fails on Ubuntu in TestJobHistory,1.0
+557,org.apache.hadoop.mapred.TestJobDirCleanup.testJobDirCleanup timesout occasionally ,TestJobDirCleanup verifies wrong jobcache directory,1.0
+558,Retired jobs are not present in the job list returned to the job-client.,Hang JobTracker; running out of memory,0.0
+559,JobClient should use multiple volumes as hadoop.tmp.dir,Port HADOOP-4667 to the default Map-Reduce scheduler,1.0
+560,JobStatus should contain user name and carry forward start time when job is killed.,mapred/local/jobTracker is not cleanup correctly,0.0
+561,Job Tracker should prefer input-splits from overloaded racks,Speculative execution does not work properly,0.0
+562,NPE in tracker expiry thread.,The TaskTracker's shell environment should not be passed to the children.,0.0
+563,mapred.child.classpath.extension property,Maintaining cluster information across multiple job submissions,0.0
+564,Nested class TaskTracker.TaskInProgress needs additional synchronization,Counters value of  reduce input records do not match map output records,0.0
+565,Multiple copies of jobconf is present in history-dir after restart,Move the completed jobs' history files to a DONE subdirectory inside the configured history directory,1.0
+566,ant test TestNoDefaultsJobConf fails on trunk,Disable some failing legacy tests for MRv2 builds to go through,1.0
+567,JobTracker should give preference to failed tasks over virgin tasks so as to terminate the job ASAP if it is eventually going to fail. ,TextInputFormat should not create input splits for 0 byte files,1.0
+568,A proposal to merge common functionality of various Schedulers,Combine TaskTracker information into single class in JobTracker,1.0
+569,Check MapReduce types for consistency,Ability to thread task execution,0.0
+570,Change org.apache.hadoop.examples.Grep to use new mapreduce api.,Change org.apache.hadoop.examples.MultiFileWordCount to use new mapreduce api.,1.0
+571,"The ""totalnodes""  and ""memorytotal"" fields show wrong information if the nodes are going down and coming up early(before 10min) ",RM unable to detect NMs restart,1.0
+572,Change XML format to 1.1 to add support for serializing additional characters,Unit tests for LinuxTaskController binary,0.0
+573,Client recovery from Job tracker restarts and connectivity failures,Duplicate metric name getTask,0.0
+574,TextInputFormat should allow different treatment on carriage return char '\r',MultipleFileInputFormat should support a sub InputFormat,0.0
+575,JobClient hangs when getting map-task reports,Job history log does not output final counters if job is failed or killed,0.0
+576,MRApps loads the 'mrapp-generated-classpath' file with classpath from the build machine,MR AppMaster CLASSPATH is dependent on the compile-time environment ,1.0
+577,jobhistory server trying to load job conf file from wrong location,Locking and exception issues in JobHistory Server.,0.0
+578,server can't set username in JobClient.submitJob for jobs submitted on behalf of other users,A successful tip can fail unnecessarily,0.0
+579,Hadoop Pipes do not load custom InputFormats at appropriate time; rendering them useless in certain scenarios,Dependency cycle: Submitter and TaskTracker,1.0
+580,RM-NM secret-keys should be randomly generated and rolled every so often,[MR-279] [Security] All tokens in YARN + MR should have an expiry interval ,0.0
+581,getSetupAndCleanupTasks should return multiple tasks in a heartbeat,Getting errors in reading the output files of a map/reduce job immediately after the job is complete,0.0
+582,Map-side sort is hampered by io.sort.record.percent,TaskTrackers never (re)connect back to the JobTracker if the JobTracker node/machine is changed,0.0
+583,History files fail to move to DONE folder when hadoop.job.history.location is configured to a HDFS path,Job History files are not moving to done folder when job history location is hdfs location,1.0
+584,Inconsistency in logging hostnames to JobHistory,No rack-name logged in JobHistory for unsuccessful tasks,1.0
+585,TextInputFormat should support character encoding settings,Integrate TaskTracker with the Service base class,0.0
+586,Job recovery should fail or kill a job that fails ACL checks upon restart; if the job was running previously,Improve job history web page,0.0
+587,Final map task gets stuck,Tasks are not scheduled even though task trackers have extra slots,0.0
+588,"ProcessTree can try and kill a ""null"" PID",NPE in text.encode when writing an invalid(?) JobProfile,0.0
+589,[mapred] Enable tasks' memory management on Windows.,JobTracker should log the scheduling of setup/cleanup task,0.0
+590,Counter formatting for the user logs should be pulled out of the public Counters API,missing userlogs,0.0
+591,Race condition in DistributedCache,OOM in the TaskTracker while serving map outputs,0.0
+592,Should we move out the creation of setup/cleanup tasks from JobInProgress.initTasks()? ,Create an InputFormat for reading lines of text as Java Strings,0.0
+593,When a  task tracker is killed; there is a Null Pointer exception thrown.,NPE in expiry thread when a TT is lost,1.0
+594,JT not able to find task id while updating status,mapred.userlog.limit.kb has inconsistent defaults,1.0
+595,Start times for some tasks are missing from task reports after job tracker restart,Reduce stuck in pending state for ever even though the job tracker shows a lot of free slots,0.0
+596,Mapreduce component should use consistent directory structure layout as HDFS/common,Rename {start;stop}-all.sh to {start;stop}-yarn.sh for consistency with HDFS,1.0
+597,GrimdMix Stats at the end of GridMix are not reported correctly,[Gridmix] Improve STRESS mode,1.0
+598,Change org.apache.hadoop.examples.MultiFileWordCount to use new mapreduce api.,Change org.apache.hadoop.examples.PiEstimator to use new mapreduce api.,1.0
+599,TaskCompletionEvents do not distinguish between FAILED and KILLED task-attempts,Task tracker should wait for the process to exit before declaring the task successful or failed.,0.0
+600,Make jobtracker resilient to memory issues,When assigning tasks to trackers; the job tracker should try to balance the number of tasks among the available trackers,1.0
+601,Integrate TaskTracker with the Service base class,Isolation runner needs a testcase,0.0
