@@ -9,7 +9,7 @@
 - cuda 8.0 and above
 
 # Contact
-Xiaoxue Wu (Data maintainer): wuxiaoxue00@gmail.com
+Xiaoxue Wu: wuxiaoxue00@gmail.com
 Wei Zheng: wzheng@nwpu.edu.cn
 
 
